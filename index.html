@@ -1,0 +1,3907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#F5F2EA" />
+  <title>Cadence — DUHS Entrance Practice</title>
+  <meta name="description" content="A distraction-free practice portal for DUHS entrance exam questions. Drill by subject, get instant feedback, flag tricky questions, and export study sheets." />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <script>try{var t=localStorage.getItem("cadence.theme.v1");if(!t)t=matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light";if(t==="dark")document.documentElement.classList.add("dark")}catch(e){}</script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            paper: 'rgb(var(--paper) / <alpha-value>)',
+            card: 'rgb(var(--card) / <alpha-value>)',
+            ink: 'rgb(var(--ink) / <alpha-value>)',
+            muted: 'rgb(var(--muted) / <alpha-value>)',
+            line: 'rgb(var(--line) / <alpha-value>)',
+            forest: { DEFAULT: 'rgb(var(--forest) / <alpha-value>)', dark: 'rgb(var(--forest-dark) / <alpha-value>)', light: 'rgb(var(--forest-light) / <alpha-value>)' },
+            mint: 'rgb(var(--mint) / <alpha-value>)',
+            mintdeep: 'rgb(var(--mintdeep) / <alpha-value>)',
+            amber: { DEFAULT: 'rgb(var(--amber) / <alpha-value>)', soft: 'rgb(var(--amber-soft) / <alpha-value>)' },
+            rose: { DEFAULT: 'rgb(var(--rose) / <alpha-value>)', soft: 'rgb(var(--rose-soft) / <alpha-value>)' },
+            clay: 'rgb(var(--clay) / <alpha-value>)'
+          },
+          fontFamily: {
+            sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+            display: ['"Instrument Serif"', 'Georgia', 'serif'],
+            serif: ['"Source Serif 4"', 'Georgia', 'serif'],
+            mono: ['"JetBrains Mono"', 'ui-monospace', 'SFMono-Regular', 'monospace']
+          },
+          boxShadow: {
+            card: '0 1px 2px rgba(23,33,28,.04), 0 16px 40px -28px rgba(23,33,28,.35)',
+            lift: '0 18px 50px -24px rgba(23,33,28,.38)'
+          }
+        }
+      }
+    };
+  </script>
+
+  <style>
+    :root{--paper:245 242 234;--card:252 251 247;--ink:23 33 28;--muted:74 82 75;--line:190 183 166;--forest:29 77 59;--forest-dark:20 56 43;--forest-light:47 107 84;--mint:228 238 228;--mintdeep:206 224 211;--amber:160 70 5;--amber-soft:253 240 220;--rose:170 30 20;--rose-soft:251 230 226;--clay:165 72 36;--surface:255 255 255;color-scheme:light}
+    .dark{--paper:13 18 16;--card:22 29 26;--ink:236 241 237;--muted:176 188 179;--line:94 111 101;--forest:104 200 160;--forest-dark:128 216 178;--forest-light:84 172 134;--mint:27 48 39;--mintdeep:40 70 57;--amber:245 166 52;--amber-soft:56 42 18;--rose:246 120 112;--rose-soft:60 29 28;--clay:234 144 102;--surface:32 41 37;color-scheme:dark}
+    html .bg-white{background-color:rgb(var(--surface))}
+    html .bg-white\/50{background-color:rgb(var(--surface)/.5)}
+    html .bg-white\/60{background-color:rgb(var(--surface)/.6)}
+    html .bg-white\/70{background-color:rgb(var(--surface)/.7)}
+    .dark .bg-rose,.dark .bg-clay{color:#1b0b0a}
+    @media (pointer:coarse){ button,[role=switch]{min-height:44px} button[aria-label],[role=switch]{min-width:44px} }
+    html { scroll-behavior: smooth; }
+    body {
+      background: rgb(var(--paper));
+      color: rgb(var(--ink));
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+    ::selection { background: rgb(var(--mintdeep)); color: rgb(var(--ink)); }
+    .paper-grain {
+      background-image: radial-gradient(rgb(var(--ink) / .10) .55px, transparent .55px);
+      background-size: 22px 22px;
+    }
+    .tabular { font-variant-numeric: tabular-nums; }
+    button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+    button:disabled { cursor: not-allowed; }
+    :focus-visible { outline: none; }
+    button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible {
+      outline: 2px solid rgb(var(--forest) / .85);
+      outline-offset: 2px;
+    }
+    ::-webkit-scrollbar { width: 10px; height: 10px; }
+    ::-webkit-scrollbar-track { background: transparent; }
+    ::-webkit-scrollbar-thumb { background: rgb(var(--line)); border-radius: 999px; border: 2px solid rgb(var(--paper)); }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    @keyframes popIn { from { opacity: 0; transform: scale(.97) translateY(6px); } to { opacity: 1; transform: none; } }
+    @keyframes slideUp { from { opacity: 0; transform: translate(-50%, 10px); } to { opacity: 1; transform: translate(-50%, 0); } }
+    @keyframes shimmer { 0% { transform: translateX(-120%); } 100% { transform: translateX(260%); } }
+    @keyframes softPulse { 0%, 100% { opacity: 1; } 50% { opacity: .55; } }
+    .animate-fade-up { animation: fadeUp .45s cubic-bezier(.22,1,.36,1) both; }
+    .animate-pop { animation: popIn .24s cubic-bezier(.22,1,.36,1) both; }
+    .animate-slide-up { animation: slideUp .28s cubic-bezier(.22,1,.36,1) both; }
+    .animate-shimmer { animation: shimmer 1.4s ease-in-out infinite; }
+    .animate-pulse-soft { animation: softPulse 1.8s ease-in-out infinite; }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+    }
+
+    .print-sheet { display: none; }
+    @media print {
+      @page { size: A4; margin: 15mm 14mm; }
+      html, body { background: #fff !important; }
+      body { color: #111 !important; }
+      .screen-app { display: none !important; }
+      .print-sheet {
+        display: block !important;
+        color: #111;
+        font-family: 'Inter', Arial, sans-serif;
+        font-size: 11px;
+        line-height: 1.4;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+      .print-header { display: flex; align-items: flex-end; justify-content: space-between; border-bottom: 1.5px solid #111; padding-bottom: 7px; }
+      .print-brand { font-family: 'Instrument Serif', Georgia, serif; font-size: 29px; line-height: .9; }
+      .print-meta { text-align: right; font-size: 9.5px; color: #444; line-height: 1.5; }
+      .print-title { font-size: 15px; font-weight: 700; color: #111; }
+      .print-name { margin: 13px 0 16px; font-size: 10.5px; color: #333; }
+      .print-list { margin: 0; padding: 0; list-style: none; }
+      .print-item { break-inside: avoid; page-break-inside: avoid; border-bottom: 1px solid #ddd; padding: 11px 0 13px; }
+      .print-qmeta { font-size: 8.5px; text-transform: uppercase; letter-spacing: .08em; color: #666; }
+      .print-question { font-family: 'Source Serif 4', Georgia, serif; font-size: 13px; font-weight: 600; margin: 3px 0 6px; line-height: 1.35; }
+      .print-options { display: grid; grid-template-columns: 1fr 1fr; gap: 1px 14px; font-size: 10.5px; }
+      .print-option { line-height: 1.4; color: #222; }
+      .print-option.correct { font-weight: 700; }
+      .print-letter { display: inline-block; min-width: 12px; }
+      .print-check { font-weight: 700; }
+      .print-explanation { margin-top: 5px; font-size: 10px; line-height: 1.45; color: #333; background: #f6f4ee; padding: 5px 7px; border-left: 2px solid #1D4D3B; }
+      .print-footer { margin-top: 13px; font-size: 8.5px; color: #777; text-align: center; }
+    }
+  </style>
+
+  <script crossorigin src="https://unpkg.com/react@18.3.1/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone@7.25.6/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel" data-presets="react">
+const { useState, useEffect, useMemo, useRef, useCallback } = React;
+
+/* ------------------------------------------------------------------ */
+/*  Constants                                                          */
+/* ------------------------------------------------------------------ */
+
+const STORAGE = {
+  session: 'cadence.session.v1',
+  flags: 'cadence.flags.v1',
+  prefs: 'cadence.prefs.v1',
+  notes: 'cadence.notes.v1',
+  history: 'cadence.history.v1',
+  theme: 'cadence.theme.v1'
+};
+
+const OPTION_LETTERS = ['A', 'B', 'C', 'D', 'E', 'F'];
+
+const SUBJECTS = [
+  { key: 'Biology', label: 'Biology', short: 'Biology', icon: 'leaf', blurb: 'Cells, systems, genetics and the living world.' },
+  { key: 'Chemistry', label: 'Chemistry', short: 'Chemistry', icon: 'flask', blurb: 'Reactions, bonding, organic and physical chemistry.' },
+  { key: 'Physics', label: 'Physics', short: 'Physics', icon: 'atom', blurb: 'Mechanics, waves, electricity and modern physics.' },
+  { key: 'English', label: 'English', short: 'English', icon: 'book', blurb: 'Vocabulary, grammar, comprehension and usage.' },
+  { key: 'Psychology & Communication Skills', label: 'Psychology & Communication', short: 'Psychology', icon: 'brain', blurb: 'Behaviour, therapy, research and communication.' },
+  { key: 'Miscellaneous', label: 'Miscellaneous', short: 'Misc.', icon: 'grid', blurb: 'Maths, reasoning, everyday science and mixed topics.' }
+];
+
+const SUBJECT_MAP = Object.fromEntries(SUBJECTS.map((s) => [s.key, s]));
+
+const DATA_SOURCES = [
+  { file: './data/Biology_questions.json', key: 'Biology' },
+  { file: './data/Chemistry_questions.json', key: 'Chemistry' },
+  { file: './data/Physics_questions.json', key: 'Physics' },
+  { file: './data/English_questions.json', key: 'English' },
+  { file: './data/Psychology___Communication_Skills_questions.json', key: 'Psychology & Communication Skills' },
+  { file: './data/Miscellaneous_questions.json', key: 'Miscellaneous' },
+  { file: './data/Miscellaneous___Unclassified_questions.json', key: 'Miscellaneous' }
+];
+
+const DEFAULT_DRAFT = {
+  subjects: SUBJECTS.map((s) => s.key),
+  countMode: '25',
+  customCount: 40,
+  mode: 'relaxed',
+  timerType: 'perQuestion',
+  perQuestionSeconds: 45,
+  totalMinutes: 30,
+  autoAdvance: 3,
+  shuffle: true
+};
+
+/* ------------------------------------------------------------------ */
+/*  Utilities                                                          */
+/* ------------------------------------------------------------------ */
+
+function cx(...parts) {
+  return parts.filter(Boolean).join(' ');
+}
+
+function hashString(str) {
+  let h = 2166136261;
+  for (let i = 0; i < str.length; i += 1) {
+    h ^= str.charCodeAt(i);
+    h = Math.imul(h, 16777619);
+  }
+  return (h >>> 0).toString(36);
+}
+
+function stripOptionPrefix(text) {
+  return String(text || '').replace(/^\s*[A-Fa-f]\s*[\).:\-]\s*/, '').trim();
+}
+
+function normalizeText(text) {
+  return stripOptionPrefix(text).toLowerCase().replace(/\s+/g, ' ').trim();
+}
+
+function resolveCorrectIndex(options, correctAnswer) {
+  const ca = String(correctAnswer ?? '').trim();
+  if (!Array.isArray(options) || options.length === 0) return -1;
+
+  if (/^[A-Fa-f]$/.test(ca)) {
+    const i = ca.toUpperCase().charCodeAt(0) - 65;
+    if (i >= 0 && i < options.length) return i;
+  }
+
+  const pref = ca.match(/^\s*([A-Fa-f])\s*[\).:\-]\s*/);
+  if (pref) {
+    const i = pref[1].toUpperCase().charCodeAt(0) - 65;
+    if (i >= 0 && i < options.length) return i;
+  }
+
+  const n = normalizeText(ca);
+  let idx = options.findIndex((o) => normalizeText(o) === n);
+  if (idx >= 0) return idx;
+
+  idx = options.findIndex((o) => {
+    const no = normalizeText(o);
+    return no && (no.includes(n) || n.includes(no));
+  });
+  return idx;
+}
+
+function inferSourceKey(fileName) {
+  const n = String(fileName || '').toLowerCase();
+  if (n.includes('biolog')) return 'Biology';
+  if (n.includes('chem')) return 'Chemistry';
+  if (n.includes('phys')) return 'Physics';
+  if (n.includes('english')) return 'English';
+  if (n.includes('psych')) return 'Psychology & Communication Skills';
+  return 'Miscellaneous';
+}
+
+function inferSubject(rawSubject, sourceKey) {
+  if (sourceKey && SUBJECT_MAP[sourceKey]) return sourceKey;
+  const s = String(rawSubject || '').toLowerCase();
+  if (s.includes('biolog')) return 'Biology';
+  if (s.includes('chem')) return 'Chemistry';
+  if (s.includes('phys')) return 'Physics';
+  if (s.includes('english')) return 'English';
+  if (s.includes('psych')) return 'Psychology & Communication Skills';
+  if (s.includes('misc')) return 'Miscellaneous';
+  return null;
+}
+
+function normalizeQuestion(raw, sourceKey, index) {
+  if (!raw || !raw.question || !Array.isArray(raw.options) || raw.options.length < 2) return null;
+  const subject = inferSubject(raw.subject, sourceKey);
+  if (!subject) return null;
+
+  const options = raw.options.map((o) => stripOptionPrefix(o));
+  if (options.length < 2 || options.some((o) => !o)) return null;
+
+  const correctIndex = resolveCorrectIndex(raw.options, raw.correct_answer);
+  if (correctIndex < 0 || correctIndex >= options.length) return null;
+
+  const topic = String(raw.topic || '').trim() || 'General';
+  const explanation = String(raw.explanation || '').trim() || 'No explanation was provided for this question.';
+  let questionText = String(raw.question).trim();
+  if (subject === 'English' && /synonym/i.test(topic) && !/\s/.test(questionText)) {
+    questionText = `Choose the antonym of “${questionText}”.`;
+  }
+  const id = `${subject.replace(/[^a-z]+/gi, '_').toLowerCase()}_${hashString(normalizeText(questionText))}`;
+
+  return {
+    id,
+    subject,
+    topic,
+    question: questionText,
+    options,
+    correctIndex,
+    correctAnswer: options[correctIndex],
+    explanation,
+    source: String(raw.source_pdf || '').trim(),
+    originalId: String(raw.original_id || raw.id || index)
+  };
+}
+
+function dedupeQuestions(list) {
+  const map = new Map();
+  list.forEach((q) => {
+    const key = normalizeText(q.question);
+    const prev = map.get(key);
+    if (!prev) {
+      map.set(key, q);
+      return;
+    }
+    const score = q.explanation.length + q.options.length * 12;
+    const prevScore = prev.explanation.length + prev.options.length * 12;
+    if (score > prevScore) map.set(key, q);
+  });
+  return Array.from(map.values());
+}
+
+function shuffleArray(input) {
+  const a = input.slice();
+  for (let i = a.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function formatClock(totalSeconds) {
+  const s = Math.max(0, Math.floor(Number(totalSeconds) || 0));
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+  return `${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+}
+
+function formatMinutes(seconds) {
+  const m = Math.max(0, Math.round((Number(seconds) || 0) / 60));
+  if (m < 1) return '< 1 min';
+  return `${m} min`;
+}
+
+function formatCount(n) {
+  return Number(n || 0).toLocaleString();
+}
+
+function clamp(n, min, max) {
+  return Math.min(max, Math.max(min, n));
+}
+
+function readStorage(key, fallback) {
+  try {
+    const raw = localStorage.getItem(key);
+    return raw ? JSON.parse(raw) : fallback;
+  } catch (err) {
+    return fallback;
+  }
+}
+
+function writeStorage(key, value) {
+  try {
+    localStorage.setItem(key, JSON.stringify(value));
+  } catch (err) {
+    try { window.dispatchEvent(new CustomEvent('cadence-storage-error')); } catch (e) { /* noop */ }
+  }
+}
+
+function removeStorage(key) {
+  try {
+    localStorage.removeItem(key);
+  } catch (err) {
+    /* noop */
+  }
+}
+
+function getSessionStats(session) {
+  const ids = (session && session.questionIds) || [];
+  const answers = (session && session.answers) || {};
+  const answerValues = Object.values(answers);
+  const total = ids.length;
+  const answered = answerValues.length;
+  const correct = answerValues.filter((a) => a && a.correct).length;
+  const wrong = answered - correct;
+  const skipped = Math.max(0, total - answered);
+  const accuracy = answered ? Math.round((correct / answered) * 100) : 0;
+  return {
+    total,
+    answered,
+    correct,
+    wrong,
+    skipped,
+    accuracy,
+    elapsed: (session && session.elapsedSec) || 0,
+    completion: total ? Math.round((answered / total) * 100) : 0
+  };
+}
+
+/* ------------------------------------------------------------------ */
+/*  Data loading                                                       */
+/* ------------------------------------------------------------------ */
+
+function diagnose(raw, sourceKey) {
+  if (!raw || typeof raw !== 'object') return 'Entry is not an object';
+  if (!raw.question) return 'Missing question text';
+  if (!Array.isArray(raw.options) || raw.options.length < 2) return 'Needs at least 2 options';
+  if (raw.options.some((o) => !stripOptionPrefix(o))) return 'Has an empty option';
+  if (!inferSubject(raw.subject, sourceKey)) return 'Unknown subject';
+  return 'correct_answer does not match any option';
+}
+
+async function loadQuestionBank(onProgress) {
+  let done = 0;
+  const total = DATA_SOURCES.length;
+  const settled = await Promise.allSettled(
+    DATA_SOURCES.map(async (src) => {
+      try {
+        const res = await fetch(src.file, { cache: 'no-store' });
+        if (!res.ok) throw new Error(`HTTP ${res.status}`);
+        let data;
+        try {
+          data = await res.json();
+        } catch (err) {
+          throw new Error(`Invalid JSON (${err.message})`);
+        }
+        if (!Array.isArray(data)) throw new Error('Expected a JSON array');
+        return { src, data };
+      } finally {
+        done += 1;
+        if (onProgress) onProgress({ done, total });
+      }
+    })
+  );
+
+  const collected = [];
+  const failed = [];
+  const dropped = [];
+
+  settled.forEach((result, i) => {
+    if (result.status === 'fulfilled') {
+      result.value.data.forEach((raw, idx) => {
+        const q = normalizeQuestion(raw, result.value.src.key, idx);
+        if (q) collected.push(q);
+        else dropped.push({ file: result.value.src.file, index: idx, reason: diagnose(raw, result.value.src.key), preview: String((raw && raw.question) || '').slice(0, 70) });
+      });
+    } else {
+      failed.push({ file: DATA_SOURCES[i].file, message: result.reason && result.reason.message ? result.reason.message : 'Could not load file' });
+    }
+  });
+
+  const questions = dedupeQuestions(collected);
+  return { questions, failed, dropped, duplicates: collected.length - questions.length };
+}
+
+/* ------------------------------------------------------------------ */
+/*  Icons                                                              */
+/* ------------------------------------------------------------------ */
+
+const ICONS = {
+  sun: <><circle cx="12" cy="12" r="4" /><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" /></>,
+  moon: <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z" />,
+  edit: <><path d="M12 20h9" /><path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" /></>,
+  upload: <><path d="M12 21V9" /><path d="m7 14 5-5 5 5" /><path d="M5 3h14" /></>,
+  arrowRight: <><path d="M5 12h14" /><path d="m13 6 6 6-6 6" /></>,
+  arrowLeft: <><path d="M19 12H5" /><path d="m11 18-6-6 6-6" /></>,
+  arrowUpRight: <><path d="M7 17 17 7" /><path d="M7 7h10v10" /></>,
+  check: <path d="m5 12 4 4L19 6" />,
+  checkCircle: <><circle cx="12" cy="12" r="9" /><path d="m8.5 12 2.5 2.5 4.8-5.2" /></>,
+  x: <><path d="M18 6 6 18" /><path d="m6 6 12 12" /></>,
+  xCircle: <><circle cx="12" cy="12" r="9" /><path d="m9 9 6 6" /><path d="m15 9-6 6" /></>,
+  flag: <><path d="M5 21V4" /><path d="M5 4c4-2 6 2 10 0 2-1 4-1 4-1v10s-2 0-4 1c-4 2-6-2-10 0" /></>,
+  skip: <><path d="M5 5v14l9-7-9-7Z" /><path d="M19 5v14" /></>,
+  clock: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
+  shuffle: <><path d="M16 3h5v5" /><path d="M4 20 21 3" /><path d="M21 16v5h-5" /><path d="m15 15 6 6" /><path d="m4 4 5 5" /></>,
+  play: <path d="m8 5 11 7-11 7V5Z" />,
+  bolt: <path d="M13 2 4.5 13H11l-1 9 8.5-11H12l1-9Z" />,
+  feather: <><path d="M20.2 3.8a6 6 0 0 0-8.5 0L4 11.5V20h8.5l7.7-7.7a6 6 0 0 0 0-8.5Z" /><path d="M16 8 3 21" /><path d="M17.5 15H9" /></>,
+  leaf: <><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.5 19 2c1 2 2 4.2 2 8 0 5.5-4.8 10-10 10Z" /><path d="M2 21c0-3 1.9-5.4 5.1-6C9.5 14.5 12 13 13 12" /></>,
+  flask: <><path d="M9 3h6v6l4.5 9.5A2 2 0 0 1 17.7 21H6.3a2 2 0 0 1-1.8-2.5L9 9V3Z" /><path d="M7.5 3h9" /><path d="M7.7 14h8.6" /></>,
+  atom: <><circle cx="12" cy="12" r="1.6" /><ellipse cx="12" cy="12" rx="9.5" ry="4.2" transform="rotate(45 12 12)" /><ellipse cx="12" cy="12" rx="9.5" ry="4.2" transform="rotate(-45 12 12)" /><ellipse cx="12" cy="12" rx="9.5" ry="4.2" transform="rotate(90 12 12)" /></>,
+  book: <><path d="M12 7v14" /><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3Z" /></>,
+  brain: <><path d="M9.5 2A2.5 2.5 0 0 0 7 4.5v.6A3.5 3.5 0 0 0 5.5 11a3.5 3.5 0 0 0 .5 6.5A3.5 3.5 0 0 0 9.5 22a2.5 2.5 0 0 0 2.5-2.5v-15A2.5 2.5 0 0 0 9.5 2Z" /><path d="M14.5 2A2.5 2.5 0 0 1 17 4.5v.6A3.5 3.5 0 0 1 18.5 11a3.5 3.5 0 0 1-.5 6.5A3.5 3.5 0 0 1 14.5 22a2.5 2.5 0 0 1-2.5-2.5v-15A2.5 2.5 0 0 1 14.5 2Z" /></>,
+  grid: <><rect x="3" y="3" width="7" height="7" rx="1.5" /><rect x="14" y="3" width="7" height="7" rx="1.5" /><rect x="3" y="14" width="7" height="7" rx="1.5" /><rect x="14" y="14" width="7" height="7" rx="1.5" /></>,
+  target: <><circle cx="12" cy="12" r="9" /><circle cx="12" cy="12" r="5" /><circle cx="12" cy="12" r="1" /></>,
+  chart: <><path d="M4 20V10" /><path d="M10 20V4" /><path d="M16 20v-7" /><path d="M22 20H2" /></>,
+  print: <><path d="M6 9V2h12v7" /><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2" /><path d="M6 14h12v8H6z" /></>,
+  search: <><circle cx="11" cy="11" r="7" /><path d="m20 20-3.5-3.5" /></>,
+  chevronDown: <path d="m6 9 6 6 6-6" />,
+  rotate: <><path d="M3 12a9 9 0 1 0 3-6.7L3 8" /><path d="M3 3v5h5" /></>,
+  trash: <><path d="M3 6h18" /><path d="M8 6V4h8v2" /><path d="M19 6l-1 14H6L5 6" /><path d="M10 11v5M14 11v5" /></>,
+  download: <><path d="M12 3v12" /><path d="m7 10 5 5 5-5" /><path d="M5 21h14" /></>,
+  layers: <><path d="m12 2 9 5-9 5-9-5 9-5Z" /><path d="m3 12 9 5 9-5" /><path d="m3 17 9 5 9-5" /></>,
+  keyboard: <><rect x="2" y="6" width="20" height="12" rx="2" /><path d="M6 10h.01M10 10h.01M14 10h.01M18 10h.01M6 14h.01M18 14h.01M9 14h6" /></>,
+  spark: <><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.6 5.6l2.1 2.1M16.3 16.3l2.1 2.1M18.4 5.6l-2.1 2.1M7.7 16.3l-2.1 2.1" /></>,
+  alert: <><path d="M10.3 3.9 1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0Z" /><path d="M12 9v4" /><path d="M12 17h.01" /></>,
+  info: <><circle cx="12" cy="12" r="9" /><path d="M12 11v5" /><path d="M12 8h.01" /></>,
+  eye: <><path d="M2 12s3.5-6 10-6 10 6 10 6-3.5 6-10 6-10-6-10-6Z" /><circle cx="12" cy="12" r="3" /></>,
+  eyeOff: <><path d="M3 3l18 18" /><path d="M10.6 6.2A10.9 10.9 0 0 1 12 6c6.5 0 10 6 10 6a17 17 0 0 1-3.2 3.8" /><path d="M6.6 6.6A16.7 16.7 0 0 0 2 12s3.5 6 10 6a10.7 10.7 0 0 0 4.2-.8" /><path d="M9.9 9.9a3 3 0 0 0 4.2 4.2" /></>,
+  plus: <><path d="M12 5v14" /><path d="M5 12h14" /></>,
+  list: <><path d="M8 6h13M8 12h13M8 18h13" /><path d="M3 6h.01M3 12h.01M3 18h.01" /></>,
+  filter: <path d="M3 5h18l-7 8v6l-4 2v-8L3 5Z" />,
+  home: <><path d="m3 10 9-7 9 7" /><path d="M5 9v11h14V9" /><path d="M9 20v-6h6v6" /></>,
+  award: <><circle cx="12" cy="8" r="5" /><path d="m8.5 12.5-1 8.5 4.5-2.5 4.5 2.5-1-8.5" /></>,
+  minus: <path d="M5 12h14" />,
+  square: <rect x="4" y="4" width="16" height="16" rx="3" />,
+  checkSquare: <><rect x="4" y="4" width="16" height="16" rx="3" /><path d="m8.5 12 2.5 2.5 4.8-5" /></>
+};
+
+function Icon({ name, className = 'h-4 w-4', strokeWidth = 1.8, ...rest }) {
+  return (
+    <svg
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={strokeWidth}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      className={className}
+      aria-hidden="true"
+      {...rest}
+    >
+      {ICONS[name] || ICONS.info}
+    </svg>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Shared UI                                                          */
+/* ------------------------------------------------------------------ */
+
+function BrandMark({ className = 'h-5 w-5' }) {
+  return (
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.1" strokeLinecap="round" strokeLinejoin="round" className={className} aria-hidden="true">
+      <path d="M3 12h3.2l2.1-6.2 4.2 12.4 2.1-6.2H21" />
+    </svg>
+  );
+}
+
+function Logo({ compact = false }) {
+  return (
+    <div className="flex items-center gap-2.5">
+      <div className="grid h-9 w-9 place-items-center rounded-[11px] bg-forest text-paper shadow-sm">
+        <BrandMark className="h-5 w-5" />
+      </div>
+      <div className="leading-none">
+        <div className="font-display text-[23px] leading-none tracking-tight text-ink">Cadence</div>
+        {!compact && <div className="mt-1 text-[10px] font-medium text-muted">DUHS entrance practice</div>}
+      </div>
+    </div>
+  );
+}
+
+function Kbd({ children }) {
+  return (
+    <kbd className="inline-flex h-5 min-w-5 items-center justify-center rounded border border-line bg-white px-1.5 font-mono text-[10px] font-medium text-muted shadow-[0_1px_0_rgb(var(--line))]">
+      {children}
+    </kbd>
+  );
+}
+
+function SubjectIcon({ subject, className = 'h-5 w-5' }) {
+  const meta = SUBJECT_MAP[subject];
+  return <Icon name={meta ? meta.icon : 'grid'} className={className} />;
+}
+
+function CheckMark({ checked, className = '' }) {
+  return (
+    <span
+      className={cx(
+        'grid h-5 w-5 shrink-0 place-items-center rounded-md border transition',
+        checked ? 'border-forest bg-forest text-paper' : 'border-line bg-white text-transparent',
+        className
+      )}
+      aria-hidden="true"
+    >
+      <Icon name="check" className="h-3 w-3" strokeWidth={3} />
+    </span>
+  );
+}
+
+function Toggle({ checked, onChange, label }) {
+  return (
+    <button
+      type="button"
+      role="switch"
+      aria-checked={checked}
+      aria-label={label}
+      onClick={onChange}
+      className={cx('relative h-6 w-11 shrink-0 rounded-full transition-colors duration-200', checked ? 'bg-forest' : 'bg-line')}
+    >
+      <span className={cx('absolute top-0.5 h-5 w-5 rounded-full bg-white shadow-sm transition-all duration-200', checked ? 'left-[22px]' : 'left-0.5')} />
+    </button>
+  );
+}
+
+function ChoiceChip({ active, onClick, children, disabled, tone = 'forest' }) {
+  const activeClass = tone === 'clay' ? 'border-clay bg-clay text-white shadow-sm' : 'border-forest bg-forest text-paper shadow-sm';
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      aria-pressed={active}
+      className={cx(
+        'rounded-lg border px-3 py-1.5 text-xs font-medium transition',
+        active ? activeClass : 'border-line bg-white text-muted hover:border-forest/30 hover:text-ink',
+        disabled && 'opacity-35'
+      )}
+    >
+      {children}
+    </button>
+  );
+}
+
+function Modal({ open, title, children, onClose, footer, tone = 'default' }) {
+  useEffect(() => {
+    if (!open) return undefined;
+    const onKey = (e) => {
+      if (e.key === 'Escape' && onClose) onClose();
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [open, onClose]);
+
+  if (!open) return null;
+
+  return (
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
+      <div className="absolute inset-0 animate-fade-up bg-black/55 backdrop-blur-[3px]" onClick={onClose} />
+      <div role="dialog" aria-modal="true" className="relative w-full max-w-md animate-pop rounded-[24px] border border-line bg-card p-6 shadow-lift">
+        <div className="flex items-start gap-3">
+          <div className={cx('grid h-10 w-10 shrink-0 place-items-center rounded-full', tone === 'danger' ? 'bg-rose-soft text-rose' : 'bg-mint text-forest')}>
+            <Icon name={tone === 'danger' ? 'alert' : 'info'} className="h-5 w-5" />
+          </div>
+          <div className="min-w-0 flex-1">
+            <h3 className="font-display text-2xl leading-tight text-ink">{title}</h3>
+            <div className="mt-2 text-sm leading-relaxed text-muted">{children}</div>
+          </div>
+        </div>
+        {footer && <div className="mt-6 flex flex-wrap justify-end gap-2">{footer}</div>}
+      </div>
+    </div>
+  );
+}
+
+function Toast({ toast }) {
+  if (!toast) return null;
+  return (
+    <div className="fixed bottom-6 left-1/2 z-[60] -translate-x-1/2 animate-slide-up px-4">
+      <div className="flex items-center gap-2.5 rounded-full bg-ink px-4 py-2.5 text-sm text-paper shadow-lift">
+        <Icon name={toast.icon || 'checkCircle'} className="h-4 w-4 text-mintdeep" />
+        <span className="whitespace-nowrap">{toast.message}</span>
+      </div>
+    </div>
+  );
+}
+
+function SectionHeading({ eyebrow, title, description, right }) {
+  return (
+    <div className="flex flex-col justify-between gap-3 sm:flex-row sm:items-end">
+      <div>
+        <p className="text-xs font-medium text-forest">{eyebrow}</p>
+        <h2 className="mt-1 font-display text-3xl leading-tight text-ink">{title}</h2>
+        {description && <p className="mt-1 max-w-2xl text-xs leading-relaxed text-muted">{description}</p>}
+      </div>
+      {right}
+    </div>
+  );
+}
+
+function StatCard({ label, value, sub, icon, tone = 'default' }) {
+  return (
+    <div className="rounded-2xl border border-line bg-card p-4">
+      <div className="flex items-center justify-between gap-2">
+        <span className="text-[11px] font-medium text-muted">{label}</span>
+        <Icon name={icon} className={cx('h-4 w-4', tone === 'forest' ? 'text-forest' : tone === 'amber' ? 'text-amber' : tone === 'rose' ? 'text-rose' : 'text-muted')} />
+      </div>
+      <div className="mt-2 font-display text-3xl leading-none text-ink">{value}</div>
+      <div className="mt-1 text-[10px] text-muted">{sub}</div>
+    </div>
+  );
+}
+
+function AccuracyRing({ value, size = 174, stroke = 12 }) {
+  const safe = clamp(Number(value) || 0, 0, 100);
+  const r = (size - stroke) / 2;
+  const circumference = 2 * Math.PI * r;
+  const offset = circumference * (1 - safe / 100);
+  return (
+    <div className="relative shrink-0" style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90" aria-hidden="true">
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="currentColor" className="text-line" strokeWidth={stroke} />
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={r}
+          fill="none"
+          stroke="currentColor"
+          className="text-forest transition-all duration-700"
+          strokeWidth={stroke}
+          strokeLinecap="round"
+          strokeDasharray={circumference}
+          strokeDashoffset={offset}
+        />
+      </svg>
+      <div className="absolute inset-0 grid place-items-center text-center">
+        <div>
+          <div className="font-display text-5xl leading-none text-ink">
+            {safe}
+            <span className="text-2xl text-muted">%</span>
+          </div>
+          <div className="mt-1 text-[10px] font-medium text-muted">accuracy</div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function BreakdownBar({ correct, wrong, total }) {
+  const c = total ? (correct / total) * 100 : 0;
+  const w = total ? (wrong / total) * 100 : 0;
+  return (
+    <div className="flex h-2 overflow-hidden rounded-full bg-line/70">
+      <div className="bg-forest transition-all duration-500" style={{ width: `${c}%` }} />
+      <div className="bg-rose transition-all duration-500" style={{ width: `${w}%` }} />
+    </div>
+  );
+}
+
+function EmptyState({ icon = 'flag', title, description, action }) {
+  return (
+    <div className="rounded-2xl border border-dashed border-line bg-card/60 px-6 py-12 text-center">
+      <div className="mx-auto grid h-12 w-12 place-items-center rounded-full bg-mint text-forest">
+        <Icon name={icon} className="h-5 w-5" />
+      </div>
+      <h3 className="mt-4 font-display text-2xl text-ink">{title}</h3>
+      <p className="mx-auto mt-1 max-w-sm text-sm leading-relaxed text-muted">{description}</p>
+      {action && <div className="mt-5">{action}</div>}
+    </div>
+  );
+}
+
+function LoadingScreen({ progress }) {
+  return (
+    <div className="grid min-h-screen place-items-center bg-paper px-6">
+      <div className="text-center">
+        <div className="mx-auto grid h-14 w-14 animate-pulse-soft place-items-center rounded-2xl bg-forest text-paper">
+          <BrandMark className="h-7 w-7" />
+        </div>
+        <h1 className="mt-5 font-display text-3xl text-ink">Opening the question bank</h1>
+        <p className="mt-2 text-sm text-muted">{progress && progress.total ? `Loaded ${progress.done} of ${progress.total} files…` : 'Reading the local JSON files…'}</p>
+        <div className="mx-auto mt-6 h-1 w-44 overflow-hidden rounded-full bg-line">
+          <div className="h-full rounded-full bg-forest transition-all duration-300" style={{ width: progress && progress.total ? `${Math.max(8, (progress.done / progress.total) * 100)}%` : '40%' }} />
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function ErrorScreen({ info, onManual }) {
+  const inputRef = useRef(null);
+  return (
+    <div className="min-h-screen bg-paper px-5 py-14">
+      <div className="mx-auto max-w-2xl">
+        <Logo />
+        <div className="mt-8 rounded-[28px] border border-line bg-card p-6 shadow-card sm:p-8">
+          <div className="grid h-11 w-11 place-items-center rounded-full bg-amber-soft text-amber">
+            <Icon name="alert" className="h-5 w-5" />
+          </div>
+          <h1 className="mt-4 font-display text-4xl leading-tight text-ink">The question bank didn’t load.</h1>
+          <p className="mt-2 text-sm leading-relaxed text-muted">
+            Browsers block local JSON reads when a page is opened directly from disk. Serve this folder over HTTP and refresh, or load the JSON files manually below.
+          </p>
+          {info && info.error && (
+            <pre className="mt-4 overflow-auto rounded-xl bg-ink p-4 font-mono text-[11px] leading-relaxed text-paper/80">{info.error}</pre>
+          )}
+          {info && info.failed && info.failed.length > 0 && (
+            <ul className="mt-3 space-y-1 rounded-xl border border-line bg-paper/70 p-3 font-mono text-[11px] text-muted">
+              {info.failed.map((f, i) => <li key={i}><span className="text-rose">FAILED</span> {f.file} — {f.message}</li>)}
+            </ul>
+          )}
+          <div className="mt-5 rounded-xl border border-line bg-paper/70 p-4">
+            <p className="text-xs font-semibold text-ink">From this folder, run:</p>
+            <code className="mt-2 block rounded-lg bg-ink px-3 py-2 font-mono text-xs text-mintdeep">python3 -m http.server 8000</code>
+            <p className="mt-2 text-xs text-muted">
+              Then open <span className="font-mono text-ink">http://localhost:8000</span>
+            </p>
+          </div>
+          <div className="mt-5 flex flex-wrap items-center gap-3">
+            <button onClick={() => window.location.reload()} className="inline-flex items-center gap-2 rounded-xl bg-forest px-4 py-2.5 text-sm font-semibold text-paper transition hover:bg-forest-dark">
+              Try again <Icon name="rotate" className="h-4 w-4" />
+            </button>
+            <button onClick={() => inputRef.current && inputRef.current.click()} className="inline-flex items-center gap-2 rounded-xl border border-line bg-white px-4 py-2.5 text-sm font-semibold text-ink transition hover:border-forest/30 hover:bg-mint/40">
+              Load JSON files manually <Icon name="download" className="h-4 w-4" />
+            </button>
+            <input ref={inputRef} type="file" accept=".json,application/json" multiple className="hidden" onChange={(e) => onManual(e.target.files)} />
+          </div>
+          <p className="mt-4 text-[11px] text-muted">Select all seven files from the data folder if loading manually.</p>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Footer() {
+  return (
+    <footer className="relative z-10 border-t border-line/70 py-6">
+      <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-2 px-5 text-[11px] text-muted sm:flex-row">
+        <span>Cadence · Built for focused practice.</span>
+        <span>Progress and flags stay in this browser.</span>
+      </div>
+    </footer>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Header                                                             */
+/* ------------------------------------------------------------------ */
+
+function Header({ view, onNavigate, flagsCount, hasResult }) {
+  const nav = [
+    { key: 'dashboard', label: 'Practice' },
+    { key: 'bank', label: 'Question bank' },
+    { key: 'history', label: 'Progress' },
+    { key: 'flagged', label: 'Flagged', badge: flagsCount },
+    ...(hasResult ? [{ key: 'summary', label: 'Last result' }] : [])
+  ];
+
+  const renderNav = () =>
+    nav.map((item) => {
+      const active = view === item.key;
+      return (
+        <button
+          key={item.key}
+          type="button"
+          onClick={() => onNavigate(item.key)}
+          aria-current={active ? 'page' : undefined}
+          className={cx(
+            'inline-flex items-center gap-1.5 rounded-full px-3.5 py-1.5 text-xs font-medium transition',
+            active ? 'bg-forest text-paper shadow-sm' : 'text-muted hover:bg-mint/60 hover:text-ink'
+          )}
+        >
+          {item.label}
+          {item.badge > 0 && (
+            <span className={cx('rounded-full px-1.5 py-0.5 text-[10px] leading-none', active ? 'bg-white/15 text-paper' : 'bg-amber-soft text-amber')}>
+              {item.badge}
+            </span>
+          )}
+        </button>
+      );
+    });
+
+  return (
+    <header className="sticky top-0 z-30 border-b border-line/80 bg-paper/85 backdrop-blur-xl">
+      <div className="mx-auto flex h-[72px] max-w-6xl items-center justify-between gap-4 px-5">
+        <button type="button" onClick={() => onNavigate('dashboard')} className="rounded-xl text-left" aria-label="Cadence DUHS entrance practice — home">
+          <Logo />
+        </button>
+
+        <nav className="hidden items-center gap-1 rounded-full border border-line bg-card/70 p-1 md:flex">{renderNav()}</nav>
+
+        <div className="flex items-center gap-3">
+          <div className="hidden items-center gap-2 text-[11px] text-muted lg:flex">
+            <span className="h-1.5 w-1.5 rounded-full bg-forest/70" />
+            Local question bank
+          </div>
+          <ThemeToggle />
+          <button
+            type="button"
+            onClick={() => onNavigate('flagged')}
+            className="relative grid h-10 w-10 place-items-center rounded-full border border-line bg-card text-ink transition hover:bg-mint md:hidden"
+            aria-label="Open flagged questions"
+          >
+            <Icon name="flag" className="h-4 w-4" />
+            {flagsCount > 0 && (
+              <span className="absolute -right-0.5 -top-0.5 grid h-4 min-w-4 place-items-center rounded-full bg-amber px-1 text-[9px] font-semibold text-white">
+                {flagsCount}
+              </span>
+            )}
+          </button>
+        </div>
+      </div>
+
+      <div className="mx-auto flex max-w-6xl gap-1 overflow-x-auto px-5 pb-3 md:hidden">{renderNav()}</div>
+    </header>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Dashboard pieces                                                   */
+/* ------------------------------------------------------------------ */
+
+function DashboardHero({ questions, topicCount, flagsCount, onNavigate }) {
+  return (
+    <section className="grid gap-8 pb-12 pt-10 lg:grid-cols-[1.35fr_.65fr] lg:items-center">
+      <div className="animate-fade-up">
+        <p className="text-xs font-medium text-forest">DUHS entrance · 2026–27</p>
+        <h1 className="mt-3 max-w-2xl font-display text-[54px] leading-[0.94] tracking-[-0.02em] text-ink sm:text-[66px] md:text-[76px]">
+          Practice with intent.
+        </h1>
+        <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-muted">
+          A quiet place to drill {formatCount(questions.length)} questions across six subjects. Choose your ground, set the pace, and let the feedback do the teaching.
+        </p>
+        <div className="mt-6 flex flex-wrap items-center gap-x-5 gap-y-2 text-xs text-muted">
+          <span className="flex items-center gap-1.5">
+            <Icon name="layers" className="h-3.5 w-3.5 text-forest" /> {formatCount(questions.length)} questions
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Icon name="grid" className="h-3.5 w-3.5 text-forest" /> {SUBJECTS.length} subjects
+          </span>
+          <span className="flex items-center gap-1.5">
+            <Icon name="target" className="h-3.5 w-3.5 text-forest" /> {topicCount} topic areas
+          </span>
+          {flagsCount > 0 && (
+            <button type="button" onClick={() => onNavigate('flagged')} className="flex items-center gap-1.5 font-medium text-amber hover:underline">
+              <Icon name="flag" className="h-3.5 w-3.5" /> {flagsCount} flagged
+            </button>
+          )}
+        </div>
+      </div>
+
+      <div className="relative overflow-hidden rounded-[28px] bg-ink p-6 text-paper shadow-lift">
+        <div className="pointer-events-none absolute -right-20 -top-20 h-56 w-56 rounded-full border border-white/10" />
+        <div className="pointer-events-none absolute -right-9 -top-9 h-32 w-32 rounded-full border border-white/10" />
+        <p className="text-[11px] text-paper/65">Question bank</p>
+        <div className="mt-3 flex items-end gap-2">
+          <span className="font-display text-5xl leading-none">{formatCount(questions.length)}</span>
+          <span className="pb-1 text-xs text-paper/65">questions</span>
+        </div>
+        <div className="mt-6 grid grid-cols-3 gap-3 border-t border-white/10 pt-4 text-center">
+          <div>
+            <div className="font-display text-2xl">{SUBJECTS.length}</div>
+            <div className="mt-0.5 text-[10px] text-paper/65">Subjects</div>
+          </div>
+          <div>
+            <div className="font-display text-2xl">{topicCount}</div>
+            <div className="mt-0.5 text-[10px] text-paper/65">Topics</div>
+          </div>
+          <div>
+            <div className="font-display text-2xl">{formatCount(flagsCount)}</div>
+            <div className="mt-0.5 text-[10px] text-paper/65">Flagged</div>
+          </div>
+        </div>
+        <div className="mt-5 flex items-center gap-2 text-[11px] text-paper/65">
+          <span className="h-1.5 w-1.5 rounded-full bg-forest/70" />
+          Loaded from the local JSON bank
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function SubjectCard({ subject, count, selected, onClick }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={selected}
+      className={cx(
+        'group flex items-center gap-3 rounded-2xl border p-3.5 text-left transition',
+        selected ? 'border-forest/40 bg-mint/60' : 'border-line bg-card hover:border-forest/25 hover:bg-mint/25'
+      )}
+    >
+      <div className={cx('grid h-10 w-10 shrink-0 place-items-center rounded-xl transition', selected ? 'bg-forest text-paper' : 'bg-paper text-muted group-hover:text-forest')}>
+        <SubjectIcon subject={subject.key} className="h-5 w-5" />
+      </div>
+      <div className="min-w-0 flex-1">
+        <div className="text-sm font-semibold leading-snug text-ink">{subject.label}</div>
+        <div className="mt-0.5 text-[11px] text-muted">{formatCount(count)} questions</div>
+      </div>
+      <CheckMark checked={selected} />
+    </button>
+  );
+}
+
+function SubjectPicker({ draft, setDraft, subjectCounts }) {
+  const selected = draft.subjects || [];
+  const selectedSet = new Set(selected);
+  const allSelected = selected.length === SUBJECTS.length;
+  const update = (patch) => setDraft((d) => ({ ...d, ...patch }));
+
+  const toggleSubject = (key) => {
+    const next = selectedSet.has(key) ? selected.filter((k) => k !== key) : [...selected, key];
+    update({ subjects: next });
+  };
+
+  return (
+    <section>
+      <div className="flex items-end justify-between gap-4">
+        <div>
+          <p className="text-xs font-medium text-forest">01 · Subject</p>
+          <h2 className="mt-1 font-display text-3xl leading-tight text-ink">Choose your ground</h2>
+        </div>
+        <div className="flex shrink-0 gap-2">
+          <button
+            type="button"
+            onClick={() => update({ subjects: SUBJECTS.map((s) => s.key) })}
+            className="rounded-lg px-2.5 py-1.5 text-[11px] font-medium text-muted transition hover:bg-mint/60 hover:text-ink"
+          >
+            Select all
+          </button>
+          <button
+            type="button"
+            onClick={() => update({ subjects: [] })}
+            className="rounded-lg px-2.5 py-1.5 text-[11px] font-medium text-muted transition hover:bg-rose-soft hover:text-rose"
+          >
+            Clear
+          </button>
+        </div>
+      </div>
+
+      <div className="mt-4 grid gap-2.5 sm:grid-cols-2">
+        {SUBJECTS.map((subject) => (
+          <SubjectCard
+            key={subject.key}
+            subject={subject}
+            count={subjectCounts[subject.key] || 0}
+            selected={selectedSet.has(subject.key)}
+            onClick={() => toggleSubject(subject.key)}
+          />
+        ))}
+
+        <button
+          type="button"
+          onClick={() => update({ subjects: SUBJECTS.map((s) => s.key), shuffle: true })}
+          className={cx(
+            'flex items-center gap-3 rounded-2xl border p-3.5 text-left transition sm:col-span-2',
+            allSelected ? 'border-forest/40 bg-mint/60' : 'border-line bg-card hover:border-forest/25 hover:bg-mint/25'
+          )}
+        >
+          <div className={cx('grid h-10 w-10 shrink-0 place-items-center rounded-xl transition', allSelected ? 'bg-forest text-paper' : 'bg-paper text-muted')}>
+            <Icon name="shuffle" className="h-5 w-5" />
+          </div>
+          <div className="min-w-0 flex-1">
+            <div className="text-sm font-semibold text-ink">Shuffle all subjects</div>
+            <div className="mt-0.5 text-[11px] text-muted">Mix every subject and topic in the bank</div>
+          </div>
+          <CheckMark checked={allSelected} />
+        </button>
+      </div>
+    </section>
+  );
+}
+
+function LengthPicker({ draft, setDraft, available }) {
+  const update = (patch) => setDraft((d) => ({ ...d, ...patch }));
+  const countMode = draft.countMode;
+  const options = [
+    { key: 'all', label: `All${available ? ` (${formatCount(available)})` : ''}` },
+    { key: '25', label: '25' },
+    { key: '50', label: '50' },
+    { key: '100', label: '100' },
+    { key: 'custom', label: 'Custom' }
+  ];
+
+  return (
+    <section>
+      <p className="text-xs font-medium text-forest">02 · Length</p>
+      <h2 className="mt-1 font-display text-3xl leading-tight text-ink">Size the drill</h2>
+      <div className="mt-4 rounded-2xl border border-line bg-card p-4">
+        <div className="flex flex-wrap gap-2">
+          {options.map((opt) => {
+            const disabled = opt.key !== 'all' && opt.key !== 'custom' && available < Number(opt.key);
+            return (
+              <ChoiceChip key={opt.key} active={countMode === opt.key} disabled={disabled || !available} onClick={() => update({ countMode: opt.key })}>
+                {opt.label}
+              </ChoiceChip>
+            );
+          })}
+        </div>
+
+        {countMode === 'custom' && (
+          <div className="mt-3 flex flex-wrap items-center gap-3 rounded-xl border border-line bg-paper/60 px-3 py-2">
+            <input
+              type="number"
+              min="1"
+              max={Math.max(1, available)}
+              value={draft.customCount}
+              onChange={(e) => update({ customCount: clamp(Number(e.target.value) || 1, 1, Math.max(1, available)) })}
+              className="w-20 bg-transparent font-mono text-sm text-ink outline-none"
+              aria-label="Custom number of questions"
+            />
+            <span className="text-xs text-muted">questions, up to {formatCount(available)}</span>
+          </div>
+        )}
+
+        <p className="mt-3 text-xs text-muted">
+          {available ? `${formatCount(available)} questions available in this selection.` : 'Select at least one subject to see your pool.'}
+        </p>
+      </div>
+    </section>
+  );
+}
+
+function ModeCard({ active, onClick, icon, title, desc, tone = 'forest' }) {
+  const activeClass = tone === 'clay' ? 'border-clay/35 bg-amber-soft' : 'border-forest/40 bg-mint/60';
+  const iconClass = tone === 'clay' ? 'bg-clay text-white' : 'bg-forest text-paper';
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={active}
+      className={cx('group rounded-2xl border p-4 text-left transition', active ? activeClass : 'border-line bg-card hover:border-forest/25 hover:bg-mint/20')}
+    >
+      <div className="flex items-start gap-3">
+        <div className={cx('grid h-9 w-9 shrink-0 place-items-center rounded-xl transition', active ? iconClass : 'bg-paper text-muted group-hover:text-forest')}>
+          <Icon name={icon} className="h-4 w-4" />
+        </div>
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center justify-between gap-2">
+            <span className="text-sm font-semibold text-ink">{title}</span>
+            {active && (
+              <span className="grid h-5 w-5 place-items-center rounded-full bg-forest text-paper">
+                <Icon name="check" className="h-3 w-3" strokeWidth={3} />
+              </span>
+            )}
+          </div>
+          <p className="mt-1 text-xs leading-relaxed text-muted">{desc}</p>
+        </div>
+      </div>
+    </button>
+  );
+}
+
+function PacePicker({ draft, setDraft }) {
+  const update = (patch) => setDraft((d) => ({ ...d, ...patch }));
+  const timed = draft.mode === 'timed';
+
+  return (
+    <section>
+      <p className="text-xs font-medium text-forest">03 · Pace</p>
+      <h2 className="mt-1 font-display text-3xl leading-tight text-ink">Set the pace</h2>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        <ModeCard
+          active={!timed}
+          onClick={() => update({ mode: 'relaxed' })}
+          icon="feather"
+          title="Relaxed practice"
+          desc="No clock. Read, reason, and learn from every explanation."
+          tone="forest"
+        />
+        <ModeCard
+          active={timed}
+          onClick={() => update({ mode: 'timed' })}
+          icon="bolt"
+          title="Timed speed drill"
+          desc="A countdown keeps you honest and builds exam stamina."
+          tone="clay"
+        />
+      </div>
+
+      {timed && (
+        <div className="mt-3 animate-fade-up rounded-2xl border border-clay/20 bg-amber-soft/60 p-4">
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <span className="text-sm font-medium text-ink">Timer style</span>
+            <div className="flex rounded-lg border border-line bg-card p-1">
+              <button
+                type="button"
+                onClick={() => update({ timerType: 'perQuestion' })}
+                className={cx('rounded-md px-3 py-1.5 text-[11px] font-medium transition', draft.timerType === 'perQuestion' ? 'bg-forest text-paper shadow-sm' : 'text-muted hover:text-ink')}
+              >
+                Per question
+              </button>
+              <button
+                type="button"
+                onClick={() => update({ timerType: 'total' })}
+                className={cx('rounded-md px-3 py-1.5 text-[11px] font-medium transition', draft.timerType === 'total' ? 'bg-forest text-paper shadow-sm' : 'text-muted hover:text-ink')}
+              >
+                Whole session
+              </button>
+            </div>
+          </div>
+
+          <div className="mt-3 flex flex-wrap gap-2">
+            {draft.timerType === 'perQuestion'
+              ? [30, 45, 60, 90].map((sec) => (
+                  <ChoiceChip key={sec} active={draft.perQuestionSeconds === sec} onClick={() => update({ perQuestionSeconds: sec })}>
+                    {sec}s
+                  </ChoiceChip>
+                ))
+              : [10, 20, 30, 45, 60].map((min) => (
+                  <ChoiceChip key={min} active={draft.totalMinutes === min} onClick={() => update({ totalMinutes: min })}>
+                    {min} min
+                  </ChoiceChip>
+                ))}
+          </div>
+          <p className="mt-3 text-[11px] text-muted">
+            {draft.timerType === 'perQuestion'
+              ? 'The question locks when the clock reaches zero and reveals the answer.'
+              : 'The drill ends automatically when the session clock runs out.'}
+          </p>
+        </div>
+      )}
+    </section>
+  );
+}
+
+function FeedbackSettings({ draft, setDraft }) {
+  const update = (patch) => setDraft((d) => ({ ...d, ...patch }));
+  return (
+    <section>
+      <p className="text-xs font-medium text-forest">04 · Feedback</p>
+      <h2 className="mt-1 font-display text-3xl leading-tight text-ink">Fine-tune the loop</h2>
+      <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        <div className="rounded-2xl border border-line bg-card p-4">
+          <div className="flex items-center gap-2 text-sm font-medium text-ink">
+            <Icon name="checkCircle" className="h-4 w-4 text-forest" /> Pause after correct
+          </div>
+          <p className="mt-1 text-xs text-muted">A short beat to absorb the explanation.</p>
+          <div className="mt-3 flex flex-wrap gap-2">
+            {[1, 3, 5, 8].map((sec) => (
+              <ChoiceChip key={sec} active={draft.autoAdvance === sec} onClick={() => update({ autoAdvance: sec })}>
+                {sec}s
+              </ChoiceChip>
+            ))}
+          </div>
+        </div>
+
+        <div className="rounded-2xl border border-line bg-card p-4">
+          <div className="flex items-center justify-between gap-3">
+            <div>
+              <div className="flex items-center gap-2 text-sm font-medium text-ink">
+                <Icon name="shuffle" className="h-4 w-4 text-forest" /> Shuffle questions
+              </div>
+              <p className="mt-1 text-xs text-muted">Randomize the order of the drill.</p>
+            </div>
+            <Toggle checked={draft.shuffle} onChange={() => update({ shuffle: !draft.shuffle })} label="Shuffle questions" />
+          </div>
+          <div className="mt-3 rounded-lg bg-paper/70 px-3 py-2 text-[11px] leading-relaxed text-muted">Wrong answers always stop for review. No skipping past a mistake.</div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+function SessionBrief({ draft, available, target, estSec, onStart, allSelected, selected, finishedSession, finishedStats, onViewSummary }) {
+  const timed = draft.mode === 'timed';
+  const subjectSummary = allSelected
+    ? 'All six subjects'
+    : selected.length === 0
+      ? 'None'
+      : selected.length <= 2
+        ? selected.map((k) => (SUBJECT_MAP[k] ? SUBJECT_MAP[k].short : k)).join(' + ')
+        : `${selected.length} subjects`;
+
+  return (
+    <aside className="lg:sticky lg:top-24">
+      <div className="relative overflow-hidden rounded-[28px] bg-ink p-6 text-paper shadow-lift">
+        <div className="pointer-events-none absolute -right-16 -top-16 h-48 w-48 rounded-full border border-white/10" />
+        <div className="pointer-events-none absolute -right-8 -top-8 h-28 w-28 rounded-full border border-white/10" />
+        <p className="text-[11px] text-paper/65">Session brief</p>
+        <h3 className="mt-1 font-display text-3xl leading-tight">Ready when you are.</h3>
+
+        <dl className="mt-6 space-y-3 text-sm">
+          <div className="flex items-start justify-between gap-4 border-b border-white/10 pb-3">
+            <dt className="shrink-0 text-paper/65">Subjects</dt>
+            <dd className="text-right text-[13px] leading-snug">{subjectSummary}</dd>
+          </div>
+          <div className="flex items-start justify-between gap-4 border-b border-white/10 pb-3">
+            <dt className="shrink-0 text-paper/65">Questions</dt>
+            <dd className="text-right font-medium">
+              {formatCount(target)} <span className="text-paper/65">of {formatCount(available)}</span>
+            </dd>
+          </div>
+          <div className="flex items-start justify-between gap-4 border-b border-white/10 pb-3">
+            <dt className="shrink-0 text-paper/65">Pace</dt>
+            <dd className="text-right text-[13px] leading-snug">
+              {timed ? (draft.timerType === 'perQuestion' ? `${draft.perQuestionSeconds}s per question` : `${draft.totalMinutes} min session`) : 'Relaxed'}
+            </dd>
+          </div>
+          <div className="flex items-start justify-between gap-4 border-b border-white/10 pb-3">
+            <dt className="shrink-0 text-paper/65">Correct pause</dt>
+            <dd className="text-right">{draft.autoAdvance}s</dd>
+          </div>
+          <div className="flex items-start justify-between gap-4">
+            <dt className="shrink-0 text-paper/65">Est. time</dt>
+            <dd className="text-right">{formatMinutes(estSec)}</dd>
+          </div>
+        </dl>
+
+        <button
+          type="button"
+          onClick={onStart}
+          disabled={!target}
+          className="mt-6 flex w-full items-center justify-between gap-3 rounded-xl bg-paper px-4 py-3.5 text-sm font-semibold text-ink transition hover:bg-white disabled:opacity-40"
+        >
+          <span>{target ? `Start ${formatCount(target)}-question drill` : 'Select a subject'}</span>
+          <span className="grid h-7 w-7 place-items-center rounded-full bg-ink text-paper">
+            <Icon name="arrowRight" className="h-3.5 w-3.5" />
+          </span>
+        </button>
+        <p className="mt-3 text-center text-[11px] text-paper/65">Progress saves automatically in this browser.</p>
+      </div>
+
+      {finishedSession && finishedStats && (
+        <button
+          type="button"
+          onClick={onViewSummary}
+          className="mt-3 w-full rounded-2xl border border-line bg-card p-4 text-left transition hover:border-forest/30 hover:shadow-card"
+        >
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-medium text-muted">Last result</span>
+            <Icon name="arrowUpRight" className="h-4 w-4 text-muted" />
+          </div>
+          <div className="mt-2 flex items-end gap-2">
+            <span className="font-display text-3xl leading-none text-ink">{finishedStats.accuracy}%</span>
+            <span className="pb-0.5 text-xs text-muted">
+              {finishedStats.correct}/{finishedStats.answered} correct
+            </span>
+          </div>
+        </button>
+      )}
+    </aside>
+  );
+}
+
+function Dashboard({ questions, subjectCounts, topicCount, flagsCount, draft, setDraft, onStart, session, onResume, onDiscard, onViewSummary, onNavigate }) {
+  const selected = draft.subjects || [];
+  const selectedSet = new Set(selected);
+  const available = SUBJECTS.reduce((sum, subject) => sum + (selectedSet.has(subject.key) ? subjectCounts[subject.key] || 0 : 0), 0);
+  const allSelected = selected.length === SUBJECTS.length;
+  const countMode = draft.countMode;
+  const rawTarget = countMode === 'all' ? available : countMode === 'custom' ? Number(draft.customCount) || 0 : Number(countMode) || 0;
+  const target = clamp(rawTarget, 0, available);
+  const timed = draft.mode === 'timed';
+  const estSec = timed ? (draft.timerType === 'total' ? draft.totalMinutes * 60 : target * draft.perQuestionSeconds) : target * 42;
+  const activeSession = session && !session.finished ? session : null;
+  const finishedSession = session && session.finished ? session : null;
+  const finishedStats = finishedSession ? getSessionStats(finishedSession) : null;
+
+  return (
+    <div className="relative z-10">
+      {activeSession && (
+        <div className="mt-6 flex flex-col gap-3 rounded-2xl border border-forest/20 bg-mint/70 p-4 sm:flex-row sm:items-center">
+          <div className="grid h-10 w-10 shrink-0 place-items-center rounded-full bg-forest text-paper">
+            <Icon name="rotate" className="h-4 w-4" />
+          </div>
+          <div className="min-w-0 flex-1">
+            <div className="text-sm font-semibold text-ink">Session in progress</div>
+            <div className="text-xs text-muted">
+              Question {activeSession.index + 1} of {activeSession.questionIds.length} · {formatClock(activeSession.elapsedSec)} elapsed
+            </div>
+          </div>
+          <div className="flex items-center gap-2">
+            <button type="button" onClick={onResume} className="inline-flex items-center gap-1.5 rounded-xl bg-forest px-3.5 py-2 text-xs font-semibold text-paper transition hover:bg-forest-dark">
+              Resume <Icon name="arrowRight" className="h-3.5 w-3.5" />
+            </button>
+            <button type="button" onClick={onDiscard} className="rounded-xl px-3 py-2 text-xs font-medium text-muted transition hover:bg-white/60 hover:text-rose">
+              Discard
+            </button>
+          </div>
+        </div>
+      )}
+
+      <DashboardHero questions={questions} topicCount={topicCount} flagsCount={flagsCount} onNavigate={onNavigate} />
+
+      <div className="grid gap-8 lg:grid-cols-[1fr_340px] lg:items-start">
+        <div className="space-y-10">
+          <SubjectPicker draft={draft} setDraft={setDraft} subjectCounts={subjectCounts} />
+          <LengthPicker draft={draft} setDraft={setDraft} available={available} />
+          <PacePicker draft={draft} setDraft={setDraft} />
+          <FeedbackSettings draft={draft} setDraft={setDraft} />
+        </div>
+
+        <SessionBrief
+          draft={draft}
+          available={available}
+          target={target}
+          estSec={estSec}
+          onStart={onStart}
+          allSelected={allSelected}
+          selected={selected}
+          finishedSession={finishedSession}
+          finishedStats={finishedStats}
+          onViewSummary={onViewSummary}
+        />
+      </div>
+
+      <div className="mt-12 rounded-2xl border border-line bg-card/60 p-5 text-sm text-muted">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div className="flex flex-wrap items-center gap-2">
+            <Icon name="keyboard" className="h-4 w-4 text-forest" />
+            <span>
+              <Kbd>1</Kbd>–<Kbd>5</Kbd> or <Kbd>A</Kbd>–<Kbd>E</Kbd> to answer, <Kbd>F</Kbd> to flag, <Kbd>S</Kbd> to skip, <Kbd>Enter</Kbd> to continue.
+            </span>
+          </div>
+          <button type="button" onClick={() => onNavigate('flagged')} className="inline-flex items-center gap-1.5 text-xs font-medium text-forest hover:underline">
+            Open flagged hub <Icon name="arrowRight" className="h-3.5 w-3.5" />
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Practice engine                                                    */
+/* ------------------------------------------------------------------ */
+
+function QuestionOption({ option, index, state, onClick, disabled }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      className={cx(
+        'group flex w-full items-start gap-3 rounded-xl border px-3.5 py-3 text-left transition-all duration-200',
+        state === 'correct' && 'border-forest/60 bg-mint',
+        state === 'wrong' && 'border-rose/50 bg-rose-soft',
+        state === 'dim' && 'border-line/60 bg-white/50 opacity-60',
+        state === 'default' && 'border-line bg-white hover:border-forest/35 hover:bg-mint/40 hover:shadow-sm'
+      )}
+    >
+      <span
+        className={cx(
+          'mt-0.5 grid h-7 w-7 shrink-0 place-items-center rounded-lg border text-[12px] font-semibold transition',
+          state === 'correct'
+            ? 'border-forest bg-forest text-paper'
+            : state === 'wrong'
+              ? 'border-rose bg-rose text-white'
+              : 'border-line bg-paper text-muted group-hover:border-forest/30 group-hover:text-ink'
+        )}
+      >
+        {state === 'correct' ? (
+          <Icon name="check" className="h-3.5 w-3.5" strokeWidth={2.6} />
+        ) : state === 'wrong' ? (
+          <Icon name="x" className="h-3.5 w-3.5" strokeWidth={2.6} />
+        ) : (
+          OPTION_LETTERS[index]
+        )}
+      </span>
+      <span className={cx('pt-0.5 text-[15px] leading-relaxed', state === 'dim' ? 'text-muted' : 'text-ink')}>{option}</span>
+      <span className="ml-auto hidden pt-1 font-mono text-[10px] text-muted/60 group-hover:block">{index + 1}</span>
+    </button>
+  );
+}
+
+function TimerPill({ timed, timerType, perQuestionLeft, totalLeft, elapsed, warning }) {
+  if (!timed) {
+    return (
+      <div className="flex items-center gap-2 rounded-full border border-line bg-card px-3 py-1.5 text-xs text-muted">
+        <Icon name="clock" className="h-3.5 w-3.5 text-forest" />
+        <span className="font-mono tabular text-ink">{formatClock(elapsed)}</span>
+        <span className="hidden sm:inline">elapsed</span>
+      </div>
+    );
+  }
+
+  const value = timerType === 'perQuestion' ? perQuestionLeft : totalLeft;
+  return (
+    <div
+      className={cx(
+        'flex items-center gap-2 rounded-full border px-3 py-1.5 text-xs transition-colors',
+        warning ? 'border-rose/30 bg-rose-soft text-rose' : 'border-line bg-card text-muted'
+      )}
+    >
+      <Icon name="clock" className={cx('h-3.5 w-3.5', warning ? 'text-rose' : 'text-forest')} />
+      <span className={cx('font-mono tabular', warning ? 'text-rose' : 'text-ink')}>{formatClock(value || 0)}</span>
+      <span className="hidden sm:inline">{timerType === 'perQuestion' ? 'this question' : 'left'}</span>
+    </div>
+  );
+}
+
+function PracticeHeader({ index, total, progress, timed, timerType, perQuestionLeft, totalLeft, elapsed, warning, onExit, onToggleFlag, isFlagged, onOpenNav, answeredCount }) {
+  return (
+    <div className="sticky top-0 z-30 border-b border-line bg-paper/90 backdrop-blur-xl">
+      <div className="mx-auto flex h-16 max-w-4xl items-center gap-3 px-5">
+        <button
+          type="button"
+          onClick={onExit}
+          className="inline-flex items-center gap-1.5 rounded-lg px-2 py-1.5 text-xs font-medium text-muted transition hover:bg-line/50 hover:text-ink"
+        >
+          <Icon name="arrowLeft" className="h-4 w-4" />
+          <span className="hidden sm:inline">Exit</span>
+        </button>
+
+        <div className="mx-auto flex items-center gap-3">
+          <button type="button" onClick={onOpenNav} aria-label="Open question navigator" className="inline-flex items-center gap-1.5 rounded-lg border border-line bg-card px-3 py-2 text-xs font-medium text-muted transition hover:border-forest/50 hover:text-ink">
+            <Icon name="grid" className="h-3.5 w-3.5 text-forest" />
+            <span className="text-ink">{index + 1}</span> / {total}
+            <span className="hidden sm:inline">· {answeredCount} done</span>
+          </button>
+          <div className="hidden h-1.5 w-24 overflow-hidden rounded-full bg-line sm:block">
+            <div className="h-full rounded-full bg-forest transition-all duration-300" style={{ width: `${progress}%` }} />
+          </div>
+        </div>
+
+        <TimerPill
+          timed={timed}
+          timerType={timerType}
+          perQuestionLeft={perQuestionLeft}
+          totalLeft={totalLeft}
+          elapsed={elapsed}
+          warning={warning}
+        />
+
+        <ThemeToggle className="hidden sm:grid" />
+        <button
+          type="button"
+          onClick={onToggleFlag}
+          aria-pressed={isFlagged}
+          aria-label={isFlagged ? 'Remove flag' : 'Flag this question for review'}
+          className={cx(
+            'grid h-10 w-10 place-items-center rounded-full border transition',
+            isFlagged ? 'border-amber/30 bg-amber-soft text-amber' : 'border-line bg-card text-muted hover:border-amber/30 hover:text-amber'
+          )}
+        >
+          <Icon name="flag" className="h-4 w-4" />
+        </button>
+      </div>
+      <div className="h-0.5 bg-line/60">
+        <div className="h-full bg-forest transition-all duration-300" style={{ width: `${progress}%` }} />
+      </div>
+    </div>
+  );
+}
+
+function FeedbackPanel({ question, answer, autoLeft, autoTotal, isLast, onNext }) {
+  const correct = answer.correct;
+  const timedOut = answer.timedOut;
+  const remaining = autoLeft == null ? autoTotal : autoLeft;
+  const barWidth = autoTotal ? Math.max(0, Math.min(100, (remaining / autoTotal) * 100)) : 0;
+
+  return (
+    <div
+      aria-live="polite"
+      className={cx('mt-6 overflow-hidden rounded-2xl border', correct ? 'border-forest/25 bg-mint/60' : 'border-rose/20 bg-rose-soft/60')}
+    >
+      <div className="p-5 md:p-6">
+        <div className="flex items-start gap-3">
+          <div className={cx('mt-0.5 grid h-8 w-8 shrink-0 place-items-center rounded-full', correct ? 'bg-forest text-paper' : 'bg-rose text-white')}>
+            <Icon name={correct ? 'check' : 'x'} className="h-4 w-4" strokeWidth={2.6} />
+          </div>
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-wrap items-center gap-2">
+              <h3 className={cx('text-base font-semibold', correct ? 'text-forest-dark' : 'text-rose')}>
+                {correct ? 'Correct.' : timedOut ? 'Time’s up.' : 'Not quite.'}
+              </h3>
+              {!correct && (
+                <span className="rounded-full bg-white/70 px-2 py-0.5 text-[11px] font-medium text-rose">
+                  Correct answer: {OPTION_LETTERS[question.correctIndex]}
+                </span>
+              )}
+            </div>
+
+            {!correct && <p className="mt-1 text-sm font-medium leading-relaxed text-ink">{question.options[question.correctIndex]}</p>}
+            <p className="mt-2 text-sm leading-relaxed text-muted">{question.explanation}</p>
+
+            {correct ? (
+              <div className="mt-4 flex flex-wrap items-center gap-3">
+                <div className="h-1 min-w-24 flex-1 overflow-hidden rounded-full bg-forest/15">
+                  <div className="h-full bg-forest transition-all duration-1000 ease-linear" style={{ width: `${barWidth}%` }} />
+                </div>
+                <span className="text-xs font-medium text-forest">
+                  {isLast ? 'Results' : 'Next'} in {remaining}s
+                </span>
+                <button
+                  type="button"
+                  onClick={onNext}
+                  className="inline-flex items-center gap-1.5 rounded-lg border border-forest/20 bg-white/70 px-3 py-1.5 text-xs font-semibold text-forest transition hover:bg-white"
+                >
+                  {isLast ? 'See results' : 'Next now'} <Icon name="arrowRight" className="h-3.5 w-3.5" />
+                </button>
+              </div>
+            ) : (
+              <div className="mt-4 flex flex-wrap items-center justify-between gap-3">
+                <button
+                  type="button"
+                  onClick={onNext}
+                  className="inline-flex items-center gap-2 rounded-xl bg-ink px-4 py-2.5 text-sm font-semibold text-paper transition hover:bg-forest-dark"
+                >
+                  {isLast ? 'See results' : 'Next question'} <Icon name="arrowRight" className="h-4 w-4" />
+                </button>
+                <span className="text-[11px] text-muted">Press Enter</span>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Practice({ questionsById, session, setSession, flags, toggleFlag, onExit, onFinish, prefs, showToast, paused }) {
+  const ids = session.questionIds || [];
+  const index = clamp(session.index || 0, 0, Math.max(0, ids.length - 1));
+  const question = questionsById[ids[index]];
+  const answer = question ? session.answers[question.id] || null : null;
+  const answered = !!answer;
+  const isLast = index >= ids.length - 1;
+  const config = session.config || DEFAULT_DRAFT;
+  const timed = config.mode === 'timed';
+  const perQuestion = timed && config.timerType === 'perQuestion';
+  const totalTimed = timed && config.timerType === 'total';
+  const [timeLeft, setTimeLeft] = useState(perQuestion ? config.perQuestionSeconds : null);
+  const [autoLeft, setAutoLeft] = useState(null);
+  const [navOpen, setNavOpen] = useState(false);
+
+  const timeoutRef = useRef(null);
+  const advanceRef = useRef(null);
+
+  const selectOption = useCallback(
+    (optionIndex) => {
+      if (!question || answered || paused) return;
+      const correct = optionIndex === question.correctIndex;
+      setSession((prev) => {
+        if (!prev || prev.answers[question.id]) return prev;
+        return {
+          ...prev,
+          answers: {
+            ...prev.answers,
+            [question.id]: { selectedIndex: optionIndex, correct, timedOut: false, answeredAt: Date.now() }
+          }
+        };
+      });
+    },
+    [answered, paused, question, setSession]
+  );
+
+  const handleTimeout = useCallback(() => {
+    if (!question || answered || paused) return;
+    setSession((prev) => {
+      if (!prev || prev.answers[question.id]) return prev;
+      return {
+        ...prev,
+        answers: {
+          ...prev.answers,
+          [question.id]: { selectedIndex: null, correct: false, timedOut: true, answeredAt: Date.now() }
+        }
+      };
+    });
+    showToast('Time’s up for that question.', 'clock');
+  }, [answered, paused, question, setSession, showToast]);
+
+  const advance = useCallback(() => {
+    setAutoLeft(null);
+    if (!answered) return;
+    if (index < ids.length - 1) {
+      setSession((prev) => (prev ? { ...prev, index: index + 1 } : prev));
+    } else {
+      const firstOpen = ids.findIndex((id) => !session.answers[id]);
+      if (firstOpen >= 0) {
+        setSession((prev) => (prev ? { ...prev, index: firstOpen } : prev));
+        showToast('Jumped to your first unanswered question.', 'grid');
+      } else {
+        onFinish('complete');
+      }
+    }
+  }, [answered, ids, index, onFinish, session.answers, setSession, showToast]);
+
+  const goTo = useCallback(
+    (i) => {
+      setAutoLeft(null);
+      setSession((prev) => (prev ? { ...prev, index: clamp(i, 0, prev.questionIds.length - 1) } : prev));
+    },
+    [setSession]
+  );
+
+  const skip = useCallback(() => {
+    if (!question || answered || paused) return;
+    setSession((prev) => {
+      if (!prev) return prev;
+      const nextSkipped = { ...prev.skipped, [question.id]: true };
+      if (index < ids.length - 1) return { ...prev, skipped: nextSkipped, index: index + 1 };
+      return { ...prev, skipped: nextSkipped };
+    });
+    if (index >= ids.length - 1) showToast('That was the last question. Open the grid to review or finish.', 'grid');
+  }, [answered, ids.length, index, paused, question, setSession, showToast]);
+
+  timeoutRef.current = handleTimeout;
+  advanceRef.current = advance;
+
+  useEffect(() => {
+    if (!perQuestion || answered || paused) return undefined;
+    let remaining = config.perQuestionSeconds;
+    setTimeLeft(remaining);
+    const interval = setInterval(() => {
+      remaining -= 1;
+      setTimeLeft(remaining);
+      if (remaining <= 0) {
+        clearInterval(interval);
+        if (timeoutRef.current) timeoutRef.current();
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [answered, config.perQuestionSeconds, index, paused, perQuestion]);
+
+  useEffect(() => {
+    if (!answer || !answer.correct || paused) {
+      setAutoLeft(null);
+      return undefined;
+    }
+    let remaining = prefs.autoAdvance;
+    setAutoLeft(remaining);
+    const interval = setInterval(() => {
+      remaining -= 1;
+      setAutoLeft(remaining);
+      if (remaining <= 0) {
+        clearInterval(interval);
+        if (advanceRef.current) advanceRef.current();
+      }
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [answer, index, paused, prefs.autoAdvance]);
+
+  useEffect(() => {
+    if (paused) return undefined;
+    const interval = setInterval(() => {
+      setSession((prev) => (prev && !prev.finished ? { ...prev, elapsedSec: (prev.elapsedSec || 0) + 1 } : prev));
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [paused, session.id, setSession]);
+
+  useEffect(() => {
+    if (!totalTimed || paused) return;
+    if ((session.elapsedSec || 0) >= config.totalMinutes * 60) onFinish('time');
+  }, [config.totalMinutes, onFinish, paused, session.elapsedSec, totalTimed]);
+
+  useEffect(() => {
+    const onKey = (e) => {
+      if (paused || navOpen || e.metaKey || e.ctrlKey || e.altKey) return;
+      const tag = e.target && e.target.tagName;
+      if (tag === 'INPUT' || tag === 'TEXTAREA' || tag === 'SELECT' || (e.target && e.target.isContentEditable)) return;
+
+      const key = e.key.toLowerCase();
+      if (e.key === 'ArrowLeft' || key === 'p') { e.preventDefault(); goTo(index - 1); return; }
+      if (e.key === 'ArrowRight' || key === 'n') { e.preventDefault(); goTo(index + 1); return; }
+      if (key === 'g') { e.preventDefault(); setNavOpen(true); return; }
+      if (!answered) {
+        let optionIndex = -1;
+        if (/^[1-5]$/.test(key)) optionIndex = Number(key) - 1;
+        else if (/^[a-e]$/.test(key)) optionIndex = key.charCodeAt(0) - 97;
+
+        if (optionIndex >= 0 && question && optionIndex < question.options.length) {
+          e.preventDefault();
+          selectOption(optionIndex);
+          return;
+        }
+        if (key === 'f' && question) {
+          e.preventDefault();
+          toggleFlag(question.id);
+          return;
+        }
+        if (key === 's') {
+          e.preventDefault();
+          skip();
+        }
+      } else if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        advance();
+      } else if (key === 'f' && question) {
+        e.preventDefault();
+        toggleFlag(question.id);
+      }
+    };
+
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [advance, answered, goTo, index, navOpen, paused, question, selectOption, skip, toggleFlag]);
+
+  if (!question) {
+    return (
+      <div className="grid min-h-screen place-items-center bg-paper px-6">
+        <div className="text-center">
+          <h1 className="font-display text-3xl text-ink">This question is unavailable.</h1>
+          <button type="button" onClick={onExit} className="mt-4 rounded-xl bg-forest px-4 py-2.5 text-sm font-semibold text-paper">
+            Back to dashboard
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  const isFlagged = flags.has(question.id);
+  const progress = ((index + (answered ? 1 : 0)) / Math.max(1, ids.length)) * 100;
+  const totalLeft = totalTimed ? Math.max(0, config.totalMinutes * 60 - (session.elapsedSec || 0)) : null;
+  const warning = perQuestion ? timeLeft != null && timeLeft <= 10 : totalTimed ? totalLeft <= 30 : false;
+  const compact = question.options.length === 4 && question.options.every((o) => o.length <= 48);
+
+  const stateFor = (i) => {
+    if (!answer) return 'default';
+    if (i === question.correctIndex) return 'correct';
+    if (answer.selectedIndex === i) return 'wrong';
+    return 'dim';
+  };
+
+  return (
+    <div className="min-h-screen bg-paper">
+      <PracticeHeader
+        index={index}
+        total={ids.length}
+        progress={progress}
+        timed={timed}
+        timerType={config.timerType}
+        perQuestionLeft={timeLeft}
+        totalLeft={totalLeft}
+        elapsed={session.elapsedSec || 0}
+        warning={warning}
+        onExit={onExit}
+        onToggleFlag={() => toggleFlag(question.id)}
+        isFlagged={isFlagged}
+        onOpenNav={() => setNavOpen(true)}
+        answeredCount={Object.keys(session.answers).length}
+      />
+
+      <main className="mx-auto max-w-4xl px-5 pb-24 pt-8 md:pt-12">
+        <div className="mb-5 flex items-center justify-between gap-3 text-xs text-muted">
+          <div className="flex min-w-0 items-center gap-2">
+            <span className="grid h-6 w-6 shrink-0 place-items-center rounded-md bg-mint text-forest">
+              <SubjectIcon subject={question.subject} className="h-3.5 w-3.5" />
+            </span>
+            <span className="font-medium text-ink">{question.subject}</span>
+            <span className="text-line">/</span>
+            <span className="truncate">{question.topic}</span>
+          </div>
+          <div className="hidden items-center gap-1.5 md:flex">
+            <Kbd>1</Kbd>–<Kbd>{question.options.length}</Kbd> answer
+            <span className="mx-1 text-line">·</span>
+            <Kbd>F</Kbd> flag
+            <span className="mx-1 text-line">·</span>
+            <Kbd>S</Kbd> skip
+            <span className="mx-1 text-line">·</span>
+            <Kbd>←</Kbd><Kbd>→</Kbd> move
+            <span className="mx-1 text-line">·</span>
+            <Kbd>G</Kbd> grid
+          </div>
+        </div>
+
+        <section className="animate-fade-up rounded-[26px] border border-line bg-card p-5 shadow-card md:p-8">
+          <div className="flex items-start justify-between gap-4">
+            <div className="min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-2">
+                <span className="rounded-full bg-mint px-2.5 py-1 text-[11px] font-semibold text-forest">{question.subject}</span>
+                <span className="text-[11px] text-muted">{question.topic}</span>
+              </div>
+              <h1 className="mt-5 font-serif text-[22px] font-semibold leading-[1.4] tracking-[-0.01em] text-ink md:text-[27px]">{question.question}</h1>
+            </div>
+
+            <button
+              type="button"
+              onClick={() => toggleFlag(question.id)}
+              aria-pressed={isFlagged}
+              className={cx(
+                'flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition',
+                isFlagged ? 'border-amber/30 bg-amber-soft text-amber' : 'border-line bg-white text-muted hover:border-amber/30 hover:text-amber'
+              )}
+            >
+              <Icon name="flag" className="h-3.5 w-3.5" />
+              <span className="hidden sm:inline">{isFlagged ? 'Flagged' : 'Flag'}</span>
+            </button>
+          </div>
+
+          <div className={cx('mt-6 grid gap-2.5', compact && 'sm:grid-cols-2')}>
+            {question.options.map((option, i) => (
+              <QuestionOption
+                key={i}
+                option={option}
+                index={i}
+                state={stateFor(i)}
+                onClick={() => selectOption(i)}
+                disabled={answered}
+              />
+            ))}
+          </div>
+
+          {!answered && (
+            <div className="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-line/70 pt-4">
+              <button
+                type="button"
+                onClick={skip}
+                className="inline-flex items-center gap-1.5 rounded-lg px-2.5 py-1.5 text-xs font-medium text-muted transition hover:bg-line/50 hover:text-ink"
+              >
+                <Icon name="skip" className="h-3.5 w-3.5" /> Skip for now <Kbd>S</Kbd>
+              </button>
+              <span className="text-[11px] text-muted">Wrong answers stop for review.</span>
+            </div>
+          )}
+
+          {answered && (
+            <FeedbackPanel
+              question={question}
+              answer={answer}
+              autoLeft={autoLeft}
+              autoTotal={prefs.autoAdvance}
+              isLast={isLast}
+              onNext={advance}
+            />
+          )}
+        </section>
+
+        {isFlagged && <NoteEditor key={question.id} id={question.id} />}
+
+        <div className="mt-5 flex items-center justify-between gap-2">
+          <button type="button" disabled={index === 0} onClick={() => goTo(index - 1)} className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-medium text-ink transition hover:bg-mint/50 disabled:opacity-40">
+            <Icon name="arrowLeft" className="h-4 w-4" /> <span className="hidden sm:inline">Previous</span>
+          </button>
+          <button type="button" onClick={() => setNavOpen(true)} className="inline-flex items-center gap-1.5 rounded-xl border border-forest/40 bg-mint px-4 py-2.5 text-sm font-semibold text-forest transition hover:bg-mintdeep">
+            <Icon name="grid" className="h-4 w-4" /> All questions
+          </button>
+          <button type="button" disabled={isLast} onClick={() => goTo(index + 1)} className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-medium text-ink transition hover:bg-mint/50 disabled:opacity-40">
+            <span className="hidden sm:inline">Next</span> <Icon name="arrowRight" className="h-4 w-4" />
+          </button>
+        </div>
+
+        <div className="mt-4 flex items-center justify-between gap-3 text-[10px] text-muted">
+          <span>{isFlagged ? 'Flagged for review' : '\u00A0'}</span>
+          <span>{question.source ? `Source: ${question.source}` : ''}</span>
+        </div>
+      </main>
+
+      {navOpen && (
+        <QuestionNavigator
+          ids={ids}
+          session={session}
+          index={index}
+          flags={flags}
+          onJump={(i) => { goTo(i); setNavOpen(false); }}
+          onClose={() => setNavOpen(false)}
+          onFinish={(r) => { setNavOpen(false); onFinish(r); }}
+        />
+      )}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Flagged / skipped hub                                              */
+/* ------------------------------------------------------------------ */
+
+function FlaggedCard({ question, selected, onSelect, showAnswers, onToggleFlag, tab }) {
+  return (
+    <article className={cx('rounded-2xl border bg-card p-4 transition', selected ? 'border-forest/40 ring-1 ring-forest/10' : 'border-line')}>
+      <div className="flex items-start gap-3">
+        <button
+          type="button"
+          onClick={onSelect}
+          className="mt-1 shrink-0 rounded-md"
+          aria-label={selected ? 'Deselect question' : 'Select question'}
+          aria-pressed={selected}
+        >
+          <CheckMark checked={selected} />
+        </button>
+
+        <div className="min-w-0 flex-1">
+          <div className="flex flex-wrap items-center gap-2 text-[11px] text-muted">
+            <span className="flex items-center gap-1.5 font-medium text-forest">
+              <SubjectIcon subject={question.subject} className="h-3.5 w-3.5" /> {question.subject}
+            </span>
+            <span>·</span>
+            <span>{question.topic}</span>
+            {tab === 'skipped' && <span className="rounded-full bg-paper px-2 py-0.5 text-[10px] font-medium text-muted">Skipped</span>}
+          </div>
+
+          <h3 className="mt-2 font-serif text-[19px] font-semibold leading-snug text-ink">{question.question}</h3>
+
+          <div className="mt-3 grid gap-1.5 sm:grid-cols-2">
+            {question.options.map((option, i) => {
+              const correct = showAnswers && i === question.correctIndex;
+              return (
+                <div
+                  key={i}
+                  className={cx(
+                    'flex items-start gap-2 rounded-lg border px-2.5 py-2 text-[13px] leading-relaxed',
+                    correct ? 'border-forest/30 bg-mint/70 text-ink' : 'border-line/70 bg-paper/40 text-muted'
+                  )}
+                >
+                  <span
+                    className={cx(
+                      'mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded border text-[10px] font-semibold',
+                      correct ? 'border-forest bg-forest text-paper' : 'border-line bg-white'
+                    )}
+                  >
+                    {correct ? <Icon name="check" className="h-2.5 w-2.5" strokeWidth={3} /> : OPTION_LETTERS[i]}
+                  </span>
+                  <span>{option}</span>
+                </div>
+              );
+            })}
+          </div>
+
+          {showAnswers && (
+            <div className="mt-3 rounded-xl border border-forest/15 bg-mint/40 p-3 text-[13px] leading-relaxed text-muted">
+              <span className="font-semibold text-forest">Why: </span>
+              {question.explanation}
+            </div>
+          )}
+
+          {question.source && <div className="mt-2 text-[10px] text-muted/70">Source: {question.source}</div>}
+          {tab === 'flagged' && <NoteEditor key={question.id} id={question.id} />}
+        </div>
+
+        {tab === 'flagged' && (
+          <button
+            type="button"
+            onClick={() => onToggleFlag(question.id)}
+            title="Remove flag"
+            aria-label="Remove flag"
+            className="grid h-8 w-8 shrink-0 place-items-center rounded-full border border-amber/25 bg-amber-soft text-amber transition hover:bg-amber/10"
+          >
+            <Icon name="flag" className="h-4 w-4" />
+          </button>
+        )}
+      </div>
+    </article>
+  );
+}
+
+function FlaggedHub({ questions, flags, toggleFlag, session, onPrint, onNavigate }) {
+  const [tab, setTab] = useState('flagged');
+  const [search, setSearch] = useState('');
+  const [subject, setSubject] = useState('all');
+  const [showAnswers, setShowAnswers] = useState(true);
+  const [selected, setSelected] = useState(new Set());
+  const [visible, setVisible] = useState(18);
+  const { notes } = React.useContext(AppCtx);
+
+  const flagged = useMemo(() => questions.filter((q) => flags.has(q.id)), [questions, flags]);
+  const skipped = useMemo(() => {
+    if (!session) return [];
+    const answers = session.answers || {};
+    const skippedMap = session.skipped || {};
+    return questions.filter((q) => skippedMap[q.id] && !answers[q.id]);
+  }, [questions, session]);
+
+  const base = tab === 'flagged' ? flagged : skipped;
+  const filtered = useMemo(() => {
+    const needle = search.trim().toLowerCase();
+    return base.filter((q) => {
+      if (subject !== 'all' && q.subject !== subject) return false;
+      if (!needle) return true;
+      const n = notes[q.id];
+      return `${q.question} ${q.topic} ${q.options.join(' ')} ${n ? `${n.text} ${(n.tags || []).join(' ')}` : ''}`.toLowerCase().includes(needle);
+    });
+  }, [base, search, subject, notes]);
+
+  useEffect(() => {
+    setVisible(18);
+  }, [tab, search, subject]);
+
+  useEffect(() => {
+    setSelected(new Set());
+  }, [tab]);
+
+  const allVisibleSelected = filtered.length > 0 && filtered.every((q) => selected.has(q.id));
+
+  const toggleSelect = (id) => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  };
+
+  const toggleSelectAll = () => {
+    setSelected((prev) => {
+      const next = new Set(prev);
+      if (allVisibleSelected) filtered.forEach((q) => next.delete(q.id));
+      else filtered.forEach((q) => next.add(q.id));
+      return next;
+    });
+  };
+
+  const exportList = (list) => {
+    if (!list.length) return;
+    const title = tab === 'flagged' ? 'Flagged questions' : 'Skipped questions';
+    const subtitle = `${list.length} question${list.length === 1 ? '' : 's'} · ${tab === 'flagged' ? 'Flagged for review' : 'Skipped during a drill'}`;
+    onPrint(list, title, subtitle);
+  };
+
+  const exportAll = () => exportList(base);
+  const exportSelected = () => exportList(base.filter((q) => selected.has(q.id)));
+
+  return (
+    <div className="relative z-10 pt-10">
+      <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+        <div>
+          <p className="text-xs font-medium text-forest">Study shelf</p>
+          <h1 className="mt-2 font-display text-5xl leading-[0.98] text-ink md:text-6xl">Flagged questions.</h1>
+          <p className="mt-2 max-w-xl text-sm leading-relaxed text-muted">
+            Keep the tricky ones close. Review them here, then export a clean study sheet for later.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={exportAll}
+            disabled={!base.length}
+            className="inline-flex items-center gap-2 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink transition hover:border-forest/30 hover:bg-mint/40 disabled:opacity-40"
+          >
+            <Icon name="print" className="h-4 w-4" /> Export all
+          </button>
+          <button
+            type="button"
+            onClick={exportSelected}
+            disabled={!selected.size}
+            className="inline-flex items-center gap-2 rounded-xl bg-forest px-4 py-2.5 text-sm font-semibold text-paper transition hover:bg-forest-dark disabled:opacity-40"
+          >
+            <Icon name="download" className="h-4 w-4" /> Export selected ({selected.size})
+          </button>
+        </div>
+      </div>
+
+      <div className="mt-6 flex w-fit items-center gap-1 rounded-full border border-line bg-card p-1">
+        <button
+          type="button"
+          onClick={() => setTab('flagged')}
+          className={cx('inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium transition', tab === 'flagged' ? 'bg-forest text-paper shadow-sm' : 'text-muted hover:text-ink')}
+        >
+          Flagged <span className={cx('rounded-full px-1.5 py-0.5 text-[10px]', tab === 'flagged' ? 'bg-white/15' : 'bg-paper')}>{flagged.length}</span>
+        </button>
+        <button
+          type="button"
+          onClick={() => setTab('skipped')}
+          className={cx('inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs font-medium transition', tab === 'skipped' ? 'bg-forest text-paper shadow-sm' : 'text-muted hover:text-ink')}
+        >
+          Skipped <span className={cx('rounded-full px-1.5 py-0.5 text-[10px]', tab === 'skipped' ? 'bg-white/15' : 'bg-paper')}>{skipped.length}</span>
+        </button>
+      </div>
+
+      <div className="mt-4 flex flex-col gap-3 rounded-2xl border border-line bg-card p-3 sm:flex-row sm:items-center">
+        <div className="relative flex-1">
+          <Icon name="search" className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted" />
+          <input
+            type="search"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            placeholder={`Search ${tab === 'flagged' ? 'flagged' : 'skipped'} questions…`}
+            className="w-full rounded-xl border border-line bg-paper/60 py-2.5 pl-9 pr-3 text-sm text-ink outline-none transition placeholder:text-muted/70 focus:border-forest/40"
+          />
+        </div>
+        <select
+          value={subject}
+          onChange={(e) => setSubject(e.target.value)}
+          className="rounded-xl border border-line bg-paper/60 px-3 py-2.5 text-sm text-ink outline-none transition focus:border-forest/40"
+          aria-label="Filter by subject"
+        >
+          <option value="all">All subjects</option>
+          {SUBJECTS.map((s) => (
+            <option key={s.key} value={s.key}>
+              {s.short}
+            </option>
+          ))}
+        </select>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={toggleSelectAll}
+            disabled={!filtered.length}
+            className="rounded-xl border border-line bg-white px-3 py-2 text-xs font-medium text-muted transition hover:border-forest/30 hover:text-ink disabled:opacity-40"
+          >
+            {allVisibleSelected ? 'Clear selection' : 'Select all'}
+          </button>
+          <button
+            type="button"
+            onClick={() => setShowAnswers((v) => !v)}
+            className="inline-flex items-center gap-1.5 rounded-xl border border-line bg-white px-3 py-2 text-xs font-medium text-muted transition hover:border-forest/30 hover:text-ink"
+          >
+            <Icon name={showAnswers ? 'eyeOff' : 'eye'} className="h-3.5 w-3.5" /> {showAnswers ? 'Hide answers' : 'Show answers'}
+          </button>
+        </div>
+      </div>
+
+      <div className="mt-5 space-y-3">
+        {filtered.slice(0, visible).map((q) => (
+          <FlaggedCard
+            key={q.id}
+            question={q}
+            selected={selected.has(q.id)}
+            onSelect={() => toggleSelect(q.id)}
+            showAnswers={showAnswers}
+            onToggleFlag={toggleFlag}
+            tab={tab}
+          />
+        ))}
+      </div>
+
+      {filtered.length > visible && (
+        <div className="mt-5 text-center">
+          <button
+            type="button"
+            onClick={() => setVisible((v) => v + 18)}
+            className="rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-medium text-ink transition hover:border-forest/30 hover:bg-mint/40"
+          >
+            Show more ({filtered.length - visible} remaining)
+          </button>
+        </div>
+      )}
+
+      {filtered.length === 0 && (
+        <div className="mt-5">
+          {tab === 'flagged' ? (
+            <EmptyState
+              icon="flag"
+              title={flagged.length ? 'No matches in this view' : 'No flagged questions yet'}
+              description={flagged.length ? 'Try a different search or subject filter.' : 'Tap the flag on any question during a drill to keep it here for later.'}
+              action={
+                <button type="button" onClick={() => onNavigate('dashboard')} className="inline-flex items-center gap-2 rounded-xl bg-forest px-4 py-2.5 text-sm font-semibold text-paper transition hover:bg-forest-dark">
+                  Start a drill <Icon name="arrowRight" className="h-4 w-4" />
+                </button>
+              }
+            />
+          ) : (
+            <EmptyState
+              icon="skip"
+              title="No skipped questions"
+              description="When you skip a question during a drill, it lands here so you can come back to it."
+              action={
+                <button type="button" onClick={() => onNavigate('dashboard')} className="inline-flex items-center gap-2 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink transition hover:bg-mint/40">
+                  Back to practice <Icon name="arrowRight" className="h-4 w-4" />
+                </button>
+              }
+            />
+          )}
+        </div>
+      )}
+
+      {selected.size > 0 && (
+        <div className="sticky bottom-4 z-20 mt-5 flex items-center justify-between gap-3 rounded-2xl bg-ink px-4 py-3 text-paper shadow-lift">
+          <span className="text-sm">
+            {selected.size} question{selected.size === 1 ? '' : 's'} selected
+          </span>
+          <button
+            type="button"
+            onClick={exportSelected}
+            className="inline-flex items-center gap-2 rounded-xl bg-paper px-4 py-2 text-xs font-semibold text-ink transition hover:bg-white"
+          >
+            <Icon name="download" className="h-3.5 w-3.5" /> Export selected
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Summary                                                            */
+/* ------------------------------------------------------------------ */
+
+function ReviewItem({ question, answer, number, flagged, onToggleFlag }) {
+  const [open, setOpen] = useState(false);
+  const status = !answer ? 'skipped' : answer.correct ? 'correct' : 'wrong';
+  const statusMeta = {
+    correct: { icon: 'checkCircle', label: 'Correct', className: 'bg-mint text-forest' },
+    wrong: { icon: 'xCircle', label: 'Incorrect', className: 'bg-rose-soft text-rose' },
+    skipped: { icon: 'skip', label: 'Skipped', className: 'bg-paper text-muted' }
+  }[status];
+
+  return (
+    <div className={cx('overflow-hidden rounded-xl border bg-card transition', open ? 'border-forest/25 shadow-sm' : 'border-line')}>
+      <button type="button" onClick={() => setOpen((v) => !v)} aria-expanded={open} className="flex w-full items-start gap-3 px-4 py-3.5 text-left">
+        <span className={cx('mt-0.5 grid h-6 w-6 shrink-0 place-items-center rounded-full', statusMeta.className)}>
+          <Icon name={statusMeta.icon} className="h-3.5 w-3.5" strokeWidth={2.2} />
+        </span>
+        <span className="min-w-0 flex-1">
+          <span className="flex flex-wrap items-center gap-2 text-[10px] text-muted">
+            <span className="font-medium text-forest">{question.subject}</span>
+            <span>·</span>
+            <span className="truncate">{question.topic}</span>
+            {answer && answer.timedOut && <span className="rounded-full bg-rose-soft px-1.5 py-0.5 text-[9px] font-medium text-rose">Timed out</span>}
+            {flagged && <span className="text-amber">Flagged</span>}
+          </span>
+          <span className="mt-1 block text-sm font-medium leading-snug text-ink">
+            {number}. {question.question}
+          </span>
+        </span>
+        <span className="ml-2 hidden shrink-0 items-center gap-1 text-[10px] font-medium text-muted sm:flex">
+          {open ? 'Hide' : 'Review'}
+          <Icon name="chevronDown" className={cx('h-3 w-3 transition-transform', open && 'rotate-180')} />
+        </span>
+      </button>
+
+      {open && (
+        <div className="border-t border-line/70 px-4 py-4">
+          <div className="grid gap-1.5 sm:grid-cols-2">
+            {question.options.map((option, i) => {
+              const correct = i === question.correctIndex;
+              const selected = answer && answer.selectedIndex === i;
+              return (
+                <div
+                  key={i}
+                  className={cx(
+                    'flex items-start gap-2 rounded-lg border px-2.5 py-2 text-[13px] leading-relaxed',
+                    correct ? 'border-forest/30 bg-mint/70 text-ink' : selected ? 'border-rose/30 bg-rose-soft/70 text-ink' : 'border-line/70 bg-paper/40 text-muted'
+                  )}
+                >
+                  <span
+                    className={cx(
+                      'mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded border text-[10px] font-semibold',
+                      correct ? 'border-forest bg-forest text-paper' : selected ? 'border-rose bg-rose text-white' : 'border-line bg-white'
+                    )}
+                  >
+                    {correct ? <Icon name="check" className="h-2.5 w-2.5" strokeWidth={3} /> : selected ? <Icon name="x" className="h-2.5 w-2.5" strokeWidth={3} /> : OPTION_LETTERS[i]}
+                  </span>
+                  <span>{option}</span>
+                </div>
+              );
+            })}
+          </div>
+
+          <div className="mt-3 flex flex-wrap items-center gap-2 text-[11px]">
+            <span className="rounded-full bg-mint px-2 py-0.5 font-medium text-forest">Correct: {OPTION_LETTERS[question.correctIndex]}</span>
+            {answer && !answer.correct && (
+              <span className="rounded-full bg-rose-soft px-2 py-0.5 font-medium text-rose">
+                Your answer: {answer.selectedIndex != null ? OPTION_LETTERS[answer.selectedIndex] : 'No answer'}
+              </span>
+            )}
+            {status === 'skipped' && <span className="rounded-full bg-paper px-2 py-0.5 font-medium text-muted">Not answered</span>}
+          </div>
+
+          <div className="mt-3 rounded-xl bg-paper/70 p-3 text-[13px] leading-relaxed text-muted">
+            <span className="font-semibold text-ink">Explanation. </span>
+            {question.explanation}
+          </div>
+
+          <div className="mt-2 flex items-center justify-between gap-3">
+            <span className="text-[10px] text-muted/70">{question.source ? `Source: ${question.source}` : ''}</span>
+            <button
+              type="button"
+              onClick={() => onToggleFlag(question.id)}
+              className={cx('inline-flex items-center gap-1.5 rounded-lg px-2 py-1 text-[11px] font-medium transition', flagged ? 'text-amber hover:bg-amber-soft' : 'text-muted hover:bg-paper hover:text-amber')}
+            >
+              <Icon name="flag" className="h-3.5 w-3.5" /> {flagged ? 'Remove flag' : 'Flag for later'}
+            </button>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function Summary({ session, questionsById, flags, toggleFlag, onRetry, onNew, onNavigate }) {
+  const stats = getSessionStats(session);
+  const sessionQuestions = useMemo(
+    () => (session.questionIds || []).map((id) => questionsById[id]).filter(Boolean),
+    [questionsById, session.questionIds]
+  );
+
+  const wrongIds = useMemo(() => sessionQuestions.filter((q) => session.answers[q.id] && !session.answers[q.id].correct).map((q) => q.id), [session.answers, sessionQuestions]);
+  const skippedIds = useMemo(() => sessionQuestions.filter((q) => !session.answers[q.id]).map((q) => q.id), [session.answers, sessionQuestions]);
+  const missedIds = useMemo(() => [...wrongIds, ...skippedIds], [skippedIds, wrongIds]);
+  const flaggedSession = useMemo(() => sessionQuestions.filter((q) => flags.has(q.id)), [flags, sessionQuestions]);
+
+  const subjectRows = useMemo(() => {
+    const map = new Map();
+    sessionQuestions.forEach((q) => {
+      if (!map.has(q.subject)) map.set(q.subject, { subject: q.subject, total: 0, answered: 0, correct: 0, wrong: 0, skipped: 0 });
+      const row = map.get(q.subject);
+      row.total += 1;
+      const answer = session.answers[q.id];
+      if (answer) {
+        row.answered += 1;
+        if (answer.correct) row.correct += 1;
+        else row.wrong += 1;
+      } else {
+        row.skipped += 1;
+      }
+    });
+    return Array.from(map.values())
+      .map((row) => ({ ...row, accuracy: row.answered ? Math.round((row.correct / row.answered) * 100) : 0 }))
+      .sort((a, b) => {
+        const aUnanswered = a.answered === 0 ? 1 : 0;
+        const bUnanswered = b.answered === 0 ? 1 : 0;
+        return aUnanswered - bUnanswered || a.accuracy - b.accuracy || b.total - a.total;
+      });
+  }, [session.answers, sessionQuestions]);
+
+  const topicRows = useMemo(() => {
+    const map = new Map();
+    sessionQuestions.forEach((q) => {
+      const key = `${q.subject}||${q.topic}`;
+      if (!map.has(key)) map.set(key, { key, subject: q.subject, topic: q.topic, total: 0, answered: 0, correct: 0, wrong: 0, skipped: 0 });
+      const row = map.get(key);
+      row.total += 1;
+      const answer = session.answers[q.id];
+      if (answer) {
+        row.answered += 1;
+        if (answer.correct) row.correct += 1;
+        else row.wrong += 1;
+      } else {
+        row.skipped += 1;
+      }
+    });
+    return Array.from(map.values())
+      .map((row) => ({ ...row, accuracy: row.answered ? Math.round((row.correct / row.answered) * 100) : 0 }))
+      .sort((a, b) => {
+        const aUnanswered = a.answered === 0 ? 1 : 0;
+        const bUnanswered = b.answered === 0 ? 1 : 0;
+        return aUnanswered - bUnanswered || a.accuracy - b.accuracy || b.answered - a.answered;
+      });
+  }, [session.answers, sessionQuestions]);
+
+  const weakTopics = topicRows.filter((row) => row.answered > 0 && row.accuracy < 70).slice(0, 3);
+
+  const [reviewFilter, setReviewFilter] = useState('all');
+  const [showAllTopics, setShowAllTopics] = useState(false);
+  const [visibleReview, setVisibleReview] = useState(12);
+
+  useEffect(() => {
+    setVisibleReview(12);
+  }, [reviewFilter]);
+
+  const filters = [
+    { key: 'all', label: 'All', count: sessionQuestions.length },
+    { key: 'wrong', label: 'Incorrect', count: wrongIds.length },
+    { key: 'skipped', label: 'Skipped', count: skippedIds.length },
+    { key: 'flagged', label: 'Flagged', count: flaggedSession.length }
+  ];
+
+  const reviewItems = sessionQuestions.filter((q) => {
+    const answer = session.answers[q.id];
+    if (reviewFilter === 'wrong') return answer && !answer.correct;
+    if (reviewFilter === 'skipped') return !answer;
+    if (reviewFilter === 'flagged') return flags.has(q.id);
+    return true;
+  });
+
+  const accuracyClass = (value) => (value >= 70 ? 'text-forest' : value >= 40 ? 'text-amber' : 'text-rose');
+
+  return (
+    <div className="relative z-10 pt-10">
+      <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+        <div>
+          <p className="text-xs font-medium text-forest">
+            Drill complete · {new Date(session.finishedAt || Date.now()).toLocaleDateString(undefined, { month: 'short', day: 'numeric' })}
+          </p>
+          <h1 className="mt-2 font-display text-5xl leading-[0.98] text-ink md:text-6xl">A clear read on where you stand.</h1>
+          <p className="mt-2 text-sm text-muted">
+            {stats.total} questions · {formatClock(stats.elapsed)} elapsed · {session.config && session.config.mode === 'timed' ? 'Timed drill' : 'Relaxed practice'}
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <button
+            type="button"
+            onClick={() => onRetry(missedIds)}
+            disabled={!missedIds.length}
+            className="inline-flex items-center gap-2 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink transition hover:border-forest/30 hover:bg-mint/40 disabled:opacity-40"
+          >
+            <Icon name="rotate" className="h-4 w-4" /> Retry missed ({missedIds.length})
+          </button>
+          <button
+            type="button"
+            onClick={() => onNavigate('flagged')}
+            className="inline-flex items-center gap-2 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink transition hover:border-amber/30 hover:bg-amber-soft disabled:opacity-40"
+          >
+            <Icon name="flag" className="h-4 w-4" /> Flagged ({flaggedSession.length})
+          </button>
+          <button
+            type="button"
+            onClick={onNew}
+            className="inline-flex items-center gap-2 rounded-xl bg-forest px-4 py-2.5 text-sm font-semibold text-paper transition hover:bg-forest-dark"
+          >
+            <Icon name="plus" className="h-4 w-4" /> New drill
+          </button>
+        </div>
+      </div>
+
+      <div className="mt-8 grid gap-4 lg:grid-cols-[1.05fr_.95fr]">
+        <div className="rounded-[28px] border border-line bg-card p-6 shadow-card md:p-8">
+          <div className="flex flex-col items-center gap-6 sm:flex-row">
+            <AccuracyRing value={stats.accuracy} />
+            <div className="min-w-0 text-center sm:text-left">
+              <div className="text-xs font-medium text-forest">Your result</div>
+              <div className="mt-1 font-display text-4xl leading-none text-ink">
+                {stats.correct} <span className="text-2xl text-muted">/ {stats.total}</span>
+              </div>
+              <p className="mt-2 text-sm text-muted">correct answers</p>
+              <div className="mt-4 flex flex-wrap justify-center gap-2 sm:justify-start">
+                <span className="rounded-full bg-mint px-3 py-1 text-xs font-medium text-forest">{stats.answered} attempted</span>
+                <span className="rounded-full bg-rose-soft px-3 py-1 text-xs font-medium text-rose">{stats.wrong} incorrect</span>
+                <span className="rounded-full bg-paper px-3 py-1 text-xs font-medium text-muted">{stats.skipped} skipped</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-2 gap-3">
+          <StatCard label="Accuracy" value={`${stats.accuracy}%`} sub="of attempted" icon="target" tone="forest" />
+          <StatCard label="Time" value={formatClock(stats.elapsed)} sub="elapsed" icon="clock" />
+          <StatCard label="Flagged" value={flaggedSession.length} sub="in this drill" icon="flag" tone="amber" />
+          <StatCard label="Completion" value={`${stats.completion}%`} sub={`${stats.answered}/${stats.total}`} icon="checkCircle" />
+        </div>
+      </div>
+
+      {stats.answered === 0 ? (
+        <section className="mt-6 flex items-center gap-3 rounded-2xl border border-line bg-card p-5">
+          <div className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-paper text-muted">
+            <Icon name="info" className="h-4 w-4" />
+          </div>
+          <div>
+            <h2 className="text-sm font-semibold text-ink">No questions attempted</h2>
+            <p className="text-xs text-muted">This drill ended before an answer was recorded. Start a fresh one when you’re ready.</p>
+          </div>
+        </section>
+      ) : weakTopics.length > 0 ? (
+        <section className="mt-6 rounded-2xl border border-amber/20 bg-amber-soft/50 p-5">
+          <div className="flex items-center gap-2">
+            <Icon name="target" className="h-4 w-4 text-amber" />
+            <h2 className="text-sm font-semibold text-ink">Focus next on</h2>
+          </div>
+          <div className="mt-3 grid gap-2 sm:grid-cols-3">
+            {weakTopics.map((topic) => (
+              <div key={topic.key} className="rounded-xl border border-amber/15 bg-card/80 p-3">
+                <div className="text-[10px] text-muted">{topic.subject}</div>
+                <div className="mt-1 text-sm font-medium leading-snug text-ink">{topic.topic}</div>
+                <div className="mt-1 text-xs font-medium text-amber">
+                  {topic.accuracy}% · {topic.correct}/{topic.answered}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      ) : (
+        <section className="mt-6 flex items-center gap-3 rounded-2xl border border-forest/15 bg-mint/50 p-5">
+          <div className="grid h-9 w-9 shrink-0 place-items-center rounded-full bg-forest text-paper">
+            <Icon name="spark" className="h-4 w-4" />
+          </div>
+          <div>
+            <h2 className="text-sm font-semibold text-ink">No weak areas in this drill.</h2>
+            <p className="text-xs text-muted">Every topic you attempted landed at 70% or above.</p>
+          </div>
+        </section>
+      )}
+
+      <section className="mt-10">
+        <SectionHeading eyebrow="By subject" title="Where the marks came from" description="Accuracy is calculated from the questions you answered." />
+        <div className="mt-4 overflow-hidden rounded-2xl border border-line bg-card">
+          <div className="hidden grid-cols-[1.4fr_.7fr_.5fr_1fr] gap-4 border-b border-line px-4 py-3 text-[10px] font-medium text-muted sm:grid">
+            <span>Subject</span>
+            <span>Correct</span>
+            <span>Accuracy</span>
+            <span>Distribution</span>
+          </div>
+          {subjectRows.map((row) => (
+            <div key={row.subject} className="grid gap-3 border-b border-line px-4 py-4 last:border-0 sm:grid-cols-[1.4fr_.7fr_.5fr_1fr] sm:items-center sm:gap-4">
+              <div className="flex items-center gap-2.5">
+                <span className="grid h-8 w-8 shrink-0 place-items-center rounded-lg bg-mint text-forest">
+                  <SubjectIcon subject={row.subject} className="h-4 w-4" />
+                </span>
+                <div>
+                  <div className="text-sm font-medium text-ink">{SUBJECT_MAP[row.subject] ? SUBJECT_MAP[row.subject].short : row.subject}</div>
+                  <div className="text-[10px] text-muted">{row.total} questions</div>
+                </div>
+              </div>
+              <div className="text-xs text-muted">
+                {row.answered ? (
+                  <>
+                    <span className="font-medium text-ink">{row.correct}</span> / {row.answered} correct
+                  </>
+                ) : (
+                  'Not attempted'
+                )}
+              </div>
+              <div className={cx('text-sm font-semibold', row.answered ? accuracyClass(row.accuracy) : 'text-muted')}>{row.answered ? `${row.accuracy}%` : '—'}</div>
+              <div>
+                <BreakdownBar correct={row.correct} wrong={row.wrong} total={row.total} />
+                <div className="mt-1 text-[10px] text-muted">{row.skipped} skipped</div>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <SectionHeading
+          eyebrow="By topic"
+          title="The fine-grained picture"
+          description="Weakest topics appear first."
+          right={
+            topicRows.length > 8 ? (
+              <button
+                type="button"
+                onClick={() => setShowAllTopics((v) => !v)}
+                className="rounded-lg px-2.5 py-1.5 text-xs font-medium text-forest transition hover:bg-mint/60"
+              >
+                {showAllTopics ? 'Show fewer' : `Show all ${topicRows.length} topics`}
+              </button>
+            ) : null
+          }
+        />
+        <div className="mt-4 grid gap-2.5 sm:grid-cols-2">
+          {(showAllTopics ? topicRows : topicRows.slice(0, 8)).map((row) => (
+            <div key={row.key} className="rounded-xl border border-line bg-card p-3.5">
+              <div className="flex items-start justify-between gap-3">
+                <div className="min-w-0">
+                  <div className="text-[10px] text-muted">{SUBJECT_MAP[row.subject] ? SUBJECT_MAP[row.subject].short : row.subject}</div>
+                  <div className="truncate text-sm font-medium text-ink" title={row.topic}>
+                    {row.topic}
+                  </div>
+                </div>
+                <span className={cx('shrink-0 text-sm font-semibold', row.answered ? accuracyClass(row.accuracy) : 'text-muted')}>{row.answered ? `${row.accuracy}%` : '—'}</span>
+              </div>
+              <div className="mt-2">
+                <BreakdownBar correct={row.correct} wrong={row.wrong} total={row.total} />
+              </div>
+              <div className="mt-1.5 text-[10px] text-muted">
+                {row.answered ? `${row.correct}/${row.answered} correct · ${row.skipped} skipped` : `Not attempted · ${row.skipped} skipped`}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-10">
+        <SectionHeading eyebrow="Review" title="Go back through the drill" description="Expand any question to see the answer and explanation." />
+
+        <div className="mt-4 flex flex-wrap gap-1.5">
+          {filters.map((filter) => (
+            <button
+              key={filter.key}
+              type="button"
+              onClick={() => setReviewFilter(filter.key)}
+              className={cx(
+                'inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-xs font-medium transition',
+                reviewFilter === filter.key ? 'border-forest bg-forest text-paper' : 'border-line bg-card text-muted hover:border-forest/30 hover:text-ink'
+              )}
+            >
+              {filter.label}
+              <span className={cx('rounded-full px-1.5 py-0.5 text-[10px]', reviewFilter === filter.key ? 'bg-white/15' : 'bg-paper')}>{filter.count}</span>
+            </button>
+          ))}
+        </div>
+
+        <div className="mt-4 space-y-2.5">
+          {reviewItems.slice(0, visibleReview).map((q) => (
+            <ReviewItem
+              key={q.id}
+              question={q}
+              answer={session.answers[q.id] || null}
+              number={session.questionIds.indexOf(q.id) + 1}
+              flagged={flags.has(q.id)}
+              onToggleFlag={toggleFlag}
+            />
+          ))}
+        </div>
+
+        {reviewItems.length > visibleReview && (
+          <div className="mt-5 text-center">
+            <button
+              type="button"
+              onClick={() => setVisibleReview((v) => v + 15)}
+              className="rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-medium text-ink transition hover:border-forest/30 hover:bg-mint/40"
+            >
+              Show more ({reviewItems.length - visibleReview} remaining)
+            </button>
+          </div>
+        )}
+
+        {reviewItems.length === 0 && (
+          <div className="mt-4">
+            <EmptyState icon="checkCircle" title="Nothing in this filter" description="Try another view to keep reviewing the drill." />
+          </div>
+        )}
+      </section>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  Print sheet                                                        */
+/* ------------------------------------------------------------------ */
+
+function PrintSheet({ data }) {
+  const generatedAt = data.generatedAt || new Date();
+  return (
+    <div className="print-sheet">
+      <header className="print-header">
+        <div className="print-brand">Cadence</div>
+        <div className="print-meta">
+          <div className="print-title">{data.title}</div>
+          <div>{data.subtitle}</div>
+          <div>{generatedAt.toLocaleDateString(undefined, { year: 'numeric', month: 'long', day: 'numeric' })}</div>
+        </div>
+      </header>
+
+      <div className="print-name">Name: ______________________________ &nbsp;&nbsp; Date: ______________</div>
+
+      <ol className="print-list">
+        {data.questions.map((q, index) => (
+          <li key={q.id} className="print-item">
+            <div className="print-qmeta">
+              {q.subject} · {q.topic}
+            </div>
+            <div className="print-question">
+              {index + 1}. {q.question}
+            </div>
+            <div className="print-options">
+              {q.options.map((option, i) => (
+                <div key={i} className={cx('print-option', i === q.correctIndex && 'correct')}>
+                  <span className="print-letter">{OPTION_LETTERS[i]}.</span> {option}
+                  {i === q.correctIndex && <span className="print-check"> ✓</span>}
+                </div>
+              ))}
+            </div>
+            <div className="print-explanation">
+              <strong>Why:</strong> {q.explanation}
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      <footer className="print-footer">Generated with Cadence · DUHS entrance practice</footer>
+    </div>
+  );
+}
+
+/* ------------------------------------------------------------------ */
+/*  App                                                                */
+/* ------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------ */
+/*  v2 additions: context, theme, notes, navigator, bank, history      */
+/* ------------------------------------------------------------------ */
+
+const AppCtx = React.createContext({ theme: 'light', toggleTheme: () => {}, notes: {}, setNote: () => {} });
+
+function ThemeToggle({ className = '' }) {
+  const { theme, toggleTheme } = React.useContext(AppCtx);
+  const dark = theme === 'dark';
+  return (
+    <button
+      type="button"
+      onClick={toggleTheme}
+      aria-label={dark ? 'Switch to light mode' : 'Switch to dark mode'}
+      title={dark ? 'Light mode' : 'Dark mode'}
+      className={cx('grid h-10 w-10 shrink-0 place-items-center rounded-full border border-line bg-card text-ink transition hover:bg-mint', className)}
+    >
+      <Icon name={dark ? 'sun' : 'moon'} className="h-4 w-4" />
+    </button>
+  );
+}
+
+class ErrorBoundary extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { err: null };
+  }
+  static getDerivedStateFromError(err) {
+    return { err };
+  }
+  render() {
+    if (!this.state.err) return this.props.children;
+    const reset = () => {
+      removeStorage(STORAGE.session);
+      window.location.reload();
+    };
+    return (
+      <div className="grid min-h-screen place-items-center bg-paper px-6">
+        <div className="max-w-md text-center">
+          <h1 className="font-display text-4xl text-ink">Something went wrong.</h1>
+          <p className="mt-2 text-sm leading-relaxed text-muted">The app hit an unexpected error. Your history and notes are safe. If it keeps happening, clear the current session.</p>
+          <pre className="mt-4 overflow-auto rounded-xl bg-ink p-3 text-left font-mono text-[11px] text-paper/80">{String((this.state.err && this.state.err.message) || this.state.err)}</pre>
+          <div className="mt-5 flex justify-center gap-2">
+            <button type="button" onClick={() => window.location.reload()} className="rounded-xl bg-forest px-4 py-2.5 text-sm font-semibold text-paper">Reload</button>
+            <button type="button" onClick={reset} className="rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink">Clear session &amp; reload</button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
+
+let HEALTH_DISMISSED = false;
+function DataHealth({ info }) {
+  const [hidden, setHidden] = useState(HEALTH_DISMISSED);
+  const [open, setOpen] = useState(false);
+  const failed = (info && info.failed) || [];
+  const dropped = (info && info.dropped) || [];
+  if (hidden || (!failed.length && !dropped.length)) return null;
+  return (
+    <div role="alert" className="mt-5 rounded-2xl border border-amber/50 bg-amber-soft p-4 text-sm text-ink">
+      <div className="flex items-start gap-3">
+        <Icon name="alert" className="mt-0.5 h-5 w-5 shrink-0 text-amber" />
+        <div className="min-w-0 flex-1">
+          <p className="font-semibold">Some data was skipped while loading.</p>
+          <p className="mt-0.5 text-xs text-muted">
+            {failed.length} file{failed.length === 1 ? '' : 's'} unreadable · {dropped.length} question{dropped.length === 1 ? '' : 's'} rejected
+            {info.duplicates ? ` · ${info.duplicates} duplicate${info.duplicates === 1 ? '' : 's'} merged` : ''}
+          </p>
+          <button type="button" onClick={() => setOpen(!open)} className="mt-2 text-xs font-semibold text-forest underline">{open ? 'Hide details' : 'Show details'}</button>
+          {open && (
+            <ul className="mt-2 max-h-56 space-y-1 overflow-auto rounded-lg border border-line bg-card p-3 font-mono text-[11px] leading-relaxed text-muted">
+              {failed.map((f, i) => <li key={`f${i}`}><span className="text-rose">FILE</span> {f.file} — {f.message}</li>)}
+              {dropped.slice(0, 60).map((d, i) => (
+                <li key={`d${i}`}><span className="text-amber">#{d.index + 1}</span> {String(d.file).split('/').pop()}: {d.reason}{d.preview ? ` — “${d.preview}”` : ''}</li>
+              ))}
+              {dropped.length > 60 && <li>…and {dropped.length - 60} more.</li>}
+            </ul>
+          )}
+        </div>
+        <button type="button" aria-label="Dismiss" onClick={() => { HEALTH_DISMISSED = true; setHidden(true); }} className="grid h-9 w-9 shrink-0 place-items-center rounded-full text-muted hover:bg-line/50">
+          <Icon name="x" className="h-4 w-4" />
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Notes & tags on flagged questions ---------- */
+
+const NOTE_TAGS = ['Concept gap', 'Careless slip', 'Memorise', 'Guessed', 'Revisit'];
+
+function NoteEditor({ id }) {
+  const { notes, setNote } = React.useContext(AppCtx);
+  const entry = notes[id] || { text: '', tags: [] };
+  const tags = entry.tags || [];
+  const [open, setOpen] = useState(!!(entry.text || tags.length));
+  const [text, setText] = useState(entry.text || '');
+  const textRef = useRef(text);
+  const dirty = useRef(false);
+  textRef.current = text;
+
+  useEffect(() => {
+    if (!dirty.current) return undefined;
+    const t = setTimeout(() => {
+      setNote(id, { text });
+      dirty.current = false;
+    }, 350);
+    return () => clearTimeout(t);
+  }, [text, id, setNote]);
+
+  useEffect(
+    () => () => {
+      if (dirty.current) setNote(id, { text: textRef.current });
+    },
+    [id, setNote]
+  );
+
+  const toggleTag = (tag) => setNote(id, { tags: tags.includes(tag) ? tags.filter((t) => t !== tag) : [...tags, tag] });
+
+  if (!open) {
+    return (
+      <button type="button" onClick={() => setOpen(true)} className="mt-4 inline-flex items-center gap-1.5 rounded-lg border border-dashed border-line px-3 py-2 text-xs font-medium text-muted transition hover:border-amber hover:text-amber">
+        <Icon name="edit" className="h-3.5 w-3.5" /> Add note or tag
+      </button>
+    );
+  }
+  return (
+    <div className="mt-4 rounded-xl border border-amber/40 bg-amber-soft/70 p-3">
+      <div className="flex flex-wrap gap-1.5" role="group" aria-label="Tags">
+        {NOTE_TAGS.map((tag) => (
+          <ChoiceChip key={tag} tone="clay" active={tags.includes(tag)} onClick={() => toggleTag(tag)}>{tag}</ChoiceChip>
+        ))}
+      </div>
+      <textarea
+        value={text}
+        onChange={(e) => {
+          dirty.current = true;
+          setText(e.target.value);
+        }}
+        maxLength={500}
+        rows={2}
+        aria-label="Personal note"
+        placeholder="Why did this trip you up? What will you remember next time?"
+        className="mt-2 w-full resize-y rounded-lg border border-line bg-white px-3 py-2 text-base text-ink placeholder:text-muted focus:border-forest focus:outline-none sm:text-sm"
+      />
+    </div>
+  );
+}
+
+/* ---------- Question navigator (jump grid) ---------- */
+
+const NAV_TONES = {
+  correct: 'border-forest bg-mint text-forest',
+  wrong: 'border-rose bg-rose-soft text-rose',
+  timeout: 'border-dashed border-rose bg-rose-soft text-rose',
+  skipped: 'border-amber bg-amber-soft text-amber',
+  open: 'border-line bg-card text-ink hover:border-forest/60'
+};
+
+function QuestionNavigator({ ids, session, index, flags, onJump, onClose, onFinish }) {
+  const [filter, setFilter] = useState('all');
+  const [confirmFinish, setConfirmFinish] = useState(false);
+
+  useEffect(() => {
+    const onKey = (e) => {
+      if (e.key === 'Escape' || e.key.toLowerCase() === 'g') {
+        e.preventDefault();
+        onClose();
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [onClose]);
+
+  const items = ids.map((id, i) => {
+    const a = session.answers[id];
+    const status = a ? (a.timedOut ? 'timeout' : a.correct ? 'correct' : 'wrong') : session.skipped && session.skipped[id] ? 'skipped' : 'open';
+    return { id, i, status, flagged: flags.has(id) };
+  });
+  const isOpen = (x) => x.status === 'open' || x.status === 'skipped';
+  const unanswered = items.filter(isOpen).length;
+  const answered = items.length - unanswered;
+  const nextOpen = items.find((x) => x.i > index && isOpen(x)) || items.find(isOpen);
+  const shown = items.filter((x) => (filter === 'all' ? true : filter === 'unanswered' ? isOpen(x) : filter === 'skipped' ? x.status === 'skipped' : x.flagged));
+  const nSkipped = items.filter((x) => x.status === 'skipped').length;
+  const nFlagged = items.filter((x) => x.flagged).length;
+
+  return (
+    <div className="fixed inset-0 z-50" role="dialog" aria-modal="true" aria-label="Question navigator">
+      <div className="absolute inset-0 animate-fade-up bg-black/55" onClick={onClose} />
+      <div className="absolute inset-x-0 bottom-0 flex max-h-[88vh] animate-pop flex-col rounded-t-[28px] border border-line bg-card shadow-lift sm:inset-y-0 sm:left-auto sm:right-0 sm:max-h-none sm:w-[420px] sm:rounded-l-[28px] sm:rounded-tr-none">
+        <div className="flex items-center justify-between gap-3 border-b border-line px-5 py-4">
+          <div>
+            <h2 className="font-display text-2xl leading-tight text-ink">Jump to question</h2>
+            <p className="text-xs text-muted">{answered} of {items.length} answered · press <Kbd>G</Kbd> to toggle</p>
+          </div>
+          <div className="flex items-center gap-2">
+            <ThemeToggle />
+            <button type="button" onClick={onClose} aria-label="Close navigator" className="grid h-10 w-10 place-items-center rounded-full border border-line bg-card text-ink hover:bg-mint">
+              <Icon name="x" className="h-4 w-4" />
+            </button>
+          </div>
+        </div>
+
+        <div className="flex-1 overflow-y-auto px-5 py-4">
+          <div className="flex flex-wrap gap-1.5">
+            <ChoiceChip active={filter === 'all'} onClick={() => setFilter('all')}>All</ChoiceChip>
+            <ChoiceChip active={filter === 'unanswered'} onClick={() => setFilter('unanswered')}>Unanswered ({unanswered})</ChoiceChip>
+            <ChoiceChip active={filter === 'skipped'} onClick={() => setFilter('skipped')}>Skipped ({nSkipped})</ChoiceChip>
+            <ChoiceChip active={filter === 'flagged'} onClick={() => setFilter('flagged')}>Flagged ({nFlagged})</ChoiceChip>
+          </div>
+
+          <div className="mt-4 grid grid-cols-[repeat(auto-fill,minmax(46px,1fr))] gap-2">
+            {shown.map((x) => (
+              <button
+                key={x.id}
+                type="button"
+                onClick={() => onJump(x.i)}
+                aria-label={`Question ${x.i + 1}: ${x.status === 'open' ? 'unanswered' : x.status}${x.flagged ? ', flagged' : ''}`}
+                aria-current={x.i === index ? 'true' : undefined}
+                className={cx(
+                  'relative h-11 min-w-[46px] rounded-xl border text-sm font-semibold tabular transition',
+                  NAV_TONES[x.status],
+                  x.i === index && 'ring-2 ring-forest ring-offset-2 ring-offset-card'
+                )}
+              >
+                {x.i + 1}
+                {x.status === 'correct' && <Icon name="check" className="absolute bottom-0.5 right-0.5 h-2.5 w-2.5" strokeWidth={3} />}
+                {(x.status === 'wrong' || x.status === 'timeout') && <Icon name="x" className="absolute bottom-0.5 right-0.5 h-2.5 w-2.5" strokeWidth={3} />}
+                {x.flagged && <span className="absolute -right-1 -top-1 h-3 w-3 rounded-full border-2 border-card bg-amber" />}
+              </button>
+            ))}
+          </div>
+          {!shown.length && <p className="mt-6 text-center text-sm text-muted">Nothing matches this filter.</p>}
+
+          <div className="mt-5 flex flex-wrap gap-x-4 gap-y-1.5 text-[11px] text-muted">
+            <span><b className="text-forest">✓</b> correct</span>
+            <span><b className="text-rose">✕</b> wrong</span>
+            <span><b className="text-amber">▢</b> skipped</span>
+            <span>▢ unanswered</span>
+            <span><b className="text-amber">●</b> flagged</span>
+          </div>
+        </div>
+
+        <div className="space-y-2 border-t border-line px-5 py-4 pb-[max(1rem,env(safe-area-inset-bottom))]">
+          {nextOpen && (
+            <button type="button" onClick={() => onJump(nextOpen.i)} className="flex w-full items-center justify-center gap-2 rounded-xl border border-line bg-card px-4 py-3 text-sm font-semibold text-ink transition hover:bg-mint/50">
+              Go to next unanswered ({nextOpen.i + 1}) <Icon name="arrowRight" className="h-4 w-4" />
+            </button>
+          )}
+          {!confirmFinish ? (
+            <button type="button" onClick={() => (unanswered > 0 ? setConfirmFinish(true) : onFinish('complete'))} className="flex w-full items-center justify-center gap-2 rounded-xl bg-forest px-4 py-3 text-sm font-semibold text-paper transition hover:bg-forest-dark">
+              {unanswered > 0 ? `Finish with ${unanswered} unanswered` : 'Finish & see results'}
+            </button>
+          ) : (
+            <div className="rounded-xl border border-amber/40 bg-amber-soft p-3">
+              <p className="text-xs text-ink">{unanswered} question{unanswered === 1 ? ' is' : 's are'} still unanswered. They will count as skipped.</p>
+              <div className="mt-2 flex gap-2">
+                <button type="button" onClick={() => setConfirmFinish(false)} className="flex-1 rounded-lg border border-line bg-card px-3 py-2.5 text-xs font-semibold text-ink">Keep practising</button>
+                <button type="button" onClick={() => onFinish('complete')} className="flex-1 rounded-lg bg-forest px-3 py-2.5 text-xs font-semibold text-paper">Finish anyway</button>
+              </div>
+            </div>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ---------- Question bank explorer ---------- */
+
+const BankCard = React.memo(function BankCard({ q, stat, flagged, revealed, toggleFlag, toggleOpen }) {
+  const { notes } = React.useContext(AppCtx);
+  return (
+    <article className="rounded-2xl border border-line bg-card p-4 shadow-card sm:p-5">
+      <div className="flex items-start justify-between gap-3">
+        <div className="min-w-0">
+          <div className="flex flex-wrap items-center gap-2 text-[11px] text-muted">
+            <span className="flex items-center gap-1.5 font-medium text-forest">
+              <SubjectIcon subject={q.subject} className="h-3.5 w-3.5" /> {q.subject}
+            </span>
+            <span>·</span>
+            <span>{q.topic}</span>
+            {stat && stat.wrong > 0 && <span className="rounded-full bg-rose-soft px-2 py-0.5 font-medium text-rose">Missed {stat.wrong}×</span>}
+            {stat && stat.right > 0 && <span className="rounded-full bg-mint px-2 py-0.5 font-medium text-forest">Correct {stat.right}×</span>}
+            {!stat && <span className="rounded-full border border-line px-2 py-0.5">New</span>}
+          </div>
+          <h3 className="mt-2 font-serif text-[19px] font-semibold leading-snug text-ink">{q.question}</h3>
+        </div>
+        <button
+          type="button"
+          onClick={() => toggleFlag(q.id)}
+          aria-pressed={flagged}
+          aria-label={flagged ? 'Remove flag' : 'Flag question'}
+          className={cx('grid h-10 w-10 shrink-0 place-items-center rounded-full border transition', flagged ? 'border-amber/40 bg-amber-soft text-amber' : 'border-line bg-card text-muted hover:border-amber/40 hover:text-amber')}
+        >
+          <Icon name="flag" className="h-4 w-4" />
+        </button>
+      </div>
+
+      <div className="mt-3 grid gap-1.5 sm:grid-cols-2">
+        {q.options.map((option, i) => {
+          const correct = revealed && i === q.correctIndex;
+          return (
+            <div key={i} className={cx('flex items-start gap-2 rounded-lg border px-2.5 py-2 text-[13px] leading-relaxed', correct ? 'border-forest/60 bg-mint text-ink' : 'border-line bg-paper/40 text-muted')}>
+              <span className={cx('mt-0.5 grid h-5 w-5 shrink-0 place-items-center rounded border text-[10px] font-semibold', correct ? 'border-forest bg-forest text-paper' : 'border-line bg-white')}>
+                {correct ? <Icon name="check" className="h-2.5 w-2.5" strokeWidth={3} /> : OPTION_LETTERS[i]}
+              </span>
+              <span>{option}</span>
+            </div>
+          );
+        })}
+      </div>
+
+      <button type="button" onClick={() => toggleOpen(q.id)} aria-expanded={revealed} className="mt-3 inline-flex items-center gap-1.5 rounded-lg px-2.5 py-2 text-xs font-semibold text-forest transition hover:bg-mint/60">
+        <Icon name={revealed ? 'eyeOff' : 'eye'} className="h-4 w-4" /> {revealed ? 'Hide answer' : 'Show answer & explanation'}
+      </button>
+      {revealed && (
+        <div className="mt-2 rounded-xl border border-forest/25 bg-mint/50 p-3 text-[13px] leading-relaxed text-ink">
+          <span className="font-semibold text-forest">Why: </span>
+          {q.explanation}
+        </div>
+      )}
+      {(flagged || notes[q.id]) && <NoteEditor key={q.id} id={q.id} />}
+      {q.source && <div className="mt-2 text-[10px] text-muted">Source: {q.source}</div>}
+    </article>
+  );
+});
+
+function QuestionBank({ questions, flags, toggleFlag, qStats }) {
+  const { notes } = React.useContext(AppCtx);
+  const [search, setSearch] = useState('');
+  const deferred = React.useDeferredValue(search);
+  const [subject, setSubject] = useState('all');
+  const [topic, setTopic] = useState('all');
+  const [scope, setScope] = useState('all');
+  const [showAll, setShowAll] = useState(false);
+  const [open, setOpen] = useState({});
+  const [visible, setVisible] = useState(25);
+  const searchRef = useRef(null);
+
+  const topics = useMemo(() => {
+    const set = new Set();
+    questions.forEach((q) => {
+      if (subject === 'all' || q.subject === subject) set.add(q.topic);
+    });
+    return Array.from(set).sort((a, b) => a.localeCompare(b));
+  }, [questions, subject]);
+
+  useEffect(() => setTopic('all'), [subject]);
+  useEffect(() => setVisible(25), [deferred, subject, topic, scope]);
+  useEffect(() => {
+    const onKey = (e) => {
+      const tag = (document.activeElement && document.activeElement.tagName) || '';
+      if (e.key === '/' && !/INPUT|TEXTAREA|SELECT/.test(tag)) {
+        e.preventDefault();
+        if (searchRef.current) searchRef.current.focus();
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, []);
+
+  const filtered = useMemo(() => {
+    const needle = deferred.trim().toLowerCase();
+    return questions.filter((q) => {
+      if (subject !== 'all' && q.subject !== subject) return false;
+      if (topic !== 'all' && q.topic !== topic) return false;
+      const st = qStats[q.id];
+      if (scope === 'flagged' && !flags.has(q.id)) return false;
+      if (scope === 'missed' && !(st && st.wrong > 0)) return false;
+      if (scope === 'new' && st) return false;
+      if (!needle) return true;
+      const n = notes[q.id];
+      const hay = `${q.question} ${q.topic} ${q.options.join(' ')} ${n ? `${n.text} ${(n.tags || []).join(' ')}` : ''}`;
+      return hay.toLowerCase().includes(needle);
+    });
+  }, [questions, deferred, subject, topic, scope, qStats, flags, notes]);
+
+  const toggleOpen = useCallback((id) => setOpen((p) => ({ ...p, [id]: !p[id] })), []);
+
+  return (
+    <div className="relative z-10 pt-10">
+      <p className="text-xs font-medium text-forest">Study freely</p>
+      <h1 className="mt-2 font-display text-5xl leading-[0.98] text-ink md:text-6xl">Question bank.</h1>
+      <p className="mt-2 max-w-xl text-sm leading-relaxed text-muted">Search every question, filter by subject and topic, and read answers on demand. No timer, no pressure.</p>
+
+      <div className="sticky top-[72px] z-20 -mx-5 mt-6 border-y border-line bg-paper/95 px-5 py-3 backdrop-blur-xl md:top-[72px]">
+        <div className="flex flex-col gap-2 md:flex-row">
+          <label className="relative block flex-1">
+            <span className="sr-only">Search questions</span>
+            <Icon name="search" className="pointer-events-none absolute left-3.5 top-1/2 h-4 w-4 -translate-y-1/2 text-muted" />
+            <input
+              ref={searchRef}
+              type="search"
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+              placeholder="Search questions, options, topics, notes…  ( / )"
+              className="h-12 w-full rounded-xl border border-line bg-card pl-10 pr-3 text-base text-ink placeholder:text-muted focus:border-forest focus:outline-none sm:text-sm"
+            />
+          </label>
+          <select value={topic} onChange={(e) => setTopic(e.target.value)} aria-label="Filter by topic" className="h-12 rounded-xl border border-line bg-card px-3 text-base text-ink focus:border-forest focus:outline-none sm:text-sm md:w-56">
+            <option value="all">All topics ({topics.length})</option>
+            {topics.map((t) => <option key={t} value={t}>{t}</option>)}
+          </select>
+        </div>
+        <div className="mt-2 flex gap-1.5 overflow-x-auto pb-1">
+          <ChoiceChip active={subject === 'all'} onClick={() => setSubject('all')}>All subjects</ChoiceChip>
+          {SUBJECTS.map((s) => <ChoiceChip key={s.key} active={subject === s.key} onClick={() => setSubject(s.key)}>{s.short}</ChoiceChip>)}
+        </div>
+        <div className="mt-1 flex flex-wrap items-center gap-1.5">
+          {[['all', 'Everything'], ['flagged', 'Flagged'], ['missed', 'Missed before'], ['new', 'Not attempted']].map(([k, label]) => (
+            <ChoiceChip key={k} tone="clay" active={scope === k} onClick={() => setScope(k)}>{label}</ChoiceChip>
+          ))}
+          <span className="ml-auto flex items-center gap-2 text-xs text-muted">
+            Show all answers <Toggle checked={showAll} onChange={() => setShowAll(!showAll)} label="Show all answers" />
+          </span>
+        </div>
+      </div>
+
+      <p className="mt-4 text-xs text-muted" aria-live="polite">Showing {formatCount(Math.min(visible, filtered.length))} of {formatCount(filtered.length)} questions</p>
+
+      <div className="mt-3 grid gap-3">
+        {filtered.slice(0, visible).map((q) => (
+          <BankCard key={q.id} q={q} stat={qStats[q.id]} flagged={flags.has(q.id)} revealed={showAll || !!open[q.id]} toggleFlag={toggleFlag} toggleOpen={toggleOpen} />
+        ))}
+      </div>
+
+      {!filtered.length && <div className="mt-4"><EmptyState icon="search" title="No questions match." description="Try a different search, or clear the subject, topic and status filters." /></div>}
+      {visible < filtered.length && (
+        <div className="mt-5 text-center">
+          <button type="button" onClick={() => setVisible((v) => v + 25)} className="rounded-xl border border-line bg-card px-5 py-3 text-sm font-semibold text-ink transition hover:bg-mint/50">
+            Show 25 more
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+/* ---------- Progress & history ---------- */
+
+function TrendChart({ points }) {
+  const W = 640, H = 200, L = 34, R = 12, T = 12, B = 28;
+  const n = points.length;
+  const x = (i) => L + (n < 2 ? (W - L - R) / 2 : (i * (W - L - R)) / (n - 1));
+  const y = (v) => T + (1 - v / 100) * (H - T - B);
+  const d = points.map((p, i) => `${i ? 'L' : 'M'}${x(i).toFixed(1)} ${y(p.acc).toFixed(1)}`).join(' ');
+  const fmt = (ts) => new Date(ts).toLocaleDateString(undefined, { day: 'numeric', month: 'short' });
+  return (
+    <svg viewBox={`0 0 ${W} ${H}`} className="w-full text-forest" role="img" aria-label={`Accuracy over your last ${n} sessions`}>
+      {[0, 50, 100].map((g) => (
+        <g key={g}>
+          <line x1={L} x2={W - R} y1={y(g)} y2={y(g)} stroke="currentColor" className="text-line" strokeDasharray={g === 50 ? '3 4' : undefined} />
+          <text x={L - 6} y={y(g) + 3} textAnchor="end" fontSize="10" fill="currentColor" className="text-muted">{g}%</text>
+        </g>
+      ))}
+      <path d={d} fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinejoin="round" strokeLinecap="round" />
+      {points.map((p, i) => <circle key={i} cx={x(i)} cy={y(p.acc)} r="4" fill="currentColor" className="text-forest"><title>{`${fmt(p.ts)}: ${p.acc}%`}</title></circle>)}
+      <text x={L} y={H - 8} fontSize="10" fill="currentColor" className="text-muted">{fmt(points[0].ts)}</text>
+      <text x={W - R} y={H - 8} textAnchor="end" fontSize="10" fill="currentColor" className="text-muted">{fmt(points[n - 1].ts)}</text>
+    </svg>
+  );
+}
+
+function HistoryView({ history, onDelete, onClear, onExport, onImport, onNavigate }) {
+  const [visible, setVisible] = useState(12);
+  const fileRef = useRef(null);
+  const D = 864e5;
+  const now = Date.now();
+
+  const s = useMemo(() => {
+    let answered = 0, correct = 0, elapsed = 0;
+    const subj = {};
+    const days = {};
+    history.forEach((r) => {
+      answered += r.answered;
+      correct += r.correct;
+      elapsed += r.elapsed || 0;
+      Object.entries(r.bySubject || {}).forEach(([k, v]) => {
+        const b = subj[k] || (subj[k] = { a: 0, c: 0 });
+        b.a += v.a;
+        b.c += v.c;
+      });
+      const dk = new Date(r.finishedAt).toDateString();
+      days[dk] = (days[dk] || 0) + r.answered;
+    });
+    const agg = (from, to) => {
+      let a = 0, c = 0;
+      history.forEach((r) => {
+        if (r.finishedAt >= from && r.finishedAt < to) {
+          a += r.answered;
+          c += r.correct;
+        }
+      });
+      return a ? Math.round((c / a) * 100) : null;
+    };
+    let streak = 0;
+    let cursor = new Date();
+    if (!days[cursor.toDateString()]) cursor = new Date(now - D);
+    while (days[cursor.toDateString()]) {
+      streak += 1;
+      cursor = new Date(cursor.getTime() - D);
+    }
+    const last14 = Array.from({ length: 14 }, (_, i) => {
+      const dt = new Date(now - (13 - i) * D);
+      return { label: dt.toLocaleDateString(undefined, { weekday: 'narrow' }), n: days[dt.toDateString()] || 0, title: dt.toLocaleDateString(undefined, { day: 'numeric', month: 'short' }) };
+    });
+    const cur = agg(now - 7 * D, now + 1);
+    const prev = agg(now - 14 * D, now - 7 * D);
+    return { answered, correct, elapsed, subj, streak, last14, cur, prev, acc: answered ? Math.round((correct / answered) * 100) : 0 };
+  }, [history, now]);
+
+  const trend = history.slice(0, 20).reverse().map((r) => ({ acc: r.accuracy, ts: r.finishedAt }));
+  const maxDay = Math.max(1, ...s.last14.map((d) => d.n));
+  const delta = s.cur != null && s.prev != null ? s.cur - s.prev : null;
+
+  return (
+    <div className="relative z-10 pt-10">
+      <div className="flex flex-col justify-between gap-5 md:flex-row md:items-end">
+        <div>
+          <p className="text-xs font-medium text-forest">Over time</p>
+          <h1 className="mt-2 font-display text-5xl leading-[0.98] text-ink md:text-6xl">Your progress.</h1>
+          <p className="mt-2 max-w-xl text-sm leading-relaxed text-muted">Every finished drill is saved in this browser. Download a backup now and then, since clearing site data erases it.</p>
+        </div>
+        <div className="flex flex-wrap gap-2">
+          <button type="button" onClick={onExport} className="inline-flex items-center gap-2 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink transition hover:bg-mint/50">
+            <Icon name="download" className="h-4 w-4" /> Backup
+          </button>
+          <button type="button" onClick={() => fileRef.current && fileRef.current.click()} className="inline-flex items-center gap-2 rounded-xl border border-line bg-card px-4 py-2.5 text-sm font-semibold text-ink transition hover:bg-mint/50">
+            <Icon name="upload" className="h-4 w-4" /> Restore
+          </button>
+          <input ref={fileRef} type="file" accept=".json,application/json" className="hidden" onChange={(e) => { if (e.target.files[0]) onImport(e.target.files[0]); e.target.value = ''; }} />
+        </div>
+      </div>
+
+      {!history.length ? (
+        <div className="mt-8">
+          <EmptyState icon="chart" title="No finished drills yet." description="Complete a practice session and your accuracy, pace and subject strengths will build up here." action={<button type="button" onClick={() => onNavigate('dashboard')} className="rounded-xl bg-forest px-4 py-2.5 text-sm font-semibold text-paper">Start practising</button>} />
+        </div>
+      ) : (
+        <>
+          <div className="mt-8 grid grid-cols-2 gap-3 md:grid-cols-4">
+            <StatCard label="Sessions" value={history.length} sub={`${formatCount(s.answered)} questions answered`} icon="layers" />
+            <StatCard label="Overall accuracy" value={`${s.acc}%`} sub={delta == null ? 'Need two weeks of data for a trend' : `${delta >= 0 ? '▲' : '▼'} ${Math.abs(delta)} pts vs previous 7 days`} icon="target" tone="forest" />
+            <StatCard label="Study streak" value={`${s.streak}d`} sub="Consecutive days practised" icon="bolt" tone="amber" />
+            <StatCard label="Time studied" value={formatMinutes(s.elapsed)} sub="Across all sessions" icon="clock" />
+          </div>
+
+          <div className="mt-4 grid gap-4 lg:grid-cols-5">
+            <section className="rounded-2xl border border-line bg-card p-5 lg:col-span-3">
+              <h2 className="font-display text-2xl text-ink">Accuracy trend</h2>
+              <p className="mb-2 text-xs text-muted">Last {trend.length} session{trend.length === 1 ? '' : 's'}</p>
+              <TrendChart points={trend} />
+            </section>
+            <section className="rounded-2xl border border-line bg-card p-5 lg:col-span-2">
+              <h2 className="font-display text-2xl text-ink">Last 14 days</h2>
+              <p className="mb-3 text-xs text-muted">Questions answered per day</p>
+              <div className="flex h-32 items-end gap-1.5" role="img" aria-label="Questions answered per day, last 14 days">
+                {s.last14.map((d, i) => (
+                  <div key={i} className="flex flex-1 flex-col items-center gap-1" title={`${d.title}: ${d.n}`}>
+                    <div className="flex w-full flex-1 items-end"><div className={cx('w-full rounded-t', d.n ? 'bg-forest' : 'bg-line')} style={{ height: `${d.n ? Math.max(8, (d.n / maxDay) * 100) : 4}%` }} /></div>
+                    <span className="text-[9px] text-muted">{d.label}</span>
+                  </div>
+                ))}
+              </div>
+            </section>
+          </div>
+
+          <section className="mt-4 rounded-2xl border border-line bg-card p-5">
+            <h2 className="font-display text-2xl text-ink">By subject</h2>
+            <div className="mt-3 grid gap-3 sm:grid-cols-2">
+              {SUBJECTS.filter((sub) => s.subj[sub.key]).map((sub) => {
+                const v = s.subj[sub.key];
+                const pct = Math.round((v.c / v.a) * 100);
+                return (
+                  <div key={sub.key}>
+                    <div className="mb-1 flex items-center justify-between text-xs"><span className="font-medium text-ink">{sub.short}</span><span className="tabular text-muted">{pct}% · {v.a} answered</span></div>
+                    <BreakdownBar correct={v.c} wrong={v.a - v.c} total={v.a} />
+                  </div>
+                );
+              })}
+            </div>
+          </section>
+
+          <section className="mt-4 rounded-2xl border border-line bg-card p-5">
+            <div className="flex items-center justify-between gap-3">
+              <h2 className="font-display text-2xl text-ink">Session log</h2>
+              <button type="button" onClick={onClear} className="inline-flex items-center gap-1.5 rounded-lg px-3 py-2 text-xs font-semibold text-rose hover:bg-rose-soft"><Icon name="trash" className="h-3.5 w-3.5" /> Clear all</button>
+            </div>
+            <ul className="mt-2 divide-y divide-line">
+              {history.slice(0, visible).map((r) => (
+                <li key={r.id} className="flex items-center gap-3 py-3">
+                  <div className={cx('grid h-12 w-12 shrink-0 place-items-center rounded-xl font-display text-xl', r.accuracy >= 70 ? 'bg-mint text-forest' : r.accuracy >= 40 ? 'bg-amber-soft text-amber' : 'bg-rose-soft text-rose')}>{r.accuracy}</div>
+                  <div className="min-w-0 flex-1">
+                    <div className="text-sm font-medium text-ink">{new Date(r.finishedAt).toLocaleDateString(undefined, { weekday: 'short', day: 'numeric', month: 'short' })} · {r.correct}/{r.answered} correct{r.skipped ? ` · ${r.skipped} skipped` : ''}</div>
+                    <div className="truncate text-xs text-muted">{Object.keys(r.bySubject || {}).join(', ') || '—'} · {r.mode === 'timed' ? 'Timed' : 'Relaxed'} · {formatMinutes(r.elapsed)}{r.retry ? ' · Retry' : ''}</div>
+                  </div>
+                  <button type="button" onClick={() => onDelete(r.id)} aria-label="Delete this session" className="grid h-10 w-10 place-items-center rounded-full text-muted hover:bg-rose-soft hover:text-rose"><Icon name="trash" className="h-4 w-4" /></button>
+                </li>
+              ))}
+            </ul>
+            {visible < history.length && <button type="button" onClick={() => setVisible((v) => v + 12)} className="mt-2 w-full rounded-xl border border-line py-2.5 text-sm font-semibold text-ink hover:bg-mint/50">Show more</button>}
+          </section>
+        </>
+      )}
+    </div>
+  );
+}
+
+function App() {
+  const [questions, setQuestions] = useState([]);
+  const [status, setStatus] = useState('loading');
+  const [loadInfo, setLoadInfo] = useState({ failed: [] });
+  const [view, setView] = useState('dashboard');
+  const [session, setSession] = useState(() => readStorage(STORAGE.session, null));
+  const [flags, setFlags] = useState(() => {
+    const saved = readStorage(STORAGE.flags, []);
+    return new Set(Array.isArray(saved) ? saved : []);
+  });
+  const [draft, setDraft] = useState(() => {
+    const saved = readStorage(STORAGE.prefs, null);
+    const merged = { ...DEFAULT_DRAFT, ...(saved || {}) };
+    if (!Array.isArray(merged.subjects)) merged.subjects = DEFAULT_DRAFT.subjects;
+    merged.subjects = merged.subjects.filter((key) => SUBJECT_MAP[key]);
+    return merged;
+  });
+  const [theme, setTheme] = useState(() => (document.documentElement.classList.contains('dark') ? 'dark' : 'light'));
+  const [notes, setNotes] = useState(() => { const n = readStorage(STORAGE.notes, {}); return n && typeof n === 'object' ? n : {}; });
+  const [history, setHistory] = useState(() => { const h = readStorage(STORAGE.history, []); return Array.isArray(h) ? h : []; });
+  const [loadProgress, setLoadProgress] = useState(null);
+  const [toast, setToast] = useState(null);
+  const [confirm, setConfirm] = useState(null);
+  const [printData, setPrintData] = useState(null);
+  const bootRef = useRef(false);
+
+  const showToast = useCallback((message, icon = 'checkCircle') => {
+    setToast({ message, icon, id: Date.now() });
+  }, []);
+
+  useEffect(() => {
+    if (!toast) return undefined;
+    const timer = setTimeout(() => setToast(null), 2800);
+    return () => clearTimeout(timer);
+  }, [toast]);
+
+  useEffect(() => {
+    let cancelled = false;
+    loadQuestionBank(setLoadProgress)
+      .then(({ questions: loaded, failed, dropped, duplicates }) => {
+        if (cancelled) return;
+        if (!loaded.length) {
+          setStatus('error');
+          setLoadInfo({ failed, dropped, error: 'No valid questions were found in the data folder.' });
+          return;
+        }
+        setQuestions(loaded);
+        setStatus('ready');
+        setLoadInfo({ failed, dropped, duplicates });
+        if (failed.length) {
+          showToast(`Loaded ${formatCount(loaded.length)} questions. ${failed.length} file${failed.length === 1 ? '' : 's'} could not be read.`, 'alert');
+        }
+      })
+      .catch((err) => {
+        if (cancelled) return;
+        setStatus('error');
+        setLoadInfo({ failed: [], error: err && err.message ? err.message : 'Could not load the question bank.' });
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [showToast]);
+
+  useEffect(() => {
+    if (status !== 'ready' || bootRef.current) return;
+    bootRef.current = true;
+    if (!session) return;
+    if (!Array.isArray(session.questionIds) || !session.questionIds.length) {
+      setSession(null);
+      removeStorage(STORAGE.session);
+      return;
+    }
+    const known = new Set(questions.map((q) => q.id));
+    const validIds = session.questionIds.filter((id) => known.has(id));
+    if (!validIds.length) {
+      setSession(null);
+      removeStorage(STORAGE.session);
+      return;
+    }
+    const restored = {
+      ...session,
+      questionIds: validIds,
+      index: clamp(session.index || 0, 0, Math.max(0, validIds.length - 1))
+    };
+    setSession(restored);
+    if (!restored.finished) {
+      setView('practice');
+      showToast(`Session restored — question ${restored.index + 1} of ${validIds.length}.`, 'rotate');
+    }
+  }, [questions, session, showToast, status]);
+
+  useEffect(() => {
+    if (status !== 'ready') return;
+    const known = new Set(questions.map((q) => q.id));
+    setFlags((prev) => {
+      const next = new Set(Array.from(prev).filter((id) => known.has(id)));
+      return next.size === prev.size ? prev : next;
+    });
+  }, [questions, status]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      if (session) writeStorage(STORAGE.session, session);
+      else removeStorage(STORAGE.session);
+    }, 300);
+    return () => clearTimeout(timer);
+  }, [session]);
+
+  useEffect(() => {
+    writeStorage(STORAGE.flags, Array.from(flags));
+  }, [flags]);
+
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme === 'dark');
+    try { localStorage.setItem(STORAGE.theme, theme); } catch (e) { /* noop */ }
+    const m = document.querySelector('meta[name="theme-color"]');
+    if (m) m.setAttribute('content', theme === 'dark' ? '#0D1210' : '#F5F2EA');
+  }, [theme]);
+
+  useEffect(() => {
+    const t = setTimeout(() => writeStorage(STORAGE.notes, notes), 300);
+    return () => clearTimeout(t);
+  }, [notes]);
+
+  useEffect(() => {
+    writeStorage(STORAGE.history, history);
+  }, [history]);
+
+  useEffect(() => {
+    let shown = false;
+    const h = () => {
+      if (shown) return;
+      shown = true;
+      showToast('Browser storage is unavailable. Progress will not be saved.', 'alert');
+    };
+    window.addEventListener('cadence-storage-error', h);
+    return () => window.removeEventListener('cadence-storage-error', h);
+  }, [showToast]);
+
+  useEffect(() => {
+    writeStorage(STORAGE.prefs, draft);
+  }, [draft]);
+
+  const questionsById = useMemo(() => {
+    const map = {};
+    questions.forEach((q) => {
+      map[q.id] = q;
+    });
+    return map;
+  }, [questions]);
+
+  const subjectCounts = useMemo(() => {
+    const counts = {};
+    questions.forEach((q) => {
+      counts[q.subject] = (counts[q.subject] || 0) + 1;
+    });
+    return counts;
+  }, [questions]);
+
+  const sessionRef = useRef(session);
+  sessionRef.current = session;
+  const questionsByIdRef = useRef({});
+  questionsByIdRef.current = questionsById;
+
+  const qStats = useMemo(() => {
+    const m = {};
+    history.forEach((r) => {
+      Object.entries(r.results || {}).forEach(([id, ok]) => {
+        const e = m[id] || (m[id] = { right: 0, wrong: 0 });
+        if (ok) e.right += 1;
+        else e.wrong += 1;
+      });
+    });
+    return m;
+  }, [history]);
+
+  const toggleTheme = useCallback(() => setTheme((t) => (t === 'dark' ? 'light' : 'dark')), []);
+
+  const setNote = useCallback((id, patch) => {
+    setNotes((prev) => {
+      const next = { ...(prev[id] || { text: '', tags: [] }), ...patch };
+      const copy = { ...prev };
+      if (!next.text && !(next.tags || []).length) delete copy[id];
+      else copy[id] = next;
+      return copy;
+    });
+  }, []);
+
+  const recordHistory = useCallback(() => {
+    const s = sessionRef.current;
+    if (!s || s.finished) return;
+    const map = questionsByIdRef.current;
+    const results = {};
+    const bySubject = {};
+    let correct = 0;
+    let answered = 0;
+    Object.entries(s.answers || {}).forEach(([id, a]) => {
+      const q = map[id];
+      if (!q || !a) return;
+      const ok = a.correct ? 1 : 0;
+      answered += 1;
+      correct += ok;
+      results[id] = ok;
+      const b = bySubject[q.subject] || (bySubject[q.subject] = { a: 0, c: 0 });
+      b.a += 1;
+      b.c += ok;
+    });
+    if (!answered) return;
+    const total = (s.questionIds || []).length;
+    const rec = {
+      id: s.id, finishedAt: Date.now(), total, answered, correct, wrong: answered - correct,
+      skipped: Math.max(0, total - answered), accuracy: Math.round((correct / answered) * 100),
+      elapsed: s.elapsedSec || 0, mode: (s.config && s.config.mode) || 'relaxed', retry: !!s.retryOf, bySubject, results
+    };
+    setHistory((prev) => [rec, ...prev.filter((r) => r.id !== rec.id)].slice(0, 150));
+  }, []);
+
+  const topicCount = useMemo(() => new Set(questions.map((q) => `${q.subject}|${q.topic}`)).size, [questions]);
+
+  const toggleFlag = useCallback(
+    (id) => {
+      const wasFlagged = flags.has(id);
+      setFlags((prev) => {
+        const next = new Set(prev);
+        if (next.has(id)) next.delete(id);
+        else next.add(id);
+        return next;
+      });
+      showToast(wasFlagged ? 'Removed from flagged questions.' : 'Flagged for review.', 'flag');
+    },
+    [flags, showToast]
+  );
+
+  const buildConfig = useCallback(() => {
+    const subjects = (draft.subjects || []).filter((key) => SUBJECT_MAP[key]);
+    const available = questions.filter((q) => subjects.includes(q.subject)).length;
+    const countMode = draft.countMode;
+    let target = 0;
+    if (countMode === 'all') target = available;
+    else if (countMode === 'custom') target = clamp(Number(draft.customCount) || 0, 0, available);
+    else target = Math.min(Number(countMode) || 0, available);
+    return { ...draft, subjects, target };
+  }, [draft, questions]);
+
+  const startSession = useCallback(
+    (config) => {
+      let pool = questions.filter((q) => config.subjects.includes(q.subject));
+      if (config.shuffle) pool = shuffleArray(pool);
+      const target = clamp(config.target, 0, pool.length);
+      const selected = pool.slice(0, target);
+      if (!selected.length) {
+        showToast('No questions match that selection.', 'alert');
+        return;
+      }
+      const newSession = {
+        id: `s_${Date.now()}`,
+        createdAt: Date.now(),
+        updatedAt: Date.now(),
+        config: { ...config, target: selected.length },
+        questionIds: selected.map((q) => q.id),
+        index: 0,
+        answers: {},
+        skipped: {},
+        elapsedSec: 0,
+        finished: false
+      };
+      setSession(newSession);
+      setView('practice');
+      showToast(`${formatCount(selected.length)} questions ready. Take your time.`, 'play');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+    [questions, showToast]
+  );
+
+  const requestStart = useCallback(() => {
+    const config = buildConfig();
+    if (!config.target) {
+      showToast('Pick at least one subject first.', 'alert');
+      return;
+    }
+    if (session && !session.finished) {
+      setConfirm({
+        title: 'Start a new drill?',
+        message: `You have an unfinished session at question ${session.index + 1} of ${session.questionIds.length}. Starting fresh will replace it.`,
+        confirmLabel: 'Start new drill',
+        tone: 'default',
+        onConfirm: () => startSession(config)
+      });
+      return;
+    }
+    startSession(config);
+  }, [buildConfig, session, showToast, startSession]);
+
+  const finishSession = useCallback(
+    (reason = 'complete') => {
+      recordHistory();
+      setSession((prev) => (prev ? { ...prev, finished: true, finishedAt: Date.now(), finishReason: reason, updatedAt: Date.now() } : prev));
+      setView('summary');
+      if (reason === 'time') showToast('Time is up. Here is your breakdown.', 'clock');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+    [showToast, recordHistory]
+  );
+
+  const requestExit = useCallback(() => {
+    setConfirm({
+      title: 'Leave this drill?',
+      message: 'Your answers and flags are saved automatically. You can resume from the dashboard whenever you like.',
+      confirmLabel: 'Save & exit',
+      tone: 'default',
+      onConfirm: () => {
+        setView('dashboard');
+        showToast('Progress saved. Resume anytime.', 'checkCircle');
+      }
+    });
+  }, [showToast]);
+
+  const discardSession = useCallback(() => {
+    setConfirm({
+      title: 'Discard this session?',
+      message: 'This clears the current drill’s progress. Your flagged questions stay in the study shelf.',
+      confirmLabel: 'Discard session',
+      tone: 'danger',
+      onConfirm: () => {
+        setSession(null);
+        removeStorage(STORAGE.session);
+        setView('dashboard');
+        showToast('Session discarded.', 'trash');
+      }
+    });
+  }, [showToast]);
+
+  const retryQuestions = useCallback(
+    (ids) => {
+      if (!ids || !ids.length) return;
+      setSession((prev) => {
+        if (!prev) return prev;
+        return {
+          ...prev,
+          id: `s_${Date.now()}`,
+          createdAt: Date.now(),
+          updatedAt: Date.now(),
+          questionIds: ids,
+          index: 0,
+          answers: {},
+          skipped: {},
+          elapsedSec: 0,
+          finished: false,
+          finishedAt: null,
+          finishReason: null,
+          config: { ...prev.config, countMode: 'custom', customCount: ids.length, target: ids.length, shuffle: false },
+          retryOf: prev.id
+        };
+      });
+      setView('practice');
+      showToast(`${ids.length} question${ids.length === 1 ? '' : 's'} ready for another pass.`, 'rotate');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+    [showToast]
+  );
+
+  const navigate = useCallback(
+    (next) => {
+      if (next === 'summary' && !(session && session.finished)) {
+        setView('dashboard');
+      } else {
+        setView(next);
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    },
+    [session]
+  );
+
+  const handlePrint = useCallback(
+    (list, title, subtitle) => {
+      if (!list || !list.length) {
+        showToast('Nothing to export yet.', 'alert');
+        return;
+      }
+      setPrintData({ questions: list, title, subtitle, generatedAt: new Date() });
+    },
+    [showToast]
+  );
+
+  useEffect(() => {
+    if (!printData) return undefined;
+    const after = () => setPrintData(null);
+    window.addEventListener('afterprint', after);
+    const timer = setTimeout(() => window.print(), 300);
+    return () => {
+      clearTimeout(timer);
+      window.removeEventListener('afterprint', after);
+    };
+  }, [printData]);
+
+  const handleManualFiles = useCallback(
+    async (fileList) => {
+      const files = Array.from(fileList || []);
+      if (!files.length) return;
+      setStatus('loading');
+      try {
+        const parsed = await Promise.all(
+          files.map(async (file) => {
+            const text = await file.text();
+            const data = JSON.parse(text);
+            if (!Array.isArray(data)) throw new Error(`${file.name} is not a JSON array.`);
+            return { key: inferSourceKey(file.name), data };
+          })
+        );
+        const collected = [];
+        const dropped = [];
+        parsed.forEach(({ key, data }) => {
+          data.forEach((raw, idx) => {
+            const q = normalizeQuestion(raw, key, idx);
+            if (q) collected.push(q);
+            else dropped.push({ file: `manual:${key}`, index: idx, reason: diagnose(raw, key), preview: String((raw && raw.question) || '').slice(0, 70) });
+          });
+        });
+        const deduped = dedupeQuestions(collected);
+        if (!deduped.length) throw new Error('No valid questions were found in those files.');
+        setQuestions(deduped);
+        setStatus('ready');
+        setLoadInfo({ failed: [], dropped, manual: true });
+        showToast(`Loaded ${formatCount(deduped.length)} questions from ${files.length} files.`, 'checkCircle');
+      } catch (err) {
+        setStatus('error');
+        setLoadInfo({ failed: [], error: err && err.message ? err.message : 'Could not read those files.' });
+      }
+    },
+    [showToast]
+  );
+
+  const deleteSession = (id) => setHistory((prev) => prev.filter((r) => r.id !== id));
+  const clearHistory = () =>
+    setConfirm({
+      title: 'Clear all history?',
+      message: 'This deletes every saved session and the Missed / Correct counts in the question bank. Flags and notes stay. Consider downloading a backup first.',
+      confirmLabel: 'Clear history',
+      tone: 'danger',
+      onConfirm: () => { setHistory([]); showToast('History cleared.', 'trash'); }
+    });
+
+  const exportBackup = () => {
+    const blob = new Blob([JSON.stringify({ app: 'cadence', version: 1, exportedAt: new Date().toISOString(), history, notes, flags: Array.from(flags) }, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `cadence-backup-${new Date().toISOString().slice(0, 10)}.json`;
+    document.body.appendChild(a);
+    a.click();
+    a.remove();
+    setTimeout(() => URL.revokeObjectURL(url), 1000);
+    showToast('Backup downloaded.', 'download');
+  };
+
+  const importBackup = async (file) => {
+    try {
+      const data = JSON.parse(await file.text());
+      if (!data || data.app !== 'cadence') throw new Error('That is not a Cadence backup file.');
+      if (Array.isArray(data.history)) {
+        setHistory((prev) => {
+          const ids = new Set(prev.map((r) => r.id));
+          return [...prev, ...data.history.filter((r) => r && r.id && !ids.has(r.id))].sort((a, b) => b.finishedAt - a.finishedAt).slice(0, 150);
+        });
+      }
+      if (data.notes && typeof data.notes === 'object') setNotes((prev) => ({ ...data.notes, ...prev }));
+      if (Array.isArray(data.flags)) setFlags((prev) => new Set([...prev, ...data.flags]));
+      showToast('Backup restored.', 'checkCircle');
+    } catch (err) {
+      showToast(err && err.message ? err.message : 'Could not read that backup.', 'alert');
+    }
+  };
+
+  const ctxValue = { theme, toggleTheme, notes, setNote };
+
+  if (status === 'loading') return <LoadingScreen progress={loadProgress} />;
+  if (status === 'error') return <ErrorScreen info={loadInfo} onManual={handleManualFiles} />;
+
+  const hasFinished = !!(session && session.finished);
+  const showPractice = view === 'practice' && session && !session.finished;
+  const navView = view === 'summary' && !hasFinished ? 'dashboard' : view;
+
+  return (
+    <AppCtx.Provider value={ctxValue}>
+    <div className="min-h-screen bg-paper text-ink">
+      <div className="paper-grain pointer-events-none fixed inset-0 z-0 opacity-50" />
+
+      {showPractice ? (
+        <div className="screen-app relative z-10">
+          <Practice
+            questionsById={questionsById}
+            session={session}
+            setSession={setSession}
+            flags={flags}
+            toggleFlag={toggleFlag}
+            onExit={requestExit}
+            onFinish={finishSession}
+            prefs={draft}
+            showToast={showToast}
+            paused={!!confirm}
+          />
+        </div>
+      ) : (
+        <div className="screen-app relative z-10 flex min-h-screen flex-col">
+          <Header view={navView} onNavigate={navigate} flagsCount={flags.size} hasResult={hasFinished} />
+          <main className="mx-auto w-full max-w-6xl flex-1 px-5 pb-20">
+            <DataHealth info={loadInfo} />
+            {view === 'summary' && hasFinished ? (
+              <Summary
+                session={session}
+                questionsById={questionsById}
+                flags={flags}
+                toggleFlag={toggleFlag}
+                onRetry={retryQuestions}
+                onNew={() => navigate('dashboard')}
+                onNavigate={navigate}
+              />
+            ) : view === 'bank' ? (
+              <QuestionBank questions={questions} flags={flags} toggleFlag={toggleFlag} qStats={qStats} />
+            ) : view === 'history' ? (
+              <HistoryView history={history} onDelete={deleteSession} onClear={clearHistory} onExport={exportBackup} onImport={importBackup} onNavigate={navigate} />
+            ) : view === 'flagged' ? (
+              <FlaggedHub
+                questions={questions}
+                flags={flags}
+                toggleFlag={toggleFlag}
+                session={session}
+                onPrint={handlePrint}
+                onNavigate={navigate}
+              />
+            ) : (
+              <Dashboard
+                questions={questions}
+                subjectCounts={subjectCounts}
+                topicCount={topicCount}
+                flagsCount={flags.size}
+                draft={draft}
+                setDraft={setDraft}
+                onStart={requestStart}
+                session={session}
+                onResume={() => setView('practice')}
+                onDiscard={discardSession}
+                onViewSummary={() => navigate('summary')}
+                onNavigate={navigate}
+              />
+            )}
+          </main>
+          <Footer />
+        </div>
+      )}
+
+      <Modal
+        open={!!confirm}
+        title={confirm ? confirm.title : ''}
+        tone={confirm ? confirm.tone : 'default'}
+        onClose={() => setConfirm(null)}
+        footer={
+          confirm ? (
+            <>
+              <button
+                type="button"
+                onClick={() => setConfirm(null)}
+                className="rounded-xl border border-line bg-white px-4 py-2.5 text-sm font-semibold text-ink transition hover:bg-paper"
+              >
+                Cancel
+              </button>
+              <button
+                type="button"
+                onClick={() => {
+                  const action = confirm.onConfirm;
+                  setConfirm(null);
+                  if (action) action();
+                }}
+                className={cx(
+                  'rounded-xl px-4 py-2.5 text-sm font-semibold text-white transition',
+                  confirm.tone === 'danger' ? 'bg-rose hover:bg-rose/90' : 'bg-forest hover:bg-forest-dark'
+                )}
+              >
+                {confirm.confirmLabel}
+              </button>
+            </>
+          ) : null
+        }
+      >
+        {confirm ? confirm.message : null}
+      </Modal>
+
+      <Toast toast={toast} />
+      {printData && <PrintSheet data={printData} />}
+    </div>
+    </AppCtx.Provider>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<ErrorBoundary><App /></ErrorBoundary>);
+  </script>
+</body>
+</html>

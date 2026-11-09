@@ -1,0 +1,3394 @@
+[
+  {
+    "id": "1",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The synonym of \"Quick\" is:",
+    "options": [
+      "Slow",
+      "Fast",
+      "Lazy",
+      "Heavy"
+    ],
+    "correct_answer": "Fast",
+    "explanation": "Quick means fast or rapid.",
+    "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
+    "original_id": "q009"
+  },
+  {
+    "id": "2",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of \"Dark\" is:",
+    "options": [
+      "Bright",
+      "Dim",
+      "Dull",
+      "Heavy"
+    ],
+    "correct_answer": "Bright",
+    "explanation": "Bright is the opposite of dark.",
+    "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
+    "original_id": "q010"
+  },
+  {
+    "id": "3",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the word most similar in meaning to ASTONISH:",
+    "options": [
+      "Punish",
+      "Control",
+      "Surprise",
+      "Please"
+    ],
+    "correct_answer": "Surprise",
+    "explanation": "Astonish means to surprise or amaze someone greatly.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_01"
+  },
+  {
+    "id": "4",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the word most similar in meaning to TEPID:",
+    "options": [
+      "Cold",
+      "Warm",
+      "Rival",
+      "Friend"
+    ],
+    "correct_answer": "Warm",
+    "explanation": "Tepid means lukewarm or moderately warm.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_02"
+  },
+  {
+    "id": "5",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the word opposite in meaning to LOW:",
+    "options": [
+      "High",
+      "More",
+      "Fellow",
+      "Colleague"
+    ],
+    "correct_answer": "High",
+    "explanation": "The antonym of low is high.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_03"
+  },
+  {
+    "id": "6",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the word opposite in meaning to HONEST:",
+    "options": [
+      "Sincere",
+      "Open",
+      "Frank",
+      "Fraudulent"
+    ],
+    "correct_answer": "Fraudulent",
+    "explanation": "Fraudulent (dishonest) is opposite in meaning to honest.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_04"
+  },
+  {
+    "id": "7",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct preposition: Please abstain ..... smoking.",
+    "options": [
+      "of",
+      "from",
+      "on",
+      "in"
+    ],
+    "correct_answer": "from",
+    "explanation": "The verb abstain is correctly followed by the preposition 'from'.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_05"
+  },
+  {
+    "id": "8",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct preposition: He was born ..... June.",
+    "options": [
+      "in",
+      "on",
+      "of",
+      "at"
+    ],
+    "correct_answer": "in",
+    "explanation": "Months, years, and seasons take the preposition 'in'.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_06"
+  },
+  {
+    "id": "9",
+    "subject": "ENGLISH",
+    "topic": "Reading Passages",
+    "question": "Tommy is a happy tiger who loves to run fast in the jungle... Tommy is the name of a:",
+    "options": [
+      "Dog",
+      "Cat",
+      "Tiger",
+      "Jungle"
+    ],
+    "correct_answer": "Tiger",
+    "explanation": "The passage explicitly states 'Tommy is a happy tiger'.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_07"
+  },
+  {
+    "id": "10",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "The comparative form of the word 'happy' is:",
+    "options": [
+      "Happiest",
+      "Happier",
+      "Same happy",
+      "No any form"
+    ],
+    "correct_answer": "Happier",
+    "explanation": "The comparative degree of happy is happier.",
+    "source_pdf": "DOW past papper.pdf",
+    "original_id": "dow_eng_08"
+  },
+  {
+    "id": "11",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "Neither of the answers are correct.",
+      "Neither of the answers is correct.",
+      "Neither answers are correct.",
+      "Neither answer is correct."
+    ],
+    "correct_answer": "Neither of the answers is correct.",
+    "explanation": "'Neither' is singular and takes a singular verb ('is'), and the object of the preposition is plural ('answers').",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q001"
+  },
+  {
+    "id": "12",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The synonym of \"meticulous\" is:",
+    "options": [
+      "Careless",
+      "Rough",
+      "Thorough",
+      "Lazy"
+    ],
+    "correct_answer": "Thorough",
+    "explanation": "Meticulous means showing great attention to detail; very careful and precise, synonymous with thorough.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q002"
+  },
+  {
+    "id": "13",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct preposition: \"He is senior ___ me.\"",
+    "options": [
+      "than",
+      "to",
+      "from",
+      "of"
+    ],
+    "correct_answer": "to",
+    "explanation": "Latin comparative adjectives like senior, junior, superior, and inferior are followed by the preposition 'to' rather than 'than'.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q003"
+  },
+  {
+    "id": "14",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of \"vivid\" is:",
+    "options": [
+      "Bright",
+      "Clear",
+      "Dull",
+      "Colorful"
+    ],
+    "correct_answer": "Dull",
+    "explanation": "Vivid means brightly colored or producing powerful feelings; its antonym is dull.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q004"
+  },
+  {
+    "id": "15",
+    "subject": "ENGLISH",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Choose the correct form: \"If I ___ rich, I would help the poor.\"",
+    "options": [
+      "am",
+      "was",
+      "were",
+      "will be"
+    ],
+    "correct_answer": "were",
+    "explanation": "This is a second conditional sentence expressing a hypothetical state, requiring the subjunctive 'were'.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q005"
+  },
+  {
+    "id": "16",
+    "subject": "ENGLISH",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Identify the correct passive voice: \"They are repairing the road.\"",
+    "options": [
+      "The road repaired.",
+      "The road is repaired.",
+      "The road is being repaired.",
+      "The road has repaired."
+    ],
+    "correct_answer": "The road is being repaired.",
+    "explanation": "Present continuous active ('are repairing') converts to present continuous passive ('is being repaired').",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q006"
+  },
+  {
+    "id": "17",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of \"lucid\":",
+    "options": [
+      "Confusing",
+      "Clear",
+      "Dark",
+      "Loud"
+    ],
+    "correct_answer": "Clear",
+    "explanation": "Lucid means expressed clearly; easy to understand.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q007"
+  },
+  {
+    "id": "18",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct article: \"He is ___ honest man.\"",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correct_answer": "an",
+    "explanation": "The word 'honest' begins with a silent 'h' sound (vowel sound), taking the indefinite article 'an'.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q008"
+  },
+  {
+    "id": "19",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The synonym of \"brevity\" is:",
+    "options": [
+      "Length",
+      "Shortness",
+      "Width",
+      "Detail"
+    ],
+    "correct_answer": "Shortness",
+    "explanation": "Brevity means exact and concise use of words in writing or speech; shortness.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q009"
+  },
+  {
+    "id": "20",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "He did not knew the answer.",
+      "He did not know the answer.",
+      "He does not knew the answer.",
+      "He had not knew the answer."
+    ],
+    "correct_answer": "He did not know the answer.",
+    "explanation": "Auxiliary verb 'did' must be followed by the base form of the verb ('know').",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q010"
+  },
+  {
+    "id": "21",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of \"scarce\" is:",
+    "options": [
+      "Rare",
+      "Limited",
+      "Abundant",
+      "Small"
+    ],
+    "correct_answer": "Abundant",
+    "explanation": "Scarce means insufficient for the demand; abundant means existing or available in large quantities.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q011"
+  },
+  {
+    "id": "22",
+    "subject": "ENGLISH",
+    "topic": "Error detection and correction",
+    "question": "Identify the part of speech of carefully: \"She carefully opened the box.\"",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correct_answer": "Adverb",
+    "explanation": "'Carefully' modifies the verb 'opened', describing how the action was performed.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q012"
+  },
+  {
+    "id": "23",
+    "subject": "ENGLISH",
+    "topic": "Error detection and correction",
+    "question": "Choose the correct spelling:",
+    "options": [
+      "Priviledge",
+      "Privilege",
+      "Privilage",
+      "Privlege"
+    ],
+    "correct_answer": "Privilege",
+    "explanation": "'Privilege' is spelled with two 'i's and two 'e's.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q013"
+  },
+  {
+    "id": "24",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The phrase \"by and large\" means:",
+    "options": [
+      "Rarely",
+      "Completely",
+      "Generally",
+      "Suddenly"
+    ],
+    "correct_answer": "Generally",
+    "explanation": "'By and large' is an idiom meaning on the whole or generally speaking.",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q014"
+  },
+  {
+    "id": "25",
+    "subject": "ENGLISH",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Choose the correct indirect speech: She said, \"I am tired.\"",
+    "options": [
+      "She said she was tired.",
+      "She said she is tired.",
+      "She said she has tired.",
+      "She said she will be tired."
+    ],
+    "correct_answer": "She said she was tired.",
+    "explanation": "In indirect speech, present tense ('am') shifts to past tense ('was') when the reporting verb is in the past ('said').",
+    "source_pdf": "DUHS BS Psychology 2021.pdf",
+    "original_id": "duhs_2021_q015"
+  },
+  {
+    "id": "26",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence.",
+    "options": [
+      "One of the students have failed.",
+      "One of the students has failed.",
+      "One of the student has failed.",
+      "One students has failed."
+    ],
+    "correct_answer": "One of the students has failed.",
+    "explanation": "The phrase 'one of' takes a plural noun ('students') followed by a singular verb ('has').",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q01"
+  },
+  {
+    "id": "27",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of \"arduous\" is:",
+    "options": [
+      "Difficult",
+      "Laborious",
+      "Easy",
+      "Complicated"
+    ],
+    "correct_answer": "Easy",
+    "explanation": "'Arduous' means requiring strenuous effort or difficult; 'easy' is its direct antonym.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q02"
+  },
+  {
+    "id": "28",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of \"alleviate\".",
+    "options": [
+      "To increase",
+      "To lessen",
+      "To delay",
+      "To prevent"
+    ],
+    "correct_answer": "To lessen",
+    "explanation": "'Alleviate' means to make suffering, deficiency, or a problem less severe (to lessen).",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q03"
+  },
+  {
+    "id": "29",
+    "subject": "English",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct word: 'He was accused ____ theft.'",
+    "options": [
+      "for",
+      "of",
+      "with",
+      "on"
+    ],
+    "correct_answer": "of",
+    "explanation": "The verb 'accuse' is standardly followed by the preposition 'of'.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q04"
+  },
+  {
+    "id": "30",
+    "subject": "English",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Identify the correct indirect speech for: He said, \"I will complete the task.\"",
+    "options": [
+      "He said he will complete the task.",
+      "He said he would complete the task.",
+      "He said he completes the task.",
+      "He said he has completed the task."
+    ],
+    "correct_answer": "He said he would complete the task.",
+    "explanation": "In indirect speech, the reporting verb is past ('said'), so 'will' changes to 'would'.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q05"
+  },
+  {
+    "id": "31",
+    "subject": "English",
+    "topic": "Punctuation and Capitalization",
+    "question": "Choose the correct spelling.",
+    "options": [
+      "Embarras",
+      "Embarass",
+      "Embarrass",
+      "Embareass"
+    ],
+    "correct_answer": "Embarrass",
+    "explanation": "'Embarrass' is spelled with double 'r' and double 's'.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q06"
+  },
+  {
+    "id": "32",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The synonym of \"prudent\" is:",
+    "options": [
+      "Careless",
+      "Wise",
+      "Rash",
+      "Foolish"
+    ],
+    "correct_answer": "Wise",
+    "explanation": "'Prudent' means acting with or showing care for the future, making 'wise' the correct synonym.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q07"
+  },
+  {
+    "id": "33",
+    "subject": "English",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct article: 'He bought ____ umbrella.'",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correct_answer": "an",
+    "explanation": "'Umbrella' begins with a vowel sound (/ʌ/), so the indefinite article 'an' is required.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q08"
+  },
+  {
+    "id": "34",
+    "subject": "English",
+    "topic": "Error detection and correction",
+    "question": "Identify the part of speech of the underlined word in: 'He spoke politely to the teacher.'",
+    "options": [
+      "Noun",
+      "Verb",
+      "Adjective",
+      "Adverb"
+    ],
+    "correct_answer": "Adverb",
+    "explanation": "'Politely' modifies the verb 'spoke', making it an adverb.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q09"
+  },
+  {
+    "id": "35",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He is fond for music.",
+      "He is fond of music.",
+      "He is fond with music.",
+      "He is fond to music."
+    ],
+    "correct_answer": "He is fond of music.",
+    "explanation": "The adjective 'fond' is fixedly followed by the preposition 'of'.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q10"
+  },
+  {
+    "id": "36",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of \"hostile\" is:",
+    "options": [
+      "Aggressive",
+      "Friendly",
+      "Angry",
+      "Cruel"
+    ],
+    "correct_answer": "Friendly",
+    "explanation": "'Hostile' means unfriendly or aggressive; 'friendly' is its antonym.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q11"
+  },
+  {
+    "id": "37",
+    "subject": "English",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct preposition: 'She is afraid ____ snakes.'",
+    "options": [
+      "from",
+      "of",
+      "with",
+      "by"
+    ],
+    "correct_answer": "of",
+    "explanation": "The adjective 'afraid' takes the preposition 'of'.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q12"
+  },
+  {
+    "id": "38",
+    "subject": "English",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Identify the tense: 'They have been waiting for hours.'",
+    "options": [
+      "Present perfect",
+      "Present continuous",
+      "Present perfect continuous",
+      "Past perfect"
+    ],
+    "correct_answer": "Present perfect continuous",
+    "explanation": "'Have been' + present participle ('waiting') indicates the present perfect continuous tense.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q13"
+  },
+  {
+    "id": "39",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of \"to put off\".",
+    "options": [
+      "To cancel permanently",
+      "To postpone",
+      "To accept",
+      "To reject"
+    ],
+    "correct_answer": "To postpone",
+    "explanation": "The phrasal verb 'to put off' means to delay or postpone an event or action.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q14"
+  },
+  {
+    "id": "40",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The synonym of \"obsolete\" is:",
+    "options": [
+      "Modern",
+      "Ancient",
+      "Outdated",
+      "Recent"
+    ],
+    "correct_answer": "Outdated",
+    "explanation": "'Obsolete' means no longer produced or used, or out of date.",
+    "source_pdf": "DUHS BS Psychology 2022.pdf",
+    "original_id": "duhs_2022_psy_q15"
+  },
+  {
+    "id": "41",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Much informations were lost.",
+      "Much information was lost.",
+      "Many information was lost.",
+      "Much informations was lost."
+    ],
+    "correct_answer": "Much information was lost.",
+    "explanation": "'Information' is an uncountable noun and takes a singular verb ('was') without a plural form ('informations').",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q1"
+  },
+  {
+    "id": "42",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The word \"obsequious\" means:",
+    "options": [
+      "Honest",
+      "Excessively obedient",
+      "Careless",
+      "Aggressive"
+    ],
+    "correct_answer": "Excessively obedient",
+    "explanation": "'Obsequious' means obedient or attentive to an excessive or servile degree.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q2"
+  },
+  {
+    "id": "43",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of \"to prevaricate\".",
+    "options": [
+      "To speak boldly",
+      "To avoid the truth",
+      "To decide firmly",
+      "To praise excessively"
+    ],
+    "correct_answer": "To avoid the truth",
+    "explanation": "'Prevaricate' means to speak or act in an evasive way, or to avoid telling the truth.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q3"
+  },
+  {
+    "id": "44",
+    "subject": "ENGLISH",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Identify the correct indirect speech:\nShe said, \"I have been waiting for hours.\"",
+    "options": [
+      "She said she was waiting for hours.",
+      "She said she had been waiting for hours.",
+      "She said she is waiting for hours.",
+      "She said she waited for hours."
+    ],
+    "correct_answer": "She said she had been waiting for hours.",
+    "explanation": "Present perfect continuous ('have been waiting') shifts to past perfect continuous ('had been waiting') in indirect speech.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q4"
+  },
+  {
+    "id": "45",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct form:\n\"He is not accustomed ___ spicy food.\"",
+    "options": [
+      "with",
+      "of",
+      "to",
+      "for"
+    ],
+    "correct_answer": "to",
+    "explanation": "The adjective 'accustomed' is correctly followed by the preposition 'to'.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q5"
+  },
+  {
+    "id": "46",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of \"concise\" is:",
+    "options": [
+      "Brief",
+      "Precise",
+      "Verbose",
+      "Accurate"
+    ],
+    "correct_answer": "Verbose",
+    "explanation": "'Concise' means brief and to the point; its antonym 'verbose' means using or containing a great and usually an excessive number of words.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q6"
+  },
+  {
+    "id": "47",
+    "subject": "ENGLISH",
+    "topic": "Error detection and correction",
+    "question": "Choose the correct word:\n\"The judge gave a very ___ decision.\"",
+    "options": [
+      "judicial",
+      "judicious",
+      "judgment",
+      "judiciously"
+    ],
+    "correct_answer": "judicious",
+    "explanation": "'Judicious' means having, showing, or judged with good sense or discretion, which properly modifies the noun 'decision'.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q7"
+  },
+  {
+    "id": "48",
+    "subject": "ENGLISH",
+    "topic": "Reading Passages",
+    "question": "Identify the figure of speech:\n\"The wind whispered through the trees.\"",
+    "options": [
+      "Metaphor",
+      "Simile",
+      "Personification",
+      "Hyperbole"
+    ],
+    "correct_answer": "Personification",
+    "explanation": "Giving human qualities (whispering) to a non-human entity (the wind) is personification.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q8"
+  },
+  {
+    "id": "49",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He denied to steal the money.",
+      "He denied stealing the money.",
+      "He denied to have stolen the money.",
+      "He denied steal the money."
+    ],
+    "correct_answer": "He denied stealing the money.",
+    "explanation": "The verb 'deny' is followed by a gerund (-ing form), making 'denied stealing' grammatically correct.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q9"
+  },
+  {
+    "id": "50",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The synonym of \"resilient\" is:",
+    "options": [
+      "Weak",
+      "Flexible",
+      "Fragile",
+      "Rigid"
+    ],
+    "correct_answer": "Flexible",
+    "explanation": "'Resilient' means able to withstand or recover quickly from difficult conditions, similar in meaning to flexible.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q10"
+  },
+  {
+    "id": "51",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct article:\n\"She is ___ MBA graduate.\"",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correct_answer": "an",
+    "explanation": "The abbreviation 'MBA' is pronounced with a vowel sound at the beginning ('em-bee-ay'), so it requires the article 'an'.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q11"
+  },
+  {
+    "id": "52",
+    "subject": "ENGLISH",
+    "topic": "Reading Passages",
+    "question": "Choose the correct meaning of \"to toe the line\".",
+    "options": [
+      "To rebel",
+      "To follow rules",
+      "To hesitate",
+      "To delay"
+    ],
+    "correct_answer": "To follow rules",
+    "explanation": "The idiom 'to toe the line' means to accept authority, obey rules, or conform to a standard.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q12"
+  },
+  {
+    "id": "53",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "The word \"candid\" means:",
+    "options": [
+      "Secretive",
+      "Frank",
+      "Polite",
+      "Careful"
+    ],
+    "correct_answer": "Frank",
+    "explanation": "'Candid' means truthful and straightforward; frank.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q13"
+  },
+  {
+    "id": "54",
+    "subject": "ENGLISH",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Choose the correct transformation:\n\"They are repairing the bridge.\"",
+    "options": [
+      "The bridge is repaired.",
+      "The bridge has been repaired.",
+      "The bridge is being repaired.",
+      "The bridge was being repaired."
+    ],
+    "correct_answer": "The bridge is being repaired.",
+    "explanation": "Present continuous active ('are repairing') transforms into present continuous passive ('is being repaired').",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q14"
+  },
+  {
+    "id": "55",
+    "subject": "ENGLISH",
+    "topic": "Punctuation and Capitalization",
+    "question": "Identify the sentence type:\n\"What a beautiful view!\"",
+    "options": [
+      "Assertive",
+      "Interrogative",
+      "Exclamatory",
+      "Imperative"
+    ],
+    "correct_answer": "Exclamatory",
+    "explanation": "A sentence that expresses a strong emotion and ends with an exclamation mark is an exclamatory sentence.",
+    "source_pdf": "DUHS BS Psychology 2023.pdf",
+    "original_id": "q15"
+  },
+  {
+    "id": "56",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence.",
+    "options": [
+      "Each of the players have been rewarded.",
+      "Each of the players has been rewarded.",
+      "Each players has been rewarded.",
+      "Each players have been rewarded."
+    ],
+    "correct_answer": "Each of the players has been rewarded.",
+    "explanation": "The subject 'Each' is singular, so it takes the singular verb 'has'.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q001"
+  },
+  {
+    "id": "57",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of 'parsimonious' is:",
+    "options": [
+      "Thrifty",
+      "Miserly",
+      "Generous",
+      "Stingy"
+    ],
+    "correct_answer": "Generous",
+    "explanation": "Parsimonious means very stingy or frugal; its antonym is generous.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q002"
+  },
+  {
+    "id": "58",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of 'iconoclast'.",
+    "options": [
+      "Image worshipper",
+      "Law breaker",
+      "Traditionalist",
+      "Critic of traditions"
+    ],
+    "correct_answer": "Critic of traditions",
+    "explanation": "An iconoclast attacks or criticizes established beliefs and traditions.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q003"
+  },
+  {
+    "id": "59",
+    "subject": "English",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Identify the correct transformation: \"He said, 'She has finished her work.'\"",
+    "options": [
+      "He said she finished her work.",
+      "He said she had finished her work.",
+      "He said she has finished her work.",
+      "He says she had finished her work."
+    ],
+    "correct_answer": "He said she had finished her work.",
+    "explanation": "In indirect speech, present perfect backshifts to past perfect.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q004"
+  },
+  {
+    "id": "60",
+    "subject": "English",
+    "topic": "Error detection and correction",
+    "question": "Choose the correct word: \"He spoke in a very ___ manner.\"",
+    "options": [
+      "confident",
+      "confidential",
+      "confidence",
+      "confidently"
+    ],
+    "correct_answer": "confidently",
+    "explanation": "An adverb is needed to modify the verb 'spoke'; 'confidently' is correct.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q005"
+  },
+  {
+    "id": "61",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The synonym of 'capricious' is:",
+    "options": [
+      "Stable",
+      "Predictable",
+      "Fickle",
+      "Calm"
+    ],
+    "correct_answer": "Fickle",
+    "explanation": "Capricious means given to sudden changes; fickle is the closest synonym.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q006"
+  },
+  {
+    "id": "62",
+    "subject": "English",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct preposition: \"She has no affinity ___ music.\"",
+    "options": [
+      "for",
+      "with",
+      "to",
+      "of"
+    ],
+    "correct_answer": "for",
+    "explanation": "The correct collocation is 'affinity for'.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q007"
+  },
+  {
+    "id": "63",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Identify the type of clause: \"He is the man who helped me.\"",
+    "options": [
+      "Adverbial",
+      "Noun clause",
+      "Relative clause",
+      "Coordinate clause"
+    ],
+    "correct_answer": "Relative clause",
+    "explanation": "'who helped me' modifies the noun 'man' and is a relative clause.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q008"
+  },
+  {
+    "id": "64",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence.",
+    "options": [
+      "He is senior than me.",
+      "He is senior to me.",
+      "He is senior from me.",
+      "He is senior of me."
+    ],
+    "correct_answer": "He is senior to me.",
+    "explanation": "The adjective 'senior' is followed by the preposition 'to'.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q009"
+  },
+  {
+    "id": "65",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of 'to run the gauntlet'.",
+    "options": [
+      "To escape easily",
+      "To face severe criticism",
+      "To win a competition",
+      "To avoid danger"
+    ],
+    "correct_answer": "To face severe criticism",
+    "explanation": "To run the gauntlet means to endure a difficult or critical experience.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q010"
+  },
+  {
+    "id": "66",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Select the correct form: \"No sooner had he arrived ___ the meeting began.\"",
+    "options": [
+      "when",
+      "then",
+      "than",
+      "while"
+    ],
+    "correct_answer": "than",
+    "explanation": "The correct correlative construction is 'No sooner ... than ...'.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q011"
+  },
+  {
+    "id": "67",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The antonym of 'oblivious' is:",
+    "options": [
+      "Unaware",
+      "Conscious",
+      "Forgetful",
+      "Careless"
+    ],
+    "correct_answer": "Conscious",
+    "explanation": "Oblivious means unaware; its antonym is conscious/aware.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q012"
+  },
+  {
+    "id": "68",
+    "subject": "English",
+    "topic": "Error detection and correction",
+    "question": "Choose the correct spelling.",
+    "options": [
+      "Privileged",
+      "Privilege",
+      "Priviledge",
+      "Previlige"
+    ],
+    "correct_answer": "Privilege",
+    "explanation": "The correctly spelled word is 'privilege'.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q013"
+  },
+  {
+    "id": "69",
+    "subject": "English",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Choose the correct voice: \"People speak English all over the world.\"",
+    "options": [
+      "English is spoken all over the world.",
+      "English has spoken all over the world.",
+      "English is being spoken all over the world.",
+      "English was spoken all over the world."
+    ],
+    "correct_answer": "English is spoken all over the world.",
+    "explanation": "Simple present active is converted to simple present passive: is/are + past participle.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q014"
+  },
+  {
+    "id": "70",
+    "subject": "English",
+    "topic": "Synonyms & Antonyms",
+    "question": "The word 'ubiquitous' means:",
+    "options": [
+      "Rare",
+      "Powerful",
+      "Widespread",
+      "Hidden"
+    ],
+    "correct_answer": "Widespread",
+    "explanation": "Ubiquitous means present everywhere; widespread is the closest meaning.",
+    "source_pdf": "DUHS BS Psychology 2024.pdf",
+    "original_id": "duhs_bs_psych_2024_q015"
+  },
+  {
+    "id": "71",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of the idiom \"to bell the cat\".",
+    "options": [
+      "To trap an enemy",
+      "To take a dangerous initiative",
+      "To warn others secretly",
+      "To create confusion"
+    ],
+    "correct_answer": "To take a dangerous initiative",
+    "explanation": "The idiom \"to bell the cat\" means to undertake a risky or dangerous task on behalf of others.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q1"
+  },
+  {
+    "id": "72",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Identify the correct sentence.",
+    "options": [
+      "Neither of the boys have completed their work.",
+      "Neither of the boys has completed his work.",
+      "Neither of the boys have completed his work.",
+      "Neither of the boys has completed their work."
+    ],
+    "correct_answer": "Neither of the boys has completed his work.",
+    "explanation": "\"Neither\" is singular and takes a singular verb (\"has\") and singular pronoun (\"his\").",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q2"
+  },
+  {
+    "id": "73",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the word closest in meaning to \"obdurate\".",
+    "options": [
+      "Flexible",
+      "Stubborn",
+      "Cheerful",
+      "Weak"
+    ],
+    "correct_answer": "Stubborn",
+    "explanation": "\"Obdurate\" means stubbornly refusing to change one's opinion or course of action.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q3"
+  },
+  {
+    "id": "74",
+    "subject": "ENGLISH",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Choose the correct passive voice:\n\"They will finalize the proposal tomorrow.\"",
+    "options": [
+      "The proposal will be finalized tomorrow.",
+      "The proposal is finalized tomorrow.",
+      "The proposal was finalized tomorrow.",
+      "The proposal has been finalized tomorrow."
+    ],
+    "correct_answer": "The proposal will be finalized tomorrow.",
+    "explanation": "Future simple active (\"will finalize\") converts to future simple passive (\"will be finalized\").",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q4"
+  },
+  {
+    "id": "75",
+    "subject": "ENGLISH",
+    "topic": "Punctuation and Capitalization",
+    "question": "Choose the correct spelling.",
+    "options": [
+      "Accomodation",
+      "Acommodation",
+      "Accommodation",
+      "Accomadation"
+    ],
+    "correct_answer": "Accommodation",
+    "explanation": "The correct spelling contains double 'c' and double 'm'.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q5"
+  },
+  {
+    "id": "76",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Select the correct antonym of \"lucid\".",
+    "options": [
+      "Clear",
+      "Bright",
+      "Obscure",
+      "Rational"
+    ],
+    "correct_answer": "Obscure",
+    "explanation": "\"Lucid\" means clear and easy to understand, making \"obscure\" its antonym.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q6"
+  },
+  {
+    "id": "77",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Identify the correct sentence.",
+    "options": [
+      "Scarcely had he entered than it started raining.",
+      "Scarcely he had entered when it started raining.",
+      "Scarcely had he entered when it started raining.",
+      "Scarcely he entered when it started raining."
+    ],
+    "correct_answer": "Scarcely had he entered when it started raining.",
+    "explanation": "\"Scarcely\" is followed by inversion (had he entered) and paired with the conjunction \"when\".",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q7"
+  },
+  {
+    "id": "78",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct preposition:\n\"He is proficient ___ mathematics.\"",
+    "options": [
+      "in",
+      "at",
+      "with",
+      "on"
+    ],
+    "correct_answer": "in",
+    "explanation": "The correct collocation is \"proficient in\" a subject or skill.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q8"
+  },
+  {
+    "id": "79",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct word:\n\"She has a very ___ sense of humor.\"",
+    "options": [
+      "childlike",
+      "childish",
+      "childly",
+      "childness"
+    ],
+    "correct_answer": "childlike",
+    "explanation": "\"Childlike\" has a positive connotation of innocence suitable for a sense of humor, unlike the negative \"childish\".",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q9"
+  },
+  {
+    "id": "80",
+    "subject": "ENGLISH",
+    "topic": "Tenses, Active/Passive voice, Direct/Indirect speech",
+    "question": "Choose the correct indirect speech:\nHe said, \"I am going home.\"",
+    "options": [
+      "He said that he was going home.",
+      "He said that he is going home.",
+      "He said that I was going home.",
+      "He said he will go home."
+    ],
+    "correct_answer": "He said that he was going home.",
+    "explanation": "Present continuous tense changes to past continuous in indirect speech, and pronouns shift accordingly.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q10"
+  },
+  {
+    "id": "81",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the synonym of \"ephemeral\".",
+    "options": [
+      "Permanent",
+      "Short-lived",
+      "Strong",
+      "Endless"
+    ],
+    "correct_answer": "Short-lived",
+    "explanation": "\"Ephemeral\" means lasting for a very short time.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q11"
+  },
+  {
+    "id": "82",
+    "subject": "ENGLISH",
+    "topic": "Prepositions & Articles",
+    "question": "Choose the correct article:\n\"He is ___ honorable man.\"",
+    "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+    ],
+    "correct_answer": "an",
+    "explanation": "\"Honorable\" begins with a silent 'h', producing a vowel sound ('onorable'), requiring the article \"an\".",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q12"
+  },
+  {
+    "id": "83",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Identify the type of sentence:\n\"If you work hard, you will succeed.\"",
+    "options": [
+      "Simple",
+      "Compound",
+      "Complex",
+      "Compound-complex"
+    ],
+    "correct_answer": "Complex",
+    "explanation": "A complex sentence contains an independent clause and at least one dependent clause (conditional clause).",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q13"
+  },
+  {
+    "id": "84",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct form:\n\"Hardly had she arrived ___ the meeting started.\"",
+    "options": [
+      "than",
+      "when",
+      "then",
+      "while"
+    ],
+    "correct_answer": "when",
+    "explanation": "\"Hardly... when\" is the correct correlative conjunction structure.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q14"
+  },
+  {
+    "id": "85",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Choose the correct meaning of \"magnanimous\".",
+    "options": [
+      "Cruel",
+      "Narrow-minded",
+      "Generous",
+      "Proud"
+    ],
+    "correct_answer": "Generous",
+    "explanation": "\"Magnanimous\" means generous or forgiving, especially toward a rival or less powerful person.",
+    "source_pdf": "DUHS BS Psychology 2025.pdf",
+    "original_id": "q15"
+  },
+  {
+    "id": "86",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Direct",
+    "options": [
+      "A) Straight",
+      "B) Indirect",
+      "C) Honest",
+      "D) Clear"
+    ],
+    "correct_answer": "B) Indirect",
+    "explanation": "The antonym of 'Direct' is 'Indirect'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q301"
+  },
+  {
+    "id": "87",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Dirty",
+    "options": [
+      "A) Clean",
+      "B) Messy",
+      "C) Filthy",
+      "D) Untidy"
+    ],
+    "correct_answer": "A) Clean",
+    "explanation": "The antonym of 'Dirty' is 'Clean'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q302"
+  },
+  {
+    "id": "88",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Disagree",
+    "options": [
+      "A) Argue",
+      "B) Agree",
+      "C) Oppose",
+      "D) Reject"
+    ],
+    "correct_answer": "B) Agree",
+    "explanation": "The antonym of 'Disagree' is 'Agree'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q303"
+  },
+  {
+    "id": "89",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Disappear",
+    "options": [
+      "A) Appear",
+      "B) Vanish",
+      "C) Hide",
+      "D) Escape"
+    ],
+    "correct_answer": "A) Appear",
+    "explanation": "The antonym of 'Disappear' is 'Appear'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q304"
+  },
+  {
+    "id": "90",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Distant",
+    "options": [
+      "A) Far",
+      "B) Close",
+      "C) Remote",
+      "D) Away"
+    ],
+    "correct_answer": "B) Close",
+    "explanation": "The antonym of 'Distant' is 'Close'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q305"
+  },
+  {
+    "id": "91",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Divide",
+    "options": [
+      "A) Separate",
+      "B) Join",
+      "C) Split",
+      "D) Share"
+    ],
+    "correct_answer": "B) Join",
+    "explanation": "The antonym of 'Divide' is 'Join'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q306"
+  },
+  {
+    "id": "92",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Domestic",
+    "options": [
+      "A) National",
+      "B) Foreign",
+      "C) Local",
+      "D) Internal"
+    ],
+    "correct_answer": "B) Foreign",
+    "explanation": "The antonym of 'Domestic' is 'Foreign'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q307"
+  },
+  {
+    "id": "93",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Down",
+    "options": [
+      "A) Up",
+      "B) Below",
+      "C) Lower",
+      "D) Under"
+    ],
+    "correct_answer": "A) Up",
+    "explanation": "The antonym of 'Down' is 'Up'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q308"
+  },
+  {
+    "id": "94",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Drunk",
+    "options": [
+      "A) Sober",
+      "B) Tipsy",
+      "C) Inebriated",
+      "D) Intoxicated"
+    ],
+    "correct_answer": "A) Sober",
+    "explanation": "The antonym of 'Drunk' is 'Sober'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q309"
+  },
+  {
+    "id": "95",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Dry",
+    "options": [
+      "A) Wet",
+      "B) Arid",
+      "C) Thirsty",
+      "D) Dull"
+    ],
+    "correct_answer": "A) Wet",
+    "explanation": "The antonym of 'Dry' is 'Wet'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q310"
+  },
+  {
+    "id": "96",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Early",
+    "options": [
+      "A) Late",
+      "B) Prompt",
+      "C) Soon",
+      "D) First"
+    ],
+    "correct_answer": "A) Late",
+    "explanation": "The antonym of 'Early' is 'Late'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q311"
+  },
+  {
+    "id": "97",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "East",
+    "options": [
+      "A) West",
+      "B) South",
+      "C) North",
+      "D) Northeast"
+    ],
+    "correct_answer": "A) West",
+    "explanation": "The antonym of 'East' is 'West'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q312"
+  },
+  {
+    "id": "98",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Easy",
+    "options": [
+      "A) Difficult",
+      "B) Simple",
+      "C) Soft",
+      "D) Plain"
+    ],
+    "correct_answer": "A) Difficult",
+    "explanation": "The antonym of 'Easy' is 'Difficult'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q313"
+  },
+  {
+    "id": "99",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Empty",
+    "options": [
+      "A) Full",
+      "B) Hollow",
+      "C) Vacant",
+      "D) Blank"
+    ],
+    "correct_answer": "A) Full",
+    "explanation": "The antonym of 'Empty' is 'Full'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q314"
+  },
+  {
+    "id": "100",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "End",
+    "options": [
+      "A) Begin",
+      "B) Finish",
+      "C) Stop",
+      "D) Close"
+    ],
+    "correct_answer": "A) Begin",
+    "explanation": "The antonym of 'End' is 'Begin'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q315"
+  },
+  {
+    "id": "101",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Enter",
+    "options": [
+      "A) Exit",
+      "B) Go in",
+      "C) Join",
+      "D) Arrive"
+    ],
+    "correct_answer": "A) Exit",
+    "explanation": "The antonym of 'Enter' is 'Exit'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q316"
+  },
+  {
+    "id": "102",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Even",
+    "options": [
+      "A) Odd",
+      "B) Equal",
+      "C) Flat",
+      "D) Same"
+    ],
+    "correct_answer": "A) Odd",
+    "explanation": "The antonym of 'Even' is 'Odd'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q317"
+  },
+  {
+    "id": "103",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Everybody",
+    "options": [
+      "A) Nobody",
+      "B) Someone",
+      "C) Anyone",
+      "D) People"
+    ],
+    "correct_answer": "A) Nobody",
+    "explanation": "The antonym of 'Everybody' is 'Nobody'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q318"
+  },
+  {
+    "id": "104",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Excited",
+    "options": [
+      "A) Calm",
+      "B) Thrilled",
+      "C) Eager",
+      "D) Energetic"
+    ],
+    "correct_answer": "A) Calm",
+    "explanation": "The antonym of 'Excited' is 'Calm'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q319"
+  },
+  {
+    "id": "105",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Expand",
+    "options": [
+      "A) Contract",
+      "B) Increase",
+      "C) Spread",
+      "D) Grow"
+    ],
+    "correct_answer": "A) Contract",
+    "explanation": "The antonym of 'Expand' is 'Contract'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q320"
+  },
+  {
+    "id": "106",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Export",
+    "options": [
+      "A) Import",
+      "B) Send",
+      "C) Trade",
+      "D) Deliver"
+    ],
+    "correct_answer": "A) Import",
+    "explanation": "The antonym of 'Export' is 'Import'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q321"
+  },
+  {
+    "id": "107",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Exterior",
+    "options": [
+      "A) Inside",
+      "B) Outer",
+      "C) External",
+      "D) Surface"
+    ],
+    "correct_answer": "A) Inside",
+    "explanation": "The antonym of 'Exterior' is 'Inside'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q322"
+  },
+  {
+    "id": "108",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Fail",
+    "options": [
+      "A) Succeed",
+      "B) Lose",
+      "C) Miss",
+      "D) Fall"
+    ],
+    "correct_answer": "A) Succeed",
+    "explanation": "The antonym of 'Fail' is 'Succeed'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q323"
+  },
+  {
+    "id": "109",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "False",
+    "options": [
+      "A) True",
+      "B) Wrong",
+      "C) Fake",
+      "D) Lie"
+    ],
+    "correct_answer": "A) True",
+    "explanation": "The antonym of 'False' is 'True'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q324"
+  },
+  {
+    "id": "110",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Famous",
+    "options": [
+      "A) Unknown",
+      "B) Popular",
+      "C) Noted",
+      "D) Well-known"
+    ],
+    "correct_answer": "A) Unknown",
+    "explanation": "The antonym of 'Famous' is 'Unknown'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q325"
+  },
+  {
+    "id": "111",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Fast",
+    "options": [
+      "A) Quick",
+      "B) Slow",
+      "C) Rapid",
+      "D) Speedy"
+    ],
+    "correct_answer": "B) Slow",
+    "explanation": "The antonym of 'Fast' is 'Slow'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q326"
+  },
+  {
+    "id": "112",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Fat",
+    "options": [
+      "A) Thin",
+      "B) Heavy",
+      "C) Big",
+      "D) Thick"
+    ],
+    "correct_answer": "A) Thin",
+    "explanation": "The antonym of 'Fat' is 'Thin'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q327"
+  },
+  {
+    "id": "113",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Fear",
+    "options": [
+      "A) Courage",
+      "B) Worry",
+      "C) Danger",
+      "D) Afraid"
+    ],
+    "correct_answer": "A) Courage",
+    "explanation": "The antonym of 'Fear' is 'Courage'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q328"
+  },
+  {
+    "id": "114",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Few",
+    "options": [
+      "A) Many",
+      "B) Less",
+      "C) Some",
+      "D) Couple"
+    ],
+    "correct_answer": "A) Many",
+    "explanation": "The antonym of 'Few' is 'Many'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q329"
+  },
+  {
+    "id": "115",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Final",
+    "options": [
+      "A) First",
+      "B) Last",
+      "C) End",
+      "D) Closing"
+    ],
+    "correct_answer": "A) First",
+    "explanation": "The antonym of 'Final' is 'First'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q330"
+  },
+  {
+    "id": "116",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Find",
+    "options": [
+      "A) Lose",
+      "B) Search",
+      "C) Seek",
+      "D) Discover"
+    ],
+    "correct_answer": "A) Lose",
+    "explanation": "The antonym of 'Find' is 'Lose'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q331"
+  },
+  {
+    "id": "117",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Finish",
+    "options": [
+      "A) End",
+      "B) Begin",
+      "C) Stop",
+      "D) Close"
+    ],
+    "correct_answer": "B) Begin",
+    "explanation": "The antonym of 'Finish' is 'Begin'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q332"
+  },
+  {
+    "id": "118",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "First",
+    "options": [
+      "A) Last",
+      "B) Start",
+      "C) Head",
+      "D) Foremost"
+    ],
+    "correct_answer": "A) Last",
+    "explanation": "The antonym of 'First' is 'Last'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q333"
+  },
+  {
+    "id": "119",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Float",
+    "options": [
+      "A) Sink",
+      "B) Swim",
+      "C) Glide",
+      "D) Drift"
+    ],
+    "correct_answer": "A) Sink",
+    "explanation": "The antonym of 'Float' is 'Sink'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q334"
+  },
+  {
+    "id": "120",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Floor",
+    "options": [
+      "A) Ceiling",
+      "B) Ground",
+      "C) Base",
+      "D) Bottom"
+    ],
+    "correct_answer": "A) Ceiling",
+    "explanation": "The antonym of 'Floor' is 'Ceiling'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q335"
+  },
+  {
+    "id": "121",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Foolish",
+    "options": [
+      "A) Wise",
+      "B) Clever",
+      "C) Smart",
+      "D) Intelligent"
+    ],
+    "correct_answer": "A) Wise",
+    "explanation": "The antonym of 'Foolish' is 'Wise'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q336"
+  },
+  {
+    "id": "122",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Forbid",
+    "options": [
+      "A) Allow",
+      "B) Prevent",
+      "C) Stop",
+      "D) Ban"
+    ],
+    "correct_answer": "A) Allow",
+    "explanation": "The antonym of 'Forbid' is 'Allow'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q337"
+  },
+  {
+    "id": "123",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Foreign",
+    "options": [
+      "A) Domestic",
+      "B) Overseas",
+      "C) External",
+      "D) Abroad"
+    ],
+    "correct_answer": "A) Domestic",
+    "explanation": "The antonym of 'Foreign' is 'Domestic'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q338"
+  },
+  {
+    "id": "124",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Forget",
+    "options": [
+      "A) Remember",
+      "B) Ignore",
+      "C) Miss",
+      "D) Neglect"
+    ],
+    "correct_answer": "A) Remember",
+    "explanation": "The antonym of 'Forget' is 'Remember'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q339"
+  },
+  {
+    "id": "125",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Form",
+    "options": [
+      "A) Shape",
+      "B) Destroy",
+      "C) Create",
+      "D) Build"
+    ],
+    "correct_answer": "B) Destroy",
+    "explanation": "The antonym of 'Form' is 'Destroy'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q340"
+  },
+  {
+    "id": "126",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Forward",
+    "options": [
+      "A) Backward",
+      "B) Advance",
+      "C) Ahead",
+      "D) Forth"
+    ],
+    "correct_answer": "A) Backward",
+    "explanation": "The antonym of 'Forward' is 'Backward'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q341"
+  },
+  {
+    "id": "127",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Freeze",
+    "options": [
+      "A) Melt",
+      "B) Cool",
+      "C) Chill",
+      "D) Solidify"
+    ],
+    "correct_answer": "A) Melt",
+    "explanation": "The antonym of 'Freeze' is 'Melt'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q342"
+  },
+  {
+    "id": "128",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Full",
+    "options": [
+      "A) Empty",
+      "B) Filled",
+      "C) Packed",
+      "D) Loaded"
+    ],
+    "correct_answer": "A) Empty",
+    "explanation": "The antonym of 'Full' is 'Empty'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q343"
+  },
+  {
+    "id": "129",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Generous",
+    "options": [
+      "A) Stingy",
+      "B) Giving",
+      "C) Kind",
+      "D) Helpful"
+    ],
+    "correct_answer": "A) Stingy",
+    "explanation": "The antonym of 'Generous' is 'Stingy'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q344"
+  },
+  {
+    "id": "130",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Gentle",
+    "options": [
+      "A) Rough",
+      "B) Soft",
+      "C) Mild",
+      "D) Calm"
+    ],
+    "correct_answer": "A) Rough",
+    "explanation": "The antonym of 'Gentle' is 'Rough'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q345"
+  },
+  {
+    "id": "131",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Girl",
+    "options": [
+      "A) Boy",
+      "B) Female",
+      "C) Lady",
+      "D) Woman"
+    ],
+    "correct_answer": "A) Boy",
+    "explanation": "The antonym of 'Girl' is 'Boy'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q346"
+  },
+  {
+    "id": "132",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Give",
+    "options": [
+      "A) Take",
+      "B) Offer",
+      "C) Provide",
+      "D) Present"
+    ],
+    "correct_answer": "A) Take",
+    "explanation": "The antonym of 'Give' is 'Take'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q347"
+  },
+  {
+    "id": "133",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Go",
+    "options": [
+      "A) Come",
+      "B) Leave",
+      "C) Depart",
+      "D) Move"
+    ],
+    "correct_answer": "A) Come",
+    "explanation": "The antonym of 'Go' is 'Come'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q348"
+  },
+  {
+    "id": "134",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Good",
+    "options": [
+      "A) Bad",
+      "B) Nice",
+      "C) Fine",
+      "D) Great"
+    ],
+    "correct_answer": "A) Bad",
+    "explanation": "The antonym of 'Good' is 'Bad'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q349"
+  },
+  {
+    "id": "135",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Grand",
+    "options": [
+      "A) Small",
+      "B) Huge",
+      "C) Great",
+      "D) Big"
+    ],
+    "correct_answer": "A) Small",
+    "explanation": "The antonym of 'Grand' is 'Small'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q350"
+  },
+  {
+    "id": "136",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Great",
+    "options": [
+      "A) Tiny",
+      "B) Big",
+      "C) Huge",
+      "D) Large"
+    ],
+    "correct_answer": "A) Tiny",
+    "explanation": "The antonym of 'Great' is 'Tiny'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q351"
+  },
+  {
+    "id": "137",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Happy",
+    "options": [
+      "A) Sad",
+      "B) Glad",
+      "C) Joyful",
+      "D) Cheerful"
+    ],
+    "correct_answer": "A) Sad",
+    "explanation": "The antonym of 'Happy' is 'Sad'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q352"
+  },
+  {
+    "id": "138",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Hard",
+    "options": [
+      "A) Soft",
+      "B) Solid",
+      "C) Tough",
+      "D) Firm"
+    ],
+    "correct_answer": "A) Soft",
+    "explanation": "The antonym of 'Hard' is 'Soft'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q353"
+  },
+  {
+    "id": "139",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Hate",
+    "options": [
+      "A) Love",
+      "B) Dislike",
+      "C) Loathe",
+      "D) Despise"
+    ],
+    "correct_answer": "A) Love",
+    "explanation": "The antonym of 'Hate' is 'Love'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q354"
+  },
+  {
+    "id": "140",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Heavy",
+    "options": [
+      "A) Light",
+      "B) Strong",
+      "C) Huge",
+      "D) Massive"
+    ],
+    "correct_answer": "A) Light",
+    "explanation": "The antonym of 'Heavy' is 'Light'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q355"
+  },
+  {
+    "id": "141",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Help",
+    "options": [
+      "A) Hinder",
+      "B) Assist",
+      "C) Support",
+      "D) Aid"
+    ],
+    "correct_answer": "A) Hinder",
+    "explanation": "The antonym of 'Help' is 'Hinder'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q356"
+  },
+  {
+    "id": "142",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "High",
+    "options": [
+      "A) Low",
+      "B) Tall",
+      "C) Upper",
+      "D) Elevated"
+    ],
+    "correct_answer": "A) Low",
+    "explanation": "The antonym of 'High' is 'Low'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q357"
+  },
+  {
+    "id": "143",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Honest",
+    "options": [
+      "A) Dishonest",
+      "B) Truthful",
+      "C) Sincere",
+      "D) Upright"
+    ],
+    "correct_answer": "A) Dishonest",
+    "explanation": "The antonym of 'Honest' is 'Dishonest'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q358"
+  },
+  {
+    "id": "144",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Hot",
+    "options": [
+      "A) Cold",
+      "B) Warm",
+      "C) Boiling",
+      "D) Heated"
+    ],
+    "correct_answer": "A) Cold",
+    "explanation": "The antonym of 'Hot' is 'Cold'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q359"
+  },
+  {
+    "id": "145",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Huge",
+    "options": [
+      "A) Tiny",
+      "B) Large",
+      "C) Big",
+      "D) Massive"
+    ],
+    "correct_answer": "A) Tiny",
+    "explanation": "The antonym of 'Huge' is 'Tiny'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q360"
+  },
+  {
+    "id": "146",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Humble",
+    "options": [
+      "A) Proud",
+      "B) Modest",
+      "C) Simple",
+      "D) Gentle"
+    ],
+    "correct_answer": "A) Proud",
+    "explanation": "The antonym of 'Humble' is 'Proud'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q361"
+  },
+  {
+    "id": "147",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "In",
+    "options": [
+      "A) Out",
+      "B) Inside",
+      "C) Within",
+      "D) Into"
+    ],
+    "correct_answer": "A) Out",
+    "explanation": "The antonym of 'In' is 'Out'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q362"
+  },
+  {
+    "id": "148",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Increase",
+    "options": [
+      "A) Decrease",
+      "B) Raise",
+      "C) Grow",
+      "D) Expand"
+    ],
+    "correct_answer": "A) Decrease",
+    "explanation": "The antonym of 'Increase' is 'Decrease'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q363"
+  },
+  {
+    "id": "149",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Inner",
+    "options": [
+      "A) Outer",
+      "B) Inside",
+      "C) Internal",
+      "D) Interior"
+    ],
+    "correct_answer": "A) Outer",
+    "explanation": "The antonym of 'Inner' is 'Outer'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q364"
+  },
+  {
+    "id": "150",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Innocent",
+    "options": [
+      "A) Guilty",
+      "B) Pure",
+      "C) Honest",
+      "D) Naive"
+    ],
+    "correct_answer": "A) Guilty",
+    "explanation": "The antonym of 'Innocent' is 'Guilty'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q365"
+  },
+  {
+    "id": "151",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Inside",
+    "options": [
+      "A) Outside",
+      "B) Within",
+      "C) Internal",
+      "D) Inner"
+    ],
+    "correct_answer": "A) Outside",
+    "explanation": "The antonym of 'Inside' is 'Outside'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q366"
+  },
+  {
+    "id": "152",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Interesting",
+    "options": [
+      "A) Boring",
+      "B) Exciting",
+      "C) Amusing",
+      "D) Fascinating"
+    ],
+    "correct_answer": "A) Boring",
+    "explanation": "The antonym of 'Interesting' is 'Boring'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q367"
+  },
+  {
+    "id": "153",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Join",
+    "options": [
+      "A) Separate",
+      "B) Connect",
+      "C) Unite",
+      "D) Attach"
+    ],
+    "correct_answer": "A) Separate",
+    "explanation": "The antonym of 'Join' is 'Separate'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q368"
+  },
+  {
+    "id": "154",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Junior",
+    "options": [
+      "A) Senior",
+      "B) Younger",
+      "C) Lower",
+      "D) Subordinate"
+    ],
+    "correct_answer": "A) Senior",
+    "explanation": "The antonym of 'Junior' is 'Senior'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q369"
+  },
+  {
+    "id": "155",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Kind",
+    "options": [
+      "A) Cruel",
+      "B) Gentle",
+      "C) Good",
+      "D) Nice"
+    ],
+    "correct_answer": "A) Cruel",
+    "explanation": "The antonym of 'Kind' is 'Cruel'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q370"
+  },
+  {
+    "id": "156",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Knowledge",
+    "options": [
+      "A) Ignorance",
+      "B) Wisdom",
+      "C) Learning",
+      "D) Information"
+    ],
+    "correct_answer": "A) Ignorance",
+    "explanation": "The antonym of 'Knowledge' is 'Ignorance'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q371"
+  },
+  {
+    "id": "157",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Land",
+    "options": [
+      "A) Sea",
+      "B) Ground",
+      "C) Earth",
+      "D) Soil"
+    ],
+    "correct_answer": "A) Sea",
+    "explanation": "The antonym/opposite of 'Land' in this context is 'Sea'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q372"
+  },
+  {
+    "id": "158",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Large",
+    "options": [
+      "A) Small",
+      "B) Big",
+      "C) Huge",
+      "D) Great"
+    ],
+    "correct_answer": "A) Small",
+    "explanation": "The antonym of 'Large' is 'Small'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q373"
+  },
+  {
+    "id": "159",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Last",
+    "options": [
+      "A) First",
+      "B) End",
+      "C) Final",
+      "D) Closing"
+    ],
+    "correct_answer": "A) First",
+    "explanation": "The antonym of 'Last' is 'First'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q374"
+  },
+  {
+    "id": "160",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Laugh",
+    "options": [
+      "A) Cry",
+      "B) Smile",
+      "C) Giggle",
+      "D) Chuckle"
+    ],
+    "correct_answer": "A) Cry",
+    "explanation": "The antonym of 'Laugh' is 'Cry'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q375"
+  },
+  {
+    "id": "161",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Lazy",
+    "options": [
+      "A) Active",
+      "B) Idle",
+      "C) Slow",
+      "D) Dull"
+    ],
+    "correct_answer": "A) Active",
+    "explanation": "The antonym of 'Lazy' is 'Active'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q376"
+  },
+  {
+    "id": "162",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Lead",
+    "options": [
+      "A) Follow",
+      "B) Guide",
+      "C) Direct",
+      "D) Head"
+    ],
+    "correct_answer": "A) Follow",
+    "explanation": "The antonym of 'Lead' is 'Follow'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q377"
+  },
+  {
+    "id": "163",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Learn",
+    "options": [
+      "A) Forget",
+      "B) Study",
+      "C) Know",
+      "D) Understand"
+    ],
+    "correct_answer": "A) Forget",
+    "explanation": "The antonym of 'Learn' is 'Forget'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q378"
+  },
+  {
+    "id": "164",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Left",
+    "options": [
+      "A) Right",
+      "B) Side",
+      "C) Opposite",
+      "D) Turn"
+    ],
+    "correct_answer": "A) Right",
+    "explanation": "The antonym of 'Left' is 'Right'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q379"
+  },
+  {
+    "id": "165",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Less",
+    "options": [
+      "A) More",
+      "B) Few",
+      "C) Small",
+      "D) Little"
+    ],
+    "correct_answer": "A) More",
+    "explanation": "The antonym of 'Less' is 'More'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q380"
+  },
+  {
+    "id": "166",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Light",
+    "options": [
+      "A) Dark",
+      "B) Bright",
+      "C) Glow",
+      "D) Shine"
+    ],
+    "correct_answer": "A) Dark",
+    "explanation": "The antonym of 'Light' is 'Dark'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q381"
+  },
+  {
+    "id": "167",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Like",
+    "options": [
+      "A) Dislike",
+      "B) Love",
+      "C) Enjoy",
+      "D) Prefer"
+    ],
+    "correct_answer": "A) Dislike",
+    "explanation": "The antonym of 'Like' is 'Dislike'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q382"
+  },
+  {
+    "id": "168",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Liquid",
+    "options": [
+      "A) Solid",
+      "B) Fluid",
+      "C) Water",
+      "D) Wet"
+    ],
+    "correct_answer": "A) Solid",
+    "explanation": "The antonym of 'Liquid' is 'Solid'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q383"
+  },
+  {
+    "id": "169",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Little",
+    "options": [
+      "A) Big",
+      "B) Small",
+      "C) Much",
+      "D) Tiny"
+    ],
+    "correct_answer": "C) Much",
+    "explanation": "The antonym of 'Little' in this context is 'Much'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q384"
+  },
+  {
+    "id": "170",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Long",
+    "options": [
+      "A) Short",
+      "B) Tall",
+      "C) Lengthy",
+      "D) Big"
+    ],
+    "correct_answer": "A) Short",
+    "explanation": "The antonym of 'Long' is 'Short'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q385"
+  },
+  {
+    "id": "171",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Loose",
+    "options": [
+      "A) Tight",
+      "B) Free",
+      "C) Open",
+      "D) Slack"
+    ],
+    "correct_answer": "A) Tight",
+    "explanation": "The antonym of 'Loose' is 'Tight'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q386"
+  },
+  {
+    "id": "172",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Loud",
+    "options": [
+      "A) Quiet",
+      "B) Noisy",
+      "C) Shout",
+      "D) Sound"
+    ],
+    "correct_answer": "A) Quiet",
+    "explanation": "The antonym of 'Loud' is 'Quiet'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q387"
+  },
+  {
+    "id": "173",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Love",
+    "options": [
+      "A) Hate",
+      "B) Like",
+      "C) Care",
+      "D) Enjoy"
+    ],
+    "correct_answer": "A) Hate",
+    "explanation": "The antonym of 'Love' is 'Hate'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q388"
+  },
+  {
+    "id": "174",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Low",
+    "options": [
+      "A) High",
+      "B) Down",
+      "C) Bottom",
+      "D) Under"
+    ],
+    "correct_answer": "A) High",
+    "explanation": "The antonym of 'Low' is 'High'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q389"
+  },
+  {
+    "id": "175",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Major",
+    "options": [
+      "A) Minor",
+      "B) Big",
+      "C) Important",
+      "D) Chief"
+    ],
+    "correct_answer": "A) Minor",
+    "explanation": "The antonym of 'Major' is 'Minor'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q390"
+  },
+  {
+    "id": "176",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Male",
+    "options": [
+      "A) Female",
+      "B) Man",
+      "C) Boy",
+      "D) Gentleman"
+    ],
+    "correct_answer": "A) Female",
+    "explanation": "The antonym of 'Male' is 'Female'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q391"
+  },
+  {
+    "id": "177",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Man",
+    "options": [
+      "A) Woman",
+      "B) Male",
+      "C) Gentleman",
+      "D) Boy"
+    ],
+    "correct_answer": "A) Woman",
+    "explanation": "The antonym of 'Man' is 'Woman'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q392"
+  },
+  {
+    "id": "178",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Many",
+    "options": [
+      "A) Few",
+      "B) Much",
+      "C) Lot",
+      "D) Several"
+    ],
+    "correct_answer": "A) Few",
+    "explanation": "The antonym of 'Many' is 'Few'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q393"
+  },
+  {
+    "id": "179",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Marry",
+    "options": [
+      "A) Divorce",
+      "B) Wedding",
+      "C) Unite",
+      "D) Join"
+    ],
+    "correct_answer": "A) Divorce",
+    "explanation": "The antonym of 'Marry' is 'Divorce'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q394"
+  },
+  {
+    "id": "180",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Master",
+    "options": [
+      "A) Servant",
+      "B) Boss",
+      "C) Leader",
+      "D) Chief"
+    ],
+    "correct_answer": "A) Servant",
+    "explanation": "The antonym of 'Master' is 'Servant'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q395"
+  },
+  {
+    "id": "181",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Maximum",
+    "options": [
+      "A) Minimum",
+      "B) Highest",
+      "C) Largest",
+      "D) Greatest"
+    ],
+    "correct_answer": "A) Minimum",
+    "explanation": "The antonym of 'Maximum' is 'Minimum'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q396"
+  },
+  {
+    "id": "182",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Melt",
+    "options": [
+      "A) Freeze",
+      "B) Boil",
+      "C) Heat",
+      "D) Thaw"
+    ],
+    "correct_answer": "A) Freeze",
+    "explanation": "The antonym of 'Melt' is 'Freeze'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q397"
+  },
+  {
+    "id": "183",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Merry",
+    "options": [
+      "A) Sad",
+      "B) Happy",
+      "C) Joyful",
+      "D) Cheerful"
+    ],
+    "correct_answer": "A) Sad",
+    "explanation": "The antonym of 'Merry' is 'Sad'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q398"
+  },
+  {
+    "id": "184",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Minor",
+    "options": [
+      "A) Major",
+      "B) Small",
+      "C) Lesser",
+      "D) Tiny"
+    ],
+    "correct_answer": "A) Major",
+    "explanation": "The antonym of 'Minor' is 'Major'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q399"
+  },
+  {
+    "id": "185",
+    "subject": "ENGLISH",
+    "topic": "Synonyms & Antonyms",
+    "question": "Miser",
+    "options": [
+      "A) Spendthrift",
+      "B) Stingy",
+      "C) Thrifty",
+      "D) Economical"
+    ],
+    "correct_answer": "A) Spendthrift",
+    "explanation": "The antonym of 'Miser' is 'Spendthrift'.",
+    "source_pdf": "Sir NJ Synonym 301 to 400.pdf",
+    "original_id": "q400"
+  },
+  {
+    "id": "186",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "What is the primary difference between a phrase and a clause regarding verbs?",
+    "options": [
+      "A phrase has a finite verb, while a clause does not.",
+      "A clause has one finite verb, whereas a phrase has no finite verb.",
+      "Both phrases and clauses must have finite verbs.",
+      "Neither phrases nor clauses contain verbs."
+    ],
+    "correct_answer": "A clause has one finite verb, whereas a phrase has no finite verb.",
+    "explanation": "Clauses contain a finite verb; phrases do not.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q163"
+  },
+  {
+    "id": "187",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Which of the following is a requirement for a collection of words to be considered a clause?",
+    "options": [
+      "It must have incomplete meaning.",
+      "It must have either a subject or a predicate, but not both.",
+      "It must have both a subject and a predicate.",
+      "It must not contain a finite verb."
+    ],
+    "correct_answer": "It must have both a subject and a predicate.",
+    "explanation": "A clause has subject and predicate.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q164"
+  },
+  {
+    "id": "188",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "In the sentence, 'In the morning, on the grass runs a grasshopper,' what is the subject?",
+    "options": [
+      "In the morning",
+      "On the grass",
+      "Runs",
+      "A grasshopper"
+    ],
+    "correct_answer": "A grasshopper",
+    "explanation": "The subject is 'a grasshopper'; the sentence is inverted.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q165"
+  },
+  {
+    "id": "189",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "In the sentence, 'A very brilliant student of Intermediate topped the exam,' what part functions as the subject-word (SW)?",
+    "options": [
+      "A very brilliant",
+      "Student",
+      "Of Intermediate",
+      "Topped"
+    ],
+    "correct_answer": "Student",
+    "explanation": "The head word of the subject is 'student'.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q166"
+  },
+  {
+    "id": "190",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Identify the indirect object in the sentence: 'They sent him a postcard.'",
+    "options": [
+      "They",
+      "Sent",
+      "Him",
+      "A postcard"
+    ],
+    "correct_answer": "Him",
+    "explanation": "'Him' is the indirect object receiving the postcard.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q167"
+  },
+  {
+    "id": "191",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "An adverbial that expresses 'how' an action is done, such as 'bravely' or 'in a beautiful style,' is an:",
+    "options": [
+      "Adverbial of place",
+      "Adverbial of manner",
+      "Adverbial of time",
+      "Adverbial of reason"
+    ],
+    "correct_answer": "Adverbial of manner",
+    "explanation": "Manner adverbials describe how an action is done.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q168"
+  },
+  {
+    "id": "192",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "In the sentence, 'I used to work in a fire-hydrant factory,' the phrase 'in a fire-hydrant factory' is an:",
+    "options": [
+      "Adverbial of time",
+      "Adverbial of manner",
+      "Adverbial of place",
+      "Object complement"
+    ],
+    "correct_answer": "Adverbial of place",
+    "explanation": "The phrase answers 'where'.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q169"
+  },
+  {
+    "id": "193",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "In the sentence, 'They appointed him treasurer,' the word 'treasurer' is an example of:",
+    "options": [
+      "A subject attribute",
+      "An adverbial of manner",
+      "An object complement",
+      "A direct object"
+    ],
+    "correct_answer": "An object complement",
+    "explanation": "'Treasurer' complements the object 'him'.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q170"
+  },
+  {
+    "id": "194",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Which grammatical component follows a linking verb and qualifies the subject, as in 'The travellers became sleepy'?",
+    "options": [
+      "Subject complement",
+      "Object complement",
+      "Verb complement",
+      "Indirect object"
+    ],
+    "correct_answer": "Subject complement",
+    "explanation": "'Sleepy' is a subject complement after linking verb.",
+    "source_pdf": "XI 1ST MOCK .pdf",
+    "original_id": "q171"
+  },
+  {
+    "id": "195",
+    "subject": "English",
+    "topic": "Prepositions & Articles",
+    "question": "Hardly had I reached the station ___ the train came.",
+    "options": [
+      "A. Than",
+      "B. When",
+      "C. Then",
+      "D. That"
+    ],
+    "correct_answer": "B. When",
+    "explanation": "The correlative conjunction pairing for 'hardly/scarcely' is 'when'.",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q163"
+  },
+  {
+    "id": "196",
+    "subject": "English",
+    "topic": "Prepositions & Articles",
+    "question": "Though she gave no sign, ___ I was sure she had recognized me.",
+    "options": [
+      "A. But",
+      "B. Yet",
+      "C. Than",
+      "D. And"
+    ],
+    "correct_answer": "B. Yet",
+    "explanation": "'Though' is correlatively followed by 'yet' (or nothing, but 'yet' is standard in this structure).",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q164"
+  },
+  {
+    "id": "197",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Wages of sin ___ hell.",
+    "options": [
+      "A. Is",
+      "B. Are",
+      "C. Were",
+      "D. Have been"
+    ],
+    "correct_answer": "A. Is",
+    "explanation": "When 'wages' implies consequences or abstract concepts like sin's reward, it can take a singular verb.",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q165"
+  },
+  {
+    "id": "198",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "The number of students ___ rising in the college.",
+    "options": [
+      "A. Is",
+      "B. Are",
+      "C. Were",
+      "D. Have been"
+    ],
+    "correct_answer": "A. Is",
+    "explanation": "'The number of' takes a singular verb, whereas 'a number of' takes a plural verb.",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q166"
+  },
+  {
+    "id": "199",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "I am only one of the residents who ___ against the policy.",
+    "options": [
+      "A. Protests",
+      "B. Protest",
+      "C. Are protesting",
+      "D. Were protesting"
+    ],
+    "correct_answer": "A. Protests (or B / C depending on antecedent; key says A)",
+    "explanation": "Subject-verb agreement rule with 'one of those who...'.",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q167"
+  },
+  {
+    "id": "200",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "I, who ___, should not be ignored.",
+    "options": [
+      "A. Is",
+      "B. Am",
+      "C. Are",
+      "D. Was"
+    ],
+    "correct_answer": "B. Am",
+    "explanation": "The verb in a relative clause agrees with the antecedent of the relative pronoun ('I' agrees with 'am').",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q168"
+  },
+  {
+    "id": "201",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Fifty rupees ___ not a large amount.",
+    "options": [
+      "A. Are",
+      "B. Were",
+      "C. Is",
+      "D. Have been"
+    ],
+    "correct_answer": "C. Is",
+    "explanation": "A specific sum of money considered as a single unit takes a singular verb.",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q169"
+  },
+  {
+    "id": "202",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Neither Ahmed nor his parents ___ present.",
+    "options": [
+      "A. Was",
+      "B. Were",
+      "C. Is",
+      "D. Has been"
+    ],
+    "correct_answer": "B. Were",
+    "explanation": "When subjects are connected by 'neither... nor', the verb agrees with the nearer subject ('parents', which is plural).",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q170"
+  },
+  {
+    "id": "203",
+    "subject": "English",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Each boy and every girl ___ present in the class.",
+    "options": [
+      "A. Are",
+      "B. Were",
+      "C. Is",
+      "D. Have been"
+    ],
+    "correct_answer": "C. Is",
+    "explanation": "When subjects are preceded by 'each' or 'every', they take a singular verb.",
+    "source_pdf": "XI-2ND MOCK.pdf",
+    "original_id": "q171"
+  },
+  {
+    "id": "204",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Fill in the blank: 'The cattle __ grazing in the field.'",
+    "options": [
+      "A. is",
+      "B. are",
+      "C. was",
+      "D. has"
+    ],
+    "correct_answer": "A. is",
+    "explanation": "According to the official mock answer key.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q163"
+  },
+  {
+    "id": "205",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Which sentence correctly uses the word 'scissors'?",
+    "options": [
+      "A. Where is my scissors?",
+      "B. Where are my scissors?",
+      "C. This scissors is very sharp.",
+      "D. I need a scissors."
+    ],
+    "correct_answer": "B. Where are my scissors?",
+    "explanation": "'Scissors' is a plural noun and takes a plural verb.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q164"
+  },
+  {
+    "id": "206",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence regarding the use of 'hair':",
+    "options": [
+      "A. She found two black hair in her soup.",
+      "B. She has many beautiful hairs.",
+      "C. I found a hair on my sleeve.",
+      "D. Her hairs are turning grey."
+    ],
+    "correct_answer": "C. I found a hair on my sleeve.",
+    "explanation": "'Hair' is uncountable when referring to the mass of hair on the head, but individual hairs can be counted as 'a hair'.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q165"
+  },
+  {
+    "id": "207",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "What is the correct plural form of the compound noun 'whiteboard'?",
+    "options": [
+      "A. Whitesboard",
+      "B. Whiteboards",
+      "C. Whiteboardes",
+      "D. Whitesboards"
+    ],
+    "correct_answer": "B. Whiteboards",
+    "explanation": "The principal noun part is pluralized: whiteboards.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q166"
+  },
+  {
+    "id": "208",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Fill in the blank: 'He gave me two __ rupees.'",
+    "options": [
+      "A. thousands",
+      "B. thousand",
+      "C. thousands of",
+      "D. thousand of"
+    ],
+    "correct_answer": "B. thousand",
+    "explanation": "Number words like thousand do not take an 's' when preceded by a specific number.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q167"
+  },
+  {
+    "id": "209",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Which of the following is correct regarding material nouns?",
+    "options": [
+      "A. This house is made of bricks.",
+      "B. This house is made of brick.",
+      "C. This house is made of the brick.",
+      "D. This house is made of a brick."
+    ],
+    "correct_answer": "B. This house is made of brick.",
+    "explanation": "Material nouns used generally as material do not take plural forms or indefinite articles.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q168"
+  },
+  {
+    "id": "210",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A. The police is investigating the case.",
+      "B. The police are investigating the case.",
+      "C. The police has investigating the case.",
+      "D. The police have investigates the case."
+    ],
+    "correct_answer": "B. The police are investigating the case.",
+    "explanation": "'Police' is a plural noun taking a plural verb.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q169"
+  },
+  {
+    "id": "211",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Which sentence is correct?",
+    "options": [
+      "A. Each of the boys have done their work.",
+      "B. Each of the boys has done his work.",
+      "C. Each of the boys have done his work.",
+      "D. Each of the boys has done their works."
+    ],
+    "correct_answer": "B. Each of the boys has done his work.",
+    "explanation": "'Each' is singular and takes a singular verb and singular pronoun.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q170"
+  },
+  {
+    "id": "212",
+    "subject": "ENGLISH",
+    "topic": "Sentence structure & Subject-verb agreement",
+    "question": "Choose the correct sentence:",
+    "options": [
+      "A. News are very interesting today.",
+      "B. News is very interesting today.",
+      "C. The news are interesting.",
+      "D. A news is interesting."
+    ],
+    "correct_answer": "B. News is very interesting today.",
+    "explanation": "'News' is singular in construction and takes a singular verb.",
+    "source_pdf": "XI-4TH MOCKK.pdf",
+    "original_id": "q171"
+  }
+]
