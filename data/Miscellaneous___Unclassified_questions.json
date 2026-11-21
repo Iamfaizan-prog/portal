@@ -1,6 +1,125 @@
 [
   {
-    "id": "1",
+    "id": "DUHS_0188",
+    "subject": "Miscellaneous & Unclassified",
+    "topic": "Environmental Science & Ecology",
+    "question": "_____ are the resources that can be replenished by physical and biological means.",
+    "options": [
+      "Renewable",
+      "Non renewable",
+      "Both",
+      "None"
+    ],
+    "correct_answer": "Renewable",
+    "explanation": "Renewable resources are natural resources that can be replenished naturally by physical, chemical, or biological cycles over time.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_002",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0189",
+    "subject": "Miscellaneous & Unclassified",
+    "topic": "Environmental Science & Ecology",
+    "question": "The highest level of biological organization is:",
+    "options": [
+      "Species",
+      "Population",
+      "Community",
+      "Ecosystem"
+    ],
+    "correct_answer": "Ecosystem",
+    "explanation": "Among the given choices, an ecosystem is the highest level of organization as it encompasses biological communities interacting with their abiotic environment.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_003",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0190",
+    "subject": "Miscellaneous & Unclassified",
+    "topic": "Environmental Science & Ecology",
+    "question": "In an ecosystem, the _____ play important role in recycling of the materials.",
+    "options": [
+      "Green plants",
+      "Decomposers",
+      "Herbivores",
+      "Carnivores"
+    ],
+    "correct_answer": "Decomposers",
+    "explanation": "Decomposers break down dead organic matter and waste products, recycling vital nutrients back into the ecosystem.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_004",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0209",
+    "subject": "Miscellaneous & Unclassified",
+    "topic": "Environmental Science & Ecology",
+    "question": "_____ % water is present in fresh water lakes, rivers and atmosphere.",
+    "options": [
+      "0.2",
+      "0.059",
+      "0.052",
+      "0.025"
+    ],
+    "correct_answer": "0.059",
+    "explanation": "Surface freshwater lakes, inland rivers, and atmospheric water vapor account for approximately 0.059% of the total water distribution.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_023",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0210",
+    "subject": "Miscellaneous & Unclassified",
+    "topic": "Environmental Science & Ecology",
+    "question": "Fossil fuels like coal, oil, natural gas and metals are the examples of _____ resources.",
+    "options": [
+      "Renewable",
+      "Non-renewable",
+      "Both",
+      "None"
+    ],
+    "correct_answer": "Non-renewable",
+    "explanation": "Non-renewable resources exist in finite quantities and cannot be replenished on a human timescale once depleted.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_024",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0215",
+    "subject": "Miscellaneous & Unclassified",
+    "topic": "Environmental Chemistry",
+    "question": "The gas atom responsible for depletion of ozone layer is:",
+    "options": [
+      "Oxygen",
+      "Nitrogen",
+      "Carbon dioxide",
+      "Chlorine"
+    ],
+    "correct_answer": "Chlorine",
+    "explanation": "Free chlorine radicals (released by CFCs under UV light) catalytically break down ozone molecules in the stratosphere.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_029",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0217",
+    "subject": "Miscellaneous & Unclassified",
+    "topic": "Environmental Science & Ecology",
+    "question": "The process of contamination of water is called:",
+    "options": [
+      "Air pollution",
+      "Green house",
+      "Water pollution",
+      "None"
+    ],
+    "correct_answer": "Water pollution",
+    "explanation": "Water pollution is the contamination of water bodies by harmful substances, rendering it hazardous to human health and ecosystems.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_031",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_1625",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Arithmetic",
     "question": "25% of 200 is:",
@@ -13,10 +132,11 @@
     "correct_answer": "50",
     "explanation": "0.25 * 200 = 50.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q086"
+    "original_id": "duhs_2021_q086",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "2",
+    "id": "DUHS_1626",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Arithmetic",
     "question": "The value of √144 is:",
@@ -29,10 +149,11 @@
     "correct_answer": "12",
     "explanation": "The principal square root of 144 is 12.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q087"
+    "original_id": "duhs_2021_q087",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "3",
+    "id": "DUHS_1627",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Algebra",
     "question": "If x + 7 = 15, x =",
@@ -45,10 +166,11 @@
     "correct_answer": "8",
     "explanation": "x = 15 - 7 = 8.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q088"
+    "original_id": "duhs_2021_q088",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "4",
+    "id": "DUHS_1628",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Geometry",
     "question": "Area of rectangle =",
@@ -61,10 +183,11 @@
     "correct_answer": "l × w",
     "explanation": "The area of a rectangle is calculated as length multiplied by width.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q089"
+    "original_id": "duhs_2021_q089",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "5",
+    "id": "DUHS_1629",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Trigonometry",
     "question": "The value of cos 90° is:",
@@ -77,10 +200,11 @@
     "correct_answer": "0",
     "explanation": "The cosine of 90 degrees is 0.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q090"
+    "original_id": "duhs_2021_q090",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "6",
+    "id": "DUHS_1630",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Arithmetic",
     "question": "3^2 + 4^2 =",
@@ -93,10 +217,11 @@
     "correct_answer": "25",
     "explanation": "9 + 16 = 25.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q091"
+    "original_id": "duhs_2021_q091",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "7",
+    "id": "DUHS_1631",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Number Theory",
     "question": "The smallest prime number is:",
@@ -109,10 +234,11 @@
     "correct_answer": "2",
     "explanation": "2 is the smallest and the only even prime number.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q092"
+    "original_id": "duhs_2021_q092",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "8",
+    "id": "DUHS_1632",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Arithmetic",
     "question": "The product of -2 and 6 is:",
@@ -125,10 +251,11 @@
     "correct_answer": "-12",
     "explanation": "(-2) × 6 = -12.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q093"
+    "original_id": "duhs_2021_q093",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "9",
+    "id": "DUHS_1633",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Geometry",
     "question": "A triangle has how many sides?",
@@ -141,10 +268,11 @@
     "correct_answer": "3",
     "explanation": "A triangle is a polygon with three edges and three vertices.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q094"
+    "original_id": "duhs_2021_q094",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "10",
+    "id": "DUHS_1634",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics / Arithmetic",
     "question": "The value of 10^0 is:",
@@ -157,10 +285,11 @@
     "correct_answer": "1",
     "explanation": "Any non-zero number raised to the power of 0 equals 1.",
     "source_pdf": "DUHS BS Psychology 2021.pdf",
-    "original_id": "duhs_2021_q095"
+    "original_id": "duhs_2021_q095",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "11",
+    "id": "DUHS_1915",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "If 3x - 7 = 11, x equals:",
@@ -173,10 +302,11 @@
     "correct_answer": "6",
     "explanation": "3x - 7 = 11 gives 3x = 18, so x = 6.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q076"
+    "original_id": "duhs_bs_psych_2024_q076",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "12",
+    "id": "DUHS_1916",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "The value of cos 60° is:",
@@ -189,10 +319,11 @@
     "correct_answer": "1/2",
     "explanation": "cos 60° = 1/2.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q077"
+    "original_id": "duhs_bs_psych_2024_q077",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "13",
+    "id": "DUHS_1917",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "The quadratic equation x² - 9 = 0 has roots:",
@@ -205,10 +336,11 @@
     "correct_answer": "3, -3",
     "explanation": "x² = 9 gives x = ±3.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q078"
+    "original_id": "duhs_bs_psych_2024_q078",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "14",
+    "id": "DUHS_1918",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "The area of a circle with radius 7 is:",
@@ -221,10 +353,11 @@
     "correct_answer": "154",
     "explanation": "Area = πr² = 22/7 × 49 = 154.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q079"
+    "original_id": "duhs_bs_psych_2024_q079",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "15",
+    "id": "DUHS_1919",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "If a matrix has order 2 × 3, it has:",
@@ -237,10 +370,11 @@
     "correct_answer": "6 elements",
     "explanation": "A 2 × 3 matrix has 2 × 3 = 6 elements.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q080"
+    "original_id": "duhs_bs_psych_2024_q080",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "16",
+    "id": "DUHS_1920",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "The mean of first 10 natural numbers is:",
@@ -253,10 +387,11 @@
     "correct_answer": "5.5",
     "explanation": "Mean = (1 + 2 + ... + 10)/10 = 55/10 = 5.5.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q081"
+    "original_id": "duhs_bs_psych_2024_q081",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "17",
+    "id": "DUHS_1921",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "If sin θ = 1, θ equals:",
@@ -269,10 +404,11 @@
     "correct_answer": "90°",
     "explanation": "sin 90° = 1.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q082"
+    "original_id": "duhs_bs_psych_2024_q082",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "18",
+    "id": "DUHS_1922",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "The solution of |x| = 5 is:",
@@ -285,10 +421,11 @@
     "correct_answer": "x = ±5",
     "explanation": "The absolute value equation |x| = 5 gives x = 5 or x = -5.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q083"
+    "original_id": "duhs_bs_psych_2024_q083",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "19",
+    "id": "DUHS_1923",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "The degree of polynomial 4x³ - x + 7 is:",
@@ -301,10 +438,11 @@
     "correct_answer": "3",
     "explanation": "The highest power of x is 3, so the degree is 3.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q084"
+    "original_id": "duhs_bs_psych_2024_q084",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "20",
+    "id": "DUHS_1924",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Miscellaneous & Unclassified",
     "question": "If A U B = 10 and A ∩ B = 2, then total elements =",
@@ -317,10 +455,11 @@
     "correct_answer": "12",
     "explanation": "Using n(A∪B) = n(A) + n(B) - n(A∩B), we get n(A)+n(B) = 10 + 2 = 12.",
     "source_pdf": "DUHS BS Psychology 2024.pdf",
-    "original_id": "duhs_bs_psych_2024_q085"
+    "original_id": "duhs_bs_psych_2024_q085",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "21",
+    "id": "DUHS_2005",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "If $\\log_{10}x=2$, then x equals:",
@@ -333,10 +472,11 @@
     "correct_answer": "100",
     "explanation": "If $\\log_{10}x = 2$, then $x = 10^2 = 100$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q76"
+    "original_id": "q76",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "22",
+    "id": "DUHS_2006",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "The value of $\\sin^{2}30^{\\circ}+\\cos^{2}30^{\\circ}$ is:",
@@ -349,10 +489,11 @@
     "correct_answer": "1",
     "explanation": "By the Pythagorean trigonometric identity, $\\sin^2\\theta + \\cos^2\\theta = 1$ for any angle $\\theta$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q77"
+    "original_id": "q77",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "23",
+    "id": "DUHS_2007",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "If $x^{2}=16$, x equals:",
@@ -365,10 +506,11 @@
     "correct_answer": "\\pm 4",
     "explanation": "Solving $x^2 = 16$ gives $x = \\pm\\sqrt{16} = \\pm 4$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q78"
+    "original_id": "q78",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "24",
+    "id": "DUHS_2008",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "The derivative of $x^{3}$ is:",
@@ -381,10 +523,11 @@
     "correct_answer": "$3x^{2}$",
     "explanation": "Using the power rule for differentiation, $\\frac{d}{dx}(x^n) = nx^{n-1}$, so $\\frac{d}{dx}(x^3) = 3x^2$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q79"
+    "original_id": "q79",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "25",
+    "id": "DUHS_2009",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "The sum of angles of a triangle is:",
@@ -397,10 +540,11 @@
     "correct_answer": "$180^{\\circ}$",
     "explanation": "The interior angles of any Euclidean triangle always sum up to $180^{\\circ}$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q80"
+    "original_id": "q80",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "26",
+    "id": "DUHS_2010",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "If $a=2$ and $b=3$, then $a^{2}+b^{2}=$",
@@ -413,10 +557,11 @@
     "correct_answer": "13",
     "explanation": "$2^2 + 3^2 = 4 + 9 = 13$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q81"
+    "original_id": "q81",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "27",
+    "id": "DUHS_2011",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "The value of $\\sqrt{81}$ is:",
@@ -429,10 +574,11 @@
     "correct_answer": "9",
     "explanation": "The principal square root of 81 is 9.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q82"
+    "original_id": "q82",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "28",
+    "id": "DUHS_2012",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "The slope of $y=3x+5$ is:",
@@ -445,10 +591,11 @@
     "correct_answer": "3",
     "explanation": "In slope-intercept form $y = mx + b$, the coefficient of $x$ ($m$) represents the slope, which is 3.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q83"
+    "original_id": "q83",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "29",
+    "id": "DUHS_2013",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "The reciprocal of $5/7$ is:",
@@ -461,10 +608,11 @@
     "correct_answer": "$7/5$",
     "explanation": "The reciprocal of a fraction $a/b$ is $b/a$, so the reciprocal of $5/7$ is $7/5$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q84"
+    "original_id": "q84",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "30",
+    "id": "DUHS_2014",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Mathematics",
     "question": "If $2x=10$, x equals:",
@@ -477,10 +625,11 @@
     "correct_answer": "5",
     "explanation": "Dividing both sides by 2 yields $x = 10 / 2 = 5$.",
     "source_pdf": "DUHS BS Psychology 2025.pdf",
-    "original_id": "q85"
+    "original_id": "q85",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "31",
+    "id": "DUHS_2360",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Test Integrity",
     "question": "Cheating is easy. But the consequences are hard. I swear by ALLAH RAB UL KAREEM that I will not use any source of copy to do this test, and I will be held accountable on the Day of Judgement.",
@@ -491,10 +640,11 @@
     "correct_answer": "A. YES",
     "explanation": "Pledge of academic integrity and honesty before attempting the exam.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q1"
+    "original_id": "q1",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "32",
+    "id": "DUHS_2531",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "Find the next term in the series: B, E, H, K, N, ?",
@@ -507,10 +657,11 @@
     "correct_answer": "C. Q",
     "explanation": "Alphabet letters advance by +3: B(+3)=E, E(+3)=H, H(+3)=K, K(+3)=N, N(+3)=Q.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q172"
+    "original_id": "q172",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "33",
+    "id": "DUHS_2532",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "Find the missing term in the series: Z, X, V, T, R, ?",
@@ -523,10 +674,11 @@
     "correct_answer": "B. P",
     "explanation": "Alphabet letters decrease backwards by 2: Z, X, V, T, R, P.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q173"
+    "original_id": "q173",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "34",
+    "id": "DUHS_2533",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "What comes next in the series: A, C, F, J, O, ?",
@@ -539,10 +691,11 @@
     "correct_answer": "B. T",
     "explanation": "Increments increase by 1 each step: +2 (C), +3 (F), +4 (J), +5 (O), +6 (T).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q174"
+    "original_id": "q174",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "35",
+    "id": "DUHS_2534",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "Find the missing term: BD, GI, LN, QS, ?",
@@ -555,10 +708,11 @@
     "correct_answer": "C. VX",
     "explanation": "Letter pairs advance by +5 positions each time: B(+5)=G(+5)=L(+5)=Q(+5)=V; D(+5)=I(+5)=N(+5)=S(+5)=X.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q175"
+    "original_id": "q175",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "36",
+    "id": "DUHS_2535",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "Find the next term in the series: AZ, CX, EV, GT, ?",
@@ -571,10 +725,11 @@
     "correct_answer": "B. IR",
     "explanation": "First letters increase by +2 (A, C, E, G, I); second letters decrease by -2 (Z, X, V, T, R).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q176"
+    "original_id": "q176",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "37",
+    "id": "DUHS_2536",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "What term comes next: 2A, 4C, 8E, 16G, ?",
@@ -587,10 +742,11 @@
     "correct_answer": "B. 32I",
     "explanation": "Numbers double (2, 4, 8, 16, 32); letters advance by +2 (A, C, E, G, I).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q177"
+    "original_id": "q177",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "38",
+    "id": "DUHS_2537",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "Find the next term: Z1A, X2D, V6G, T24J, ?",
@@ -603,10 +759,11 @@
     "correct_answer": "A. R120M",
     "explanation": "Letters step back by 2 (Z, X, V, T, R); numbers multiply sequentially (1*2=2, 2*3=6, 6*4=24, 24*5=120); letters step forward by 3 (A, D, G, J, M).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q178"
+    "original_id": "q178",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "39",
+    "id": "DUHS_2538",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "Identify the next term: ABC, EFG, IJK, MNO, ?",
@@ -619,10 +776,11 @@
     "correct_answer": "B. QRS",
     "explanation": "Sequence blocks advance by 4 starting letters: ABC, EFG (skip D), IJK (skip H), MNO (skip L), QRS (skip P).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q179"
+    "original_id": "q179",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "40",
+    "id": "DUHS_2539",
     "subject": "Miscellaneous & Unclassified",
     "topic": "Reasoning & Series",
     "question": "Find the term that does not fit into the following sequence: B2Y, D3W, F5U, H9S, J11Q",
@@ -635,10 +793,11 @@
     "correct_answer": "C. H9S",
     "explanation": "Numbers are prime numbers (2, 3, 5, 7, 11). H should be paired with 7 (H7S), making H9S the anomaly.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q180"
+    "original_id": "q180",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "41",
+    "id": "DUHS_2711",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: All squares are rectangles. All rectangles are polygons. Conclusions: I. All squares are polygons. II. Some polygons are squares.",
@@ -651,10 +810,11 @@
     "correct_answer": "C. I and II",
     "explanation": "Both conclusions logically follow from the categorical syllogism.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q172"
+    "original_id": "q172",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "42",
+    "id": "DUHS_2712",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: No metal is a liquid. Some liquids are water. Conclusions: I. Some water is not metal. II. All water is metal.",
@@ -667,10 +827,11 @@
     "correct_answer": "D. I and II are inappropriate",
     "explanation": "According to the official mock answer key.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q173"
+    "original_id": "q173",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "43",
+    "id": "DUHS_2713",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: All fruits are sweet. Some sweet items are healthy. Conclusions: I. All fruits are healthy. II. Some healthy items are fruits.",
@@ -683,10 +844,11 @@
     "correct_answer": "A. Only I",
     "explanation": "According to the official mock answer key.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q174"
+    "original_id": "q174",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "44",
+    "id": "DUHS_2714",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: Some actors are singers. All singers are dancers. Conclusions: I. Some actors are dancers. II. Some dancers are actors. III. All dancers are singers.",
@@ -699,10 +861,11 @@
     "correct_answer": "B. Only I and II",
     "explanation": "Conclusions I and II logically follow from the given premises.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q175"
+    "original_id": "q175",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "45",
+    "id": "DUHS_2715",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: No car is a bike. All bikes are cycles. Conclusions: I. Some cycles are not cars. II. Some cycles are bikes.",
@@ -715,10 +878,11 @@
     "correct_answer": "C. I and II",
     "explanation": "Both conclusions follow logically from the premises.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q176"
+    "original_id": "q176",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "46",
+    "id": "DUHS_2716",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: Some rings are gold. Some gold are silver. All silver are precious. Conclusions: I. Some gold are precious. II. Some precious are silver. III. Some rings are silver.",
@@ -731,10 +895,11 @@
     "correct_answer": "A. Only I and II",
     "explanation": "Conclusions I and II follow from the syllogism rules.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q177"
+    "original_id": "q177",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "47",
+    "id": "DUHS_2717",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: No plant is a stone. All stones are rocks. Conclusions: I. Some rocks are stones. II. Some rocks are not plants.",
@@ -747,10 +912,11 @@
     "correct_answer": "C. I and II",
     "explanation": "Both conclusions follow logically.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q178"
+    "original_id": "q178",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "48",
+    "id": "DUHS_2718",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Statements: All roads are paths. All paths are bridges. Conclusions: I. All roads are bridges. II. Some bridges are roads.",
@@ -763,10 +929,11 @@
     "correct_answer": "C. I and II",
     "explanation": "Both conclusions follow logically from the transitive property of universal affirmative statements.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q179"
+    "original_id": "q179",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "49",
+    "id": "DUHS_2719",
     "subject": "MISCELLANEOUS & UNCLASSIFIED",
     "topic": "Miscellaneous & Unclassified",
     "question": "Questions/Statements: Some dogs are pets. All pets are loyal. Conclusions: I. Some dogs are loyal. II. Some loyal are dogs.",
@@ -779,6 +946,7 @@
     "correct_answer": "C. I and II",
     "explanation": "Both conclusions logically follow from the given categorical syllogism.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q180"
+    "original_id": "q180",
+    "source_file": "master_merged_questions.json"
   }
 ]

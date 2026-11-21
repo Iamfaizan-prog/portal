@@ -1,6 +1,227 @@
 [
   {
-    "id": "1",
+    "id": "DUHS_0178",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "Which of the following is an endothermic process among the listed single-best options?",
+    "options": [
+      "Sublimation",
+      "Respiration",
+      "Combustion",
+      "Condensation"
+    ],
+    "correct_answer": "Sublimation",
+    "explanation": "Sublimation absorbs heat; evaporation and boiling are also endothermic, but sublimation is a standard endothermic example.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q178",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0297",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "In Pakistan, ______ is the top milk producing buffalo.",
+    "options": [
+      "Nili-Lahore",
+      "Nili-Ravi",
+      "Kundo",
+      "Godavari"
+    ],
+    "correct_answer": "Nili-Ravi",
+    "explanation": "Nili-Ravi is a well-known high milk-producing buffalo breed in Pakistan.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q013",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0298",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "The part of earth where life exists is called:",
+    "options": [
+      "Ecology",
+      "Biosphere",
+      "Population",
+      "Species"
+    ],
+    "correct_answer": "Biosphere",
+    "explanation": "The biosphere is the zone of Earth where life exists, including land, water, and atmosphere.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q014",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0314",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "Deforestation result with the great loss in ______.",
+    "options": [
+      "Biosphere",
+      "Biodiversity",
+      "Population",
+      "Trees"
+    ],
+    "correct_answer": "Biodiversity",
+    "explanation": "Deforestation causes habitat destruction and a major loss of biodiversity.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q030",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0563",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "A car having length of 30 cm and height of 2 m. Calculate the area of the car.",
+    "options": [
+      "0.2 m²",
+      "0.4 m²",
+      "0.6 m²",
+      "0.8 m²"
+    ],
+    "correct_answer": "0.6 m²",
+    "explanation": "Area = 0.30 m × 2 m = 0.6 m².",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_081",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0564",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "Convert 600 grams into kg.",
+    "options": [
+      "0.2 kg",
+      "0.4 kg",
+      "0.6 kg",
+      "0.8 kg"
+    ],
+    "correct_answer": "0.6 kg",
+    "explanation": "600 g ÷ 1000 = 0.6 kg.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_082",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0565",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "If there are 20 candies in a box, how many candies are available in 40 boxes?",
+    "options": [
+      "200",
+      "400",
+      "600",
+      "800"
+    ],
+    "correct_answer": "800",
+    "explanation": "20 × 40 = 800 candies.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_083",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0566",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "If one mile is equal to 1.6 km, then 10 miles are equal to how many meters?",
+    "options": [
+      "160 m",
+      "1600 m",
+      "16000 m",
+      "160000 m"
+    ],
+    "correct_answer": "16000 m",
+    "explanation": "10 miles = 16 km = 16000 m.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_084",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0567",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "One kilometer is equal to?",
+    "options": [
+      "10 m",
+      "100 m",
+      "1000 m",
+      "10000 m"
+    ],
+    "correct_answer": "1000 m",
+    "explanation": "1 km = 1000 m.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_085",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0568",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "If X = 4Y and Y = 6, then X + Y = ?",
+    "options": [
+      "10",
+      "20",
+      "30",
+      "40"
+    ],
+    "correct_answer": "30",
+    "explanation": "X = 4 × 6 = 24; X + Y = 24 + 6 = 30.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_086",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0569",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "A boy plays a game two hours in a day. How many days does he play in a month?",
+    "options": [
+      "1 day",
+      "2 days",
+      "2.5 days",
+      "3 days"
+    ],
+    "correct_answer": "2.5 days",
+    "explanation": "2 hours/day × 30 days = 60 hours = 2.5 days.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_087",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0570",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "Convert 45.6% into decimal numbers.",
+    "options": [
+      "4560",
+      "0.456",
+      "45600",
+      "none of them"
+    ],
+    "correct_answer": "0.456",
+    "explanation": "45.6% = 45.6/100 = 0.456.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_088",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0571",
+    "subject": "Miscellaneous",
+    "topic": "Miscellaneous & Unclassified",
+    "question": "If X = 9 and Y = 10, then X − Y = ?",
+    "options": [
+      "1",
+      "-1",
+      "2",
+      "-2"
+    ],
+    "correct_answer": "-1",
+    "explanation": "9 − 10 = −1.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "misc_089",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_1725",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Quantitative Reasoning",
     "question": "If 4x + 6 = 14, x =",
@@ -13,10 +234,11 @@
     "correct_answer": "2",
     "explanation": "4x = 14 - 6 = 8, so x = 8 / 4 = 2.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q86"
+    "original_id": "duhs_2022_psy_q86",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "2",
+    "id": "DUHS_1726",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Trigonometry",
     "question": "The value of sin 0° is:",
@@ -29,10 +251,11 @@
     "correct_answer": "0",
     "explanation": "The sine of 0 degrees in trigonometry is equal to 0.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q87"
+    "original_id": "duhs_2022_psy_q87",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "3",
+    "id": "DUHS_1727",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Geometry",
     "question": "The perimeter of a square of side 6 is:",
@@ -45,10 +268,11 @@
     "correct_answer": "24",
     "explanation": "Perimeter of a square = 4 × side = 4 × 6 = 24.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q88"
+    "original_id": "duhs_2022_psy_q88",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "4",
+    "id": "DUHS_1728",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Algebra",
     "question": "The solution of x² = 25 is:",
@@ -61,10 +285,11 @@
     "correct_answer": "±5",
     "explanation": "Taking the square root of both sides gives x = +5 or x = -5.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q89"
+    "original_id": "duhs_2022_psy_q89",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "5",
+    "id": "DUHS_1729",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Statistics",
     "question": "The mean of 2, 4, 6, 8 is:",
@@ -77,10 +302,11 @@
     "correct_answer": "5",
     "explanation": "Mean = (2 + 4 + 6 + 8) / 4 = 20 / 4 = 5.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q90"
+    "original_id": "duhs_2022_psy_q90",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "6",
+    "id": "DUHS_1730",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Algebra",
     "question": "The value of 2³ × 2² is:",
@@ -93,10 +319,11 @@
     "correct_answer": "32",
     "explanation": "By exponent rules, 2³ × 2² = 2^(3+2) = 2⁵ = 32.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q91"
+    "original_id": "duhs_2022_psy_q91",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "7",
+    "id": "DUHS_1731",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Geometry",
     "question": "A straight angle measures:",
@@ -109,10 +336,11 @@
     "correct_answer": "180°",
     "explanation": "A straight angle forms a straight line and measures exactly 180 degrees.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q92"
+    "original_id": "duhs_2022_psy_q92",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "8",
+    "id": "DUHS_1732",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Algebra",
     "question": "If a = 5, then a³ =",
@@ -125,10 +353,11 @@
     "correct_answer": "125",
     "explanation": "5³ = 5 × 5 × 5 = 125.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q93"
+    "original_id": "duhs_2022_psy_q93",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "9",
+    "id": "DUHS_1733",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Arithmetic",
     "question": "The reciprocal of -2 is:",
@@ -141,10 +370,11 @@
     "correct_answer": "-½",
     "explanation": "The multiplicative reciprocal of a number x is 1/x, hence 1/(-2) = -1/2.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q94"
+    "original_id": "duhs_2022_psy_q94",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "10",
+    "id": "DUHS_1734",
     "subject": "Miscellaneous",
     "topic": "Mathematics / Coordinate Geometry",
     "question": "The graph of linear equation is a:",
@@ -157,10 +387,11 @@
     "correct_answer": "Straight line",
     "explanation": "A linear equation in two variables always graphs as a straight line.",
     "source_pdf": "DUHS BS Psychology 2022.pdf",
-    "original_id": "duhs_2022_psy_q95"
+    "original_id": "duhs_2022_psy_q95",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "11",
+    "id": "DUHS_1825",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "If x/3 = 9, then x =",
@@ -173,10 +404,11 @@
     "correct_answer": "27",
     "explanation": "Multiply both sides by 3: x = 9 * 3 = 27.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q86"
+    "original_id": "q86",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "12",
+    "id": "DUHS_1826",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "The value of tan 45° is:",
@@ -189,10 +421,11 @@
     "correct_answer": "1",
     "explanation": "The tangent of a 45-degree angle in a right-angled isosceles triangle equals 1.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q87"
+    "original_id": "q87",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "13",
+    "id": "DUHS_1827",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "The sum of first 20 natural numbers is:",
@@ -205,10 +438,11 @@
     "correct_answer": "210",
     "explanation": "Using the formula n(n+1)/2 for n=20: (20 * 21) / 2 = 210.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q88"
+    "original_id": "q88",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "14",
+    "id": "DUHS_1828",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "If a line is parallel to x-axis, its slope is:",
@@ -221,10 +455,11 @@
     "correct_answer": "0",
     "explanation": "A horizontal line parallel to the x-axis has a constant y-value, resulting in a slope of 0.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q89"
+    "original_id": "q89",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "15",
+    "id": "DUHS_1829",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "The square root of 0.04 is:",
@@ -237,10 +472,11 @@
     "correct_answer": "0.2",
     "explanation": "0.2 * 0.2 = 0.04, so the square root of 0.04 is 0.2.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q90"
+    "original_id": "q90",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "16",
+    "id": "DUHS_1830",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "The solution of 5x = 0 is:",
@@ -253,10 +489,11 @@
     "correct_answer": "0",
     "explanation": "Dividing both sides by 5 gives x = 0.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q91"
+    "original_id": "q91",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "17",
+    "id": "DUHS_1831",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "A triangle with all sides equal is:",
@@ -269,10 +506,11 @@
     "correct_answer": "Equilateral",
     "explanation": "An equilateral triangle has three sides of equal length and three equal internal angles.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q92"
+    "original_id": "q92",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "18",
+    "id": "DUHS_1832",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "The HCF of 12 and 18 is:",
@@ -285,10 +523,11 @@
     "correct_answer": "6",
     "explanation": "The factors of 12 are {1, 2, 3, 4, 6, 12} and of 18 are {1, 2, 3, 6, 9, 18}, making the highest common factor 6.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q93"
+    "original_id": "q93",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "19",
+    "id": "DUHS_1833",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "The value of π is approximately:",
@@ -301,10 +540,11 @@
     "correct_answer": "3.14",
     "explanation": "Pi (π) is approximately equal to 3.14159, commonly rounded to 3.14.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q94"
+    "original_id": "q94",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "20",
+    "id": "DUHS_1834",
     "subject": "MISCELLANEOUS",
     "topic": "Miscellaneous",
     "question": "If y = 2x, then y/x =",
@@ -317,10 +557,11 @@
     "correct_answer": "2",
     "explanation": "Dividing both sides of y = 2x by x yields y/x = 2.",
     "source_pdf": "DUHS BS Psychology 2023.pdf",
-    "original_id": "q95"
+    "original_id": "q95",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "21",
+    "id": "DUHS_2180",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "Cheating is easy. But the consequences are hard. I swear by ALLAH RAB UL KAREEM that I will not use any source of copy to do this test and I will be held accountable on the Day of Judgement.",
@@ -331,10 +572,11 @@
     "correct_answer": "YES",
     "explanation": "Honor pledge acknowledging academic integrity.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q1"
+    "original_id": "q1",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "22",
+    "id": "DUHS_2351",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "10, 12, 15, 20, 27, ?",
@@ -347,10 +589,11 @@
     "correct_answer": "38",
     "explanation": "Differences 2,3,5,7,11 give 38.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q172"
+    "original_id": "q172",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "23",
+    "id": "DUHS_2352",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "100, 95, 88, 79, 68, ?",
@@ -363,10 +606,11 @@
     "correct_answer": "55",
     "explanation": "Subtract successive odd numbers 5,7,9,11,13 to get 55.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q173"
+    "original_id": "q173",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "24",
+    "id": "DUHS_2353",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "3, 6, 18, 72, 360, ?",
@@ -379,10 +623,11 @@
     "correct_answer": "2160",
     "explanation": "Multiply by 2,3,4,5,6; 360×6=2160.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q174"
+    "original_id": "q174",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "25",
+    "id": "DUHS_2354",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "2, 5, 10, 17, 26, ?",
@@ -395,10 +640,11 @@
     "correct_answer": "37",
     "explanation": "Add 3,5,7,9,11; 26+11=37.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q175"
+    "original_id": "q175",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "26",
+    "id": "DUHS_2355",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "0, 7, 26, 63, 124, ?",
@@ -411,10 +657,11 @@
     "correct_answer": "215",
     "explanation": "Pattern n³−1 gives 6³−1=215.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q176"
+    "original_id": "q176",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "27",
+    "id": "DUHS_2356",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "12, 25, 14, 23, 16, 21, ?",
@@ -427,10 +674,11 @@
     "correct_answer": "18",
     "explanation": "Odd positions increase by 2: 12,14,16,18.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q177"
+    "original_id": "q177",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "28",
+    "id": "DUHS_2357",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "4, 5, 9, 14, 23, ?",
@@ -443,10 +691,11 @@
     "correct_answer": "37",
     "explanation": "Each term is sum of previous two; 14+23=37.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q178"
+    "original_id": "q178",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "29",
+    "id": "DUHS_2358",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "240, 120, 60, 30, 15, ?",
@@ -459,10 +708,11 @@
     "correct_answer": "7.5",
     "explanation": "Divide by 2 each time; 15÷2=7.5.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q179"
+    "original_id": "q179",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "30",
+    "id": "DUHS_2359",
     "subject": "Miscellaneous",
     "topic": "Unclassified",
     "question": "4, 9, 19, 39, 79, ?",
@@ -475,6 +725,7 @@
     "correct_answer": "159",
     "explanation": "Pattern ×2+1; 79×2+1=159.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q180"
+    "original_id": "q180",
+    "source_file": "master_merged_questions.json"
   }
 ]

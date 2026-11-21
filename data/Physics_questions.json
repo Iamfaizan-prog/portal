@@ -1,6 +1,3270 @@
 [
   {
-    "id": "1",
+    "id": "DUHS_0008",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "What are the dimensions of volume and acceleration respectively?",
+    "options": [
+      "[L3] and [LT-2]",
+      "[L2] and [LT-1]",
+      "[L3] and [LT-1]",
+      "[L] and [LT-2]"
+    ],
+    "correct_answer": "[L3] and [LT-2]",
+    "explanation": "Volume is L3; acceleration is velocity/time = LT-2.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q008",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0010",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "If temperature increases in a gas sample, what happens to the mass of the gas?",
+    "options": [
+      "Mass remains unchanged",
+      "Mass always increases",
+      "Mass becomes zero",
+      "Mass decreases to half"
+    ],
+    "correct_answer": "Mass remains unchanged",
+    "explanation": "Temperature changes volume/pressure; the amount and mass of gas remain unchanged in a closed system.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q010",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0013",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "If the radius from Earth's center increases, what happens to gravitational acceleration?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains same",
+      "Becomes zero immediately"
+    ],
+    "correct_answer": "Decreases",
+    "explanation": "g = GM/r2, so g decreases as radius increases.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q013",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0014",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "If the intensity of monochromatic light increases, what happens in the photoelectric effect?",
+    "options": [
+      "Photoelectric current increases",
+      "Threshold frequency increases",
+      "Stopping potential increases",
+      "Work function increases"
+    ],
+    "correct_answer": "Photoelectric current increases",
+    "explanation": "Higher intensity means more photons per second, so more electrons are emitted and current increases.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q014",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0017",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Using the right-hand rule for angular velocity, the thumb points:",
+    "options": [
+      "Along the axis of rotation",
+      "Toward the center of circular motion",
+      "Opposite to angular acceleration always",
+      "Along the tangent"
+    ],
+    "correct_answer": "Along the axis of rotation",
+    "explanation": "Angular velocity is an axial vector; right-hand rule gives direction along the rotation axis.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q017",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0018",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Torque will be greater when:",
+    "options": [
+      "Force is applied perpendicular to the moment arm at greater distance",
+      "Force is parallel to the moment arm",
+      "Distance is zero",
+      "Force acts at the axis"
+    ],
+    "correct_answer": "Force is applied perpendicular to the moment arm at greater distance",
+    "explanation": "τ = rF sinθ; torque is maximum when θ = 90° and r is large.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q018",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0019",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Electromagnetic waves are produced by:",
+    "options": [
+      "Oscillating charges/oscillator",
+      "A steady DC source",
+      "A simple vibrator only",
+      "An amplifier only"
+    ],
+    "correct_answer": "Oscillating charges/oscillator",
+    "explanation": "Accelerating or oscillating electric charges produce electromagnetic waves.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q019",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0020",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "In a series circuit, if resistance is high, what happens to the current?",
+    "options": [
+      "Current is same throughout the series",
+      "Current becomes zero",
+      "Current increases in high resistance",
+      "Current is different in each resistor"
+    ],
+    "correct_answer": "Current is same throughout the series",
+    "explanation": "Series current is common; a higher resistance has a larger voltage drop.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q020",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0021",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "Beats are produced due to:",
+    "options": [
+      "Interference of two waves of slightly different frequencies",
+      "Reflection of one wave",
+      "Diffraction through a grating",
+      "Polarization of light"
+    ],
+    "correct_answer": "Interference of two waves of slightly different frequencies",
+    "explanation": "Alternating constructive and destructive interference produces beats.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q021",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0023",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "Loudness is directly proportional to:",
+    "options": [
+      "Intensity of sound",
+      "Frequency only",
+      "Wavelength only",
+      "Speed of light"
+    ],
+    "correct_answer": "Intensity of sound",
+    "explanation": "Loudness relates to sound intensity; intensity depends on amplitude squared.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q023",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0029",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "A shadow is formed due to:",
+    "options": [
+      "Rectilinear propagation of light",
+      "Refraction of light",
+      "Dispersion of light",
+      "Polarization of light"
+    ],
+    "correct_answer": "Rectilinear propagation of light",
+    "explanation": "Opaque objects block light travelling in straight lines, forming shadows.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q029",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0031",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "A diffraction grating is used to study:",
+    "options": [
+      "Diffraction and interference of light",
+      "Only reflection",
+      "Only refraction",
+      "Magnetic induction"
+    ],
+    "correct_answer": "Diffraction and interference of light",
+    "explanation": "Gratings produce multiple-slit diffraction/interference patterns.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q031",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0032",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "Focal length is the distance between:",
+    "options": [
+      "Optical center and principal focus",
+      "Two foci",
+      "Object and image always",
+      "Pole and center of curvature"
+    ],
+    "correct_answer": "Optical center and principal focus",
+    "explanation": "For a lens, focal length is measured from optical center to principal focus.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q032",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0034",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "A photodiode is mainly used as a:",
+    "options": [
+      "Light detector",
+      "Half-wave rectifier",
+      "Full-wave rectifier",
+      "Oscillator"
+    ],
+    "correct_answer": "Light detector",
+    "explanation": "Photodiodes convert light into current/voltage and are used as sensors.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q034",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0066",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Which type of rays are most penetrating?",
+    "options": [
+      "Gamma rays",
+      "Alpha rays",
+      "Beta rays",
+      "X-rays"
+    ],
+    "correct_answer": "Gamma rays",
+    "explanation": "Gamma rays have high energy and no charge, giving greatest penetration among the listed.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q066",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0067",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Rate of change of momentum per unit time is called:",
+    "options": [
+      "Force",
+      "Work",
+      "Power",
+      "Impulse"
+    ],
+    "correct_answer": "Force",
+    "explanation": "Newton's second law: F = dp/dt.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q067",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0068",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Product of force and velocity is:",
+    "options": [
+      "Power",
+      "Work",
+      "Momentum",
+      "Energy"
+    ],
+    "correct_answer": "Power",
+    "explanation": "P = F·v for force and velocity in the same direction.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q068",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0069",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Gamma rays are:",
+    "options": [
+      "Not deflected by a magnetic field and have no charge",
+      "Positively charged",
+      "Negatively charged",
+      "Always deflected toward the north pole"
+    ],
+    "correct_answer": "Not deflected by a magnetic field and have no charge",
+    "explanation": "Gamma rays are electromagnetic radiation with no electric charge.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q069",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0070",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "What work is done if 6 W power is generated for 2 hours?",
+    "options": [
+      "43200 J",
+      "12 J",
+      "7200 J",
+      "21600 J"
+    ],
+    "correct_answer": "43200 J",
+    "explanation": "W = P × t = 6 × 7200 s = 43200 J.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q070",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0071",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If velocity is doubled, what happens to momentum and kinetic energy?",
+    "options": [
+      "Momentum doubles and KE becomes 4 times",
+      "Momentum halves and KE doubles",
+      "Both double",
+      "Both remain same"
+    ],
+    "correct_answer": "Momentum doubles and KE becomes 4 times",
+    "explanation": "p = mv; KE = 1/2 mv2. Doubling v doubles p and quadruples KE.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q071",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0072",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "In warm temperature, what happens to the speed of sound?",
+    "options": [
+      "Speed increases and wavelength increases while frequency stays constant",
+      "Speed decreases",
+      "Frequency increases only",
+      "Wavelength decreases"
+    ],
+    "correct_answer": "Speed increases and wavelength increases while frequency stays constant",
+    "explanation": "For a given source, frequency is constant; speed and wavelength increase with temperature.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q072",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0073",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "If gravity becomes four times greater, what happens to the frequency of a simple pendulum?",
+    "options": [
+      "Increases 2 times",
+      "Decreases 2 times",
+      "Increases 4 times",
+      "Remains same"
+    ],
+    "correct_answer": "Increases 2 times",
+    "explanation": "f ∝ √g, so 4g gives 2f.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q073",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0074",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "What is the linear velocity of a body in circular motion if radius is 0.6 m, time is 2 s, and it completes five rotations?",
+    "options": [
+      "3π m/s (about 9.42 m/s)",
+      "0.6π m/s",
+      "6π m/s",
+      "2π m/s"
+    ],
+    "correct_answer": "3π m/s (about 9.42 m/s)",
+    "explanation": "Distance = 5 × 2πr = 6π m; v = 6π/2 = 3π m/s.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q074",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0075",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "What is the distance of a body starting from rest after time t under gravity?",
+    "options": [
+      "0.5gt2",
+      "gt",
+      "gt2",
+      "0.5g/t"
+    ],
+    "correct_answer": "0.5gt2",
+    "explanation": "Using s = ut + 1/2 at2 with u = 0 and a = g gives s = 0.5gt2.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q075",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0076",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "In which process is work done equal to heat provided?",
+    "options": [
+      "Isothermal process",
+      "Adiabatic process",
+      "Isobaric process",
+      "Isochoric process"
+    ],
+    "correct_answer": "Isothermal process",
+    "explanation": "For an ideal gas at constant temperature, ΔU = 0, so Q = W.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q076",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0077",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Two charges of 1 C each experience force 9×10^9 N. What is the distance between them?",
+    "options": [
+      "1 m",
+      "2 m",
+      "3 m",
+      "9 m"
+    ],
+    "correct_answer": "1 m",
+    "explanation": "F = kq1q2/r2; 9×10^9 = 9×10^9 × 1 × 1 / r2, so r = 1 m.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q077",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0078",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "The SI unit of specific heat is:",
+    "options": [
+      "J kg-1 °C-1",
+      "J kg °C",
+      "N kg-1",
+      "W m-1 K-1"
+    ],
+    "correct_answer": "J kg-1 °C-1",
+    "explanation": "Specific heat is energy per unit mass per degree temperature change.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q078",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0079",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Newton is not a unit of which quantity?",
+    "options": [
+      "Momentum",
+      "Force",
+      "Weight",
+      "Thrust"
+    ],
+    "correct_answer": "Momentum",
+    "explanation": "Momentum unit is kg m/s; newton is force unit.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q079",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0080",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "A simple pendulum works correctly at which angle approximation?",
+    "options": [
+      "Small angle where sin θ ≈ θ",
+      "Large angle 90°",
+      "Exactly 180°",
+      "Any angle without error"
+    ],
+    "correct_answer": "Small angle where sin θ ≈ θ",
+    "explanation": "Simple pendulum SHM approximation is valid for small angular displacements.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q080",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0081",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "A body is travelling along the x-axis with 10 N force. What is the force on the y-axis?",
+    "options": [
+      "0 N",
+      "10 N",
+      "5 N",
+      "20 N"
+    ],
+    "correct_answer": "0 N",
+    "explanation": "No y-component is given, so y-axis force is zero.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q081",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0082",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which statement is correct?",
+    "options": [
+      "Heat and work are interconvertible",
+      "Heat cannot do work",
+      "Work cannot produce heat",
+      "Heat and work are state functions"
+    ],
+    "correct_answer": "Heat and work are interconvertible",
+    "explanation": "Energy can be transferred as heat or work and converted between forms.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q082",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0083",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "At which angle is maximum range equal to maximum height in projectile motion?",
+    "options": [
+      "tan-1(4)",
+      "45°",
+      "tan-1(2)",
+      "60°"
+    ],
+    "correct_answer": "tan-1(4)",
+    "explanation": "Equating range and max height gives tan θ = 4.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q083",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0084",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "What is the vertical acceleration in projectile motion near Earth's surface?",
+    "options": [
+      "9.8 m/s2 downward",
+      "9.8 m/s upward",
+      "Zero",
+      "Constant horizontal"
+    ],
+    "correct_answer": "9.8 m/s2 downward",
+    "explanation": "Projectile motion has constant downward acceleration due to gravity.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q084",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0085",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which constant specifies n/NA?",
+    "options": [
+      "Avogadro constant",
+      "Boltzmann constant",
+      "Gas constant",
+      "Planck constant"
+    ],
+    "correct_answer": "Avogadro constant",
+    "explanation": "N = nNA, so n/NA relates to Avogadro number.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q085",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0086",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Which law states that force is proportional to product of charges and inversely proportional to square of distance?",
+    "options": [
+      "Coulomb's law",
+      "Ohm's law",
+      "Faraday's law",
+      "Newton's law"
+    ],
+    "correct_answer": "Coulomb's law",
+    "explanation": "Coulomb's law: F = kq1q2/r2.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q086",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0090",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "Which instrument is used to measure altitude?",
+    "options": [
+      "Altimeter",
+      "Ammeter",
+      "Anemometer",
+      "Barometer only"
+    ],
+    "correct_answer": "Altimeter",
+    "explanation": "An altimeter measures altitude/elevation.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q090",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0094",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which quantity does not change in an isobaric process?",
+    "options": [
+      "Pressure",
+      "Heat",
+      "Internal energy",
+      "Volume"
+    ],
+    "correct_answer": "Pressure",
+    "explanation": "Isobaric means constant pressure.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q094",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0096",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Graph of P versus 1/V is:",
+    "options": [
+      "Straight line",
+      "Steep curve",
+      "Vertical line",
+      "Horizontal line"
+    ],
+    "correct_answer": "Straight line",
+    "explanation": "Boyle's law: P ∝ 1/V, so P vs 1/V is linear.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q096",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0098",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "When light enters from a denser to a rarer medium and bounces off, it is called:",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Interference",
+      "Transmission"
+    ],
+    "correct_answer": "Reflection",
+    "explanation": "Bouncing back of light from a surface is reflection.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q098",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0100",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Which radiation emission decreases atomic number by 2 and mass number by 4?",
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "X-ray"
+    ],
+    "correct_answer": "Alpha",
+    "explanation": "Alpha emission removes a helium nucleus: mass -4, atomic number -2.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q100",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0111",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "The SI unit of magnetic field is:",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Henry",
+      "Farad"
+    ],
+    "correct_answer": "Tesla",
+    "explanation": "Magnetic flux density (B) is measured in tesla (T).",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q111",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0114",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which heat transfer occurs when electrons collide with each other in an atom?",
+    "options": [
+      "Conduction",
+      "Convection",
+      "Radiation",
+      "Evaporation"
+    ],
+    "correct_answer": "Conduction",
+    "explanation": "Conduction in solids involves electron collisions and lattice vibrations.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q114",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0115",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "A car has velocity 15 m/s and deceleration 2 m/s2 for 2 s. What distance does it travel?",
+    "options": [
+      "26 m",
+      "30 m",
+      "34 m",
+      "22 m"
+    ],
+    "correct_answer": "26 m",
+    "explanation": "s = ut + 1/2 at2 = 15×2 + 0.5×(-2)×4 = 30 - 4 = 26 m.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q115",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0120",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Ohm's law is not applicable to:",
+    "options": [
+      "Semiconductors",
+      "Metallic resistors at constant temperature",
+      "DC circuits",
+      "Ohmic conductors"
+    ],
+    "correct_answer": "Semiconductors",
+    "explanation": "Semiconductors are non-ohmic; V-I relation is not linear.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q120",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0121",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which law states that at constant volume, pressure is directly proportional to absolute temperature?",
+    "options": [
+      "Gay-Lussac law",
+      "Charles law",
+      "Dalton law",
+      "Raoult law"
+    ],
+    "correct_answer": "Gay-Lussac law",
+    "explanation": "Gay-Lussac's pressure law: P/T = constant at constant V.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q121",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0122",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "According to Newton's second law, force applied on a body is equal to:",
+    "options": [
+      "Mass × acceleration",
+      "Mass ÷ acceleration",
+      "Mass + acceleration",
+      "Mass - acceleration"
+    ],
+    "correct_answer": "Mass × acceleration",
+    "explanation": "F = ma.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q122",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0123",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Magnetic field can be found by electromagnetic induction using:",
+    "options": [
+      "Faraday law",
+      "Ampere law",
+      "Newton law",
+      "Ohm law"
+    ],
+    "correct_answer": "Faraday law",
+    "explanation": "Faraday's law relates changing magnetic flux to induced emf.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q123",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0124",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "Which wave has the highest wavelength?",
+    "options": [
+      "Sound",
+      "Ultraviolet",
+      "Infrared",
+      "Cosmic"
+    ],
+    "correct_answer": "Sound",
+    "explanation": "Among the listed, sound has much larger wavelength than UV, IR, and cosmic rays.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q124",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0134",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "What is the approximate speed of sound at 100°C in air?",
+    "options": [
+      "About 386 m/s",
+      "About 332 m/s",
+      "About 1500 m/s",
+      "About 3×10^8 m/s"
+    ],
+    "correct_answer": "About 386 m/s",
+    "explanation": "Speed of sound in air increases with temperature; at 100°C it is roughly 386 m/s.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q134",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0135",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "Viscosity of glycerin at 20°C is approximately:",
+    "options": [
+      "1.4 Pa·s",
+      "0.001 Pa·s",
+      "10 Pa·s",
+      "100 Pa·s"
+    ],
+    "correct_answer": "1.4 Pa·s",
+    "explanation": "Glycerin is very viscous; at 20°C it is around 1.4 Pa·s.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q135",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0144",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Cathode is:",
+    "options": [
+      "Negatively charged",
+      "Positively charged",
+      "Neutral",
+      "Always grounded"
+    ],
+    "correct_answer": "Negatively charged",
+    "explanation": "In an electrolytic cell, cathode is the negative electrode.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q144",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0146",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Compared with X-rays, gamma rays have:",
+    "options": [
+      "Greater penetration power",
+      "Lower penetration power",
+      "No penetration",
+      "Same penetration always"
+    ],
+    "correct_answer": "Greater penetration power",
+    "explanation": "Gamma rays generally have higher energy and penetration than X-rays.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q146",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0147",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Laws of motion were given by:",
+    "options": [
+      "Newton",
+      "Einstein",
+      "Galileo",
+      "Faraday"
+    ],
+    "correct_answer": "Newton",
+    "explanation": "Newton formulated the three laws of motion.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q147",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0148",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If power is 1 kW and time is 1 hour, what work is performed?",
+    "options": [
+      "3.6×10^6 J",
+      "1000 J",
+      "3600 J",
+      "1 J"
+    ],
+    "correct_answer": "3.6×10^6 J",
+    "explanation": "W = 1000 W × 3600 s = 3.6×10^6 J.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q148",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0163",
+    "subject": "Physics",
+    "topic": "Atomic Structure & Periodic Table",
+    "question": "Nucleus has which charge?",
+    "options": [
+      "Positive",
+      "Negative",
+      "Neutral",
+      "Variable always"
+    ],
+    "correct_answer": "Positive",
+    "explanation": "Protons give the nucleus a positive charge.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q163",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0167",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "I^.J^ is equal to:",
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "i+j"
+    ],
+    "correct_answer": "0",
+    "explanation": "Dot product of perpendicular unit vectors is zero.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q167",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0180",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "When light enters from a denser to a rarer medium and bounces back, the phenomenon is:",
+    "options": [
+      "Total internal reflection",
+      "Refraction",
+      "Diffraction",
+      "Dispersion"
+    ],
+    "correct_answer": "Total internal reflection",
+    "explanation": "At angles above critical angle, light reflects back into the denser medium.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q180",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0181",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Ohm's law is not applicable to:",
+    "options": [
+      "Semiconductors",
+      "Ohmic resistors",
+      "DC circuits",
+      "Metallic conductors at constant temperature"
+    ],
+    "correct_answer": "Semiconductors",
+    "explanation": "Semiconductor devices are non-ohmic.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q181",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0182",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which law states that at constant volume, pressure is directly proportional to absolute temperature?",
+    "options": [
+      "Gay-Lussac law",
+      "Charles law",
+      "Dalton law",
+      "Raoult law"
+    ],
+    "correct_answer": "Gay-Lussac law",
+    "explanation": "P/T = constant at constant V.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q182",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0183",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "According to Newton's second law, force applied on a body is equal to:",
+    "options": [
+      "Mass × acceleration",
+      "Mass ÷ acceleration",
+      "Mass + acceleration",
+      "Mass - acceleration"
+    ],
+    "correct_answer": "Mass × acceleration",
+    "explanation": "F = ma.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q183",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0184",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Magnetic field can be found by electromagnetic induction using:",
+    "options": [
+      "Faraday law",
+      "Ampere law",
+      "Newton law",
+      "Ohm law"
+    ],
+    "correct_answer": "Faraday law",
+    "explanation": "Faraday's law describes induced emf from changing magnetic flux.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q184",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0185",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "Which wave has the highest wavelength among the following?",
+    "options": [
+      "Sound",
+      "Ultraviolet",
+      "Infrared",
+      "Cosmic"
+    ],
+    "correct_answer": "Sound",
+    "explanation": "Sound wavelength is much larger than UV, IR, and cosmic ray wavelengths.",
+    "source_pdf": "[1121, 1042 PM] KIND HIGH MORALE TODAY PHARM D.txt",
+    "original_id": "q185",
+    "source_file": "deepseek_json_20261121_eca5e3.json"
+  },
+  {
+    "id": "DUHS_0253",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Cathode rays are made to pass between the plates of charged capacitor. It attracts:",
+    "options": [
+      "Towards +ve plate",
+      "Towards -ve plate",
+      "A and B are correct",
+      "A and B are wrong"
+    ],
+    "correct_answer": "Towards +ve plate",
+    "explanation": "Cathode rays consist of negatively charged electrons and are deflected toward the positively charged plate of a capacitor.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_067",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0254",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "Minimum excitation potential of Bohr's first orbit in hydrogen atom is:",
+    "options": [
+      "13.6 v",
+      "3.4 v",
+      "10.2 v",
+      "3.6 v"
+    ],
+    "correct_answer": "10.2 v",
+    "explanation": "The transition from the ground state (n=1, -13.6 eV) to the first excited state (n=2, -3.4 eV) requires 10.2 eV of energy, corresponding to an excitation potential of 10.2 V.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_068",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0255",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Which of the following cannot be emitted by radioactive substances during their decay?",
+    "options": [
+      "Protons",
+      "Neutrons",
+      "Helium nuclei",
+      "Electron"
+    ],
+    "correct_answer": "Protons",
+    "explanation": "Natural radioactive decay processes emit alpha particles (helium nuclei), beta particles (electrons or positrons), and gamma rays, but do not emit single isolated protons.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_069",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0256",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Radioactivity can be affected by:",
+    "options": [
+      "Temperature",
+      "Pressure",
+      "Radiation",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "Radioactivity is a spontaneous nuclear phenomenon that cannot be altered by normal chemical or physical conditions such as temperature, pressure, or electric/magnetic fields.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_070",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0257",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "A 60µF capacitor has charge on each plate 3x10^-6 c, and then energy stored is.",
+    "options": [
+      "1.2x10^-4 J",
+      "7.5x10^-8 J",
+      "15x10^-6 J",
+      "2.4x10^-4 J"
+    ],
+    "correct_answer": "7.5x10^-8 J",
+    "explanation": "Energy U = Q^2 / (2C) = (3 × 10^-6)^2 / (2 × 60 × 10^-6) = (9 × 10^-12) / (120 × 10^-6) = 7.5 × 10^-8 J.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_071",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0258",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Coulomb's law applicable to.",
+    "options": [
+      "Point charge",
+      "Spherical charge",
+      "Like charge",
+      "All of these"
+    ],
+    "correct_answer": "Point charge",
+    "explanation": "Coulomb's law is strictly defined and mathematically applicable for stationary point charges.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_072",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0259",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If the velocity of light is taken as the unit of velocity and the year as the unit of time, then the unit of length.",
+    "options": [
+      "9.45x10^10m",
+      "9.456x10^12m",
+      "9.45x10^15m",
+      "9.45x10^-15m"
+    ],
+    "correct_answer": "9.45x10^15m",
+    "explanation": "One light-year = speed of light × 1 year = (3 × 10^8 m/s) × (3.15 × 10^7 s) ≈ 9.46 × 10^15 m.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_073",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0260",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "In electro statics, the gausis law is true, when the charges enclosed in the Gaussian surface are.",
+    "options": [
+      "Moving only",
+      "Stationary only",
+      "Moving or stationary",
+      "None of these"
+    ],
+    "correct_answer": "Stationary only",
+    "explanation": "In classical electrostatics, Gauss's law is formulated specifically for static (stationary) electric charges.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_074",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0261",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "A galvanometer gives full scale deflection with 0.2 A in its coil the resistance of its coil is 10Ω. How much shunt resistance is required to convert it into an Ammeter to read current up to 1.8A?.",
+    "options": [
+      "5.0 Ω",
+      "2.5 Ω",
+      "1.25 Ω",
+      "10.0 Ω"
+    ],
+    "correct_answer": "1.25 Ω",
+    "explanation": "Shunt resistance Rs = (Ig × Rg) / (I - Ig) = (0.2 × 10) / (1.8 - 0.2) = 2 / 1.6 = 1.25 Ω.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_075",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0262",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "A circuit in which there is a current of 5amp is changed so that the current falls to zero in 0.1 sec. If an average EMF of 200 volt is induced, what is the self inductance of circuit?",
+    "options": [
+      "1H",
+      "2H",
+      "4H",
+      "6H"
+    ],
+    "correct_answer": "4H",
+    "explanation": "Induced EMF e = L(ΔI / Δt) => 200 = L(5 / 0.1) => 200 = 50L => L = 4 H.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_076",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0263",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Which of the following measurement is most accurate?",
+    "options": [
+      "20.0 gm",
+      "0.0002 gm",
+      "2.0 gm",
+      "20 gm"
+    ],
+    "correct_answer": "0.0002 gm",
+    "explanation": "A measurement with the lowest absolute uncertainty (smallest least count of 0.0001 gm) is considered the most precise/accurate.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_077",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0264",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "A body goes 20Km north and their 10Km due to east. The displacement of body from its starting point is.",
+    "options": [
+      "30Km",
+      "25.2Km",
+      "22.36Km",
+      "10Km"
+    ],
+    "correct_answer": "22.36Km",
+    "explanation": "Displacement is the resultant vector: d = √(20^2 + 10^2) = √(400 + 100) = √500 ≈ 22.36 km.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_078",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0266",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Transistor is a operated when.",
+    "options": [
+      "Emitter is heated",
+      "Base is heated",
+      "Collector is heated",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "Unlike vacuum tubes that rely on thermionic emission, semiconductor transistors are cold-cathode solid-state devices operating without filament heating.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_080",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0267",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "In treating a localized cancerous tumor a narrow beam of γ-rays used from.",
+    "options": [
+      "Strotinum-90",
+      "Cobalt-90",
+      "u-235",
+      "Pu-239"
+    ],
+    "correct_answer": "Cobalt-90",
+    "explanation": "Cobalt-60 (often listed as Cobalt in radiation therapy options) is the clinical radioisotope commonly used to produce penetrating gamma-ray beams for tumor radiotherapy.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_081",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0268",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Which of the following device used to measured ionization charge and mass of nuclear radiation?",
+    "options": [
+      "Wilson cloud chamber",
+      "Geiger tube",
+      "Solid state detector",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "Radiation detectors including the Wilson cloud chamber, Geiger-Müller counter, and solid-state detectors detect and characterize ionizing nuclear radiation.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_082",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0269",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "A thermodynamic system undergoes a process in which its internal energy decreases by 300J. It the same time 120 J of work is done on the system. Find the heat transferred to or from the system.",
+    "options": [
+      "120 J",
+      "220 J",
+      "-120 J",
+      "-420 J"
+    ],
+    "correct_answer": "-420 J",
+    "explanation": "According to the first law of thermodynamics, ΔU = Q + W (where W is work done on the system). -300 J = Q + 120 J => Q = -420 J (420 J of heat released from the system).",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_083",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0270",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "A electron acquires a speed of 10^6 m/s. find its energy is electron volt.",
+    "options": [
+      "1.84 ev",
+      "2.84 ev",
+      "6.5 ev",
+      "4.5 ev"
+    ],
+    "correct_answer": "2.84 ev",
+    "explanation": "K.E. = 1/2 mv^2 = 0.5 × (9.11 × 10^-31 kg) × (10^6 m/s)^2 = 4.55 × 10^-19 J. In eV: (4.55 × 10^-19) / (1.6 × 10^-19) = 2.84 eV.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_084",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0271",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The parallel plates of an air filled capacitor are the capacitance is 1 farad? [Plate area for d = 1 mm]:",
+    "options": [
+      "1.1x10^8 m^2",
+      "2.1x10^7 m^2",
+      "3.5x10^8 m^2",
+      "4.5x10^8 m^2"
+    ],
+    "correct_answer": "1.1x10^8 m^2",
+    "explanation": "From C = (ε0 × A) / d, for a standard plate separation of 1 mm (10^-3 m), A = (1 × 10^-3) / (8.85 × 10^-12) ≈ 1.13 × 10^8 m^2.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_085",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0272",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "The unit of magnetic flux is:",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Henry",
+      "Farad"
+    ],
+    "correct_answer": "Weber",
+    "explanation": "The SI derived unit of magnetic flux is the Weber (Wb), equal to one Tesla-square meter (T·m^2).",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_086",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0273",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "The device which converts electrical energy into mechanical energy is:",
+    "options": [
+      "Generator",
+      "Motor",
+      "Transformer",
+      "Rectifier"
+    ],
+    "correct_answer": "Motor",
+    "explanation": "An electric motor uses magnetic forces to convert electrical energy into mechanical rotational kinetic energy.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_087",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0274",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "The speed of sound is maximum in:",
+    "options": [
+      "Air",
+      "Water",
+      "Steel",
+      "Vacuum"
+    ],
+    "correct_answer": "Steel",
+    "explanation": "Sound travels fastest in dense solids with high elasticity (Young's modulus), such as steel (~5900 m/s), compared to liquids and gases.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_088",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0275",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "The phenomenon of splitting of white light into its component colours is called:",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Dispersion",
+      "Diffraction"
+    ],
+    "correct_answer": "Dispersion",
+    "explanation": "Dispersion occurs when white light separates into its constituent wavelength colors due to different refractive indices in a medium.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_089",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0276",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "The SI unit of power is:",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "correct_answer": "Watt",
+    "explanation": "Power is defined as the rate of doing work; its SI unit is the Watt (1 W = 1 Joule/second).",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_090",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0277",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Which of the following is a scalar quantity?",
+    "options": [
+      "Force",
+      "Velocity",
+      "Speed",
+      "Acceleration"
+    ],
+    "correct_answer": "Speed",
+    "explanation": "Speed possesses only magnitude without directional dependence, making it a scalar quantity.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_091",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0278",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "The law of inertia was given by:",
+    "options": [
+      "Newton",
+      "Galileo",
+      "Einstein",
+      "Faraday"
+    ],
+    "correct_answer": "Galileo",
+    "explanation": "The fundamental concept of inertia was first conceived and experimentally stated by Galileo Galilei, and later incorporated by Newton into his first law of motion.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_092",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0279",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "The value of acceleration due to gravity on the surface of the Earth is approximately:",
+    "options": [
+      "8.9 m/s^2",
+      "9.8 m/s^2",
+      "10.8 m/s^2",
+      "11.8 m/s^2"
+    ],
+    "correct_answer": "9.8 m/s^2",
+    "explanation": "The standard average acceleration due to Earth's gravity at sea level is approximately 9.8 m/s^2.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_093",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0280",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "The energy possessed by a body due to its motion is called:",
+    "options": [
+      "Potential energy",
+      "Kinetic energy",
+      "Chemical energy",
+      "Nuclear energy"
+    ],
+    "correct_answer": "Kinetic energy",
+    "explanation": "Kinetic energy (K.E. = 1/2 mv^2) is the energy an object possesses by virtue of its state of motion.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_094",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0281",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "The first law of thermodynamics is based on the conservation of:",
+    "options": [
+      "Mass",
+      "Momentum",
+      "Energy",
+      "Charge"
+    ],
+    "correct_answer": "Energy",
+    "explanation": "The first law of thermodynamics is a restatement of the law of conservation of energy applied to thermodynamic systems.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_095",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0282",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The unit of electric charge is:",
+    "options": [
+      "Ampere",
+      "Coulomb",
+      "Volt",
+      "Ohm"
+    ],
+    "correct_answer": "Coulomb",
+    "explanation": "The SI derived unit of electrical charge is the Coulomb (C), where 1 C = 1 Ampere-second.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_096",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0283",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The resistance of a conductor is inversely proportional to its:",
+    "options": [
+      "Length",
+      "Area of cross-section",
+      "Temperature",
+      "Resistivity"
+    ],
+    "correct_answer": "Area of cross-section",
+    "explanation": "Electrical resistance R = ρ(L / A); therefore, resistance is inversely proportional to cross-sectional area A.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_097",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0284",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "The magnetic field inside a solenoid is:",
+    "options": [
+      "Zero",
+      "Non-uniform",
+      "Uniform",
+      "Always changing"
+    ],
+    "correct_answer": "Uniform",
+    "explanation": "Inside a long, tightly wound current-carrying solenoid, magnetic field lines are straight, parallel, and uniform throughout the core.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_098",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0285",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "The process of emission of electrons from a metal surface when light falls on it is called:",
+    "options": [
+      "Thermionic emission",
+      "Photoelectric emission",
+      "Field emission",
+      "Secondary emission"
+    ],
+    "correct_answer": "Photoelectric emission",
+    "explanation": "Photoelectric emission (the photoelectric effect) is the ejection of electrons from a material's surface upon absorbing photons with sufficient frequency.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_099",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0286",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "The half-life of a radioactive substance is the time required for:",
+    "options": [
+      "All atoms to decay",
+      "Half of the atoms to decay",
+      "One-fourth of the atoms to decay",
+      "None of these"
+    ],
+    "correct_answer": "Half of the atoms to decay",
+    "explanation": "Half-life (t1/2) is defined as the time needed for half of the radioactive parent nuclei in a sample to disintegrate.",
+    "source_pdf": "DOW NURSING/DPT/ D-PHARM PAST PAPERS",
+    "original_id": "MCQ_100",
+    "source_file": "ai_studio_code.json"
+  },
+  {
+    "id": "DUHS_0293",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "The crew basket on a balloon is usually constructed of wicker or aluminum. What might you predict as an outcome if the crew basket were exchanged for one made of iron or steel?",
+    "options": [
+      "the balloon would be harder to control",
+      "the balloon would rise more easily from the ground",
+      "the balloon would be unlikely to rise from ground at all",
+      "the balloon would be struck by lightning"
+    ],
+    "correct_answer": "the balloon would be unlikely to rise from ground at all",
+    "explanation": "Iron or steel would greatly increase the basket's weight, so the balloon may not have enough buoyant force to lift it.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q009",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0294",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "In the reading above, the balloon rises because the air inside the bag is warmer. This occurs because:",
+    "options": [
+      "when air is heated, its density changes",
+      "the balloon is constructed of light materials",
+      "molecules move more violently in cool air",
+      "cool air always moves towards warm air"
+    ],
+    "correct_answer": "when air is heated, its density changes",
+    "explanation": "Heated air expands and becomes less dense, producing buoyancy that helps the balloon rise.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q010",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0325",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "The reverse process of x-ray production is:",
+    "options": [
+      "Compton's effect",
+      "Pair production",
+      "Photoelectric effect",
+      "Annihilation of matter"
+    ],
+    "correct_answer": "Photoelectric effect",
+    "explanation": "X-ray production is essentially the inverse of the photoelectric effect, where an electron emits an X-ray photon when captured.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q041",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0326",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "If we double the length and half the area of wire, then new resistance of wire will become:",
+    "options": [
+      "Double",
+      "Half",
+      "Four times",
+      "One fourth"
+    ],
+    "correct_answer": "Four times",
+    "explanation": "R = ρL/A. Doubling L and halving A gives R' = ρ(2L)/(A/2) = 4R.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q042",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0327",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Inertia is a measure of:",
+    "options": [
+      "Mass",
+      "Weight",
+      "Force",
+      "Velocity"
+    ],
+    "correct_answer": "Mass",
+    "explanation": "Mass is the measure of inertia of a body.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q043",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0328",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Earth is ______ frame of reference.",
+    "options": [
+      "Inertial",
+      "Non-inertial",
+      "Both A and B",
+      "None of these"
+    ],
+    "correct_answer": "Non-inertial",
+    "explanation": "Earth rotates and revolves, so it is an accelerating, non-inertial frame of reference.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q044",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0329",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If momentum of a body becomes double then Kinetic energy will become:",
+    "options": [
+      "Double",
+      "Four times",
+      "Eight times",
+      "Remain same"
+    ],
+    "correct_answer": "Four times",
+    "explanation": "KE = p²/2m, so doubling p makes KE four times.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q045",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0330",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Wheatstone bridge circuit is used to measure ______.",
+    "options": [
+      "Voltage",
+      "Current",
+      "Resistance",
+      "Temperature"
+    ],
+    "correct_answer": "Resistance",
+    "explanation": "A Wheatstone bridge is used to measure unknown resistance.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q046",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0331",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "According to Archimedes principle, when an object is immersed in a liquid, it experiences upward thrust which is ______ weight of liquid displaced.",
+    "options": [
+      "Equal to",
+      "More than",
+      "Less than",
+      "All are possible"
+    ],
+    "correct_answer": "Equal to",
+    "explanation": "The buoyant force equals the weight of the fluid displaced by the object.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q047",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0332",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "If temperature of the sun becomes three times then energy emitted from the sun will be:",
+    "options": [
+      "Eighty one times",
+      "Three times",
+      "Nine times",
+      "Twenty seven times"
+    ],
+    "correct_answer": "Eighty one times",
+    "explanation": "By Stefan's law, E ∝ T⁴; (3)⁴ = 81.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q048",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0333",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "If we double the angular speed of coil then induced emf in coil of generator will be:",
+    "options": [
+      "Four times",
+      "Half",
+      "One fourth",
+      "Double"
+    ],
+    "correct_answer": "Double",
+    "explanation": "Induced emf is proportional to angular speed, so doubling ω doubles emf.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q049",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0334",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "In photoelectric effect, when intensity of light increases then which quantity will increase?",
+    "options": [
+      "Stopping potential",
+      "Work function",
+      "Frequency",
+      "Current"
+    ],
+    "correct_answer": "Current",
+    "explanation": "Increasing intensity increases the number of photoelectrons emitted, thus increasing current.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q050",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0335",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "System errors can be:",
+    "options": [
+      "Either positive or negative",
+      "Positive only",
+      "Negative only",
+      "None of these"
+    ],
+    "correct_answer": "Either positive or negative",
+    "explanation": "Systematic errors may shift measurements in either a positive or negative direction depending on the bias.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q051",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0336",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "In which of the following process all heat given is converted into internal energy?",
+    "options": [
+      "Isothermal",
+      "Adiabatic",
+      "Isochoric",
+      "Isobaric"
+    ],
+    "correct_answer": "Isochoric",
+    "explanation": "At constant volume, work done is zero, so Q = ΔU.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q052",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0337",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "Which experiment confirms the particle nature of light?",
+    "options": [
+      "Interference",
+      "Diffraction",
+      "Polarization",
+      "Compton's effect"
+    ],
+    "correct_answer": "Compton's effect",
+    "explanation": "The Compton effect confirms the particle nature of light through photon-electron collisions.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q053",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0338",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Which of the following is conservative force?",
+    "options": [
+      "Frictional force",
+      "Gravitational force",
+      "Tension in a string",
+      "Normal reaction"
+    ],
+    "correct_answer": "Gravitational force",
+    "explanation": "Gravitational force is conservative because work done depends only on initial and final positions.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q054",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0339",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "At what angle, range of projectile becomes equal to height of projectile?",
+    "options": [
+      "30°",
+      "45°",
+      "76°",
+      "60°"
+    ],
+    "correct_answer": "76°",
+    "explanation": "Setting R = H gives tan θ = 4, so θ ≈ 76°.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q055",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0340",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "According to the Equation of continuity, if we double the diameter of pipe then speed of fluid in that pipe will become ______ of initial speed.",
+    "options": [
+      "Four times",
+      "One fourth",
+      "Half",
+      "Double"
+    ],
+    "correct_answer": "One fourth",
+    "explanation": "Area ∝ diameter²; doubling diameter quadruples area, so speed becomes one fourth by continuity.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q056",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0341",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "If we double the radius of droplet falls through air then its terminal velocity will become:",
+    "options": [
+      "Half",
+      "Double",
+      "Four times",
+      "Remains same"
+    ],
+    "correct_answer": "Four times",
+    "explanation": "Terminal velocity is proportional to r², so doubling radius makes it four times.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q057",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0342",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The slope of ohm's law graph is equal to:",
+    "options": [
+      "Resistance",
+      "Conductance",
+      "Resistivity",
+      "Conductivity"
+    ],
+    "correct_answer": "Resistance",
+    "explanation": "For a V-I graph, slope = V/I = resistance.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q058",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0343",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "If kinetic energy of electron becomes four times then wavelength becomes:",
+    "options": [
+      "Half",
+      "Double",
+      "Four times",
+      "One fourth"
+    ],
+    "correct_answer": "Half",
+    "explanation": "λ ∝ 1/√KE, so four times KE gives half the wavelength.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q059",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0344",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Potential gradient is a:",
+    "options": [
+      "Vector quantity",
+      "Scalar quantity",
+      "Number",
+      "Phasor"
+    ],
+    "correct_answer": "Vector quantity",
+    "explanation": "Electric potential gradient has both magnitude and direction, so it is a vector.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q060",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0345",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "At what angle between force and displacement, work done is half of maximum work?",
+    "options": [
+      "60°",
+      "30°",
+      "45°",
+      "75°"
+    ],
+    "correct_answer": "60°",
+    "explanation": "W = Fd cos θ; half of maximum means cos θ = 0.5, so θ = 60°.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q061",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0346",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "The slope of energy frequency graph is:",
+    "options": [
+      "Plank's constant",
+      "Wein's constant",
+      "Stephen constant",
+      "Compton's wavelength"
+    ],
+    "correct_answer": "Plank's constant",
+    "explanation": "E = hf, so the slope of E versus f is Planck's constant h.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q062",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0347",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "If a charge particle is moving parallel to the magnetic field then path made by the charge particle will be:",
+    "options": [
+      "Circular",
+      "Helical",
+      "Straight",
+      "Spiral"
+    ],
+    "correct_answer": "Straight",
+    "explanation": "Magnetic force is zero when velocity is parallel to the magnetic field, so the path remains straight.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q063",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0348",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "As the speed of moving fluid increases, the pressure in the fluid:",
+    "options": [
+      "Increases",
+      "Decreases",
+      "May increase or decrease depending on viscosity",
+      "Remains same"
+    ],
+    "correct_answer": "Decreases",
+    "explanation": "By Bernoulli's principle, an increase in fluid speed is accompanied by a decrease in pressure.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q064",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0349",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "On what factors, the resistivity of material depends?",
+    "options": [
+      "Nature of material",
+      "Temperature",
+      "Both A and B",
+      "None of these"
+    ],
+    "correct_answer": "Both A and B",
+    "explanation": "Resistivity depends on the material's nature and its temperature.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q065",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0350",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "The electromagnetic waves are produced by ______.",
+    "options": [
+      "Accelerating charges",
+      "Uniformly moving charges",
+      "Charges at rest",
+      "Moving neutrons"
+    ],
+    "correct_answer": "Accelerating charges",
+    "explanation": "Accelerating electric charges produce electromagnetic waves.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q066",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0351",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If we double the mass and velocity of object, then centripetal force will become:",
+    "options": [
+      "Four times",
+      "Two times",
+      "Eight times",
+      "Half"
+    ],
+    "correct_answer": "Eight times",
+    "explanation": "F = mv²/r; doubling both m and v gives 2 × 4 = 8 times the force.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q067",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0352",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "When three capacitors are connected in series then which quantity in all capacitors remain same?",
+    "options": [
+      "Charge",
+      "Voltage",
+      "Both A and B",
+      "None of these"
+    ],
+    "correct_answer": "Charge",
+    "explanation": "In series, each capacitor stores the same charge, while voltages add.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q068",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0353",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If the percentage error in mass is 2% and velocity is 3% then percentage in momentum will be:",
+    "options": [
+      "2%",
+      "1%",
+      "3%",
+      "5%"
+    ],
+    "correct_answer": "5%",
+    "explanation": "For p = mv, percentage errors add: 2% + 3% = 5%.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q069",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0354",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "If electron, proton and alpha particle are moving with same velocity then which particle will have larger wavelength?",
+    "options": [
+      "Alpha particle",
+      "Proton",
+      "Electron",
+      "All have same wavelength"
+    ],
+    "correct_answer": "Electron",
+    "explanation": "λ = h/(mv); for the same velocity, the lightest particle has the largest wavelength, so electron.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q070",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0357",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "Measure of internal resistance of a liquid is called:",
+    "options": [
+      "Surface tension",
+      "Evaporation",
+      "Boiling point",
+      "Viscosity"
+    ],
+    "correct_answer": "Viscosity",
+    "explanation": "Viscosity is the measure of a fluid's internal resistance to flow.",
+    "source_pdf": "DOW BSMT PAST PAPERS.pdf",
+    "original_id": "dow_bsmt_q073",
+    "source_file": "deepseek_json_20261121_07c914.json"
+  },
+  {
+    "id": "DUHS_0394",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Unit of mass is ______ according to the FPS system?",
+    "options": [
+      "Slug",
+      "Pound",
+      "Mile",
+      "Gram"
+    ],
+    "correct_answer": "Slug",
+    "explanation": "In the FPS system, the unit of mass is the slug.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q41",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0395",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "It is defined as work done per unit charge?",
+    "options": [
+      "Energy",
+      "Electric potential",
+      "Volt",
+      "Both b and c"
+    ],
+    "correct_answer": "Both b and c",
+    "explanation": "Electric potential is work per unit charge, and its unit is the volt.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q42",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0396",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Rate of flow of charge is called?",
+    "options": [
+      "Current",
+      "Flux",
+      "Magnetic flux",
+      "Power"
+    ],
+    "correct_answer": "Current",
+    "explanation": "Electric current is the rate of flow of electric charge.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q43",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0397",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Unit of current is?",
+    "options": [
+      "Ampere",
+      "Coulomb per second",
+      "Coulomb into second",
+      "Both a and b"
+    ],
+    "correct_answer": "Both a and b",
+    "explanation": "Current is measured in amperes, which equals coulombs per second.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q44",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0398",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "A body is moving in a circular path with a velocity of 50 m/sec and completes one complete revolution. The force acting on the body is 5 N and it covers 50 m in its whole revolution. Calculate work done by it.",
+    "options": [
+      "250 J",
+      "2.5 J",
+      "0",
+      "None"
+    ],
+    "correct_answer": "0",
+    "explanation": "Centripetal force is perpendicular to displacement at each instant; over a full revolution, net work is zero.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q45",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0399",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "A body is moving in upward direction and it reaches its highest point in 2 sec. Calculate the height covered by it. Take g = 10 m/s².",
+    "options": [
+      "10 m",
+      "20 m",
+      "30 m",
+      "40 m"
+    ],
+    "correct_answer": "20 m",
+    "explanation": "At highest point v=0, so u=gt=20 m/s; h = u²/2g = 400/20 = 20 m.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q46",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0400",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "At what angle are the range and height of a projectile the same or equal?",
+    "options": [
+      "45°",
+      "90°",
+      "76°",
+      "66°"
+    ],
+    "correct_answer": "76°",
+    "explanation": "Equating range and height gives tan θ = 4, so θ ≈ 76°.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q47",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0401",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "The velocity of a projectile is maximum at?",
+    "options": [
+      "Highest point",
+      "Landing",
+      "Launching",
+      "Both b and c"
+    ],
+    "correct_answer": "Both b and c",
+    "explanation": "The projectile has maximum speed at launch and landing due to symmetry.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q48",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0402",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Newton's which law of motion is also known as law of inertia?",
+    "options": [
+      "First law",
+      "Second law",
+      "Third law",
+      "None"
+    ],
+    "correct_answer": "First law",
+    "explanation": "Newton's first law is the law of inertia.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q49",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0403",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Rate of change of angular momentum is called?",
+    "options": [
+      "Force",
+      "Torque",
+      "Momentum",
+      "None"
+    ],
+    "correct_answer": "Torque",
+    "explanation": "Torque is the rate of change of angular momentum.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q50",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0404",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Rate of change of energy is called?",
+    "options": [
+      "Kinetic energy",
+      "Work",
+      "Power",
+      "Torque"
+    ],
+    "correct_answer": "Power",
+    "explanation": "Power is the rate of doing work or transferring energy.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q51",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0405",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "A 50 N force is acting on a body and it moves with velocity of 500 m/sec. Calculate power of body.",
+    "options": [
+      "25 kilowatt",
+      "2500 watt",
+      "10 watt",
+      "None"
+    ],
+    "correct_answer": "25 kilowatt",
+    "explanation": "P = Fv = 50 × 500 = 25000 W = 25 kW.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q52",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0406",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "Unit of power of lens is?",
+    "options": [
+      "Diopter",
+      "Watt",
+      "Joule",
+      "Newton meter"
+    ],
+    "correct_answer": "Diopter",
+    "explanation": "Lens power is measured in diopters.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q53",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0407",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "Longitudinal waves consist of?",
+    "options": [
+      "Compression and rarefaction",
+      "Trough and crest",
+      "Both a and b",
+      "None"
+    ],
+    "correct_answer": "Compression and rarefaction",
+    "explanation": "Longitudinal waves have compressions and rarefactions.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q54",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0408",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "The speed of sound waves in vacuum is?",
+    "options": [
+      "332 m/sec",
+      "Maximum",
+      "Minimum",
+      "Zero"
+    ],
+    "correct_answer": "Zero",
+    "explanation": "Sound requires a medium and cannot travel through vacuum.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q55",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0409",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "Distance between node and node is?",
+    "options": [
+      "Lambda / 2",
+      "Lambda / 4",
+      "Lambda",
+      "None"
+    ],
+    "correct_answer": "Lambda / 2",
+    "explanation": "The distance between two consecutive nodes is half a wavelength.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q56",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0410",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "All of the following waves require a medium except?",
+    "options": [
+      "Ultraviolet wave",
+      "Sound waves",
+      "Infrasonic waves",
+      "Microwaves"
+    ],
+    "correct_answer": "Ultraviolet wave",
+    "explanation": "Ultraviolet and microwaves are electromagnetic waves and do not require a medium; UV is the intended single best answer here.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q57",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0411",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If mass of the body increases two times and velocity of body increases two times, then kinetic energy of body will?",
+    "options": [
+      "Increase four times",
+      "Increase eight times",
+      "Decrease four times",
+      "Decrease eight times"
+    ],
+    "correct_answer": "Increase eight times",
+    "explanation": "KE ∝ mv²; doubling both mass and velocity gives 2 × 2² = 8 times.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q58",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0412",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Unit of magnetic induction is?",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Henry",
+      "None"
+    ],
+    "correct_answer": "Tesla",
+    "explanation": "Magnetic induction (magnetic flux density) is measured in tesla.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q59",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0413",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Transformer works on?",
+    "options": [
+      "Self-induction",
+      "Mutual induction",
+      "Both a and b",
+      "None"
+    ],
+    "correct_answer": "Mutual induction",
+    "explanation": "A transformer works on the principle of mutual induction.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q60",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0414",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which of the following remains constant during Boyle's law?",
+    "options": [
+      "Temperature",
+      "Pressure",
+      "Volume",
+      "None"
+    ],
+    "correct_answer": "Temperature",
+    "explanation": "Boyle's law states that pressure and volume are inversely related at constant temperature.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q61",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0415",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "At which temperature is the volume of all gases theoretically zero?",
+    "options": [
+      "-273.16°C",
+      "0 kelvin",
+      "-460°F",
+      "ALL"
+    ],
+    "correct_answer": "ALL",
+    "explanation": "These are equivalent: -273.16°C = 0 K ≈ -460°F.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q62",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0416",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "In Charles's law, which of the following is plotted against volume?",
+    "options": [
+      "Temperature",
+      "Pressure",
+      "Density",
+      "None"
+    ],
+    "correct_answer": "Temperature",
+    "explanation": "Charles's law relates volume directly with absolute temperature at constant pressure.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q63",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0417",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "The space between gas molecules is known as?",
+    "options": [
+      "Mean free path",
+      "Mean closed path",
+      "Mean open path",
+      "All of them"
+    ],
+    "correct_answer": "Mean free path",
+    "explanation": "Mean free path is the average distance a gas molecule travels between collisions.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q64",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0418",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Opposite of diffusion is?",
+    "options": [
+      "Effusion",
+      "Compression",
+      "Expansion",
+      "All of them"
+    ],
+    "correct_answer": "Effusion",
+    "explanation": "Effusion is the related gas process often contrasted with diffusion.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q65",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0419",
+    "subject": "Physics",
+    "topic": "Gravitation & Fluids",
+    "question": "Surface tension is indicated by?",
+    "options": [
+      "Alpha",
+      "Beta",
+      "Gamma",
+      "Above statement is wrong"
+    ],
+    "correct_answer": "Gamma",
+    "explanation": "Surface tension is represented by the symbol γ (gamma).",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q66",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0420",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Most powerful penetrating ray is?",
+    "options": [
+      "Alpha ray",
+      "Beta ray",
+      "Gamma ray",
+      "Both b and c"
+    ],
+    "correct_answer": "Gamma ray",
+    "explanation": "Gamma rays are electromagnetic and have the greatest penetrating power among alpha, beta, and gamma.",
+    "source_pdf": "DOW NURSING PAST PAPER.pdf",
+    "original_id": "q67",
+    "source_file": "deepseek_json_20261121_3a2d13.json"
+  },
+  {
+    "id": "DUHS_0523",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Alpha is the coefficient of linear expansion. The unit of alpha is?",
+    "options": [
+      "Kelvin",
+      "Kelvin inverse",
+      "Meter/kelvin",
+      "none of them"
+    ],
+    "correct_answer": "Kelvin inverse",
+    "explanation": "The coefficient of linear expansion has units of K^-1.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_041",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0524",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Beta is the coefficient of volume expansion. One beta is equal to how many alpha?",
+    "options": [
+      "One",
+      "Two",
+      "Three",
+      "Four"
+    ],
+    "correct_answer": "Three",
+    "explanation": "For isotropic solids, the coefficient of volume expansion is approximately three times the linear coefficient.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_042",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0525",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Specific heat capacity of water is?",
+    "options": [
+      "4200 J/kg·K",
+      "2100 J/kg·K",
+      "1800 J/kg·K",
+      "none of them"
+    ],
+    "correct_answer": "4200 J/kg·K",
+    "explanation": "The specific heat capacity of water is about 4200 J/kg·K.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_043",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0526",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "In which of the following systems is the work done taken as zero?",
+    "options": [
+      "Isochoric",
+      "Isobaric",
+      "Isothermal",
+      "Adiabatic"
+    ],
+    "correct_answer": "Isochoric",
+    "explanation": "In an isochoric process, volume is constant, so pressure-volume work is zero.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_044",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0527",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Which one of the following processes functions as a cyclic process?",
+    "options": [
+      "Isothermal",
+      "Isochoric",
+      "Isobaric",
+      "Adiabatic"
+    ],
+    "correct_answer": "Isothermal",
+    "explanation": "A cyclic process returns to the initial state; isothermal steps are commonly used in cyclic operations such as the Carnot cycle.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_045",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0528",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "What is the unit of entropy?",
+    "options": [
+      "Joule",
+      "Joule/kelvin",
+      "Kelvin",
+      "none of them"
+    ],
+    "correct_answer": "Joule/kelvin",
+    "explanation": "Entropy is measured in joules per kelvin (J/K).",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_046",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0529",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "______ is defined as the force experienced by a unit positive charge.",
+    "options": [
+      "Electric field",
+      "Intensity of electric field",
+      "Electric flux",
+      "All can be possible"
+    ],
+    "correct_answer": "Intensity of electric field",
+    "explanation": "Electric field intensity is the force per unit positive charge.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_047",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0530",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "What is the unit of capacitance?",
+    "options": [
+      "Farad",
+      "Coulomb/volt",
+      "Both a and b",
+      "The above statement is wrong"
+    ],
+    "correct_answer": "Both a and b",
+    "explanation": "Capacitance is measured in farads; 1 farad equals 1 coulomb per volt.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_048",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0531",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The magnitude of drift velocity has the order of?",
+    "options": [
+      "0.1 m/sec",
+      "0.01 m/sec",
+      "0.001 m/sec",
+      "none of them"
+    ],
+    "correct_answer": "none of them",
+    "explanation": "Electron drift velocity in typical conductors is much smaller, around 10^-4 m/s.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_049",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0532",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "Resistivity or specific resistance is dependent on?",
+    "options": [
+      "Temperature",
+      "Pressure",
+      "Length and area",
+      "Both a and c"
+    ],
+    "correct_answer": "Temperature",
+    "explanation": "Resistivity depends on material and temperature, not directly on length or cross-sectional area.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_050",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0533",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "A 1000 W bulb is operated by 280 V. What is the current through the bulb?",
+    "options": [
+      "28000 A",
+      "2800000 A",
+      "280000 A",
+      "none of them"
+    ],
+    "correct_answer": "none of them",
+    "explanation": "I = P/V = 1000/280 ≈ 3.57 A, which is not listed.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_051",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0534",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "An electric kettle of 500 W rating boils a certain quantity of water in 10 minutes. How much heat has been generated?",
+    "options": [
+      "300000 J",
+      "3000000 J",
+      "30000 J",
+      "3000 J"
+    ],
+    "correct_answer": "300000 J",
+    "explanation": "Energy = power × time = 500 W × 600 s = 300000 J.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_052",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0535",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "One tesla is equal to how many gauss?",
+    "options": [
+      "10^4",
+      "10^3",
+      "10^2",
+      "none of them"
+    ],
+    "correct_answer": "10^4",
+    "explanation": "1 tesla = 10^4 gauss.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_053",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0536",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Tesla is equal to?",
+    "options": [
+      "N·A/m",
+      "N/(A·m)",
+      "N·m/A",
+      "The above statement is wrong"
+    ],
+    "correct_answer": "N/(A·m)",
+    "explanation": "The tesla can be expressed as newton per ampere-meter (N/(A·m)).",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_054",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0537",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Magnetic flux is maximum at an angle?",
+    "options": [
+      "90°",
+      "45°",
+      "30°",
+      "0°"
+    ],
+    "correct_answer": "0°",
+    "explanation": "Magnetic flux Φ = BA cosθ is maximum when θ = 0°.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_055",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0538",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Lenz's law is used to calculate the?",
+    "options": [
+      "Induced current",
+      "Induced voltage",
+      "Induced resistance",
+      "All of them"
+    ],
+    "correct_answer": "Induced current",
+    "explanation": "Lenz's law gives the direction of induced current/emf opposing the change in flux.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_056",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0539",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Lenz's law works on?",
+    "options": [
+      "Law of conservation of energy",
+      "Law of conservation of mass",
+      "Law of conservation of momentum",
+      "none of them"
+    ],
+    "correct_answer": "Law of conservation of energy",
+    "explanation": "Lenz's law is a consequence of conservation of energy.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_057",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0540",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Henry is the unit of?",
+    "options": [
+      "Self-induction",
+      "Mutual induction",
+      "Both a and b",
+      "none of them"
+    ],
+    "correct_answer": "Both a and b",
+    "explanation": "Henry is the SI unit of inductance, including self- and mutual inductance.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_058",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0541",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "One henry is equal to?",
+    "options": [
+      "Volt/sec·A",
+      "Volt·sec/A",
+      "A·sec/volt",
+      "none of them"
+    ],
+    "correct_answer": "Volt·sec/A",
+    "explanation": "1 H = 1 V·s/A.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_059",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0542",
+    "subject": "Physics",
+    "topic": "Magnetism & Electromagnetism",
+    "question": "Transformer steps up and steps down the?",
+    "options": [
+      "Alternating current",
+      "Alternating voltage",
+      "Both a and b",
+      "none of them"
+    ],
+    "correct_answer": "Alternating voltage",
+    "explanation": "A transformer primarily steps up or steps down alternating voltage; current changes inversely.",
+    "source_pdf": "DOW PAST PAPERS.pdf",
+    "original_id": "phy_060",
+    "source_file": "deepseek_json_20261121_d857ed.json"
+  },
+  {
+    "id": "DUHS_0589",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "The S.I unit of length is:",
+    "options": [
+      "Millimeter",
+      "Centimeter",
+      "Meter",
+      "Kilometer"
+    ],
+    "correct_answer": "Meter",
+    "explanation": "The SI base unit of length is the meter.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q19",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0605",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Equivalent weight of 10 kg is:",
+    "options": [
+      "98 N",
+      "980 N",
+      "100 N",
+      "196 N"
+    ],
+    "correct_answer": "98 N",
+    "explanation": "Weight = mass × g = 10 kg × 9.8 m/s² = 98 N.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q35",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0608",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "The quantity of matter in a body is called:",
+    "options": [
+      "Force",
+      "Weight",
+      "Mass",
+      "Power"
+    ],
+    "correct_answer": "Mass",
+    "explanation": "Mass is the quantity of matter in a body.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q38",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0609",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Which one is a vector quantity?",
+    "options": [
+      "Mass",
+      "Weight",
+      "Time",
+      "Distance"
+    ],
+    "correct_answer": "Weight",
+    "explanation": "Weight is a vector because it has magnitude and direction.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q39",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0610",
+    "subject": "Physics",
+    "topic": "Heat & Thermodynamics",
+    "question": "Substances that do not conduct heat are known as:",
+    "options": [
+      "Insulator",
+      "Conductor",
+      "Inductor",
+      "Neutral"
+    ],
+    "correct_answer": "Insulator",
+    "explanation": "Insulators resist the flow of heat.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q40",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0611",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "Refractive index of water is:",
+    "options": [
+      "1.5",
+      "1",
+      "2.4",
+      "1.33"
+    ],
+    "correct_answer": "1.33",
+    "explanation": "The refractive index of water is approximately 1.33.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q41",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0612",
+    "subject": "Physics",
+    "topic": "Light & Optics",
+    "question": "Human eye is similar to:",
+    "options": [
+      "Microscope",
+      "Telescope",
+      "Camera",
+      "Periscope"
+    ],
+    "correct_answer": "Camera",
+    "explanation": "The human eye forms images similarly to a camera.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q42",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0613",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "In MKS system the unit of force is:",
+    "options": [
+      "Dyne",
+      "Newton",
+      "Joule",
+      "Watt"
+    ],
+    "correct_answer": "Newton",
+    "explanation": "The MKS unit of force is the newton.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q43",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0614",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "Work is the product of force and:",
+    "options": [
+      "Distance",
+      "Displacement",
+      "Velocity",
+      "Acceleration"
+    ],
+    "correct_answer": "Displacement",
+    "explanation": "Work is force multiplied by displacement in the direction of force.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q44",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0615",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "If the mass of a body is 1 Kg, its weight will be:",
+    "options": [
+      "8.9 N",
+      "9.8 N",
+      "16.9 N",
+      "18 N"
+    ],
+    "correct_answer": "9.8 N",
+    "explanation": "Weight = mg = 1 kg × 9.8 m/s² = 9.8 N.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q45",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0616",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "The time period of second pendulum is ______ seconds.",
+    "options": [
+      "1 sec",
+      "2 secs",
+      "3 secs",
+      "4 secs"
+    ],
+    "correct_answer": "2 secs",
+    "explanation": "A seconds pendulum has a time period of 2 seconds.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q46",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0617",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The instrument used to measure the potential difference is called:",
+    "options": [
+      "Voltmeter",
+      "Ammeter",
+      "Galvanometer",
+      "Manometer"
+    ],
+    "correct_answer": "Voltmeter",
+    "explanation": "A voltmeter measures potential difference.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q47",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0618",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "One microsecond =",
+    "options": [
+      "$10^{-3}$",
+      "$10^{-6}$",
+      "$10^{-9}$",
+      "$10^3$"
+    ],
+    "correct_answer": "$10^{-6}$",
+    "explanation": "One microsecond is one millionth of a second, 10^-6 s.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q48",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0619",
+    "subject": "Physics",
+    "topic": "Oscillations, Waves & Sound",
+    "question": "The unit used to measure noise is:",
+    "options": [
+      "Ohm",
+      "Coulomb",
+      "Decibel",
+      "Hertz"
+    ],
+    "correct_answer": "Decibel",
+    "explanation": "Noise level is measured in decibels.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q49",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0620",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The commercial unit of electrical energy is:",
+    "options": [
+      "Joule",
+      "Newton",
+      "Kilowatt-Hour",
+      "Volt"
+    ],
+    "correct_answer": "Kilowatt-Hour",
+    "explanation": "The kilowatt-hour is the commercial unit of electrical energy.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q50",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0621",
+    "subject": "Physics",
+    "topic": "Mechanics",
+    "question": "The formula for centripetal force is:",
+    "options": [
+      "$mv^2/r$",
+      "$rv^2/m$",
+      "$mr/v^2$",
+      "$mvr^2$"
+    ],
+    "correct_answer": "$mv^2/r$",
+    "explanation": "Centripetal force is Fc = mv²/r.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q51",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_0622",
+    "subject": "Physics",
+    "topic": "Electrostatics & Current Electricity",
+    "question": "The current obtained from a battery is always:",
+    "options": [
+      "A.C.",
+      "D.C.",
+      "Both A.C. and D.C.",
+      "None of the above"
+    ],
+    "correct_answer": "D.C.",
+    "explanation": "Batteries supply direct current; the source duplicate option was cleaned.",
+    "source_pdf": "JPMC BSN Last Year Test MCQs.pdf",
+    "original_id": "q52",
+    "source_file": "deepseek_json_20261121_fda5ac.json"
+  },
+  {
+    "id": "DUHS_1182",
     "subject": "Physics",
     "topic": "Heat & Thermodynamics",
     "question": "The normal boiling point of water is:",
@@ -13,10 +3277,11 @@
     "correct_answer": "100°C",
     "explanation": "At standard atmospheric pressure, water boils at 100°C.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q002"
+    "original_id": "q002",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "2",
+    "id": "DUHS_1188",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The SI unit of mass is:",
@@ -29,10 +3294,11 @@
     "correct_answer": "Kilogram",
     "explanation": "The SI base unit of mass is the kilogram.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q008"
+    "original_id": "q008",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "3",
+    "id": "DUHS_1194",
     "subject": "Physics",
     "topic": "Heat & Thermodynamics",
     "question": "The device used to measure temperature is:",
@@ -45,10 +3311,11 @@
     "correct_answer": "Thermometer",
     "explanation": "A thermometer measures temperature.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q014"
+    "original_id": "q014",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "4",
+    "id": "DUHS_1199",
     "subject": "Physics",
     "topic": "Miscellaneous & Unclassified",
     "question": "The value of Planck's constant is approximately:",
@@ -61,10 +3328,11 @@
     "correct_answer": "6.626 × 10^-34 J·s",
     "explanation": "Planck's constant is approximately 6.626 × 10^-34 joule-seconds.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q019"
+    "original_id": "q019",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "5",
+    "id": "DUHS_1201",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The unit of power is:",
@@ -77,10 +3345,11 @@
     "correct_answer": "Watt",
     "explanation": "Power is measured in watts, where 1 W = 1 J/s.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q021"
+    "original_id": "q021",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "6",
+    "id": "DUHS_1207",
     "subject": "Physics",
     "topic": "Heat & Thermodynamics",
     "question": "The second law of thermodynamics is about:",
@@ -93,10 +3362,11 @@
     "correct_answer": "Entropy",
     "explanation": "The second law introduces entropy and the direction of spontaneous processes.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q027"
+    "original_id": "q027",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "7",
+    "id": "DUHS_1212",
     "subject": "Physics",
     "topic": "Magnetism & Electromagnetism",
     "question": "The energy stored in an inductor is given by:",
@@ -109,10 +3379,11 @@
     "correct_answer": "U = 1/2 LI^2",
     "explanation": "The magnetic energy stored in an inductor is U = 1/2 LI^2.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q032"
+    "original_id": "q032",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "8",
+    "id": "DUHS_1215",
     "subject": "Physics",
     "topic": "Electrostatics & Current Electricity",
     "question": "The resistance of a conductor is directly proportional to its:",
@@ -125,10 +3396,11 @@
     "correct_answer": "Length",
     "explanation": "Resistance is directly proportional to conductor length.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q035"
+    "original_id": "q035",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "9",
+    "id": "DUHS_1219",
     "subject": "Physics",
     "topic": "Magnetism & Electromagnetism",
     "question": "The SI unit of inductance is:",
@@ -141,10 +3413,11 @@
     "correct_answer": "Henry",
     "explanation": "Inductance is measured in henries.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q039"
+    "original_id": "q039",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "10",
+    "id": "DUHS_1226",
     "subject": "Physics",
     "topic": "Miscellaneous & Unclassified",
     "question": "The process of nuclear fusion in the sun produces:",
@@ -157,10 +3430,11 @@
     "correct_answer": "Helium",
     "explanation": "Solar fusion mainly converts hydrogen into helium.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q046"
+    "original_id": "q046",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "11",
+    "id": "DUHS_1231",
     "subject": "Physics",
     "topic": "Electrostatics & Current Electricity",
     "question": "The resistance of a conductor is inversely proportional to its:",
@@ -173,10 +3447,11 @@
     "correct_answer": "Cross-sectional area",
     "explanation": "Resistance is inversely proportional to cross-sectional area.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q051"
+    "original_id": "q051",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "12",
+    "id": "DUHS_1235",
     "subject": "Physics",
     "topic": "Miscellaneous & Unclassified",
     "question": "The energy produced in nuclear reactors is due to:",
@@ -189,10 +3464,11 @@
     "correct_answer": "Nuclear fission",
     "explanation": "Nuclear reactors generate energy mainly through controlled fission of heavy nuclei.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q055"
+    "original_id": "q055",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "13",
+    "id": "DUHS_1240",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The SI unit of work is:",
@@ -205,10 +3481,11 @@
     "correct_answer": "Joule",
     "explanation": "Work is measured in joules.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q060"
+    "original_id": "q060",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "14",
+    "id": "DUHS_1255",
     "subject": "Physics",
     "topic": "Oscillations, Waves & Sound",
     "question": "The frequency of radio waves is ______ than visible light.",
@@ -221,10 +3498,11 @@
     "correct_answer": "Lower",
     "explanation": "Radio waves have lower frequencies than visible light.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q075"
+    "original_id": "q075",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "15",
+    "id": "DUHS_1269",
     "subject": "Physics",
     "topic": "Miscellaneous & Unclassified",
     "question": "The wavefunction in quantum mechanics is denoted by:",
@@ -237,10 +3515,11 @@
     "correct_answer": "Ψ",
     "explanation": "The quantum mechanical wavefunction is commonly denoted by the Greek letter psi (Ψ).",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q089"
+    "original_id": "q089",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "16",
+    "id": "DUHS_1273",
     "subject": "Physics",
     "topic": "Miscellaneous & Unclassified",
     "question": "The de Broglie wavelength of a particle is inversely proportional to its:",
@@ -253,10 +3532,11 @@
     "correct_answer": "All of the above",
     "explanation": "λ = h/p = h/(mv), so it is inversely related to mass, velocity, and momentum.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q093"
+    "original_id": "q093",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "17",
+    "id": "DUHS_1278",
     "subject": "Physics",
     "topic": "Heat & Thermodynamics",
     "question": "The efficiency of a heat engine is given by:",
@@ -269,10 +3549,11 @@
     "correct_answer": "η = 1 - Tc/Th",
     "explanation": "Carnot efficiency is η = 1 - Tc/Th, where Tc and Th are absolute temperatures.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q098"
+    "original_id": "q098",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "18",
+    "id": "DUHS_1280",
     "subject": "Physics",
     "topic": "Miscellaneous & Unclassified",
     "question": "The process of nuclear fission in a reactor is controlled using:",
@@ -285,10 +3566,11 @@
     "correct_answer": "Both A and B",
     "explanation": "Control rods made of cadmium or boron absorb neutrons to control fission.",
     "source_pdf": "DNSK BSN SOLVED MOCK TEST 2.pdf",
-    "original_id": "q100"
+    "original_id": "q100",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "19",
+    "id": "DUHS_1289",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "All are scalar quantities except:",
@@ -301,10 +3583,11 @@
     "correct_answer": "Velocity",
     "explanation": "Velocity is a vector quantity because it has both magnitude and direction, whereas temperature, volume, and mass are scalars.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_01"
+    "original_id": "dow_phys_01",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "20",
+    "id": "DUHS_1290",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "All are vector quantities except:",
@@ -317,10 +3600,11 @@
     "correct_answer": "Time",
     "explanation": "Time is a scalar quantity, while force, electrical field, and acceleration are vector quantities.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_02"
+    "original_id": "dow_phys_02",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "21",
+    "id": "DUHS_1291",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "A vector in any direction and whose magnitude is unity is called:",
@@ -333,10 +3617,11 @@
     "correct_answer": "Unit vector",
     "explanation": "A unit vector has a magnitude of exactly 1 and is used to specify direction.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_03"
+    "original_id": "dow_phys_03",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "22",
+    "id": "DUHS_1292",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What are vector quantities among the following pairs?",
@@ -349,10 +3634,11 @@
     "correct_answer": "Force and Acceleration",
     "explanation": "Both force and acceleration possess magnitude and direction, making them vector quantities.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_04"
+    "original_id": "dow_phys_04",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "23",
+    "id": "DUHS_1293",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The quantities which can be added, subtracted, and multiplied by simple algebraic rules are:",
@@ -365,10 +3651,11 @@
     "correct_answer": "Scalars",
     "explanation": "Scalar quantities follow ordinary rules of algebra, unlike vectors which follow geometric/vector addition laws.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_05"
+    "original_id": "dow_phys_05",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "24",
+    "id": "DUHS_1294",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "If the magnitude and direction of two vectors are same, then these vectors are:",
@@ -381,10 +3668,11 @@
     "correct_answer": "Equal",
     "explanation": "Vectors having the same magnitude and direction are equal vectors.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_06"
+    "original_id": "dow_phys_06",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "25",
+    "id": "DUHS_1295",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The vector in 3D space has how many rectangular components?",
@@ -397,10 +3685,11 @@
     "correct_answer": "Three components",
     "explanation": "A vector in three-dimensional space can be resolved into three mutually perpendicular rectangular components (x, y, z).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_07"
+    "original_id": "dow_phys_07",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "26",
+    "id": "DUHS_1296",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Which of the following is a scalar quantity?",
@@ -413,10 +3702,11 @@
     "correct_answer": "Distance",
     "explanation": "Distance is scalar, whereas torque, momentum, and acceleration are vectors.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_08"
+    "original_id": "dow_phys_08",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "27",
+    "id": "DUHS_1297",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Which of the following is a vector quantity?",
@@ -429,10 +3719,11 @@
     "correct_answer": "Velocity",
     "explanation": "Velocity is a vector quantity, while work, density, and temperature are scalars.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_09"
+    "original_id": "dow_phys_09",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "28",
+    "id": "DUHS_1298",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The splitting of a vector into its components is called:",
@@ -445,10 +3736,11 @@
     "correct_answer": "Resolution of a vector",
     "explanation": "Resolution of a vector is the process of splitting a vector into its component parts.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_10"
+    "original_id": "dow_phys_10",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "29",
+    "id": "DUHS_1299",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "A vector whose magnitude is the same, but direction is opposite is called:",
@@ -461,10 +3753,11 @@
     "correct_answer": "Negative vector",
     "explanation": "A negative vector has the same magnitude as the original vector but acts in the opposite direction.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_11"
+    "original_id": "dow_phys_11",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "30",
+    "id": "DUHS_1332",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Change of position of a body in a particular direction is called:",
@@ -477,10 +3770,11 @@
     "correct_answer": "Displacement",
     "explanation": "Displacement is the vector change in position of an object.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_12"
+    "original_id": "dow_phys_12",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "31",
+    "id": "DUHS_1333",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The rate of change of position in a particular direction is known as:",
@@ -493,10 +3787,11 @@
     "correct_answer": "Velocity",
     "explanation": "Velocity is defined as the rate of change of displacement.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_13"
+    "original_id": "dow_phys_13",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "32",
+    "id": "DUHS_1334",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Velocity =",
@@ -509,10 +3804,11 @@
     "correct_answer": "s/t",
     "explanation": "Velocity equals displacement divided by time (s/t).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_14"
+    "original_id": "dow_phys_14",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "33",
+    "id": "DUHS_1335",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Unit of velocity is:",
@@ -525,10 +3821,11 @@
     "correct_answer": "m/s",
     "explanation": "The SI unit of velocity is meters per second (m/s).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_15"
+    "original_id": "dow_phys_15",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "34",
+    "id": "DUHS_1336",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Acceleration =",
@@ -541,10 +3838,11 @@
     "correct_answer": "v/t",
     "explanation": "Acceleration is the rate of change of velocity over time (v/t).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_16"
+    "original_id": "dow_phys_16",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "35",
+    "id": "DUHS_1337",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "If the velocity of a body is decreasing, the acceleration is negative. Negative acceleration is known as:",
@@ -557,10 +3855,11 @@
     "correct_answer": "Both",
     "explanation": "Negative acceleration is commonly termed retardation or deceleration.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_17"
+    "original_id": "dow_phys_17",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "36",
+    "id": "DUHS_1338",
     "subject": "PHYSICS",
     "topic": "Gravitation & Fluids",
     "question": "Value of acceleration due to gravity (g):",
@@ -573,10 +3872,11 @@
     "correct_answer": "9.8 m/s^2",
     "explanation": "Standard gravity is approximately 9.8 m/s^2.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_18"
+    "original_id": "dow_phys_18",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "37",
+    "id": "DUHS_1339",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The momentum of the system as well as the K.E of the system before and after collision is conserved in:",
@@ -589,10 +3889,11 @@
     "correct_answer": "Elastic collision",
     "explanation": "In an elastic collision, both momentum and kinetic energy are conserved.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_19"
+    "original_id": "dow_phys_19",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "38",
+    "id": "DUHS_1340",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "\"To every action there is always an equal and opposite reaction\" statement refers to:",
@@ -605,10 +3906,11 @@
     "correct_answer": "Newton's third law",
     "explanation": "This is Newton's third law of motion.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_20"
+    "original_id": "dow_phys_20",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "39",
+    "id": "DUHS_1341",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Swimming is possible on account of:",
@@ -621,10 +3923,11 @@
     "correct_answer": "Third law of motion",
     "explanation": "Pushing water backward (action) propels the swimmer forward (reaction) per Newton's third law.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_21"
+    "original_id": "dow_phys_21",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "40",
+    "id": "DUHS_1342",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "F = ma is the mathematical expression of:",
@@ -637,10 +3940,11 @@
     "correct_answer": "Newton's second law of motion",
     "explanation": "F = ma represents Newton's second law, relating force, mass, and acceleration.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_22"
+    "original_id": "dow_phys_22",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "41",
+    "id": "DUHS_1343",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Newton's first law of motion gives the definition of:",
@@ -653,10 +3957,11 @@
     "correct_answer": "Both a and b",
     "explanation": "Newton's first law defines inertia and the qualitative concept of force.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_23"
+    "original_id": "dow_phys_23",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "42",
+    "id": "DUHS_1345",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Weight is a:",
@@ -669,10 +3974,11 @@
     "correct_answer": "Vector quantity",
     "explanation": "Weight is gravitational force acting downward, making it a vector quantity.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_24"
+    "original_id": "dow_phys_24",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "43",
+    "id": "DUHS_1346",
     "subject": "PHYSICS",
     "topic": "Gravitation & Fluids",
     "question": "Pressure is a:",
@@ -685,10 +3991,11 @@
     "correct_answer": "Scalar Quantity",
     "explanation": "Pressure acts equally in all directions at a point and is treated as a scalar quantity.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_25"
+    "original_id": "dow_phys_25",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "44",
+    "id": "DUHS_1347",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Torque is a:",
@@ -701,10 +4008,11 @@
     "correct_answer": "Vector Quantity",
     "explanation": "Torque is the rotational equivalent of force and has both magnitude and direction.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_26"
+    "original_id": "dow_phys_26",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "45",
+    "id": "DUHS_1348",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The method of adding vectors is known as:",
@@ -717,10 +4025,11 @@
     "correct_answer": "Head-To-Tail",
     "explanation": "The head-to-tail rule is a graphical method used to add vectors.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_27"
+    "original_id": "dow_phys_27",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "46",
+    "id": "DUHS_1360",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "Work done = ",
@@ -733,10 +4042,11 @@
     "correct_answer": "Fd",
     "explanation": "Work is defined as the scalar product of force and displacement (W = F . d).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_28"
+    "original_id": "dow_phys_28",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "47",
+    "id": "DUHS_1361",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "1 joule is equal to:",
@@ -749,10 +4059,11 @@
     "correct_answer": "10^7 erg",
     "explanation": "1 joule = 10^7 ergs.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_29"
+    "original_id": "dow_phys_29",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "48",
+    "id": "DUHS_1362",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "The SI unit of energy is:",
@@ -765,10 +4076,11 @@
     "correct_answer": "Joule",
     "explanation": "The SI unit of both energy and work is the joule.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_30"
+    "original_id": "dow_phys_30",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "49",
+    "id": "DUHS_1363",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "Power = ",
@@ -781,10 +4093,11 @@
     "correct_answer": "W/t",
     "explanation": "Power is work done per unit time (P = W/t).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_31"
+    "original_id": "dow_phys_31",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "50",
+    "id": "DUHS_1364",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "Watt is the SI unit of:",
@@ -797,10 +4110,11 @@
     "correct_answer": "Power",
     "explanation": "One watt equals one joule per second, which is the unit of power.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_32"
+    "original_id": "dow_phys_32",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "51",
+    "id": "DUHS_1365",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "The energy stored in a stretched spring is called:",
@@ -813,10 +4127,11 @@
     "correct_answer": "Elastic potential energy",
     "explanation": "Elastic potential energy is stored as a result of deformation of an elastic object like a spring.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_33"
+    "original_id": "dow_phys_33",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "52",
+    "id": "DUHS_1366",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "The ability to do work is called:",
@@ -829,10 +4144,11 @@
     "correct_answer": "Energy",
     "explanation": "Energy is defined as the capacity or ability to do work.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_34"
+    "original_id": "dow_phys_34",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "53",
+    "id": "DUHS_1367",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "Kinetic Energy (K.E) = ",
@@ -845,10 +4161,11 @@
     "correct_answer": "1/2 mv^2",
     "explanation": "Kinetic energy formula is K = (1/2)mv^2.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_35"
+    "original_id": "dow_phys_35",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "54",
+    "id": "DUHS_1368",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "Power is a ..... quantity:",
@@ -861,10 +4178,11 @@
     "correct_answer": "Scalar",
     "explanation": "Power is the rate of doing work and is a scalar quantity.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_36"
+    "original_id": "dow_phys_36",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "55",
+    "id": "DUHS_1369",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "1 horse power is equal to:",
@@ -877,10 +4195,11 @@
     "correct_answer": "746 watts",
     "explanation": "One mechanical horsepower equals approximately 746 watts.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_37"
+    "original_id": "dow_phys_37",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "56",
+    "id": "DUHS_1371",
     "subject": "PHYSICS",
     "topic": "Heat & Thermodynamics",
     "question": "The SI unit of heat is:",
@@ -893,10 +4212,11 @@
     "correct_answer": "Joule",
     "explanation": "Since heat is a form of energy transfer, its SI unit is the joule.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_38"
+    "original_id": "dow_phys_38",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "57",
+    "id": "DUHS_1405",
     "subject": "PHYSICS",
     "topic": "Light & Optics",
     "question": "Which of the following colors of visible light has the highest wavelength?",
@@ -909,10 +4229,11 @@
     "correct_answer": "Red",
     "explanation": "Red light has the longest wavelength in the visible spectrum (~700 nm).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_39"
+    "original_id": "dow_phys_39",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "58",
+    "id": "DUHS_1421",
     "subject": "PHYSICS",
     "topic": "Light & Optics",
     "question": "Circumference is measured by:",
@@ -925,10 +4246,11 @@
     "correct_answer": "2\\pi r",
     "explanation": "The formula for the circumference of a circle is 2\\pi r.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_40"
+    "original_id": "dow_phys_40",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "59",
+    "id": "DUHS_1422",
     "subject": "PHYSICS",
     "topic": "Light & Optics",
     "question": "X-rays are also known by:",
@@ -941,10 +4263,11 @@
     "correct_answer": "Roentgen rays",
     "explanation": "X-rays were discovered by Wilhelm Röntgen and are sometimes called Röntgen rays.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_41"
+    "original_id": "dow_phys_41",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "60",
+    "id": "DUHS_1450",
     "subject": "PHYSICS",
     "topic": "Light & Optics",
     "question": "E = h\\nu is the equation of Planck's quantum theory where 'h' is Planck's constant. Its value is:",
@@ -957,10 +4280,11 @@
     "correct_answer": "Both a & b",
     "explanation": "Planck's constant is approximately 6.626 × 10^-34 J·s or 6.626 × 10^-27 erg·s.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_42"
+    "original_id": "dow_phys_42",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "61",
+    "id": "DUHS_1535",
     "subject": "PHYSICS",
     "topic": "Oscillations, Waves & Sound",
     "question": "The time required for one complete revolution or cycle of motion is called:",
@@ -973,10 +4297,11 @@
     "correct_answer": "Period",
     "explanation": "Time period is the duration of one complete cycle in periodic motion.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_43"
+    "original_id": "dow_phys_43",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "62",
+    "id": "DUHS_1536",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "1 kg is equal to how many grams?",
@@ -989,10 +4314,11 @@
     "correct_answer": "1000g",
     "explanation": "1 kilogram equals 1000 grams.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_44"
+    "original_id": "dow_phys_44",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "63",
+    "id": "DUHS_1537",
     "subject": "PHYSICS",
     "topic": "Stoichiometry & Chemical Calculations",
     "question": "10^6 shows the metric prefix:",
@@ -1005,10 +4331,11 @@
     "correct_answer": "Mega",
     "explanation": "The prefix mega denotes 10^6 (one million).",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_45"
+    "original_id": "dow_phys_45",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "64",
+    "id": "DUHS_1538",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The fundamental unit of length in S.I. is:",
@@ -1021,10 +4348,11 @@
     "correct_answer": "Meter",
     "explanation": "The meter is the SI base unit of length.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_46"
+    "original_id": "dow_phys_46",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "65",
+    "id": "DUHS_1539",
     "subject": "PHYSICS",
     "topic": "Stoichiometry & Chemical Calculations",
     "question": "10^-6 second is known as:",
@@ -1037,10 +4365,11 @@
     "correct_answer": "Microsecond",
     "explanation": "10^-6 seconds represents one microsecond.",
     "source_pdf": "DOW past papper.pdf",
-    "original_id": "dow_phys_47"
+    "original_id": "dow_phys_47",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "66",
+    "id": "DUHS_2306",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which of the following statements regarding scalar and vector quantities is CORRECT?",
@@ -1053,10 +4382,11 @@
     "correct_answer": "A vector quantity requires both magnitude and direction to be fully described.",
     "explanation": "Vectors have magnitude and direction.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q127"
+    "original_id": "q127",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "67",
+    "id": "DUHS_2307",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Identify the CORRECT statement about a negative vector:",
@@ -1069,10 +4399,11 @@
     "correct_answer": "It has the same magnitude but is directed at 180° to the original vector.",
     "explanation": "A negative vector reverses direction but keeps magnitude.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q128"
+    "original_id": "q128",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "68",
+    "id": "DUHS_2308",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which of the following is NOT a vector quantity?",
@@ -1085,10 +4416,11 @@
     "correct_answer": "Electric charge",
     "explanation": "Electric charge is a scalar.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q129"
+    "original_id": "q129",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "69",
+    "id": "DUHS_2309",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A unit vector is a vector that has a magnitude of exactly:",
@@ -1101,10 +4433,11 @@
     "correct_answer": "One",
     "explanation": "Unit vectors have magnitude 1.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q130"
+    "original_id": "q130",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "70",
+    "id": "DUHS_2310",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which statement correctly describes the head-to-tail rule?",
@@ -1117,10 +4450,11 @@
     "correct_answer": "The resultant is drawn from the tail of the first vector to the head of the last vector.",
     "explanation": "Head-to-tail addition uses the resultant from first tail to last head.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q131"
+    "original_id": "q131",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "71",
+    "id": "DUHS_2311",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If two vectors of magnitudes 5 units and 10 units are added, the minimum possible magnitude of their resultant is:",
@@ -1133,10 +4467,11 @@
     "correct_answer": "5 units",
     "explanation": "Minimum resultant = |10 − 5| = 5 units.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q132"
+    "original_id": "q132",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "72",
+    "id": "DUHS_2312",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "When two vectors are added at an angle of 0° (parallel), the magnitude of the resultant is:",
@@ -1149,10 +4484,11 @@
     "correct_answer": "The sum of their magnitudes",
     "explanation": "Parallel vectors add directly.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q133"
+    "original_id": "q133",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "73",
+    "id": "DUHS_2313",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which of the following cannot be the resultant of two vectors of magnitudes 2 units and 6 units?",
@@ -1165,10 +4501,11 @@
     "correct_answer": "10 units",
     "explanation": "Resultant must be between 4 and 8 units; 10 is impossible.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q134"
+    "original_id": "q134",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "74",
+    "id": "DUHS_2314",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If the resultant of two equal vectors is also equal to the magnitude of either vector, the angle between them is:",
@@ -1181,10 +4518,11 @@
     "correct_answer": "120°",
     "explanation": "For equal vectors, resultant equals one vector at 120°.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q135"
+    "original_id": "q135",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "75",
+    "id": "DUHS_2315",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A vector A makes an angle θ with the x-axis. The horizontal (x) component is given by:",
@@ -1197,10 +4535,11 @@
     "correct_answer": "A cos θ",
     "explanation": "x-component = A cos θ.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q136"
+    "original_id": "q136",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "76",
+    "id": "DUHS_2316",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A force of 20 N acts at an angle of 30° with the x-axis. Its vertical (y) component is:",
@@ -1213,10 +4552,11 @@
     "correct_answer": "10 N",
     "explanation": "y-component = 20 sin 30° = 10 N.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q137"
+    "original_id": "q137",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "77",
+    "id": "DUHS_2317",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If a vector lies exactly on the negative y-axis, its x-component is:",
@@ -1229,10 +4569,11 @@
     "correct_answer": "Zero",
     "explanation": "A vector on the y-axis has no x-component.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q138"
+    "original_id": "q138",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "78",
+    "id": "DUHS_2318",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which statement is CORRECT regarding rectangular components?",
@@ -1245,10 +4586,11 @@
     "correct_answer": "They are always perpendicular to each other.",
     "explanation": "Rectangular components are perpendicular.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q139"
+    "original_id": "q139",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "79",
+    "id": "DUHS_2319",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If the x-component and y-component of a force are both 10 N, the total magnitude of the force is approximately:",
@@ -1261,10 +4603,11 @@
     "correct_answer": "14.14N",
     "explanation": "Magnitude = √(10² + 10²) ≈ 14.14 N.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q140"
+    "original_id": "q140",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "80",
+    "id": "DUHS_2320",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The scalar (dot) product of two perpendicular vectors is always:",
@@ -1277,10 +4620,11 @@
     "correct_answer": "Zero",
     "explanation": "Dot product is zero for perpendicular vectors.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q141"
+    "original_id": "q141",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "81",
+    "id": "DUHS_2321",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Calculate the dot product of A = 2i + 3j and B = 4i + 1j",
@@ -1293,10 +4637,11 @@
     "correct_answer": "11",
     "explanation": "(2×4)+(3×1)=11.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q142"
+    "original_id": "q142",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "82",
+    "id": "DUHS_2322",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Work is defined as the dot product of force and displacement. If a force of 10 N moves a block 5 m in the same direction, the work done is:",
@@ -1309,10 +4654,11 @@
     "correct_answer": "50J",
     "explanation": "Work = 10×5 = 50 J.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q143"
+    "original_id": "q143",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "83",
+    "id": "DUHS_2323",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which of the following statements is CORRECT?",
@@ -1325,10 +4671,11 @@
     "correct_answer": "i·i = 1",
     "explanation": "A unit vector dotted with itself equals 1.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q144"
+    "original_id": "q144",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "84",
+    "id": "DUHS_2324",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If the dot product of two vectors is negative, the angle between them is:",
@@ -1341,10 +4688,11 @@
     "correct_answer": "Between 90° and 180° (obtuse)",
     "explanation": "Negative dot product means obtuse angle.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q145"
+    "original_id": "q145",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "85",
+    "id": "DUHS_2325",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A student walks 3 km north and then 4 km east. The magnitude of the displacement is:",
@@ -1357,10 +4705,11 @@
     "correct_answer": "5 km",
     "explanation": "Displacement = √(3²+4²) = 5 km.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q146"
+    "original_id": "q146",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "86",
+    "id": "DUHS_2326",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If a particle is in equilibrium under the action of three concurrent forces, their vector sum must be:",
@@ -1373,10 +4722,11 @@
     "correct_answer": "Zero",
     "explanation": "Equilibrium requires zero net force.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q147"
+    "original_id": "q147",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "87",
+    "id": "DUHS_2327",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A position vector r starts from:",
@@ -1389,10 +4739,11 @@
     "correct_answer": "The origin (0,0)",
     "explanation": "Position vectors originate at the origin.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q148"
+    "original_id": "q148",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "88",
+    "id": "DUHS_2328",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If a vector V is multiplied by a scalar k = 2 the new vector has:",
@@ -1405,10 +4756,11 @@
     "correct_answer": "Twice the magnitude and the same direction",
     "explanation": "Positive scalar multiplication preserves direction and doubles magnitude.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q149"
+    "original_id": "q149",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "89",
+    "id": "DUHS_2329",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A vector has a magnitude of 10. If it is rotated by 360°, the resulting vector is:",
@@ -1421,10 +4773,11 @@
     "correct_answer": "Identical to the original vector",
     "explanation": "A full 360° rotation returns the vector to itself.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q150"
+    "original_id": "q150",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "90",
+    "id": "DUHS_2330",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which of the following sets of forces can NEVER produce a zero resultant?",
@@ -1437,10 +4790,11 @@
     "correct_answer": "2N,6N,10N",
     "explanation": "2+6 < 10, so they cannot form a closed triangle.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q151"
+    "original_id": "q151",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "91",
+    "id": "DUHS_2331",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The magnitude of a unit vector along the y-axis (j) is:",
@@ -1453,10 +4807,11 @@
     "correct_answer": "1",
     "explanation": "Unit vector j has magnitude 1.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q152"
+    "original_id": "q152",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "92",
+    "id": "DUHS_2332",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If the components of a vector are (3, 4), in which quadrant does the vector lie?",
@@ -1469,10 +4824,11 @@
     "correct_answer": "First quadrant",
     "explanation": "Both components positive means first quadrant.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q153"
+    "original_id": "q153",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "93",
+    "id": "DUHS_2333",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Dividing a vector by its own magnitude results in:",
@@ -1485,10 +4841,11 @@
     "correct_answer": "A unit vector in the same direction",
     "explanation": "V/|V| is the unit vector along V.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q154"
+    "original_id": "q154",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "94",
+    "id": "DUHS_2334",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If |A + B| = |A - B|, the angle between A and B must be:",
@@ -1501,10 +4858,11 @@
     "correct_answer": "90°",
     "explanation": "Equality holds when vectors are perpendicular.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q155"
+    "original_id": "q155",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "95",
+    "id": "DUHS_2335",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The distributive property of the dot product over addition states:",
@@ -1517,10 +4875,11 @@
     "correct_answer": "A·(B + C) = A·B + A·C",
     "explanation": "Dot product distributes over addition.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q156"
+    "original_id": "q156",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "96",
+    "id": "DUHS_2336",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The cross product of any vector with itself, such as A×A, is always:",
@@ -1533,10 +4892,11 @@
     "correct_answer": "A null or zero vector",
     "explanation": "A vector crossed with itself is zero.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q157"
+    "original_id": "q157",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "97",
+    "id": "DUHS_2337",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The magnitude of the cross product |A×B| physically represents the:",
@@ -1549,10 +4909,11 @@
     "correct_answer": "Area of the parallelogram formed by the two vectors",
     "explanation": "|A×B| equals parallelogram area.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q158"
+    "original_id": "q158",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "98",
+    "id": "DUHS_2338",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Two vectors have magnitudes 4 and 5. If their dot product is 10, the angle between them is:",
@@ -1565,10 +4926,11 @@
     "correct_answer": "60°",
     "explanation": "cosθ = 10/(4×5)=0.5, θ=60°.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q159"
+    "original_id": "q159",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "99",
+    "id": "DUHS_2339",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The angle θ between two vectors A and B can be found using:",
@@ -1581,10 +4943,11 @@
     "correct_answer": "cos θ = (A·B)/(|A||B|)",
     "explanation": "Dot product formula gives cosθ.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q160"
+    "original_id": "q160",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "100",
+    "id": "DUHS_2340",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Which of the following statements about the cross product is CORRECT?",
@@ -1597,10 +4960,11 @@
     "correct_answer": "It is anti-commutative: A×B = -(B×A).",
     "explanation": "Cross product reverses sign when order is reversed.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q161"
+    "original_id": "q161",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "101",
+    "id": "DUHS_2341",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A force vector F1 of magnitude 10 N acts along the positive x-axis. Another force vector F2 of magnitude 8 N acts at an angle of 120° measured counterclockwise from the positive x-axis. What is the magnitude of their resultant vector?",
@@ -1613,10 +4977,11 @@
     "correct_answer": "9.17N",
     "explanation": "Components give resultant magnitude √84 ≈ 9.17 N.",
     "source_pdf": "XI 1ST MOCK .pdf",
-    "original_id": "q162"
+    "original_id": "q162",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "102",
+    "id": "DUHS_2479",
     "subject": "Physics",
     "topic": "Light & Optics",
     "question": "According to quantum theory, what is true about an electron in a hydrogen atom undergoing a transition from n=5 to n=2?",
@@ -1629,10 +4994,11 @@
     "correct_answer": "C",
     "explanation": "Transitions to n=2 form the Balmer series in the visible region.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q120"
+    "original_id": "q120",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "103",
+    "id": "DUHS_2486",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "An object is projected with an initial kinetic energy of 100 J at an angle of 60° to the horizontal. What will be its potential energy at the highest point?",
@@ -1645,10 +5011,11 @@
     "correct_answer": "C",
     "explanation": "At maximum height, vertical velocity is zero. KE_top = KE_i * cos^2(theta) = 100 * cos^2(60°) = 100 * (1/2)^2 = 25 J. PE = Initial KE - KE_top = 100 - 25 = 75 J.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q127"
+    "original_id": "q127",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "104",
+    "id": "DUHS_2487",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If the kinetic energy of a moving body increases by 21%, what is the approximate percentage increase in its linear momentum?",
@@ -1661,10 +5028,11 @@
     "correct_answer": "B",
     "explanation": "Momentum p = sqrt(2mKE). If KE increases by 21%, new KE = 1.21 KE_0. p_new = sqrt(1.21) p_0 = 1.1 p_0, representing a 10% increase.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q128"
+    "original_id": "q128",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "105",
+    "id": "DUHS_2488",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "At what approximate angle of projection does the horizontal range of a projectile become equal to its maximum height?",
@@ -1677,10 +5045,11 @@
     "correct_answer": "D",
     "explanation": "Range R = (v^2 sin 2theta)/g, Max height H = (v^2 sin^2 theta)/(2g). Setting R = H gives tan theta = 4, so theta = arctan(4) ≈ 76°.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q129"
+    "original_id": "q129",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "106",
+    "id": "DUHS_2489",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If the velocity of a moving object is doubled, what will be the percentage increase in its momentum and kinetic energy, respectively?",
@@ -1693,10 +5062,11 @@
     "correct_answer": "B",
     "explanation": "Momentum increases by 100% (doubled), kinetic energy increases by 300% (quadrupled to 4 times).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q130"
+    "original_id": "q130",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "107",
+    "id": "DUHS_2490",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Two cars A and B have displacement-time graphs making angles of 45° and 60° with the time axis. Since velocity equals the slope of the graph, v = tan theta, the ratio vA:vB is:",
@@ -1709,10 +5079,11 @@
     "correct_answer": "C",
     "explanation": "vA = tan(45°) = 1; vB = tan(60°) = sqrt(3). Ratio = 1:sqrt(3).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q131"
+    "original_id": "q131",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "108",
+    "id": "DUHS_2491",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Two identical glass spheres are dropped from the same height. Sphere A lands on a hard floor and stops in 0.1 s. Sphere B lands on a thick cushion and stops in 0.5 s. What is the ratio of the average force experienced by A to that experienced by B?",
@@ -1725,10 +5096,11 @@
     "correct_answer": "B",
     "explanation": "Impulse F*t = Delta p is constant. Force is inversely proportional to time: F_A / F_B = t_B / t_A = 0.5 / 0.1 = 5:1.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q132"
+    "original_id": "q132",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "109",
+    "id": "DUHS_2492",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Two unequal masses m1 and m2, where m1 < m2, are pressed against a compressed spring and released. They move with equal and opposite momenta. Which mass acquires greater kinetic energy?",
@@ -1741,10 +5113,11 @@
     "correct_answer": "A",
     "explanation": "Kinetic energy KE = p^2 / (2m). Since momentum is equal, the lighter mass (m1) acquires greater kinetic energy.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q133"
+    "original_id": "q133",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "110",
+    "id": "DUHS_2493",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If multiple bodies move with the same momentum, a graph of velocity v on the y-axis against mass m on the x-axis, where v = p/m represents:",
@@ -1757,10 +5130,11 @@
     "correct_answer": "B",
     "explanation": "v = p / m with constant p represents a rectangular hyperbola (inverse proportionality).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q134"
+    "original_id": "q134",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "111",
+    "id": "DUHS_2494",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "For a projectile fired from the ground at an angle, where is the angle between its velocity vector and downward gravitational acceleration minimum?",
@@ -1773,10 +5147,11 @@
     "correct_answer": "B",
     "explanation": "At maximum height, vertical velocity is zero, so velocity is purely horizontal, making it perpendicular (90°) to vertical gravity, which represents the minimum angle between velocity and vertical g during flight ascent/descent.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q135"
+    "original_id": "q135",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "112",
+    "id": "DUHS_2495",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A body starts from rest and moves with uniform acceleration. According to Galilean ratios, the distances covered during the first, second and third seconds are in the ratio:",
@@ -1789,10 +5164,11 @@
     "correct_answer": "C",
     "explanation": "Distances in successive seconds for bodies starting from rest follow the odd-number ratio 1:3:5.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q136"
+    "original_id": "q136",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "113",
+    "id": "DUHS_2496",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Consider the following statements regarding impulse. I. A body moving with constant velocity experiences zero impulse. II. A body moving with changing velocity experiences an impulse. III. Impulse is equal to the change in momentum.",
@@ -1805,10 +5181,11 @@
     "correct_answer": "D",
     "explanation": "All statements are true regarding impulse and momentum change.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q137"
+    "original_id": "q137",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "114",
+    "id": "DUHS_2497",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If two projectiles are fired at the same angle but with initial speeds v1 and v2, what is the ratio of their maximum heights H1/H2?",
@@ -1821,10 +5198,11 @@
     "correct_answer": "B",
     "explanation": "Max height H = (v^2 sin^2 theta)/(2g), so H is proportional to v^2.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q138"
+    "original_id": "q138",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "115",
+    "id": "DUHS_2498",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Two objects are projected with the same initial speed at angles of 30° and 45°. Since maximum height is proportional to sin^2(theta) what is the ratio of their maximum heights?",
@@ -1837,10 +5215,11 @@
     "correct_answer": "B",
     "explanation": "sin^2(30°) / sin^2(45°) = (1/2)^2 / (1/sqrt(2))^2 = (1/4) / (1/2) = 1:2.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q139"
+    "original_id": "q139",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "116",
+    "id": "DUHS_2499",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Calculate the maximum height reached by a projectile fired at an angle of 30° with an initial velocity of 40 m/s.",
@@ -1853,10 +5232,11 @@
     "correct_answer": "B",
     "explanation": "H = (v^2 sin^2(30°)) / (2g) = (40^2 * (1/4)) / (2 * 10) = 400 / 20 = 20 m.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q140"
+    "original_id": "q140",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "117",
+    "id": "DUHS_2500",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A stationary bomb of mass 5 kg explodes into two pieces of masses 2 kg and 3 kg. According to conservation of momentum, what is the ratio of the magnitudes of their momenta p1:p2?",
@@ -1869,10 +5249,11 @@
     "correct_answer": "C",
     "explanation": "Since total initial momentum is zero, the two pieces fly off with equal and opposite momenta (ratio 1:1).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q141"
+    "original_id": "q141",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "118",
+    "id": "DUHS_2501",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "On a displacement-time graph, how can the average velocity between two specific times be determined?",
@@ -1885,10 +5266,11 @@
     "correct_answer": "B",
     "explanation": "Average velocity is the slope of the secant line connecting the two points on a displacement-time graph.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q142"
+    "original_id": "q142",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "119",
+    "id": "DUHS_2502",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "When projectiles are fired with the same initial speed at different angles, which angle keeps the projectile in the air for the longest time?",
@@ -1901,10 +5283,11 @@
     "correct_answer": "D",
     "explanation": "Time of flight T = (2v sin theta) / g is maximum when theta = 90°.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q143"
+    "original_id": "q143",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "120",
+    "id": "DUHS_2503",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A coin dropped vertically from a balcony and another coin projected horizontally from the same height hit the ground simultaneously. This demonstrates that:",
@@ -1917,10 +5300,11 @@
     "correct_answer": "B",
     "explanation": "Vertical free-fall time depends only on height and gravity, independent of horizontal motion.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q144"
+    "original_id": "q144",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "121",
+    "id": "DUHS_2504",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A skydiver remains in free fall for four seconds before opening the parachute. Ignoring air resistance, what vertical distance has the skydiver fallen?",
@@ -1933,10 +5317,11 @@
     "correct_answer": "B",
     "explanation": "S = (1/2) g t^2 = 0.5 * 10 * 4^2 = 5 * 16 = 80 m.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q145"
+    "original_id": "q145",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "122",
+    "id": "DUHS_2505",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A stone is dropped from a cliff and hits the water four seconds later. What is its velocity immediately before hitting the water?",
@@ -1949,10 +5334,11 @@
     "correct_answer": "C",
     "explanation": "v = g * t = 10 * 4 = 40 m/s.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q146"
+    "original_id": "q146",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "123",
+    "id": "DUHS_2506",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A car accelerates uniformly from rest to 20 m/s in four seconds. What distance does it cover during this period?",
@@ -1965,10 +5351,11 @@
     "correct_answer": "B",
     "explanation": "Distance S = v_avg * t = (0 + 20)/2 * 4 = 10 * 4 = 40 m.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q147"
+    "original_id": "q147",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "124",
+    "id": "DUHS_2507",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Two trains move towards each other with speeds of 30 m/s and 50 m/s. What is their relative velocity as observed by a passenger on either train?",
@@ -1981,10 +5368,11 @@
     "correct_answer": "C",
     "explanation": "For objects moving in opposite directions, relative velocity is the sum of their speeds: 30 + 50 = 80 m/s.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q148"
+    "original_id": "q148",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "125",
+    "id": "DUHS_2508",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A person walks along a semicircular path of radius 14 m and reaches the other end in 11 seconds. What is the person's average speed?",
@@ -1997,10 +5385,11 @@
     "correct_answer": "B",
     "explanation": "Distance = pi * r = (22/7) * 14 = 44 m. Average speed = Distance / Time = 44 / 11 = 4 m/s.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q149"
+    "original_id": "q149",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "126",
+    "id": "DUHS_2509",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A runner covers a displacement of 150 m in five seconds and then another 50 m in the same direction in five seconds. What is the average velocity for the whole trip?",
@@ -2013,10 +5402,11 @@
     "correct_answer": "C",
     "explanation": "Total displacement = 150 + 50 = 200 m. Total time = 5 + 5 = 10 s. Average velocity = 200 / 10 = 20 m/s.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q150"
+    "original_id": "q150",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "127",
+    "id": "DUHS_2510",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A car travelling at 30 m/s applies its brakes and decelerates at 6 m/s^2. How long will it take to stop?",
@@ -2029,10 +5419,11 @@
     "correct_answer": "B",
     "explanation": "t = v / a = 30 / 6 = 5 seconds.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q151"
+    "original_id": "q151",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "128",
+    "id": "DUHS_2511",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "An aeroplane lands at 80 m/s and comes to rest in 10 seconds. What is its acceleration?",
@@ -2045,10 +5436,11 @@
     "correct_answer": "B",
     "explanation": "a = Delta v / t = (0 - 80) / 10 = -8 m/s^2.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q152"
+    "original_id": "q152",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "129",
+    "id": "DUHS_2512",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "An object moves from point P(1,2) to point Q(4,6). What is its displacement vector Q - P?",
@@ -2061,10 +5453,11 @@
     "correct_answer": "B",
     "explanation": "Displacement = (4 - 1)i + (6 - 2)j = 3i + 4j.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q153"
+    "original_id": "q153",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "130",
+    "id": "DUHS_2513",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "The magnitude of displacement of any moving body is always:",
@@ -2077,10 +5470,11 @@
     "correct_answer": "B",
     "explanation": "Displacement magnitude is shortest straight-line distance, hence always <= total distance.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q154"
+    "original_id": "q154",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "131",
+    "id": "DUHS_2514",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Under what condition is the magnitude of displacement exactly equal to the total distance covered?",
@@ -2093,10 +5487,11 @@
     "correct_answer": "B",
     "explanation": "Motion in a straight line without reversal makes distance equal to displacement magnitude.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q155"
+    "original_id": "q155",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "132",
+    "id": "DUHS_2515",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "Because distance can be longer but never shorter than the straight-line path, the ratio of distance to the magnitude of displacement is:",
@@ -2109,10 +5504,11 @@
     "correct_answer": "C",
     "explanation": "Distance >= Displacement magnitude, so the ratio (Distance / Displacement) is always >= 1.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q156"
+    "original_id": "q156",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "133",
+    "id": "DUHS_2516",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A net force of 100 N acts on a mass of 20 kg. What acceleration is produced?",
@@ -2125,10 +5521,11 @@
     "correct_answer": "B",
     "explanation": "a = F / m = 100 / 20 = 5 m/s^2.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q157"
+    "original_id": "q157",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "134",
+    "id": "DUHS_2517",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "An object undergoes a displacement of 100 m east in 20 seconds. What is the magnitude of its average velocity?",
@@ -2141,10 +5538,11 @@
     "correct_answer": "B",
     "explanation": "v_avg = 100 / 20 = 5 m/s.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q158"
+    "original_id": "q158",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "135",
+    "id": "DUHS_2518",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "A person is standing inside an elevator accelerating upwards. According to Newton's laws, the normal force exerted by the floor on the person is:",
@@ -2157,10 +5555,11 @@
     "correct_answer": "C",
     "explanation": "N = m(g + a), which is greater than true weight mg when accelerating upward.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q159"
+    "original_id": "q159",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "136",
+    "id": "DUHS_2519",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "If a massive truck and a small car are pushed by equal net forces, which statement is true?",
@@ -2173,10 +5572,11 @@
     "correct_answer": "C",
     "explanation": "By Newton's second law (a = F/m), the smaller mass (car) experiences greater acceleration.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q160"
+    "original_id": "q160",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "137",
+    "id": "DUHS_2520",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "An object is projected with a horizontal velocity of 30 m/s and a vertical velocity of 40 m/s. What is the magnitude of its total initial velocity?",
@@ -2189,10 +5589,11 @@
     "correct_answer": "B",
     "explanation": "v = sqrt(30^2 + 40^2) = sqrt(900 + 1600) = sqrt(2500) = 50 m/s.",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q161"
+    "original_id": "q161",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "138",
+    "id": "DUHS_2521",
     "subject": "Physics",
     "topic": "Mechanics",
     "question": "In the FPS system, the unit of force is:",
@@ -2205,10 +5606,11 @@
     "correct_answer": "B",
     "explanation": "In the Foot-Pound-Second system, force is measured in pound-force (lbf).",
     "source_pdf": "XI-2ND MOCK.pdf",
-    "original_id": "q162"
+    "original_id": "q162",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "139",
+    "id": "DUHS_2621",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The angular speed of a particle increases from 2 rad/s to 4 rad/s across any two diametrically opposite positions. Its angular acceleration will be:",
@@ -2221,10 +5623,11 @@
     "correct_answer": "C. 6/pi rad/s^2",
     "explanation": "Using kinematic equations for angular motion across half a revolution (angular displacement theta = pi radians).",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q82"
+    "original_id": "q82",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "140",
+    "id": "DUHS_2622",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Radian is a unit of angular displacement. How many radians are in one degree?",
@@ -2237,10 +5640,11 @@
     "correct_answer": "C. pi/180",
     "explanation": "1 degree = pi / 180 radians.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q83"
+    "original_id": "q83",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "141",
+    "id": "DUHS_2623",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "If a rotating body moves counter-clockwise, angular velocity is:",
@@ -2253,10 +5657,11 @@
     "correct_answer": "C. Along the axis of rotation",
     "explanation": "By the right-hand rule, angular velocity vector points along the axis of rotation.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q84"
+    "original_id": "q84",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "142",
+    "id": "DUHS_2624",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "The ratio of angular frequency to linear frequency is:",
@@ -2269,10 +5674,11 @@
     "correct_answer": "A. 2pi",
     "explanation": "Angular frequency omega = 2pi f, so omega / f = 2pi.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q85"
+    "original_id": "q85",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "143",
+    "id": "DUHS_2625",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular speed of a flywheel rotating at 120 rpm?",
@@ -2285,10 +5691,11 @@
     "correct_answer": "B. 4pi rad/s",
     "explanation": "omega = 2 * pi * (120 / 60) = 4pi rad/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q86"
+    "original_id": "q86",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "144",
+    "id": "DUHS_2626",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Positive angular displacement corresponds to:",
@@ -2301,10 +5708,11 @@
     "correct_answer": "B. Anti-clockwise motion",
     "explanation": "Counter-clockwise rotation is conventionally taken as positive angular displacement.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q87"
+    "original_id": "q87",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "145",
+    "id": "DUHS_2627",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular acceleration of a fan that reaches 300 rpm in 10 seconds?",
@@ -2317,10 +5725,11 @@
     "correct_answer": "C. 3.14 rad/s^2",
     "explanation": "omega = 300 * 2pi / 60 = 10pi rad/s. alpha = omega / t = 10pi / 10 = pi = 3.14 rad/s^2.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q88"
+    "original_id": "q88",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "146",
+    "id": "DUHS_2628",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular speed of Earth in radians per hour?",
@@ -2333,10 +5742,11 @@
     "correct_answer": "D. pi/12",
     "explanation": "Earth completes 2pi radians in 24 hours, so omega = 2pi / 24 = pi/12 rad/hour.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q89"
+    "original_id": "q89",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "147",
+    "id": "DUHS_2629",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular speed of a motor rotating at 360 rpm?",
@@ -2349,10 +5759,11 @@
     "correct_answer": "D. 12pi rad/s",
     "explanation": "omega = 360 * 2pi / 60 = 12pi rad/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q90"
+    "original_id": "q90",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "148",
+    "id": "DUHS_2630",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular velocity of the minute hand of a clock?",
@@ -2365,10 +5776,11 @@
     "correct_answer": "C. 2pi/3600 rad/s",
     "explanation": "Minute hand completes 2pi radians in 3600 seconds.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q91"
+    "original_id": "q91",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "149",
+    "id": "DUHS_2631",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the distance moved on the rim when theta = 30 degrees?",
@@ -2381,10 +5793,11 @@
     "correct_answer": "B. pi R/6",
     "explanation": "s = R * theta = R * (30 * pi / 180) = pi R / 6.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q92"
+    "original_id": "q92",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "150",
+    "id": "DUHS_2632",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular displacement in two revolutions?",
@@ -2397,10 +5810,11 @@
     "correct_answer": "D. 4pi",
     "explanation": "Two complete revolutions equal 2 * 2pi = 4pi radians.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q93"
+    "original_id": "q93",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "151",
+    "id": "DUHS_2633",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angle between linear velocity and angular velocity?",
@@ -2413,10 +5827,11 @@
     "correct_answer": "D. 90 degrees",
     "explanation": "v = omega x r, so linear velocity is perpendicular (90 degrees) to angular velocity.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q94"
+    "original_id": "q94",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "152",
+    "id": "DUHS_2634",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular displacement for a distance of 14 m on a radius of 4 m?",
@@ -2429,10 +5844,11 @@
     "correct_answer": "C. 3.5 rad",
     "explanation": "theta = s / r = 14 / 4 = 3.5 rad.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q95"
+    "original_id": "q95",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "153",
+    "id": "DUHS_2635",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Which is the correct relation between linear and angular velocity?",
@@ -2445,10 +5861,11 @@
     "correct_answer": "A. v = r omega",
     "explanation": "Linear speed is the product of radius and angular speed (v = r omega).",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q96"
+    "original_id": "q96",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "154",
+    "id": "DUHS_2636",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the radius when v = 81 cm/s and omega = 27 rad/s?",
@@ -2461,10 +5878,11 @@
     "correct_answer": "C. 3 cm",
     "explanation": "r = v / omega = 81 / 27 = 3 cm.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q97"
+    "original_id": "q97",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "155",
+    "id": "DUHS_2637",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the linear displacement for 180 degrees when R = 1 m?",
@@ -2477,10 +5895,11 @@
     "correct_answer": "A. 3.14 m",
     "explanation": "s = R * theta = 1 * pi = 3.14 m.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q98"
+    "original_id": "q98",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "156",
+    "id": "DUHS_2638",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the linear velocity when r = 2 m and omega = 8 rad/s?",
@@ -2493,10 +5912,11 @@
     "correct_answer": "A. 16 m/s",
     "explanation": "v = r * omega = 2 * 8 = 16 m/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q99"
+    "original_id": "q99",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "157",
+    "id": "DUHS_2639",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Which is the correct vector relation?",
@@ -2509,10 +5929,11 @@
     "correct_answer": "A. v = omega x r",
     "explanation": "Vector cross product relating linear velocity, angular velocity, and position vector is v = omega x r.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q100"
+    "original_id": "q100",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "158",
+    "id": "DUHS_2640",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular speed when v = 2 m/s and r = 0.4 m?",
@@ -2525,10 +5946,11 @@
     "correct_answer": "C. 5 rad/s",
     "explanation": "omega = v / r = 2 / 0.4 = 5 rad/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q101"
+    "original_id": "q101",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "159",
+    "id": "DUHS_2641",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the linear speed at r/2?",
@@ -2541,10 +5963,11 @@
     "correct_answer": "C. 2 m/s",
     "explanation": "Linear speed is proportional to radius; at half the radius, linear speed is halved.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q102"
+    "original_id": "q102",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "160",
+    "id": "DUHS_2642",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the velocity of the tip of a second hand?",
@@ -2557,10 +5980,11 @@
     "correct_answer": "C. pi/30",
     "explanation": "Angular speed of second hand is 2pi / 60 = pi/30 rad/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q103"
+    "original_id": "q103",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "161",
+    "id": "DUHS_2643",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Tangential acceleration is directed:",
@@ -2573,10 +5997,11 @@
     "correct_answer": "B. Tangentially",
     "explanation": "Tangential acceleration acts along the tangent to the circular path.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q104"
+    "original_id": "q104",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "162",
+    "id": "DUHS_2644",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular velocity when the diameter is 4 m and v = 1600 cm/s?",
@@ -2589,10 +6014,11 @@
     "correct_answer": "D. 8 rad/s",
     "explanation": "Radius r = 2 m, v = 16 m/s. omega = v / r = 16 / 2 = 8 rad/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q105"
+    "original_id": "q105",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "163",
+    "id": "DUHS_2645",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular acceleration when a = 8 m/s^2 and r = 1 m?",
@@ -2605,10 +6031,11 @@
     "correct_answer": "A. 8 rad/s^2",
     "explanation": "alpha = a_t / r = 8 / 1 = 8 rad/s^2.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q106"
+    "original_id": "q106",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "164",
+    "id": "DUHS_2646",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the linear speed when the rotation is 30 rpm and the diameter is 1 m?",
@@ -2621,10 +6048,11 @@
     "correct_answer": "B. pi/2 m/s",
     "explanation": "omega = 30 * 2pi / 60 = pi rad/s. r = 0.5 m. v = r omega = 0.5 * pi = pi/2 m/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q107"
+    "original_id": "q107",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "165",
+    "id": "DUHS_2647",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "A car is moving at a speed of 50 m/s on a circular track of radius 500 m. Its speed is increasing at the rate of 12 m/s^2. The magnitude of its acceleration is:",
@@ -2637,10 +6065,11 @@
     "correct_answer": "C. 13 m/s^2",
     "explanation": "a_c = v^2 / r = 50^2 / 500 = 2500 / 500 = 5 m/s^2. a_t = 12 m/s^2. Total a = sqrt(5^2 + 12^2) = sqrt(25 + 144) = sqrt(169) = 13 m/s^2.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q108"
+    "original_id": "q108",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "166",
+    "id": "DUHS_2648",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "A particle is moving in a circular orbit with constant speed. Which of the following statements is/are correct?",
@@ -2653,10 +6082,11 @@
     "correct_answer": "D. All of the above.",
     "explanation": "In uniform circular motion, direction of velocity and acceleration change continuously, while angular momentum remains constant.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q109"
+    "original_id": "q109",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "167",
+    "id": "DUHS_2649",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the number of revolutions in 720 degrees?",
@@ -2669,10 +6099,11 @@
     "correct_answer": "C. 2",
     "explanation": "720 / 360 = 2 revolutions.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q110"
+    "original_id": "q110",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "168",
+    "id": "DUHS_2650",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "A particle moves in a circle of radius 2 m with a constant angular acceleration of 3 rad/s^2. If it starts from rest, the angular displacement after 2 seconds is:",
@@ -2685,10 +6116,11 @@
     "correct_answer": "B. 6 rad",
     "explanation": "theta = omega_0 t + 0.5 alpha t^2 = 0 + 0.5 * 3 * (2)^2 = 6 rad.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q111"
+    "original_id": "q111",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "169",
+    "id": "DUHS_2651",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the degree rotation in two hours?",
@@ -2701,10 +6133,11 @@
     "correct_answer": "B. 30 degrees",
     "explanation": "According to the official mock answer key.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q112"
+    "original_id": "q112",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "170",
+    "id": "DUHS_2652",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "How many revolutions are present in 3pi radians?",
@@ -2717,10 +6150,11 @@
     "correct_answer": "B. 3/2",
     "explanation": "3pi / 2pi = 1.5 = 3/2 revolutions.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q113"
+    "original_id": "q113",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "171",
+    "id": "DUHS_2653",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the time for one revolution when omega = 3 rad/s?",
@@ -2733,10 +6167,11 @@
     "correct_answer": "D. 2.1 s",
     "explanation": "T = 2pi / omega = 2 * 3.1416 / 3 = 2.09 s ~ 2.1 s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q114"
+    "original_id": "q114",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "172",
+    "id": "DUHS_2654",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "One radian is equal to:",
@@ -2749,10 +6184,11 @@
     "correct_answer": "C. 57.3 degrees",
     "explanation": "1 radian = 180 / pi ~ 57.3 degrees.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q115"
+    "original_id": "q115",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "173",
+    "id": "DUHS_2655",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "What is the angular velocity at 400 rpm?",
@@ -2765,10 +6201,11 @@
     "correct_answer": "B. 41.9 rad/s",
     "explanation": "omega = 400 * 2 * 3.1416 / 60 = 41.88 rad/s ~ 41.9 rad/s.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q116"
+    "original_id": "q116",
+    "source_file": "master_merged_questions.json"
   },
   {
-    "id": "174",
+    "id": "DUHS_2656",
     "subject": "PHYSICS",
     "topic": "Mechanics",
     "question": "Centripetal force in angular terms is:",
@@ -2781,6 +6218,7 @@
     "correct_answer": "B. m r omega^2",
     "explanation": "Centripetal force F_c = m v^2 / r = m r omega^2.",
     "source_pdf": "XI-4TH MOCKK.pdf",
-    "original_id": "q117"
+    "original_id": "q117",
+    "source_file": "master_merged_questions.json"
   }
 ]
