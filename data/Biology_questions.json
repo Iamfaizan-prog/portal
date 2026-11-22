@@ -24325,5 +24325,1805 @@
     "source_pdf": "biology main points-1.pdf",
     "original_id": "bio_200",
     "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2920",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Who coined the term 'enzyme' in 1878?",
+    "options": [
+      "Thomas Cech",
+      "Sidney Altman",
+      "Friedrich Wilhelm Kuhn",
+      "Emil Fischer"
+    ],
+    "correct_answer": "Friedrich Wilhelm Kuhn",
+    "explanation": "The term enzyme was coined by Friedrich Wilhelm Kuhn in 1878.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_201",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2921",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "The Greek word roots of 'enzyme' ('En' and 'zyme') translate to:",
+    "options": [
+      "Inside; yeast",
+      "Protein; catalyst",
+      "Active; site",
+      "Living; speed"
+    ],
+    "correct_answer": "Inside; yeast",
+    "explanation": "En means inside and zyme means yeast in Greek.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_202",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2922",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Life depends on cell metabolism, which in turn depends on catalytic molecules called:",
+    "options": [
+      "Enzymes",
+      "Lipids",
+      "Monomers",
+      "Salts"
+    ],
+    "correct_answer": "Enzymes",
+    "explanation": "Without enzymes, metabolic reactions and the dynamic steady state of the cell would cease.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_203",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2923",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "At low temperature and atmospheric pressure inside living cells, metabolic reactions without enzymes would occur:",
+    "options": [
+      "Very slowly",
+      "Explosively fast",
+      "At boiling point only",
+      "With permanent denaturation"
+    ],
+    "correct_answer": "Very slowly",
+    "explanation": "Metabolic reactions proceed very slowly at low temperature and atmospheric pressure unless catalyzed by enzymes.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_204",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2924",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In the 1980s, Thomas Cech and Sidney Altman discovered that certain RNA molecules act as enzymes called:",
+    "options": [
+      "Holoenzymes",
+      "Ribozymes",
+      "Apoenzymes",
+      "Prosthetic groups"
+    ],
+    "correct_answer": "Ribozymes",
+    "explanation": "Thomas Cech and Sidney Altman discovered ribozymes (catalytic RNA molecules) in the 1980s.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_205",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2925",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Ribozymes catalyze reactions involved in:",
+    "options": [
+      "Processing genetic information in a cell",
+      "Fat hydrolysis into glycerol",
+      "Bacterial cell-wall synthesis",
+      "Maltose conversion into amylose"
+    ],
+    "correct_answer": "Processing genetic information in a cell",
+    "explanation": "Ribozymes catalyze reactions involved in processing genetic information used by a cell.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_206",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2926",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Enzymes are synthesized inside living cells and produced in the:",
+    "options": [
+      "Protoplasm",
+      "Cell wall",
+      "Plasma membrane",
+      "Vacuole"
+    ],
+    "correct_answer": "Protoplasm",
+    "explanation": "Enzymes are biocatalysts produced in the protoplasm and synthesized inside the cell.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_207",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2927",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Most enzymes are macromolecules of globular proteins with:",
+    "options": [
+      "High molecular weight",
+      "Very low molecular weight",
+      "Linear fibrous structure",
+      "Single amino acid chains"
+    ],
+    "correct_answer": "High molecular weight",
+    "explanation": "Most enzymes are proteinaceous macromolecules of globular proteins with high molecular weight.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_208",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2928",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which of the following is an example of an enzyme made purely of protein?",
+    "options": [
+      "Amylase",
+      "Acetyl CoA",
+      "NAD",
+      "FAD"
+    ],
+    "correct_answer": "Amylase",
+    "explanation": "Amylase and pepsin are examples of enzymes consisting of protein.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_209",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2929",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which molecule is listed as an example of a non-protein part along with protein in the introduction?",
+    "options": [
+      "Acetyl CoA",
+      "Pepsin",
+      "Amylase",
+      "Trypsin"
+    ],
+    "correct_answer": "Acetyl CoA",
+    "explanation": "Acetyl CoA is cited as an example of a non-protein part alongside protein.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_210",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2930",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "An enzyme that acts inside the cell where it is produced is called an:",
+    "options": [
+      "Endo-enzyme",
+      "Exo-enzyme",
+      "Apoenzyme",
+      "Prosthetic enzyme"
+    ],
+    "correct_answer": "Endo-enzyme",
+    "explanation": "Enzymes acting within the cell where they are produced are called endo-enzymes.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_211",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2931",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "An enzyme that acts outside the cell where it is produced is called an:",
+    "options": [
+      "Exo-enzyme",
+      "Endo-enzyme",
+      "Holoenzyme",
+      "Ribozyme"
+    ],
+    "correct_answer": "Exo-enzyme",
+    "explanation": "Enzymes acting outside the cell are called exo-enzymes.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_212",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2932",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Compared to its substrate, an enzyme is generally:",
+    "options": [
+      "Much greater in size than the substrate",
+      "Much smaller than the substrate",
+      "Identical in molecular mass to the substrate",
+      "Destroyed after one collision with the substrate"
+    ],
+    "correct_answer": "Much greater in size than the substrate",
+    "explanation": "Enzymes are much greater in size than the substrate.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_213",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2933",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which ions or salts are given as examples of activators that accelerate enzyme activity?",
+    "options": [
+      "Mn, Mg, Cl-",
+      "Na+, K+, Ca2+",
+      "Fe3+, Cu+, Zn+",
+      "H+, OH-, NH4+"
+    ],
+    "correct_answer": "Mn, Mg, Cl-",
+    "explanation": "Enzyme activity can be accelerated by ions or salts called activators such as Mn, Mg, and Cl-.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_214",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2934",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which statement accurately describes enzymes during and after a chemical reaction?",
+    "options": [
+      "They remain chemically unchanged during and after the reaction",
+      "They are permanently converted into products",
+      "They lose all catalytic ability after one reaction",
+      "They alter the final reaction equilibrium"
+    ],
+    "correct_answer": "They remain chemically unchanged during and after the reaction",
+    "explanation": "Enzymes remain chemically unchanged during and after chemical reactions.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_215",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2935",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Structurally, enzymes are three-dimensional ______ proteins.",
+    "options": [
+      "Globular",
+      "Fibrous",
+      "Sheet-like",
+      "Inorganic"
+    ],
+    "correct_answer": "Globular",
+    "explanation": "Enzymes are three-dimensional globular proteins.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_216",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2936",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "The charge and shape of the active site of an enzyme are formed by:",
+    "options": [
+      "Some amino acids present in the polypeptide chain",
+      "Free fatty acids floating in solution",
+      "Nucleic acid bases only",
+      "Inorganic salts alone"
+    ],
+    "correct_answer": "Some amino acids present in the polypeptide chain",
+    "explanation": "The charge and shape of the active site are formed by specific amino acids in the polypeptide chain.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_217",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2937",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Amino acids that do not form the active site coil and fold in a specific way to maintain:",
+    "options": [
+      "A globular symmetry",
+      "A rigid crystalline lattice",
+      "A linear strand",
+      "A covalent inhibitor bond"
+    ],
+    "correct_answer": "A globular symmetry",
+    "explanation": "The amino acids outside the active site come close and arrange in a specific way to coil and fold into globular symmetry.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_218",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2938",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "The active site of an enzyme consists of which two regions?",
+    "options": [
+      "Binding site and catalytic site",
+      "Allosteric site and prosthetic site",
+      "Regulatory site and inhibitor site",
+      "Donor site and acceptor site"
+    ],
+    "correct_answer": "Binding site and catalytic site",
+    "explanation": "The active site has two regions: the binding site and the catalytic site.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_219",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2939",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which region of the active site forms temporary bonds with the substrate?",
+    "options": [
+      "Binding site",
+      "Catalytic site",
+      "Allosteric site",
+      "Inhibitory site"
+    ],
+    "correct_answer": "Binding site",
+    "explanation": "The binding site is the region of the active site whose amino acids make temporary bonds with the substrate.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_220",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2940",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Amino acids responsible for catalytic activity are located in the:",
+    "options": [
+      "Catalytic site",
+      "Binding site",
+      "Allosteric site",
+      "Prosthetic group"
+    ],
+    "correct_answer": "Catalytic site",
+    "explanation": "Amino acids responsible for catalytic activity form the catalytic site.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_221",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2941",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Enzymes composed of both a protein part and a non-protein part are called:",
+    "options": [
+      "Conjugated enzymes",
+      "Simple enzymes",
+      "Ribozymes",
+      "Uncompetitive enzymes"
+    ],
+    "correct_answer": "Conjugated enzymes",
+    "explanation": "Enzymes made up of a protein and a non-protein part are called conjugated enzymes.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_222",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2942",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "The non-protein part of a conjugated enzyme is called a:",
+    "options": [
+      "Co-factor",
+      "Apo-enzyme",
+      "Holoenzyme",
+      "Substrate"
+    ],
+    "correct_answer": "Co-factor",
+    "explanation": "The non-protein part of a conjugated enzyme is called a co-factor.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_223",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2943",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "What is the role of the co-factor in a conjugated enzyme?",
+    "options": [
+      "Attachment of substrate at the active site and performing catalytic activity",
+      "Permanent denaturation of the polypeptide chain",
+      "Blocking the active site with an extra peptide",
+      "Increasing activation energy"
+    ],
+    "correct_answer": "Attachment of substrate at the active site and performing catalytic activity",
+    "explanation": "The co-factor is responsible for substrate attachment at the active site and catalytic activity.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_224",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2944",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Inorganic co-factors are metallic ions that attach at the time of substrate binding and are:",
+    "options": [
+      "Detachable",
+      "Covalently permanent",
+      "Vitamin derivatives",
+      "Always inhibitory"
+    ],
+    "correct_answer": "Detachable",
+    "explanation": "Inorganic co-factors are metallic ions that are detachable and attach at the time of substrate binding.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_225",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2945",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Co-enzymes are organic co-factors derived from vitamins, such as:",
+    "options": [
+      "Nicotine in NAD and Flavin in FAD",
+      "Mg-containing porphyrin in chlorophyll",
+      "Mn and Cl- ions",
+      "HCl and pepsinogen"
+    ],
+    "correct_answer": "Nicotine in NAD and Flavin in FAD",
+    "explanation": "Co-enzymes are vitamin derivatives like nicotine in NAD and flavin in FAD.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_226",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2946",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which organic co-factor is bonded covalently as a permanent part of the enzyme and does not detach?",
+    "options": [
+      "Prosthetic group",
+      "Co-enzyme",
+      "Activator",
+      "Competitive inhibitor"
+    ],
+    "correct_answer": "Prosthetic group",
+    "explanation": "A prosthetic group is an organic co-factor bonded covalently as a permanent part of the enzyme.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_227",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2947",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Mg-containing porphyrin of chlorophyll is cited in the chapter as an example of a:",
+    "options": [
+      "Prosthetic group",
+      "Co-enzyme",
+      "Apo-enzyme",
+      "Competitive inhibitor"
+    ],
+    "correct_answer": "Prosthetic group",
+    "explanation": "Mg-containing porphyrin of chlorophyll is given as an example of a prosthetic group.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_228",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2948",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "A conjugated enzyme without its co-factor is called an ______, and the activated enzyme with its co-factor is called a ______.",
+    "options": [
+      "Apo-enzyme; Holoenzyme",
+      "Holoenzyme; Apo-enzyme",
+      "Co-enzyme; Prosthetic group",
+      "Pepsin; Pepsinogen"
+    ],
+    "correct_answer": "Apo-enzyme; Holoenzyme",
+    "explanation": "Without its co-factor, a conjugated enzyme is an apo-enzyme (cannot work alone); with it, the active complex is a holoenzyme.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_229",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2949",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Pepsinogen secreted by gastric glands of the stomach is inactive because:",
+    "options": [
+      "An additional polypeptide chain blocks its active site",
+      "It lacks a prosthetic group",
+      "It is bound to a non-competitive inhibitor",
+      "Its active site is permanently denatured"
+    ],
+    "correct_answer": "An additional polypeptide chain blocks its active site",
+    "explanation": "Pepsinogen is inactive due to the presence of an additional polypeptide chain blocking its active site.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_230",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2950",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "When pepsinogen reacts with HCl, it becomes active pepsin because:",
+    "options": [
+      "The additional polypeptide chain is removed",
+      "A co-enzyme is covalently attached",
+      "The substrate is converted into a cofactor",
+      "The pH rises to 8.5"
+    ],
+    "correct_answer": "The additional polypeptide chain is removed",
+    "explanation": "HCl removes the extra polypeptide chain from pepsinogen, converting it into active pepsin.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_231",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2951",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In enzyme catalysis, substrate (S) binds to enzyme (E) to form ES, converts to product (P) to form EP, and then releases product to give:",
+    "options": [
+      "E + P",
+      "ES + EP",
+      "E + S",
+      "P + EP"
+    ],
+    "correct_answer": "E + P",
+    "explanation": "The reaction sequence is E + S -> ES -> EP -> E + P.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_232",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2952",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "During a chemical reaction catalyzed by an enzyme, the quantity and shape of the enzyme:",
+    "options": [
+      "Remain the same before and after the reaction",
+      "Double after each cycle",
+      "Change permanently after product release",
+      "Decrease to zero"
+    ],
+    "correct_answer": "Remain the same before and after the reaction",
+    "explanation": "The quantity and shape of the enzyme remain the same before and after the chemical reaction.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_233",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2953",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "The Lock and Key model was proposed by ______ in ______.",
+    "options": [
+      "Emil Fischer; 1898",
+      "Daniel Koshland; 1959",
+      "Friedrich Kuhn; 1878",
+      "Sidney Altman; 1980"
+    ],
+    "correct_answer": "Emil Fischer; 1898",
+    "explanation": "Emil Fischer proposed the lock and key model in 1898.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_234",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2954",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In the Lock and Key model, the active site has a distinct ______ and distribution of charge complementary to its substrate.",
+    "options": [
+      "Shape (Rigid)",
+      "Flexible shape",
+      "Covalent inhibitor",
+      "Variable pH"
+    ],
+    "correct_answer": "Shape (Rigid)",
+    "explanation": "The lock and key model describes a rigid active site with a distinct shape and charge distribution complementary to the substrate.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_235",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2955",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Enzymes described by the Lock and Key model work in ______ specificity, catalyzing only one substrate.",
+    "options": [
+      "Absolute",
+      "Non-specific",
+      "Allosteric",
+      "Uncompetitive"
+    ],
+    "correct_answer": "Absolute",
+    "explanation": "Lock and key enzymes act with absolute specificity, catalyzing only one substrate while rejecting even fairly similar molecules.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_236",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2956",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Who proposed the Induced Fit model, and in which year?",
+    "options": [
+      "Daniel Koshland; 1959",
+      "Emil Fischer; 1898",
+      "Friedrich Kuhn; 1878",
+      "Thomas Cech; 1980"
+    ],
+    "correct_answer": "Daniel Koshland; 1959",
+    "explanation": "Koshland proposed the induced fit model in 1959.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_237",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2957",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "According to the Induced Fit model, when a substrate combines with an enzyme, it:",
+    "options": [
+      "Induces a change in enzyme structure that makes catalytic activity more efficient",
+      "Prevents any change in the active site",
+      "Destroys the enzyme immediately",
+      "Replaces the co-factor with water"
+    ],
+    "correct_answer": "Induces a change in enzyme structure that makes catalytic activity more efficient",
+    "explanation": "Binding of substrate induces a structural change in the enzyme that enables more efficient catalytic activity.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_238",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2958",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Activation energy is defined as the minimum quantity of energy required to:",
+    "options": [
+      "Activate atoms or molecules to a condition where they can undergo chemical transformation",
+      "Denature all proteins in a cell",
+      "Shift reaction equilibrium toward substrates",
+      "Detach a prosthetic group"
+    ],
+    "correct_answer": "Activate atoms or molecules to a condition where they can undergo chemical transformation",
+    "explanation": "Activation energy is the minimum energy needed to activate atoms or molecules for chemical transformation.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_239",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2959",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Why can heat not simply be supplied in living systems to provide activation energy?",
+    "options": [
+      "Biomolecules are sensitive to heat",
+      "Heat decreases molecular collisions",
+      "Heat increases pH above 10",
+      "Heat converts substrates into co-enzymes"
+    ],
+    "correct_answer": "Biomolecules are sensitive to heat",
+    "explanation": "In living systems, high heat cannot be applied as activation energy because biomolecules are heat-sensitive.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_240",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2960",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Enzymes lower activation energy by:",
+    "options": [
+      "Forming an intermediate complex with energy-rich and energy-poor molecules that has lower activation energy",
+      "Increasing the energy barrier between reactants and products",
+      "Changing the equilibrium constant of the reaction",
+      "Adding inorganic salts to the substrate"
+    ],
+    "correct_answer": "Forming an intermediate complex with energy-rich and energy-poor molecules that has lower activation energy",
+    "explanation": "Enzymes form an intermediate complex with lower activation energy so more molecules can react.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_241",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2961",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "When an enzyme lowers activation energy, the reaction equilibrium (ratio of reactant and product concentration) is:",
+    "options": [
+      "Not altered",
+      "Doubled",
+      "Halved",
+      "Reversed permanently"
+    ],
+    "correct_answer": "Not altered",
+    "explanation": "Lowering activation energy accelerates the rate without altering reaction equilibrium.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_242",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2962",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "The rate of enzyme activity is measured as the quantity of substrate transformed into product in:",
+    "options": [
+      "Unit time (1 second)",
+      "One hour",
+      "One reaction cycle",
+      "One degree Celsius"
+    ],
+    "correct_answer": "Unit time (1 second)",
+    "explanation": "The rate of enzyme activity is the quantity of substrate transformed into product per unit time (1 second).",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_243",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2963",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Molecules that bind away from the active site and increase active site function are called:",
+    "options": [
+      "Allosteric activators",
+      "Competitive inhibitors",
+      "Uncompetitive inhibitors",
+      "Prosthetic groups"
+    ],
+    "correct_answer": "Allosteric activators",
+    "explanation": "Molecules binding away from the active site that increase its function are called allosteric activators.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_244",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2964",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Allosteric activators do not bind covalently to enzymes, so their interactions are:",
+    "options": [
+      "Reversible",
+      "Irreversible",
+      "Denaturing",
+      "Hydrolytic"
+    ],
+    "correct_answer": "Reversible",
+    "explanation": "Allosteric activators bind non-covalently, making their interactions reversible.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_245",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2965",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "According to the chapter, an increase of 10°C in temperature generally:",
+    "options": [
+      "Doubles the rate of reaction",
+      "Halves the rate of reaction",
+      "Denatures all enzymes immediately",
+      "Stops molecular motion"
+    ],
+    "correct_answer": "Doubles the rate of reaction",
+    "explanation": "An increase in 10°C of temperature is estimated to double the rate of reaction.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_246",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2966",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "At 0°C, enzyme activity is reduced to a minimum, while the enzymes themselves:",
+    "options": [
+      "Are not destroyed",
+      "Are completely denatured",
+      "Become covalent inhibitors",
+      "Convert into ribozymes"
+    ],
+    "correct_answer": "Are not destroyed",
+    "explanation": "At 0°C, enzyme activity is reduced to a minimum, but enzymes are not destroyed.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_247",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2967",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Human enzymes are highly active around ______, and all are completely denatured at ______.",
+    "options": [
+      "37°C; 100°C",
+      "25°C; 60°C",
+      "42°C; 70°C",
+      "0°C; 50°C"
+    ],
+    "correct_answer": "37°C; 100°C",
+    "explanation": "Human enzymes are highly active at about 37°C and are completely denatured at 100°C.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_248",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2968",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Most enzymes in higher organisms have an optimum temperature between:",
+    "options": [
+      "25°C to 42°C",
+      "0°C to 20°C",
+      "50°C to 80°C",
+      "70°C to 100°C"
+    ],
+    "correct_answer": "25°C to 42°C",
+    "explanation": "Most enzymes in higher organisms have an optimum temperature between 25°C and 42°C.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_249",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2969",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Thermophilic bacteria survive in hot springs because their optimum temperature is:",
+    "options": [
+      "70°C or higher",
+      "Exactly 37°C",
+      "Below 10°C",
+      "25°C to 30°C"
+    ],
+    "correct_answer": "70°C or higher",
+    "explanation": "Thermophilic bacteria in hot springs have an optimum temperature of 70°C or higher.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_250",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2970",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Enzymes from thermophilic bacteria are also used in:",
+    "options": [
+      "Biological washing powder at high-temperature washing",
+      "Low-temperature ice cream making",
+      "Neutralizing gastric acid in vivo",
+      "Breaking cellulose into starch"
+    ],
+    "correct_answer": "Biological washing powder at high-temperature washing",
+    "explanation": "Thermophilic bacterial enzymes are used in biological washing powder for high-temperature washing.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_251",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2971",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "A small change in pH causes ionization of amino acid side chains that form ______ structure of the enzyme, making it inactive.",
+    "options": [
+      "Tertiary and quaternary",
+      "Primary peptide only",
+      "Inorganic metallic",
+      "Hydrocarbon"
+    ],
+    "correct_answer": "Tertiary and quaternary",
+    "explanation": "pH strongly affects charges on amino acid side chains forming tertiary and quaternary structure.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_252",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2972",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "The majority of human digestive enzymes work in the pH range of:",
+    "options": [
+      "7 to 8",
+      "1.0 to 2.0",
+      "3.0 to 4.0",
+      "9.5 to 11.0"
+    ],
+    "correct_answer": "7 to 8",
+    "explanation": "Most human digestive enzymes work in the pH range of 7 to 8.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_253",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2973",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Gastric pepsin works in a highly acidic environment with an optimum pH of ______ and an active range of ______.",
+    "options": [
+      "1.4; 1.5 to 2.5",
+      "8.5; 7.5 to 9.0",
+      "7.0; 6.0 to 8.0",
+      "5.0; 4.0 to 6.0"
+    ],
+    "correct_answer": "1.4; 1.5 to 2.5",
+    "explanation": "Pepsin has an optimum pH of 1.4 and works in the range of 1.5 to 2.5.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_254",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2974",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Pancreatic amylase is cited in the chapter as working at a highly alkaline pH of:",
+    "options": [
+      "8.5",
+      "1.4",
+      "2.5",
+      "4.0"
+    ],
+    "correct_answer": "8.5",
+    "explanation": "Amylase released from the pancreas works at a highly alkaline pH of 8.5.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_255",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2975",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "If substrate concentration is unlimited, enzyme activity is ______ to enzyme concentration.",
+    "options": [
+      "Directly proportional",
+      "Inversely proportional",
+      "Unrelated",
+      "Zero"
+    ],
+    "correct_answer": "Directly proportional",
+    "explanation": "When substrate is abundant, enzyme activity is directly proportional to enzyme concentration.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_256",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2976",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Under real conditions where substrate concentration is limited, increasing enzyme concentration causes enzyme activity to:",
+    "options": [
+      "Increase initially and then remain constant after some time",
+      "Increase infinitely without limit",
+      "Drop to zero immediately",
+      "Reverse the direction of reaction"
+    ],
+    "correct_answer": "Increase initially and then remain constant after some time",
+    "explanation": "Because substrate is limited in real conditions, activity rises initially with enzyme concentration and then levels off.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_257",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2977",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "When enzyme concentration is kept constant and substrate concentration increases, the rate of reaction increases until:",
+    "options": [
+      "Available enzyme becomes saturated with substrate",
+      "Temperature reaches 100°C",
+      "The co-enzyme is destroyed",
+      "pH becomes 14"
+    ],
+    "correct_answer": "Available enzyme becomes saturated with substrate",
+    "explanation": "The reaction rate rises with substrate concentration until the available enzyme reaches saturation.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_258",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2978",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "At a very high substrate concentration, the substrate exerts a(n) ______ effect upon enzyme action.",
+    "options": [
+      "Inhibiting",
+      "Accelerating",
+      "Permanent activating",
+      "Neutral"
+    ],
+    "correct_answer": "Inhibiting",
+    "explanation": "At very high concentrations, substrate exerts an inhibiting effect on enzyme action.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_259",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2979",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "After reaching maximum velocity, further increase in substrate concentration has no effect due to:",
+    "options": [
+      "Higher quantity of substrate than enzyme and accumulation of end product",
+      "Complete absence of water",
+      "Conversion of enzyme into a zymogen",
+      "Drop in temperature to 0°C"
+    ],
+    "correct_answer": "Higher quantity of substrate than enzyme and accumulation of end product",
+    "explanation": "Page 35 states two reasons: (a) higher quantity of substrate than enzyme, and (b) accumulation of end product.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_260",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2980",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "How can an inhibitor decrease enzyme activity according to Section 2.4.1?",
+    "options": [
+      "By combining directly with enzymes or reacting with activators so activators are unavailable",
+      "By supplying extra HCl to zymogens",
+      "By lowering activation energy",
+      "By increasing substrate concentration"
+    ],
+    "correct_answer": "By combining directly with enzymes or reacting with activators so activators are unavailable",
+    "explanation": "Inhibitors act by binding directly to enzymes or reacting with activators so they cannot activate the enzyme.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_261",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2981",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which three types of enzyme inhibition are presented in Section 2.4.1?",
+    "options": [
+      "Competitive, non-competitive, and un-competitive (anticompetitive)",
+      "Reversible, irreversible, and thermal",
+      "Allosteric, zymogenic, and hydrolytic",
+      "Endogenous, exogenous, and catalytic"
+    ],
+    "correct_answer": "Competitive, non-competitive, and un-competitive (anticompetitive)",
+    "explanation": "The chapter lists three types of inhibition: competitive, non-competitive, and un-competitive (anticompetitive).",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_262",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2982",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Competitive inhibition occurs when molecules very similar to the substrate bind to the ______ instead of the original substrate.",
+    "options": [
+      "Active site",
+      "Allosteric site",
+      "Prosthetic group",
+      "Reaction product"
+    ],
+    "correct_answer": "Active site",
+    "explanation": "Competitive inhibitors resemble the substrate and bind to the active site.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_263",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2983",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Reversible competitive inhibition can be overcome by:",
+    "options": [
+      "Increasing substrate concentration so more substrate molecules enter available active sites",
+      "Adding more competitive inhibitor",
+      "Heating the enzyme to 100°C",
+      "Removing the catalytic site"
+    ],
+    "correct_answer": "Increasing substrate concentration so more substrate molecules enter available active sites",
+    "explanation": "Increasing substrate concentration overcomes reversible competitive inhibition by outcompeting inhibitor molecules.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_264",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2984",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Penicillin acts as a competitive inhibitor by blocking the enzyme responsible for:",
+    "options": [
+      "Constructing the bacterial cell wall",
+      "Digestion of lipids in the stomach",
+      "Converting glucose-6-phosphate to fructose-6-phosphate",
+      "DNA replication in humans"
+    ],
+    "correct_answer": "Constructing the bacterial cell wall",
+    "explanation": "Penicillin is a competitive inhibitor that blocks the enzyme responsible for bacterial cell-wall construction.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_265",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2985",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Binding sites away from the active site where non-competitive inhibitors bind are called:",
+    "options": [
+      "Allosteric sites",
+      "Catalytic clefts",
+      "Substrate pockets",
+      "Peptide bonds"
+    ],
+    "correct_answer": "Allosteric sites",
+    "explanation": "Sites away from the active site are called allosteric sites (Allos = away).",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_266",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2986",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Non-competitive binding at an allosteric site causes the enzyme to change shape, making the active site:",
+    "options": [
+      "Unresponsive to the substrate or less effective at catalyzing conversion to product",
+      "Identical in shape to a co-enzyme",
+      "Able to bind two substrates at once",
+      "Immune to pH changes"
+    ],
+    "correct_answer": "Unresponsive to the substrate or less effective at catalyzing conversion to product",
+    "explanation": "Non-competitive binding alters enzyme shape so the active site becomes unresponsive or less effective.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_267",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2987",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Un-competitive (anticompetitive) inhibition occurs when an inhibitor binds:",
+    "options": [
+      "Only to the enzyme-substrate complex (E-S-Complex)",
+      "Only to the free active site before substrate binds",
+      "To inorganic co-factors in solution",
+      "To the finished product only"
+    ],
+    "correct_answer": "Only to the enzyme-substrate complex (E-S-Complex)",
+    "explanation": "Un-competitive inhibition occurs when an inhibitor binds only to the E-S complex.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_268",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2988",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Un-competitive inhibition typically occurs in reactions involving:",
+    "options": [
+      "Two or more substrates or products",
+      "A single substrate and no product",
+      "Thermophilic bacteria only",
+      "Purely inorganic catalysts"
+    ],
+    "correct_answer": "Two or more substrates or products",
+    "explanation": "Un-competitive inhibition typically occurs in reactions with two or more substrates or products.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_269",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2989",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Feedback inhibition is a biological control mechanism in which an enzyme's activity is inhibited by:",
+    "options": [
+      "Its own product",
+      "A rise in pH to 12",
+      "An allosteric activator",
+      "Complete loss of protoplasm"
+    ],
+    "correct_answer": "Its own product",
+    "explanation": "Feedback inhibition occurs when an enzyme is inhibited by its own product.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_270",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2990",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In most enzymatic pathways regulated by feedback inhibition, the end product of the pathway binds at an allosteric site on:",
+    "options": [
+      "The first enzyme of the pathway, shutting down the pathway",
+      "The last enzyme only, speeding up product release",
+      "The substrate molecule",
+      "The cell membrane"
+    ],
+    "correct_answer": "The first enzyme of the pathway, shutting down the pathway",
+    "explanation": "The pathway end product binds to an allosteric site on the first enzyme of the pathway to shut it down.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_271",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2991",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which of the following is listed as a significance of enzyme inhibition on Page 36?",
+    "options": [
+      "Used as a strategy in drug discovery and biological control",
+      "Eliminates the need for metabolic pathways",
+      "Converts globular proteins into fibrous ones",
+      "Prevents all chemical reactions in cells"
+    ],
+    "correct_answer": "Used as a strategy in drug discovery and biological control",
+    "explanation": "Enzyme inhibition serves as a biological control mechanism and is used in drug discovery, pathway analysis, and disease screening.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_272",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2992",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Enzymes can be classified on two main bases:",
+    "options": [
+      "Types of reactions they perform and substrate on which they act",
+      "Molecular weight and color",
+      "Optimum temperature and melting point",
+      "Presence or absence of a nucleus"
+    ],
+    "correct_answer": "Types of reactions they perform and substrate on which they act",
+    "explanation": "Enzymes are classified by the types of reactions they perform or the substrate on which they act.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_273",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2993",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Oxido reductases perform oxidation and reduction reactions by:",
+    "options": [
+      "Removing and adding H+ respectively",
+      "Adding water across peptide bonds",
+      "Joining two molecules by condensation",
+      "Rearranging isomers without H+"
+    ],
+    "correct_answer": "Removing and adding H+ respectively",
+    "explanation": "Oxido reductases perform oxidation and reduction by removing and adding H+ respectively.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_274",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2994",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Ferredoxin reducing substance is given in the chapter as an example of an:",
+    "options": [
+      "Oxido reductase",
+      "Hydrolase",
+      "Ligase",
+      "Isomerase"
+    ],
+    "correct_answer": "Oxido reductase",
+    "explanation": "Ferredoxin reducing substance is cited as an example of an oxido reductase.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_275",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2995",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Transfer of a phosphate group from ATP to hexose is an example of a reaction catalyzed by a:",
+    "options": [
+      "Transferase",
+      "Hydrolase",
+      "Lyase",
+      "Isomerase"
+    ],
+    "correct_answer": "Transferase",
+    "explanation": "Transferases transfer a group from one substance to another, such as phosphate from ATP to hexose.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_276",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2996",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Hydrolases are digestive enzymes that break bonds using H2O to:",
+    "options": [
+      "Convert oligomers into monomers",
+      "Synthesize polymers from single ions",
+      "Remove groups without water",
+      "Form isomers from glucose"
+    ],
+    "correct_answer": "Convert oligomers into monomers",
+    "explanation": "Hydrolases break bonds by hydrolysis (using H2O) to convert oligomers into monomers.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_277",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2997",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which class of enzymes catalyzes the breakdown of specific covalent bonds and removal of groups without hydrolysis?",
+    "options": [
+      "Lyase",
+      "Hydrolase",
+      "Transferase",
+      "Oxido reductase"
+    ],
+    "correct_answer": "Lyase",
+    "explanation": "Lyases catalyze the breakdown of specific covalent bonds and removal of groups without hydrolysis.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_278",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2998",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Conversion of glucose-6-phosphate into fructose-6-phosphate during glycolysis is catalyzed by:",
+    "options": [
+      "Isomerase",
+      "Ligase",
+      "Hydrolase",
+      "Lyase"
+    ],
+    "correct_answer": "Isomerase",
+    "explanation": "Isomerases catalyze intramolecular rearrangement to form another isomer, such as glucose-6-phosphate to fructose-6-phosphate.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_279",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_2999",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Ligases (synthetases) catalyze condensation reactions such as those involving:",
+    "options": [
+      "DNA polymerase and RNA polymerase",
+      "Trypsin and pepsin",
+      "Lipase and maltase",
+      "Cellulase and sucrase"
+    ],
+    "correct_answer": "DNA polymerase and RNA polymerase",
+    "explanation": "Ligases (synthetases) catalyze condensation reactions such as DNA and RNA polymerases.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_280",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3000",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In classification based upon substrate, protease acts on proteins (e.g., trypsin, pepsin), while lipase performs hydrolysis of fats into:",
+    "options": [
+      "Glycerol and fatty acids",
+      "Glucose and maltose",
+      "Nucleotides and ribose",
+      "Amino acids and ammonia"
+    ],
+    "correct_answer": "Glycerol and fatty acids",
+    "explanation": "Lipase performs hydrolysis of fats into glycerol and fatty acids.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_281",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3001",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Under glycosidase (acting on carbohydrates), amylase acts on ______ to convert it into ______.",
+    "options": [
+      "Amylose; maltose",
+      "Cellulose; sucrose",
+      "Lactose; cellulose",
+      "Maltose; fats"
+    ],
+    "correct_answer": "Amylose; maltose",
+    "explanation": "Amylase acts on amylose to convert it into maltose.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_282",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3002",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which set of enzymes all act on carbohydrate molecules under glycosidase in Section 2.5.1?",
+    "options": [
+      "Cellulase, maltase, sucrase, lactase",
+      "Pepsin, trypsin, lipase, nuclease",
+      "RNAase, DNAase, ATPase, amylase",
+      "Hexokinase, isomerase, ligase, lyase"
+    ],
+    "correct_answer": "Cellulase, maltase, sucrase, lactase",
+    "explanation": "Cellulase (cellulose), maltase (maltose), sucrase (sucrose), and lactase (lactose) are carbohydrate-acting enzymes listed under glycosidase.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_283",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3003",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Nucleases act on different nucleic acids; examples listed in the chapter include:",
+    "options": [
+      "RNAase, DNAase, ATPase",
+      "Amylase, cellulase, lactase",
+      "Pepsin, trypsin, lipase",
+      "NAD, FAD, Acetyl CoA"
+    ],
+    "correct_answer": "RNAase, DNAase, ATPase",
+    "explanation": "Nucleases act on nucleic acids, with examples listed as RNAase, DNAase, and ATPase.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_284",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3004",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In the Lock and Key model, what happens to molecules that are only fairly similar to the complementary substrate?",
+    "options": [
+      "They are rejected by the enzyme",
+      "They bind covalently to the active site",
+      "They are converted into products twice as fast",
+      "They act as prosthetic groups"
+    ],
+    "correct_answer": "They are rejected by the enzyme",
+    "explanation": "Because the active site is rigid and complementary to a specific substrate, it rejects even fairly similar molecules.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_285",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3005",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which statement correctly contrasts co-enzymes and prosthetic groups?",
+    "options": [
+      "Co-enzymes attach during substrate binding and are detachable, whereas prosthetic groups are covalently bonded and permanent",
+      "Prosthetic groups are inorganic ions, whereas co-enzymes are covalently permanent",
+      "Co-enzymes are made of protein, whereas prosthetic groups are made of RNA",
+      "Neither co-enzymes nor prosthetic groups are organic"
+    ],
+    "correct_answer": "Co-enzymes attach during substrate binding and are detachable, whereas prosthetic groups are covalently bonded and permanent",
+    "explanation": "Co-enzymes are detachable organic co-factors, while prosthetic groups are covalently bonded permanent parts of the enzyme.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_286",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3006",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Why does an apo-enzyme fail to catalyze a reaction on its own?",
+    "options": [
+      "It is a conjugated enzyme lacking its required co-factor",
+      "It has been heated to 100°C",
+      "It already has products permanently bound to its active site",
+      "It is a carbohydrate rather than a protein"
+    ],
+    "correct_answer": "It is a conjugated enzyme lacking its required co-factor",
+    "explanation": "An apo-enzyme is a conjugated enzyme without its co-factor and cannot work separately.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_287",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3007",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which sequence of events occurs when substrate (S) enters an enzyme's active site according to Section 2.2?",
+    "options": [
+      "S binds active site to form ES -> S converts to product while attached to form EP -> product releases from active site",
+      "Product binds active site to form EP -> substrate forms from product -> enzyme is consumed",
+      "Enzyme changes into substrate -> ES forms -> EP stays permanently attached",
+      "HCl removes polypeptide -> product forms -> enzyme denatures"
+    ],
+    "correct_answer": "S binds active site to form ES -> S converts to product while attached to form EP -> product releases from active site",
+    "explanation": "Substrate binds the active site forming ES, converts into product while attached forming EP, and then product is released.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_288",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3008",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In a non-living system, how is activation energy typically supplied to increase effective collisions?",
+    "options": [
+      "By using heat",
+      "By using ribozymes",
+      "By using feedback inhibition",
+      "By using pepsinogen"
+    ],
+    "correct_answer": "By using heat",
+    "explanation": "In non-living systems, heat is used to increase effective collisions and supply activation energy.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_289",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3009",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Why does raising temperature above an enzyme's optimum temperature decrease the rate of reaction?",
+    "options": [
+      "Because enzymes are sensitive to temperature due to their proteinaceous composition and denature",
+      "Because substrates stop moving completely at high heat",
+      "Because activation energy drops to zero",
+      "Because competitive inhibitors are destroyed"
+    ],
+    "correct_answer": "Because enzymes are sensitive to temperature due to their proteinaceous composition and denature",
+    "explanation": "Enzymes are sensitive to temperature due to their proteinaceous composition; above optimum temperature, activity drops and denaturation occurs.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_290",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3010",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Comparing pepsin and pancreatic amylase in Section 2.3.2, which statement is correct?",
+    "options": [
+      "Pepsin works at highly acidic pH (optimum 1.4), whereas pancreatic amylase works at highly alkaline pH (8.5)",
+      "Pepsin works at pH 8.5, whereas pancreatic amylase works at pH 1.4",
+      "Both work best at neutral pH 7.0",
+      "Neither enzyme is affected by changes in pH"
+    ],
+    "correct_answer": "Pepsin works at highly acidic pH (optimum 1.4), whereas pancreatic amylase works at highly alkaline pH (8.5)",
+    "explanation": "Pepsin works in highly acidic conditions (optimum pH 1.4), whereas pancreatic amylase works at pH 8.5.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_291",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3011",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "In feedback inhibition during a metabolic pathway, when does inhibition decrease so more product can be made?",
+    "options": [
+      "Once the product is consumed",
+      "When more inhibitor is added",
+      "When the temperature reaches 100°C",
+      "When the active site is permanently removed"
+    ],
+    "correct_answer": "Once the product is consumed",
+    "explanation": "Once the product is consumed, feedback inhibition is reduced and more product is formed.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_292",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3012",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Feedback inhibition is classified in Section 2.4.1 as an example of:",
+    "options": [
+      "Reversible non-competitive enzyme inhibition",
+      "Irreversible competitive inhibition",
+      "Un-competitive inhibition only",
+      "Inorganic activation"
+    ],
+    "correct_answer": "Reversible non-competitive enzyme inhibition",
+    "explanation": "Feedback inhibition is an example of reversible non-competitive enzyme inhibition.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_293",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3013",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which enzyme group catalyzes intramolecular rearrangement of atoms within a molecule to form another isomer?",
+    "options": [
+      "Isomerase",
+      "Transferase",
+      "Hydrolase",
+      "Oxido reductase"
+    ],
+    "correct_answer": "Isomerase",
+    "explanation": "Isomerases catalyze intramolecular rearrangement of atoms to form another isomer.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_294",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3014",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which of the following is a digestive enzyme group that breaks bonds by adding H2O?",
+    "options": [
+      "Hydrolase",
+      "Ligase",
+      "Isomerase",
+      "Lyase"
+    ],
+    "correct_answer": "Hydrolase",
+    "explanation": "Hydrolases are digestive enzymes responsible for breaking bonds by hydrolysis (H2O).",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_295",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3015",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Which enzyme acts on proteins according to Section 2.5.1?",
+    "options": [
+      "Protease (e.g., trypsin, pepsin)",
+      "Lipase",
+      "Cellulase",
+      "Lactase"
+    ],
+    "correct_answer": "Protease (e.g., trypsin, pepsin)",
+    "explanation": "Protease acts on proteins, with examples including trypsin and pepsin.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_296",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3016",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Cellulase acts specifically on:",
+    "options": [
+      "Cellulose",
+      "Maltose",
+      "Sucrose",
+      "Lactose"
+    ],
+    "correct_answer": "Cellulose",
+    "explanation": "In Section 2.5.1, cellulase acts on cellulose.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_297",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3017",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Maltase, sucrase, and lactase act respectively on:",
+    "options": [
+      "Maltose, sucrose, and lactose",
+      "Lactose, maltose, and sucrose",
+      "Amylose, cellulose, and starch",
+      "RNA, DNA, and ATP"
+    ],
+    "correct_answer": "Maltose, sucrose, and lactose",
+    "explanation": "Maltase acts on maltose, sucrase acts on sucrose, and lactase acts on lactose.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_298",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3018",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Allosteric activators may be influenced by which two factors mentioned on Page 33?",
+    "options": [
+      "Thermal factor and concentration of substrates",
+      "Presence of HCl and bacterial cell walls",
+      "DNA and RNA polymerases",
+      "Prosthetic covalent bonds"
+    ],
+    "correct_answer": "Thermal factor and concentration of substrates",
+    "explanation": "Page 33 states that allosteric activators may be influenced by thermal factors and substrate concentration.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_299",
+    "source_file": "master_merged_questions.json"
+  },
+  {
+    "id": "DUHS_3019",
+    "subject": "Biology",
+    "topic": "ENZYMES_STB_BOOK",
+    "source": "STB BOOK",
+    "question": "Life is described in the chapter introduction as a meshwork involving chemical reactions that:",
+    "options": [
+      "Synthesize large molecules, cleave large molecules, and utilize or liberate energy",
+      "Only synthesize lipids at 100°C",
+      "Occur without cellular organization",
+      "Destroy enzymes during every step"
+    ],
+    "correct_answer": "Synthesize large molecules, cleave large molecules, and utilize or liberate energy",
+    "explanation": "Metabolic reactions synthesize large molecules, cleave large molecules, and utilize or liberate energy.",
+    "source_pdf": "biology main points-1.pdf",
+    "original_id": "bio_300",
+    "source_file": "master_merged_questions.json"
   }
 ]
